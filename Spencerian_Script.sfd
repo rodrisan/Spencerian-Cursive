@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1549649314
+ModificationTime: 1549722006
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -83,7 +83,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 56 14 6
+WinInfo: 224 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -354,7 +354,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: N
@@ -2181,7 +2181,7 @@ SplineSet
  235.630578066 113.514547909 210.830078125 91.5 204 68 c 4
  202 68 l 4
 EndSplineSet
-Validated: 524325
+Validated: 37
 Layer: 2
 SplineSet
 202 68 m 4
@@ -2240,7 +2240,7 @@ SplineSet
  281.302682258 -2.69614504609 294 3 330 32 c 0
  332 32 l 0
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: E
@@ -2283,7 +2283,7 @@ SplineSet
  292.013671875 293.67578125 308.360351562 299 326 299 c 5
  326 300 l 5
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: I
@@ -2385,7 +2385,7 @@ SplineSet
  123.706054688 68.4736328125 136 45 168 0 c 1
  165 0 l 1
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: Y
@@ -2423,7 +2423,7 @@ SplineSet
  123.706054688 68.4736328125 136 45 168 0 c 1
  165 0 l 1
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: V
@@ -2454,7 +2454,7 @@ SplineSet
  123.706054688 68.4736328125 136 45 168 0 c 1
  165 0 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: i
@@ -2565,7 +2565,7 @@ SplineSet
  380 76 397.688693864 81.3953020237 402 87 c 4
  412 100 404 113 371.46875 92 c 4
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: e
@@ -2592,7 +2592,7 @@ SplineSet
  422.991210938 51.66796875 440.092433328 61.8795778048 458 75.720703125 c 0
  492 102 475 107 443 81 c 0
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: r
@@ -2625,7 +2625,7 @@ SplineSet
  84.595703125 26.6669921875 54.3408203125 9.5556640625 23 0 c 1
  18 0 l 1
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: s
@@ -2660,7 +2660,7 @@ SplineSet
  84.595703125 26.6669921875 54.3408203125 9.5556640625 23 0 c 1
  18 0 l 1
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: n
@@ -2704,7 +2704,7 @@ SplineSet
  69 0 l 25
 EndSplineSet
 Refer: 63 -1 N 1 0 0 1 0 0 2
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: v
@@ -2728,7 +2728,7 @@ SplineSet
  221 94 228 94 244 100 c 13
  247 100 l 5
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: o
@@ -2780,7 +2780,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: a
@@ -2831,7 +2831,7 @@ SplineSet
  297 0 234.813183747 -25.5550064098 284 50 c 2
  381 200 l 1
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: d
@@ -2882,7 +2882,7 @@ SplineSet
  -17 0 l 1
 EndSplineSet
 Refer: 63 -1 S 1 0 0 1 81 1 2
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: l
@@ -2907,7 +2907,7 @@ SplineSet
  263.814523092 48.7944747266 291 69 323 100 c 1
  327 100 l 5
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: b
@@ -2942,7 +2942,7 @@ SplineSet
  293.608398438 300.931640625 283 325 228 252 c 0
  183.361328125 192.752929688 154.731445312 147.122070312 132.830078125 105.252929688 c 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 MultipleSubs2: "'ccmp' Glyph Composition/Decomposition in Latin lookup 0-1" part0 uni0062.mf
 EndChar
 
@@ -2983,7 +2983,7 @@ SplineSet
  231.021103263 79.9683339078 185 39 154 0 c 9
 EndSplineSet
 Refer: 62 -1 N 1 0 0 1 0 0 2
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: j
@@ -3053,7 +3053,7 @@ SplineSet
  -37.646484375 -215.94921875 3.6474609375 -241 93.6474609375 -109 c 0
  108.04296875 -87.88671875 137.647460938 -31 172.647460938 50 c 1
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: z
@@ -3077,7 +3077,7 @@ SplineSet
  160.092644251 3.68937502878 143 10 136 0 c 9
 EndSplineSet
 Refer: 64 -1 N 1 0 0 1 47 0 2
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: part0
@@ -3086,7 +3086,6 @@ Width: 327
 VWidth: 0
 Flags: W
 HStem: 0 21G<18 38.6704> 80 20G<181.485 197>
-AnchorPoint: "Cursive for single letter 2" 195 100 exit 0
 LayerCount: 3
 Fore
 SplineSet
@@ -3133,7 +3132,7 @@ SplineSet
  104 -1 107.108398438 -10.6943359375 165 21 c 12
  208.190429688 44.646484375 245 68 282 100 c 13
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: part3
@@ -3157,45 +3156,44 @@ EndChar
 
 StartChar: part4
 Encoding: 260 -1 56
-Width: 321
+Width: 176
 VWidth: 0
 Flags: HW
-HStem: 97.8848 2.11523<133.332 156.784>
-AnchorPoint: "Cursive for single letter 2" 11 50 entry 0
-AnchorPoint: "Cursive for single letter" 159 99 exit 0
-AnchorPoint: "Cursive for single letter" 99 95 entry 0
+HStem: 97.8848 2.11523<143.625 167.077>
+AnchorPoint: "Cursive for single letter" 169.292 99 exit 0
+AnchorPoint: "Cursive for single letter" 109.292 95 entry 0
 LayerCount: 3
 Fore
 SplineSet
-156.78515625 97.884765625 m 1
- 141.115234375 82.21484375 l 2
- 114.14453125 55.2451171875 78.37109375 25.509765625 57.9248046875 13.115234375 c 0
- 0 -22 -24 36 45.21484375 75.998046875 c 0
- 74.3525390625 92.8359375 103.048828125 96.1826171875 156.78515625 97.884765625 c 1
-161 100 m 1
- 99.8427734375 98.1689453125 73.0634765625 97.1767578125 42 78.6162109375 c 0
- -28.548828125 36.46484375 -2.4638671875 -25.4228515625 59 11 c 0
- 81.1171875 24.1064453125 114 52 143 81 c 2
- 161 100 l 1
+167.077148438 97.884765625 m 1
+ 151.407226562 82.21484375 l 2
+ 124.436523438 55.2451171875 88.6630859375 25.509765625 68.216796875 13.115234375 c 0
+ 10.2919921875 -22 -13.7080078125 36 55.5068359375 75.998046875 c 0
+ 84.64453125 92.8359375 113.340820312 96.1826171875 167.077148438 97.884765625 c 1
+171.291992188 100 m 1
+ 110.134765625 98.1689453125 83.35546875 97.1767578125 52.2919921875 78.6162109375 c 0
+ -18.2568359375 36.46484375 7.828125 -25.4228515625 69.2919921875 11 c 0
+ 91.4091796875 24.1064453125 124.291992188 52 153.291992188 81 c 2
+ 171.291992188 100 l 1
 EndSplineSet
 Validated: 524329
 EndChar
 
 StartChar: part5
 Encoding: 261 -1 57
-Width: 174
+Width: 186
 VWidth: 0
 Flags: HW
-HStem: 96 2<168.844 174>
-AnchorPoint: "Cursive for single letter" 174 97 exit 0
+HStem: 96 2<176.844 182>
+AnchorPoint: "Cursive for single letter" 182 97 exit 0
 LayerCount: 3
 Fore
 SplineSet
-3 0 m 1
- 17 25 63 86 174 96 c 1
- 174 98 l 1
- 62 89 18 30 0 0 c 1
- 3 0 l 1
+11 0 m 1
+ 25 25 71 86 182 96 c 1
+ 182 98 l 1
+ 70 89 26 30 8 0 c 1
+ 11 0 l 1
 EndSplineSet
 Validated: 9
 Substitution2: "'aalt' Access All Alternates in Latin lookup 3-1" uni0000
@@ -3203,23 +3201,23 @@ EndChar
 
 StartChar: part6
 Encoding: 262 -1 58
-Width: 151
+Width: 169
 VWidth: 0
 Flags: HW
-AnchorPoint: "Cursive for single letter" 149 100 exit 0
-AnchorPoint: "Cursive for single letter" 54 100 entry 0
+AnchorPoint: "Cursive for single letter" 157 100 exit 0
+AnchorPoint: "Cursive for single letter" 62 100 entry 0
 LayerCount: 3
 Fore
 SplineSet
-53 100 m 1
- 19 50 l 2
- -32.1298828125 -25.19140625 33 0 68 26 c 0
- 109.904296875 57.12890625 151 100 151 100 c 1
- 148 100 l 1
- 148 100 101.716796875 54.384765625 67 28 c 0
- 42 9 -31.037109375 -27.826171875 20 48 c 2
- 55 100 l 1
- 53 100 l 1
+61 100 m 1
+ 27 50 l 2
+ -24.1298828125 -25.19140625 41 0 76 26 c 0
+ 117.904296875 57.12890625 159 100 159 100 c 1
+ 156 100 l 1
+ 156 100 109.716796875 54.384765625 75 28 c 0
+ 50 9 -23.037109375 -27.826171875 28 48 c 2
+ 63 100 l 1
+ 61 100 l 1
 EndSplineSet
 Validated: 524329
 Substitution2: "'aalt' Access All Alternates in Latin lookup 3. For character before a, d, e, g, o, and q-1" part13
@@ -3243,7 +3241,7 @@ SplineSet
  62 0 -0.1865234375 -25.5546875 49 50 c 2
  146 200 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: part8
@@ -3264,7 +3262,7 @@ SplineSet
  1 -210 29.453125 -237.639648438 98 -122 c 2
  229 99 l 1
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: part9
@@ -3287,7 +3285,7 @@ SplineSet
  177 100 l 1
  174 99 l 25
 EndSplineSet
-Validated: 524329
+Validated: 41
 EndChar
 
 StartChar: part10
@@ -3308,7 +3306,7 @@ SplineSet
  156 0 l 17
  186 58 242.906665841 155.299881969 312 245 c 4
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: part11
@@ -3328,7 +3326,7 @@ SplineSet
  246.775390625 100 l 5
  145.21875 -18.4833984375 72.796875 -26.7138671875 132 50 c 4
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: part12
@@ -3347,7 +3345,7 @@ SplineSet
  89 0 l 25
  104 20 67.796875 -26.7138671875 127 50 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: uni0061.mf
@@ -3355,7 +3353,7 @@ Encoding: 269 -1 65
 Width: 256
 VWidth: 0
 Flags: HW
-HStem: 97.8848 2.11523<133.328 156.78>
+HStem: 77.8848 20G<129.917 141.115>
 AnchorPoint: "Cursive" 255 100 exit 0
 AnchorPoint: "Cursive" 9.70801 50 entry 0
 LayerCount: 3
@@ -3427,7 +3425,7 @@ SplineSet
  141.1171875 24.1064453125 174 52 203 81 c 2
  221 100 l 1
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: uni0061.g2m
@@ -3461,15 +3459,15 @@ SplineSet
  81.4091796875 24.1064453125 114.291992188 52 143.291992188 81 c 2
  161.291992188 100 l 1
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: uni0062.mf
 Encoding: 272 -1 68
 Width: 159
 VWidth: 0
-Flags: HW
-HStem: 80 20G<70.5994 161.567>
+Flags: W
+HStem: 80 20G<70.6387 161.606>
 AnchorPoint: "Cursive" 161.606 100 exit 0
 AnchorPoint: "Cursive for single letter" 7.59375 100 entry 0
 LayerCount: 3
@@ -3493,7 +3491,7 @@ SplineSet
  173.21484375 300.931640625 162.606445312 325 107.606445312 252 c 0
  62.9677734375 192.752929688 34.337890625 147.122070312 12.4365234375 105.252929688 c 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: uni0063.mf
@@ -3512,6 +3510,7 @@ Encoding: 274 -1 70
 Width: 256
 VWidth: 0
 Flags: HW
+HStem: 77.8848 20G<129.917 141.115>
 AnchorPoint: "Cursive for single letter" 11 50 entry 0
 LayerCount: 3
 Fore
@@ -3551,29 +3550,28 @@ SplineSet
  128.12890625 -87.88671875 157.733398438 -31 192.733398438 50 c 1
 -731.372070312 34 m 1049
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: part13
 Encoding: 276 -1 72
-Width: 203
+Width: 98
 VWidth: 0
-Flags: HW
-AnchorPoint: "Cursive for single letter 2" 202 50 exit 0
-AnchorPoint: "Cursive for single letter" 202 50 exit 0
-AnchorPoint: "Cursive for single letter" 160 100 entry 0
+Flags: W
+AnchorPoint: "Cursive for single letter" 97 50 exit 0
+AnchorPoint: "Cursive for single letter" 55 100 entry 0
 LayerCount: 3
 Fore
 SplineSet
-200.153320312 50 m 1
- 191.07421875 42.146484375 180.833007812 34.4912109375 172.291992188 28 c 0
- 147.291992188 9 74.2548828125 -27.826171875 125.291992188 48 c 2
- 161.291992188 100 l 1
- 159 100 l 1
- 124.291992188 50 l 2
- 72.4489940022 -24.6844913523 138.291992188 0 173.291992188 26 c 0
- 183.478515625 33.5673828125 193.618164062 41.8291015625 203.130859375 50 c 1
- 200.153320312 50 l 1
+95.0224609375 50 m 1
+ 85.943359375 42.146484375 75.7021484375 34.4912109375 67.1611328125 28 c 0
+ 42.1611328125 9 -30.8759765625 -27.826171875 20.1611328125 48 c 2
+ 56.1611328125 100 l 1
+ 53.869140625 100 l 1
+ 19.1611328125 50 l 2
+ -32.681640625 -24.6845703125 33.1611328125 0 68.1611328125 26 c 0
+ 78.34765625 33.5673828125 88.4873046875 41.8291015625 98 50 c 1
+ 95.0224609375 50 l 1
 EndSplineSet
 Validated: 524329
 EndChar
