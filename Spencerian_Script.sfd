@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1549722006
+ModificationTime: 1549994395
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -37,20 +37,14 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2Vendor: 'PfEd'
 Lookup: 1 0 0 "'aalt' Access All Alternates in Latin lookup 3" { "'aalt' Access All Alternates in Latin lookup 3-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'aalt' Access All Alternates in Latin lookup 3. For character before a, d, e, g, o, and q" { "'aalt' Access All Alternates in Latin lookup 3. For character before a, d, e, g, o, and q-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 2 0 0 "'ccmp' Glyph Composition/Decomposition in Latin lookup 0" { "'ccmp' Glyph Composition/Decomposition in Latin lookup 0-1"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' Contextual Alternates in Latin lookup 1" { "'calt' Contextual Alternates in Latin lookup 1-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' Contextual Alternates in Latin lookup 4. For general medial and fianl forms" { "'calt' Contextual Alternates in Latin lookup 4. For general medial and fianl forms-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 3" { "'kern' Horizontal Kerning in Latin lookup 3-1" [75,0,6] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 264 0 0 "'kern'" { "'kern'-1"  } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 259 0 0 "'curs'" { "'curs'-1"  } ['curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 2 2 "'kern' Horizontal Kerning in Latin lookup 3-1"
- 1 A
- 51 a b c d e f g h i j k l m n o p q r s t u v w x y z
- 0 {} 0 {} 0 {} -100 {}
 ChainSub2: coverage "'calt' Contextual Alternates in Latin lookup 4. For general medial and fianl forms-1" 0 0 0 1
  2 0 0
   Coverage: 16 part6 uni0062.mf
@@ -66,27 +60,19 @@ ChainSub2: coverage "'calt' Contextual Alternates in Latin lookup 1-1" 0 0 0 1
   SeqLookup: 0 "'aalt' Access All Alternates in Latin lookup 3. For character before a, d, e, g, o, and q"
   SeqLookup: 1 "'aalt' Access All Alternates in Latin lookup 3"
 EndFPST
-ChainPos2: class "'kern'-1" 1 1 1 1
- 1 0 0
-  ClsList: 0
-  BClsList:
-  FClsList:
- 1
-  SeqLookup: 0 "'curs'"
-  ClassNames: "All_Others"
-  BClassNames: "All_Others"
-  FClassNames: "All_Others"
-EndFPST
-Encoding: ISO8859-1
+Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 224 14 6
+WinInfo: 42 7 6
 BeginPrivate: 0
 EndPrivate
 Grid
+-500 38.2857142857 m 0
+ 1000 38.2857142857 l 1024
+  Named: "e"
 -500 50 m 0
  1000 50 l 1024
   Spiro
@@ -160,11 +146,10 @@ Grid
     0 0 z
   EndSpiro
 EndSplineSet
-AnchorClass2: "Cursive for single letter 2" "'curs'-1" "Cursive for single letter" "'curs'-1" "Cursive" "'curs'-1"
-BeginChars: 347 74
+BeginChars: 85 77
 
 StartChar: O
-Encoding: 79 79 0
+Encoding: 15 79 0
 Width: 350
 VWidth: 0
 InSpiro: 1
@@ -245,7 +230,7 @@ Validated: 41
 EndChar
 
 StartChar: A
-Encoding: 65 65 1
+Encoding: 1 65 1
 Width: 402
 VWidth: 0
 InSpiro: 1
@@ -358,7 +343,7 @@ Validated: 37
 EndChar
 
 StartChar: N
-Encoding: 78 78 2
+Encoding: 14 78 2
 Width: 500
 VWidth: 0
 InSpiro: 1
@@ -449,7 +434,7 @@ Validated: 37
 EndChar
 
 StartChar: M
-Encoding: 77 77 3
+Encoding: 13 77 3
 Width: 618
 VWidth: 0
 InSpiro: 1
@@ -574,7 +559,7 @@ Validated: 37
 EndChar
 
 StartChar: T
-Encoding: 84 84 4
+Encoding: 20 84 4
 Width: 565
 VWidth: 0
 InSpiro: 1
@@ -699,7 +684,7 @@ Validated: 37
 EndChar
 
 StartChar: F
-Encoding: 70 70 5
+Encoding: 6 70 5
 Width: 565
 VWidth: 0
 InSpiro: 1
@@ -842,7 +827,7 @@ Validated: 37
 EndChar
 
 StartChar: K
-Encoding: 75 75 6
+Encoding: 11 75 6
 Width: 500
 VWidth: 0
 InSpiro: 1
@@ -997,7 +982,7 @@ Validated: 37
 EndChar
 
 StartChar: H
-Encoding: 72 72 7
+Encoding: 8 72 7
 Width: 566
 VWidth: 0
 InSpiro: 1
@@ -1122,7 +1107,7 @@ Validated: 37
 EndChar
 
 StartChar: P
-Encoding: 80 80 8
+Encoding: 16 80 8
 Width: 565
 VWidth: 0
 InSpiro: 1
@@ -1204,7 +1189,7 @@ Validated: 37
 EndChar
 
 StartChar: B
-Encoding: 66 66 9
+Encoding: 2 66 9
 Width: 565
 VWidth: 0
 InSpiro: 1
@@ -1343,7 +1328,7 @@ Validated: 37
 EndChar
 
 StartChar: R
-Encoding: 82 82 10
+Encoding: 18 82 10
 Width: 565
 VWidth: 0
 InSpiro: 1
@@ -1480,7 +1465,7 @@ Validated: 37
 EndChar
 
 StartChar: G
-Encoding: 71 71 11
+Encoding: 7 71 11
 Width: 565
 VWidth: 0
 InSpiro: 1
@@ -1622,7 +1607,7 @@ Validated: 37
 EndChar
 
 StartChar: S
-Encoding: 83 83 12
+Encoding: 19 83 12
 Width: 500
 VWidth: 0
 InSpiro: 1
@@ -1725,7 +1710,7 @@ Validated: 37
 EndChar
 
 StartChar: L
-Encoding: 76 76 13
+Encoding: 12 76 13
 Width: 500
 VWidth: 0
 InSpiro: 1
@@ -1862,7 +1847,7 @@ Validated: 37
 EndChar
 
 StartChar: X
-Encoding: 88 88 14
+Encoding: 24 88 14
 Width: 788
 VWidth: 0
 InSpiro: 1
@@ -1965,7 +1950,7 @@ Validated: 37
 EndChar
 
 StartChar: W
-Encoding: 87 87 15
+Encoding: 23 87 15
 Width: 788
 VWidth: 0
 InSpiro: 1
@@ -2066,7 +2051,7 @@ Validated: 37
 EndChar
 
 StartChar: Z
-Encoding: 90 90 16
+Encoding: 26 90 16
 Width: 500
 VWidth: 0
 Flags: HW
@@ -2103,7 +2088,7 @@ Validated: 37
 EndChar
 
 StartChar: Q
-Encoding: 81 81 17
+Encoding: 17 81 17
 Width: 500
 VWidth: 0
 Flags: HW
@@ -2152,7 +2137,7 @@ Validated: 37
 EndChar
 
 StartChar: C
-Encoding: 67 67 18
+Encoding: 3 67 18
 Width: 500
 VWidth: 0
 Flags: HW
@@ -2209,7 +2194,7 @@ EndSplineSet
 EndChar
 
 StartChar: D
-Encoding: 68 68 19
+Encoding: 4 68 19
 Width: 500
 VWidth: 0
 Flags: HW
@@ -2244,7 +2229,7 @@ Validated: 37
 EndChar
 
 StartChar: E
-Encoding: 69 69 20
+Encoding: 5 69 20
 Width: 500
 VWidth: 0
 Flags: HW
@@ -2287,7 +2272,7 @@ Validated: 37
 EndChar
 
 StartChar: I
-Encoding: 73 73 21
+Encoding: 9 73 21
 Width: 500
 VWidth: 0
 Flags: W
@@ -2322,7 +2307,7 @@ Validated: 37
 EndChar
 
 StartChar: J
-Encoding: 74 74 22
+Encoding: 10 74 22
 Width: 500
 VWidth: 0
 Flags: HW
@@ -2351,7 +2336,7 @@ Validated: 37
 EndChar
 
 StartChar: U
-Encoding: 85 85 23
+Encoding: 21 85 23
 Width: 500
 VWidth: 0
 Flags: H
@@ -2389,7 +2374,7 @@ Validated: 37
 EndChar
 
 StartChar: Y
-Encoding: 89 89 24
+Encoding: 25 89 24
 Width: 500
 VWidth: 0
 Flags: HW
@@ -2427,7 +2412,7 @@ Validated: 37
 EndChar
 
 StartChar: V
-Encoding: 86 86 25
+Encoding: 22 86 25
 Width: 500
 VWidth: 0
 Flags: HW
@@ -2458,7 +2443,7 @@ Validated: 33
 EndChar
 
 StartChar: i
-Encoding: 105 105 26
+Encoding: 35 105 26
 Width: 327
 VWidth: 0
 Flags: W
@@ -2483,23 +2468,42 @@ SplineSet
  208.190429688 44.646484375 245 68 282 100 c 13
 EndSplineSet
 Refer: 52 -1 N 1 0 0 1 0 0 2
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: u
-Encoding: 117 117 27
+Encoding: 47 117 27
 Width: 327
 VWidth: 0
 Flags: HW
 LayerCount: 3
 Fore
+SplineSet
+293 100 m 13
+ 296 100 l 21
+ 259 68 218 42 175 18 c 20
+ 111 -17 115.63671875 4.064453125 139 32 c 4
+ 159.036132812 55.9580078125 177 74 205 100 c 13
+ 208 100 l 21
+ 180 74 161.77734375 56.171875 142 32 c 4
+ 115 -1 118.108398438 -10.6943359375 176 21 c 12
+ 219.190429688 44.646484375 256 68 293 100 c 13
+205 100 m 13
+ 208 100 l 21
+ 171 68 130 42 87 18 c 20
+ 23 -17 27.63671875 4.064453125 51 32 c 4
+ 71.0361328125 55.9580078125 89 74 117 100 c 13
+ 120 100 l 21
+ 92 74 73.77734375 56.171875 54 32 c 4
+ 27 -1 30.1083984375 -10.6943359375 88 21 c 12
+ 131.190429688 44.646484375 168 68 205 100 c 13
+EndSplineSet
 Refer: 52 -1 S 1 0 0 1 -77 0 2
-Refer: 53 -1 N 1 0 0 1 0 0 2
 Validated: 5
 EndChar
 
 StartChar: w
-Encoding: 119 119 28
+Encoding: 49 119 28
 Width: 457
 VWidth: 0
 Flags: HW
@@ -2533,11 +2537,11 @@ SplineSet
  208.190429688 44.646484375 245 68 282 100 c 13
 EndSplineSet
 Refer: 52 -1 N 1 0 0 1 0 0 2
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: c
-Encoding: 99 99 29
+Encoding: 29 99 29
 Width: 327
 VWidth: 0
 Flags: HW
@@ -2569,7 +2573,7 @@ Validated: 37
 EndChar
 
 StartChar: e
-Encoding: 101 101 30
+Encoding: 31 101 30
 Width: 327
 VWidth: 0
 Flags: HW
@@ -2596,7 +2600,7 @@ Validated: 37
 EndChar
 
 StartChar: r
-Encoding: 114 114 31
+Encoding: 44 114 31
 Width: 327
 VWidth: 0
 Flags: HW
@@ -2629,7 +2633,7 @@ Validated: 37
 EndChar
 
 StartChar: s
-Encoding: 115 115 32
+Encoding: 45 115 32
 Width: 327
 VWidth: 0
 Flags: HW
@@ -2664,32 +2668,32 @@ Validated: 37
 EndChar
 
 StartChar: n
-Encoding: 110 110 33
+Encoding: 40 110 33
 Width: 500
 VWidth: 0
 Flags: H
 LayerCount: 3
 Fore
-Refer: 64 -1 S 1 0 0 1 26 0 2
-Refer: 63 -1 N 1 0 0 1 95 0 2
+Refer: 63 -1 S 1 0 0 1 26 0 2
+Refer: 62 -1 N 1 0 0 1 95 0 2
 Validated: 5
 EndChar
 
 StartChar: m
-Encoding: 109 109 34
+Encoding: 39 109 34
 Width: 500
 VWidth: 0
 Flags: HW
 LayerCount: 3
 Fore
-Refer: 64 -1 N 1 0 0 1 74 0 2
-Refer: 64 -1 N 1 0 0 1 0 0 2
-Refer: 63 -1 N 1 0 0 1 143 0 2
+Refer: 63 -1 N 1 0 0 1 74 0 2
+Refer: 63 -1 N 1 0 0 1 0 0 2
+Refer: 62 -1 N 1 0 0 1 143 0 2
 Validated: 5
 EndChar
 
 StartChar: x
-Encoding: 120 120 35
+Encoding: 50 120 35
 Width: 500
 VWidth: 0
 Flags: W
@@ -2703,12 +2707,12 @@ SplineSet
  73 0 l 25
  69 0 l 25
 EndSplineSet
-Refer: 63 -1 N 1 0 0 1 0 0 2
+Refer: 62 -1 N 1 0 0 1 0 0 2
 Validated: 5
 EndChar
 
 StartChar: v
-Encoding: 118 118 36
+Encoding: 48 118 36
 Width: 500
 VWidth: 0
 Flags: HW
@@ -2732,7 +2736,7 @@ Validated: 37
 EndChar
 
 StartChar: o
-Encoding: 111 111 37
+Encoding: 41 111 37
 Width: 500
 VWidth: 0
 Flags: W
@@ -2784,23 +2788,21 @@ Validated: 37
 EndChar
 
 StartChar: a
-Encoding: 97 97 38
+Encoding: 27 97 38
 Width: 316
 VWidth: 0
 Flags: HW
 HStem: 96 2<168.844 174> 97.8848 2.11523<193.333 216.785>
-AnchorPoint: "Cursive" 315 100 exit 0
 LayerCount: 3
 Fore
-Refer: 58 -1 N 1 0 0 1 107 0 2
-Refer: 57 -1 N 1 0 0 1 -286 0 2
-Refer: 56 -1 N 1 0 0 1 -286 0 2
-Validated: 5
+Refer: 57 -1 N 1 0 0 1 28 -1 2
+Refer: 56 -1 S 1 0 0 1 -134 0 2
+Refer: 55 -1 S 1 0 0 1 -79 0 2
 MultipleSubs2: "'ccmp' Glyph Composition/Decomposition in Latin lookup 0-1" part5 part4 part6
 EndChar
 
 StartChar: t
-Encoding: 116 116 39
+Encoding: 46 116 39
 Width: 500
 VWidth: 0
 Flags: H
@@ -2835,33 +2837,31 @@ Validated: 37
 EndChar
 
 StartChar: d
-Encoding: 100 100 40
+Encoding: 30 100 40
 Width: 525
 VWidth: 0
 Flags: HW
 LayerCount: 3
 Fore
-Refer: 59 -1 N 1 0 0 1 424 0 2
-Refer: 57 -1 S 1 0 0 1 0 0 2
-Refer: 56 -1 S 1 0 0 1 0 0 2
-Validated: 5
+Refer: 56 -1 N 1 0 0 1 -134 0 2
+Refer: 55 -1 N 1 0 0 1 -79 0 2
+Refer: 58 -1 N 1 0 0 1 9 0 2
 EndChar
 
 StartChar: q
-Encoding: 113 113 41
+Encoding: 43 113 41
 Width: 525
 VWidth: 0
 Flags: HW
 LayerCount: 3
 Fore
-Refer: 61 -1 S 1 0 0 1 0 0 2
-Refer: 57 -1 N 1 0 0 1 -330 0 2
-Refer: 56 -1 N 1 0 0 1 -330 0 2
-Validated: 5
+Refer: 56 -1 S 1 0 0 1 -49 0 2
+Refer: 55 -1 S 1 0 0 1 6 0 2
+Refer: 60 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: p
-Encoding: 112 112 42
+Encoding: 42 112 42
 Width: 327
 VWidth: 0
 Flags: HW
@@ -2881,12 +2881,12 @@ SplineSet
  92.0615234375 53.9052734375 20.3408203125 9.5556640625 -11 0 c 1
  -17 0 l 1
 EndSplineSet
-Refer: 63 -1 S 1 0 0 1 81 1 2
+Refer: 62 -1 S 1 0 0 1 81 1 2
 Validated: 5
 EndChar
 
 StartChar: l
-Encoding: 108 108 43
+Encoding: 38 108 43
 Width: 500
 VWidth: 0
 Flags: HW
@@ -2911,17 +2911,16 @@ Validated: 37
 EndChar
 
 StartChar: b
-Encoding: 98 98 44
+Encoding: 28 98 44
 Width: 287
 VWidth: 0
 Flags: HW
 HStem: 0 21G<0 61> 80 20G<191.032 204>
-AnchorPoint: "Cursive" 282 100 exit 0
 LayerCount: 3
 Fore
 SplineSet
-282 100 m 1
- 248.001953125 73.7734375 224.383789062 78.68359375 202.89453125 98.2333984375 c 1
+282 100 m 5
+ 248.001953125 73.7734375 224.383789062 78.68359375 202.89453125 98.2333984375 c 5
  181.829101562 64.5302734375 171.940429688 47.3994140625 151 25.4306640625 c 0
  106.967773438 -20.7646484375 80 -3 112 70 c 0
  115.180664062 77.255859375 118.557617188 84.564453125 122.15625 91.9599609375 c 1
@@ -2933,33 +2932,32 @@ SplineSet
  215.797851562 180.741210938 177.265625 139.662109375 129.00390625 97.8427734375 c 1
  124.034179688 88.095703125 119.40625 78.5244140625 115 69 c 0
  84 2 106.04296875 -17.8564453125 149 27.9228515625 c 0
- 170.833007812 51.1904296875 181.064453125 69.330078125 201 100 c 1
- 204 100 l 1
- 229 80 245 78 279 100 c 1
- 282 100 l 1
+ 170.833007812 51.1904296875 181.064453125 69.330078125 201 100 c 5
+ 204 100 l 5
+ 229 80 245 78 279 100 c 5
+ 282 100 l 5
 132.830078125 105.252929688 m 1
  178.387695312 145.810546875 215.438476562 186.21484375 248 234 c 0
  293.608398438 300.931640625 283 325 228 252 c 0
  183.361328125 192.752929688 154.731445312 147.122070312 132.830078125 105.252929688 c 1
 EndSplineSet
-Validated: 33
 MultipleSubs2: "'ccmp' Glyph Composition/Decomposition in Latin lookup 0-1" part0 uni0062.mf
 EndChar
 
 StartChar: h
-Encoding: 104 104 45
+Encoding: 34 104 45
 Width: 500
 VWidth: 0
 Flags: HW
 LayerCount: 3
 Fore
-Refer: 63 -1 S 1 0 0 1 133 0 2
-Refer: 62 -1 N 1 0 0 1 0 0 2
+Refer: 62 -1 S 1 0 0 1 133 0 2
+Refer: 61 -1 N 1 0 0 1 0 0 2
 Validated: 5
 EndChar
 
 StartChar: k
-Encoding: 107 107 46
+Encoding: 37 107 46
 Width: 500
 VWidth: 0
 Flags: HW
@@ -2982,53 +2980,51 @@ SplineSet
  338.544241791 100.164517503 311.300933933 141.763214433 257.044921875 100 c 0
  231.021103263 79.9683339078 185 39 154 0 c 9
 EndSplineSet
-Refer: 62 -1 N 1 0 0 1 0 0 2
+Refer: 61 -1 N 1 0 0 1 0 0 2
 Validated: 37
 EndChar
 
 StartChar: j
-Encoding: 106 106 47
+Encoding: 36 106 47
 Width: 327
 VWidth: 0
 Flags: HW
 LayerCount: 3
 Fore
-Refer: 60 -1 S 1 0 0 1 -14 0 2
+Refer: 59 -1 S 1 0 0 1 -14 0 2
 Refer: 52 -1 N 1 0 0 1 21 0 2
 Validated: 5
 EndChar
 
 StartChar: y
-Encoding: 121 121 48
+Encoding: 51 121 48
 Width: 500
 VWidth: 0
 Flags: HW
 LayerCount: 3
 Fore
-Refer: 63 -1 N 1 0 0 1 2 1 2
-Refer: 60 -1 N 1 0 0 1 17 0 2
+Refer: 62 -1 N 1 0 0 1 2 1 2
+Refer: 59 -1 N 1 0 0 1 17 0 2
 Validated: 5
 EndChar
 
 StartChar: g
-Encoding: 103 103 49
+Encoding: 33 103 49
 Width: 383
 VWidth: 0
 Flags: HW
 LayerCount: 3
 Fore
-Refer: 60 -1 N 1 0 0 1 24 0 2
-Refer: 57 -1 S 1 0 0 1 -251 0 2
-Refer: 56 -1 S 1 0 0 1 -251 0 2
-Validated: 5
+Refer: 56 -1 S 1 0 0 1 29 0 2
+Refer: 55 -1 S 1 0 0 1 84 0 2
+Refer: 59 -1 N 1 0 0 1 24 0 2
 EndChar
 
 StartChar: f
-Encoding: 102 102 50
+Encoding: 32 102 50
 Width: 407
 VWidth: 0
 Flags: HW
-AnchorPoint: "Cursive" 281.647 100 exit 0
 LayerCount: 3
 Fore
 SplineSet
@@ -3057,7 +3053,7 @@ Validated: 37
 EndChar
 
 StartChar: z
-Encoding: 122 122 51
+Encoding: 52 122 51
 Width: 530
 VWidth: 0
 Flags: HW
@@ -3076,12 +3072,12 @@ SplineSet
  99.8127971933 -81.7995356432 107 -73 152 -8 c 4
  160.092644251 3.68937502878 143 10 136 0 c 9
 EndSplineSet
-Refer: 64 -1 N 1 0 0 1 47 0 2
+Refer: 63 -1 N 1 0 0 1 47 0 2
 Validated: 37
 EndChar
 
 StartChar: part0
-Encoding: 256 -1 52
+Encoding: 53 -1 52
 Width: 327
 VWidth: 0
 Flags: W
@@ -3097,24 +3093,12 @@ SplineSet
  84.595703125 22.6669921875 54.3408203125 9.5556640625 23 0 c 1
  18 0 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Substitution2: "'aalt' Access All Alternates in Latin lookup 3-1" uni0000
 EndChar
 
-StartChar: uni0075.s
-Encoding: 257 -1 53
-Width: 327
-VWidth: 0
-Flags: HW
-LayerCount: 3
-Fore
-Refer: 54 -1 S 1 0 0 1 11 0 2
-Refer: 54 -1 S 1 0 0 1 -77 0 2
-Validated: 5
-EndChar
-
 StartChar: part1
-Encoding: 258 -1 54
+Encoding: 54 -1 53
 Width: 327
 VWidth: 0
 Flags: W
@@ -3136,7 +3120,7 @@ Validated: 33
 EndChar
 
 StartChar: part3
-Encoding: 259 -1 55
+Encoding: 55 -1 54
 Width: 86
 VWidth: 0
 Flags: HW
@@ -3155,13 +3139,11 @@ Validated: 1
 EndChar
 
 StartChar: part4
-Encoding: 260 -1 56
+Encoding: 56 -1 55
 Width: 176
 VWidth: 0
 Flags: HW
 HStem: 97.8848 2.11523<143.625 167.077>
-AnchorPoint: "Cursive for single letter" 169.292 99 exit 0
-AnchorPoint: "Cursive for single letter" 109.292 95 entry 0
 LayerCount: 3
 Fore
 SplineSet
@@ -3176,16 +3158,15 @@ SplineSet
  91.4091796875 24.1064453125 124.291992188 52 153.291992188 81 c 2
  171.291992188 100 l 1
 EndSplineSet
-Validated: 524329
+Validated: 41
 EndChar
 
 StartChar: part5
-Encoding: 261 -1 57
+Encoding: 57 -1 56
 Width: 186
 VWidth: 0
 Flags: HW
 HStem: 96 2<176.844 182>
-AnchorPoint: "Cursive for single letter" 182 97 exit 0
 LayerCount: 3
 Fore
 SplineSet
@@ -3200,12 +3181,10 @@ Substitution2: "'aalt' Access All Alternates in Latin lookup 3-1" uni0000
 EndChar
 
 StartChar: part6
-Encoding: 262 -1 58
+Encoding: 58 -1 57
 Width: 169
 VWidth: 0
 Flags: HW
-AnchorPoint: "Cursive for single letter" 157 100 exit 0
-AnchorPoint: "Cursive for single letter" 62 100 entry 0
 LayerCount: 3
 Fore
 SplineSet
@@ -3219,12 +3198,12 @@ SplineSet
  63 100 l 1
  61 100 l 1
 EndSplineSet
-Validated: 524329
+Validated: 41
 Substitution2: "'aalt' Access All Alternates in Latin lookup 3. For character before a, d, e, g, o, and q-1" part13
 EndChar
 
 StartChar: part7
-Encoding: 263 -1 59
+Encoding: 59 -1 58
 Width: 204
 VWidth: 0
 Flags: HW
@@ -3245,7 +3224,7 @@ Validated: 33
 EndChar
 
 StartChar: part8
-Encoding: 264 -1 60
+Encoding: 60 -1 59
 Width: 342
 VWidth: 0
 Flags: HW
@@ -3266,7 +3245,7 @@ Validated: 37
 EndChar
 
 StartChar: part9
-Encoding: 265 -1 61
+Encoding: 61 -1 60
 Width: 319
 VWidth: 0
 Flags: HW
@@ -3289,7 +3268,7 @@ Validated: 41
 EndChar
 
 StartChar: part10
-Encoding: 266 -1 62
+Encoding: 62 -1 61
 Width: 500
 VWidth: 0
 Flags: HW
@@ -3310,7 +3289,7 @@ Validated: 37
 EndChar
 
 StartChar: part11
-Encoding: 267 -1 63
+Encoding: 63 -1 62
 Width: 277
 VWidth: 0
 Flags: W
@@ -3330,7 +3309,7 @@ Validated: 33
 EndChar
 
 StartChar: part12
-Encoding: 268 -1 64
+Encoding: 64 -1 63
 Width: 500
 VWidth: 0
 Flags: HW
@@ -3349,13 +3328,11 @@ Validated: 33
 EndChar
 
 StartChar: uni0061.mf
-Encoding: 269 -1 65
+Encoding: 65 -1 64
 Width: 256
 VWidth: 0
 Flags: HW
 HStem: 77.8848 20G<129.917 141.115>
-AnchorPoint: "Cursive" 255 100 exit 0
-AnchorPoint: "Cursive" 9.70801 50 entry 0
 LayerCount: 3
 Fore
 SplineSet
@@ -3379,7 +3356,6 @@ SplineSet
  81.1171875 24.1064453125 114 52 143 81 c 2
  161 100 l 1
 EndSplineSet
-Validated: 524325
 Layer: 2
 Refer: 38 97 S 1 0 0 1 130.579 0 2
 Refer: 38 97 N 1 0 0 1 -59.421 0 2
@@ -3391,12 +3367,11 @@ Refer: 38 97 N 1 0 0 1 130.579 0 2
 EndChar
 
 StartChar: uni0061.g2i
-Encoding: 270 -1 66
+Encoding: 66 -1 65
 Width: 261
 VWidth: 0
 Flags: HW
 HStem: 98.8848 2.11523<193.33 216.782>
-AnchorPoint: "Cursive" 261 50 exit 0
 LayerCount: 3
 Fore
 SplineSet
@@ -3429,13 +3404,11 @@ Validated: 37
 EndChar
 
 StartChar: uni0061.g2m
-Encoding: 271 -1 67
+Encoding: 67 -1 66
 Width: 203
 VWidth: 0
 Flags: HW
 HStem: 98.8848 2.11523<133.626 157.078>
-AnchorPoint: "Cursive" 202 50 exit 0
-AnchorPoint: "Cursive" 10.292 50 entry 0
 LayerCount: 3
 Fore
 SplineSet
@@ -3463,13 +3436,11 @@ Validated: 37
 EndChar
 
 StartChar: uni0062.mf
-Encoding: 272 -1 68
+Encoding: 68 -1 67
 Width: 159
 VWidth: 0
 Flags: W
 HStem: 80 20G<70.6387 161.606>
-AnchorPoint: "Cursive" 161.606 100 exit 0
-AnchorPoint: "Cursive for single letter" 7.59375 100 entry 0
 LayerCount: 3
 Fore
 SplineSet
@@ -3495,7 +3466,7 @@ Validated: 33
 EndChar
 
 StartChar: uni0063.mf
-Encoding: 273 -1 69
+Encoding: 69 -1 68
 Width: 327
 VWidth: 0
 Flags: HW
@@ -3506,25 +3477,21 @@ Validated: 5
 EndChar
 
 StartChar: uni0061.mg3
-Encoding: 274 -1 70
+Encoding: 70 -1 69
 Width: 256
 VWidth: 0
 Flags: HW
 HStem: 77.8848 20G<129.917 141.115>
-AnchorPoint: "Cursive for single letter" 11 50 entry 0
 LayerCount: 3
 Fore
-Refer: 65 -1 N 1 0 0 1 0 0 2
-Validated: 5
+Refer: 64 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0066.mf
-Encoding: 275 -1 71
+Encoding: 71 -1 70
 Width: 424
 VWidth: 0
 Flags: HW
-AnchorPoint: "Cursive" 301.628 100 exit 0
-AnchorPoint: "Cursive" 230.628 100 entry 0
 LayerCount: 3
 Fore
 SplineSet
@@ -3554,12 +3521,10 @@ Validated: 37
 EndChar
 
 StartChar: part13
-Encoding: 276 -1 72
+Encoding: 72 -1 71
 Width: 98
 VWidth: 0
 Flags: W
-AnchorPoint: "Cursive for single letter" 97 50 exit 0
-AnchorPoint: "Cursive for single letter" 55 100 entry 0
 LayerCount: 3
 Fore
 SplineSet
@@ -3573,17 +3538,92 @@ SplineSet
  78.34765625 33.5673828125 88.4873046875 41.8291015625 98 50 c 1
  95.0224609375 50 l 1
 EndSplineSet
-Validated: 524329
+Validated: 41
 EndChar
 
 StartChar: uni0000
-Encoding: 0 0 73
+Encoding: 0 0 72
 Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
 Fore
 Validated: 1
+EndChar
+
+StartChar: part14
+Encoding: 73 -1 73
+Width: 98
+VWidth: 0
+Flags: HW
+LayerCount: 3
+Fore
+SplineSet
+80.6284977341 38.2857142857 m 1
+ 75.9554113282 34.6528302731 71.3534580334 31.1861863416 67.1611328125 28 c 0
+ 42.1611328125 9 -30.8759765625 -27.826171875 20.1611328125 48 c 2
+ 56.1611328125 100 l 1
+ 53.869140625 100 l 1
+ 19.1611328125 50 l 2
+ -32.681640625 -24.6845703125 33.1611328125 0 68.1611328125 26 c 0
+ 73.4697905778 29.9437052079 78.7657174533 34.0759867215 83.966809743 38.2857142857 c 5
+ 83.966809743 38.2857142857 80.6284977341 38.2857142857 80.6284977341 38.2857142857 c 1
+EndSplineSet
+EndChar
+
+StartChar: part15
+Encoding: 74 -1 74
+Width: 287
+VWidth: 0
+Flags: HW
+LayerCount: 3
+Fore
+SplineSet
+132.830078125 105.252929688 m 1
+ 178.387695312 145.810546875 215.438476562 186.21484375 248 234 c 0
+ 293.608398438 300.931640625 283 325 228 252 c 0
+ 183.361328125 192.752929688 154.731445312 147.122070312 132.830078125 105.252929688 c 1
+151 25.4306640625 m 0
+ 113.081663945 -21.9572284609 79.0798273689 -2.58968407381 112 70 c 0
+ 141.930060279 135.996422447 170.597788386 181.465490431 226 255 c 0
+ 281 328 301.41015625 306.544921875 250 231 c 0
+ 215.797851562 180.741210938 177.265625 139.662109375 129.00390625 97.8427734375 c 1
+ 124.034179688 88.095703125 119.40625 78.5244140625 115 69 c 0
+ 84 2 110.835688667 -19.1404470832 149 27.9228515625 c 0
+ 177.269039506 62.7835421455 194 100 194 100 c 1
+ 197 100 l 1
+ 197 100 178.112931605 59.3146585236 151 25.4306640625 c 0
+EndSplineSet
+EndChar
+
+StartChar: part17
+Encoding: 76 -1 75
+Width: 287
+VWidth: 0
+Flags: HW
+LayerCount: 3
+Fore
+SplineSet
+201 100 m 5
+ 204 100 l 1
+ 229 80 245 78 279 100 c 1
+ 282 100 l 1
+ 246.556211552 72.6581725006 222.822801727 79.6507998332 201 100 c 5
+EndSplineSet
+EndChar
+
+StartChar: part18
+Encoding: 77 -1 76
+Width: 500
+VWidth: 0
+Flags: HO
+LayerCount: 3
+Fore
+SplineSet
+694 100 m 25
+ 697 88 695 79 702 70 c 24
+ 710 59 719 58 730 50 c 1053
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
