@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1550175275
+ModificationTime: 1550177689
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -38,12 +38,21 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 1 0 0 "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs" { "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 2 0 0 "'ccmp' For decomposing lowercase letters" { "'ccmp' For decomposing lowercase letters-1"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs" { "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' For replacing first parts of glyphs with intermedite glyphs(null1 and null2)" { "'calt' For replacing first parts of glyphs with intermedite glyphs(null1 and null2)-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 259 0 0 "'curs'" { "'curs'-1"  } [' RQD' ('DFLT' <'dflt' > 'latn' <'dflt' > ) 'curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "'calt' For replacing first parts of glyphs with intermedite glyphs(null1 and null2)-1" 0 0 0 1
+ 2 0 0
+  Coverage: 114 part6 part7 part8 part9 part11 part54 part17 part18 part20 part25 part27 part29 part36 part37 part42 part52 part57
+  Coverage: 67 part0 part5 part10 part11 part12 part14 part21 part42 part55 part56
+ 1
+  SeqLookup: 1 "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs"
+EndFPST
 Encoding: Custom
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -128
@@ -130,7 +139,7 @@ Grid
   EndSpiro
 EndSplineSet
 AnchorClass2: "Cursive" "'curs'-1"
-BeginChars: 110 108
+BeginChars: 113 108
 
 StartChar: O
 Encoding: 15 79 0
