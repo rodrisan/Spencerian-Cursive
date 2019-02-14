@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1550091205
+ModificationTime: 1550175275
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -37,6 +37,8 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2Vendor: 'PfEd'
+Lookup: 1 0 0 "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs" { "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 2 0 0 "'ccmp' For decomposing lowercase letters" { "'ccmp' For decomposing lowercase letters-1"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 259 0 0 "'curs'" { "'curs'-1"  } [' RQD' ('DFLT' <'dflt' > 'latn' <'dflt' > ) 'curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -128,7 +130,7 @@ Grid
   EndSpiro
 EndSplineSet
 AnchorClass2: "Cursive" "'curs'-1"
-BeginChars: 108 108
+BeginChars: 110 108
 
 StartChar: O
 Encoding: 15 79 0
@@ -208,7 +210,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 524329
+Validated: 41
 EndChar
 
 StartChar: A
@@ -321,7 +323,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: N
@@ -412,7 +414,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: M
@@ -537,7 +539,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: T
@@ -662,7 +664,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: F
@@ -805,7 +807,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: K
@@ -960,7 +962,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: H
@@ -1085,7 +1087,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: P
@@ -1167,7 +1169,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: B
@@ -1306,7 +1308,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: R
@@ -1443,7 +1445,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: G
@@ -1585,7 +1587,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: S
@@ -1688,7 +1690,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: L
@@ -1825,7 +1827,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: X
@@ -1928,7 +1930,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: W
@@ -2029,7 +2031,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: Z
@@ -2762,7 +2764,7 @@ SplineSet
  1859 819 l 1
 EndSplineSet
 Validated: 37
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part55 part17
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part55 part57
 EndChar
 
 StartChar: o
@@ -3110,7 +3112,7 @@ SplineSet
  1504.05078125 30 1364.05078125 82 1307.05078125 0 c 9
 EndSplineSet
 Refer: 63 -1 N 1 0 0 1 578.05 0 2
-Validated: 524325
+Validated: 37
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part12 part52
 EndChar
 
@@ -3133,6 +3135,7 @@ SplineSet
  0 0 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs-1" null1
 EndChar
 
 StartChar: part1
@@ -3156,7 +3159,7 @@ SplineSet
  -67.0322265625 -8 -41.0322265625 -88 432.967773438 172 c 8
  786.967773438 366 1087.96777344 557 1390.96777344 819 c 9
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: part3
@@ -3200,7 +3203,7 @@ SplineSet
  667.34765625 197 936.34765625 426 1174.34765625 664 c 2
  1321.34765625 819 l 1
 EndSplineSet
-Validated: 524329
+Validated: 41
 EndChar
 
 StartChar: part5
@@ -3220,6 +3223,7 @@ SplineSet
  24 0 l 1
 EndSplineSet
 Validated: 9
+Substitution2: "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs-1" null1
 EndChar
 
 StartChar: part6
@@ -3242,7 +3246,7 @@ SplineSet
  449.838867188 819 l 1
  432.838867188 819 l 1
 EndSplineSet
-Validated: 524329
+Validated: 41
 EndChar
 
 StartChar: part7
@@ -3266,7 +3270,7 @@ SplineSet
  256.180664062 0 -253.819335938 -209 149.180664062 410 c 2
  944.180664062 1638 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: part8
@@ -3290,7 +3294,7 @@ SplineSet
  -237.481445312 -1721 -4.4814453125 -1946 557.518554688 -999 c 2
  1630.51855469 811 l 1
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: part9
@@ -3316,7 +3320,7 @@ SplineSet
  1373.31738281 819 l 1
  1348.31738281 811 l 25
 EndSplineSet
-Validated: 524329
+Validated: 41
 EndChar
 
 StartChar: part10
@@ -3339,6 +3343,7 @@ SplineSet
  721 475 1187 1272 1753 2007 c 0
 EndSplineSet
 Validated: 37
+Substitution2: "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs-1" null1
 EndChar
 
 StartChar: part11
@@ -3361,6 +3366,7 @@ SplineSet
  1026 -152 432 -218 917 410 c 0
 EndSplineSet
 Validated: 33
+Substitution2: "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs-1" null2
 EndChar
 
 StartChar: part12
@@ -3382,6 +3388,7 @@ SplineSet
  729 164 432 -218 917 410 c 0
 EndSplineSet
 Validated: 33
+Substitution2: "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs-1" null2
 EndChar
 
 StartChar: part53
@@ -3396,25 +3403,25 @@ LayerCount: 3
 Fore
 SplineSet
 -6155.67871094 279 m 1049,30,-1
-1400.49902344 378.09375 m 1
- 447.321289062 -819 l 2
- -308.678710938 -1769 30.3212890625 -1974 767.321289062 -893 c 0
- 883.421875 -722.784179688 1119.56347656 -268.924804688 1400.49902344 378.09375 c 1
-1792.41601562 870.30078125 m 1
- 2040.796875 1060.59667969 2250.859375 1226.84960938 2561.32128906 1507 c 0
- 3839.32128906 2662 3314.32128906 2782 2397.32128906 1630 c 2
- 1792.41601562 870.30078125 l 1
-1748.60253906 815.275390625 m 1
- 1430.08984375 415.255859375 l 1
- 1438.32128906 418 l 1
- 1151.32128906 -246 900.321289062 -735 783.321289062 -909 c 0
- 46.3212890625 -2007 -356.678710938 -1786 423.321289062 -811 c 0
- 1077.1640625 6.052734375 1728.10058594 821.723632812 2381.32128906 1638 c 0
- 3365.32128906 2869 3847.32128906 2621 2569.32128906 1491 c 0
- 2261.32128906 1218 2020.32128906 1024 1750.32128906 815 c 1
- 1748.60253906 815.275390625 l 1
+1400.49902344 378.09375 m 1,31,-1
+ 447.321289062 -819 l 2,32,33
+ -308.678710938 -1769 30.3212890625 -1974 767.321289062 -893 c 0,34,35
+ 883.421875 -722.784179688 1119.56347656 -268.924804688 1400.49902344 378.09375 c 1,31,-1
+1792.41601562 870.30078125 m 1,36,37
+ 2040.796875 1060.59667969 2250.859375 1226.84960938 2561.32128906 1507 c 0,38,39
+ 3839.32128906 2662 3314.32128906 2782 2397.32128906 1630 c 2,40,-1
+ 1792.41601562 870.30078125 l 1,36,37
+1748.60253906 815.275390625 m 1,41,-1
+ 1430.08984375 415.255859375 l 1,42,-1
+ 1438.32128906 418 l 1,43,44
+ 1151.32128906 -246 900.321289062 -735 783.321289062 -909 c 0,45,46
+ 46.3212890625 -2007 -356.678710938 -1786 423.321289062 -811 c 0,47,48
+ 1077.1640625 6.052734375 1728.10058594 821.723632812 2381.32128906 1638 c 0,49,50
+ 3365.32128906 2869 3847.32128906 2621 2569.32128906 1491 c 0,51,52
+ 2261.32128906 1218 2020.32128906 1024 1750.32128906 815 c 1,53,-1
+ 1748.60253906 815.275390625 l 1,41,-1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: part13
@@ -3437,7 +3444,7 @@ SplineSet
  641.4140625 275 725.4140625 343 803.4140625 410 c 1
  778.4140625 410 l 1
 EndSplineSet
-Validated: 524329
+Validated: 41
 EndChar
 
 StartChar: uni0000
@@ -3476,7 +3483,7 @@ SplineSet
  805.23828125 819 l 1
  805.23828125 819 650.23828125 486 428.23828125 208 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: part17
@@ -3528,7 +3535,7 @@ SplineSet
  719.299804688 623 864.299804688 667 899.299804688 713 c 0
  981.299804688 819 915.299804688 926 649.299804688 754 c 0
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: part16
@@ -3568,6 +3575,7 @@ SplineSet
  1237 819 l 17
 EndSplineSet
 Validated: 1
+Substitution2: "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs-1" null1
 EndChar
 
 StartChar: part19
@@ -3590,7 +3598,7 @@ SplineSet
  626.180664062 275 709.180664062 343 786.180664062 410 c 1
  756.180664062 410 l 1
 EndSplineSet
-Validated: 524329
+Validated: 41
 EndChar
 
 StartChar: part20
@@ -3617,7 +3625,7 @@ SplineSet
  789.247070312 909 952.458007812 836.043945312 650.247070312 607 c 0
  555.247070312 535 457.247070312 471 359.247070312 410 c 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: part21
@@ -3660,7 +3668,7 @@ SplineSet
  646.518554688 -540 1023.51855469 -97 1659.51855469 410 c 5
  1629.51855469 410 l 5
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: part23
@@ -3725,7 +3733,7 @@ SplineSet
  -67.0322265625 -8 -41.0322265625 -88 432.967773438 172 c 8
  786.967773438 366 1087.96777344 557 1390.96777344 819 c 9
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: part26
@@ -3746,7 +3754,7 @@ SplineSet
  573.967773438 231 720.967773438 318 863.967773438 410 c 5
  837.967773438 410 l 5
 EndSplineSet
-Validated: 524329
+Validated: 41
 EndChar
 
 StartChar: part27
@@ -3831,7 +3839,7 @@ SplineSet
  1628.12988281 2465 1541.12988281 2662 1090.12988281 2064 c 0
  724.129882812 1579 490.129882812 1205 311.129882812 862 c 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: part30
@@ -3857,7 +3865,7 @@ SplineSet
  1628.12988281 2465 1541.12988281 2662 1090.12988281 2064 c 0
  724.129882812 1579 490.129882812 1205 311.129882812 862 c 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: part31
@@ -3900,7 +3908,7 @@ SplineSet
  436.55859375 24 204.55859375 -57 79.55859375 41 c 0
  -45.44140625 139 -21.44140625 382 139.55859375 588 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: part33
@@ -3948,7 +3956,7 @@ SplineSet
  1006.31738281 149 1134.31738281 299.200195312 1304.31738281 418.200195312 c 1
  1276.31738281 418.200195312 l 1
 EndSplineSet
-Validated: 524329
+Validated: 41
 EndChar
 
 StartChar: part35
@@ -3976,7 +3984,7 @@ SplineSet
  660.28125 890 621.28125 855 579.28125 819 c 1
  550.28125 819 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: part36
@@ -4004,7 +4012,7 @@ SplineSet
  574.28125 229 724.28125 317 869.28125 410 c 1
  838.28125 410 l 1
 EndSplineSet
-Validated: 524329
+Validated: 41
 EndChar
 
 StartChar: part37
@@ -4100,6 +4108,7 @@ SplineSet
  1532 901 l 2
  1513.5360766 872.78002974 1494.07750742 845.515699546 1473.83448141 819.200195312 c 1
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: part40
@@ -4122,7 +4131,7 @@ SplineSet
  573.967773438 231 720.967773438 318 863.967773438 410 c 1
  837.967773438 410 l 1
 EndSplineSet
-Validated: 524329
+Validated: 41
 EndChar
 
 StartChar: part41
@@ -4154,14 +4163,15 @@ Flags: HW
 LayerCount: 3
 Fore
 SplineSet
-565 0 m 29
- 1581 819 l 29
- 1622 819 l 29
- 598 0 l 29
- 565 0 l 29
+430 0 m 29
+ 1446 819 l 29
+ 1487 819 l 29
+ 463 0 l 29
+ 430 0 l 29
 EndSplineSet
-Refer: 62 -1 S 1 0 0 1 0 0 2
+Refer: 62 -1 N 1 0 0 1 0 0 2
 Validated: 5
+Substitution2: "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs-1" null2
 EndChar
 
 StartChar: part43
@@ -4220,13 +4230,13 @@ Flags: HW
 LayerCount: 3
 Fore
 SplineSet
-565 0 m 29
- 1581 819 l 29
- 1622 819 l 29
- 598 0 l 29
- 565 0 l 29
+430 0 m 29
+ 1446 819 l 29
+ 1487 819 l 29
+ 463 0 l 29
+ 430 0 l 29
 EndSplineSet
-Refer: 62 -1 S 1 0 0 1 0 0 2
+Refer: 62 -1 N 1 0 0 1 0 0 2
 Validated: 5
 EndChar
 
@@ -4274,7 +4284,7 @@ SplineSet
  952.05078125 -734 1025.05078125 -649 1258.05078125 -328 c 0
  1496.05078125 0 1512.05078125 131 1307.05078125 0 c 1
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: part52
@@ -4299,7 +4309,7 @@ SplineSet
  646.05078125 -739 1129.05078125 -213 2027.05078125 410 c 1
  1997.05078125 410 l 1
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: part54
@@ -4343,6 +4353,7 @@ Width: 1522
 VWidth: 0
 Flags: HW
 HStem: 0 172G<0 416> 655 164G<1106 1522>
+AnchorPoint: "Cursive" 1514 819.2 exit 0
 LayerCount: 3
 Fore
 SplineSet
@@ -4355,6 +4366,7 @@ SplineSet
  690 -152 432 -218 917 410 c 0
 EndSplineSet
 Validated: 33
+Substitution2: "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs-1" null2
 EndChar
 
 StartChar: part56
@@ -4375,6 +4387,7 @@ SplineSet
  117 164 258 311 418 434 c 0
 EndSplineSet
 Validated: 1
+Substitution2: "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs-1" null1
 EndChar
 
 StartChar: part57
