@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1550960080
+ModificationTime: 1551019880
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -57,7 +57,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 28 14 6
+WinInfo: 42 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -137,7 +137,7 @@ Grid
   EndSpiro
 EndSplineSet
 AnchorClass2: "test"""  "Cursive" "'curs'-1"
-BeginChars: 131 104
+BeginChars: 132 102
 
 StartChar: O
 Encoding: 15 79 0
@@ -2531,7 +2531,7 @@ SplineSet
 EndSplineSet
 Refer: 52 -1 N 1 0 0 1 -147 0 2
 Validated: 37
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part0 part6 part62 part6 part62 part17
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part0 part6 part62 part6 part61 part17
 EndChar
 
 StartChar: c
@@ -2664,7 +2664,7 @@ SplineSet
  0 0 l 5
 EndSplineSet
 Validated: 37
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part0 part37
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part0 part37 part54
 EndChar
 
 StartChar: n
@@ -2770,7 +2770,7 @@ SplineSet
  1859 819 l 1
 EndSplineSet
 Validated: 37
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part55 part57
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part11 part61 part17
 EndChar
 
 StartChar: o
@@ -2972,7 +2972,7 @@ SplineSet
  2422.05859375 2476.95996094 2313 2664 1868 2075 c 4
  1501.72865155 1590.20488936 1254 1191 1075 848 c 5
 EndSplineSet
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part14 part15 part61 part17
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part14 part15 part6 part61 part17
 EndChar
 
 StartChar: h
@@ -3114,7 +3114,7 @@ SplineSet
  1504.05078125 30 1364.05078125 82 1307.05078125 0 c 9
 EndSplineSet
 Validated: 37
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part11 part63 part52
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part11 part63 part51
 EndChar
 
 StartChar: part0
@@ -3758,28 +3758,23 @@ EndChar
 
 StartChar: part37
 Encoding: 88 -1 82
-Width: 1319
+Width: 2141
 VWidth: 0
 Flags: HW
-AnchorPoint: "Cursive" 535 819.2 entry 0
+AnchorPoint: "Cursive" 790 9 exit 0
+AnchorPoint: "Cursive" 1406 819.2 entry 0
 LayerCount: 3
 Fore
 SplineSet
-0 295 m 1
- 16 295 l 1
- 32 -139 649 -45 606 385 c 0
- 590 548 572 687 630 860 c 0
- 636 877 643 893 649 907 c 1
- 649 907 585 849 550 819 c 1
- 526 819 l 1
- 580 865 628 908 673 949 c 1
- 696 949 l 1
- 666.694124148 923.141874248 658.730086285 895.190258856 647 860 c 0
- 589 687 602 601 630 393 c 0
- 684.585951996 -19.6697970922 10.8558641773 -247.793208864 0 295 c 1
+562 214 m 1
+ 581 214 l 1
+ 657 -89 1058 -160 1503 905 c 1
+ 1503 905 1465 862 1418 819.200195312 c 1
+ 1393 819.200195312 l 1
+ 1447 865.200195312 1519 949 1519 949 c 1
+ 1519 949 1541.08886155 949.214763948 1541 949 c 0
+ 1054 -228 640 -96 562 214 c 1
 EndSplineSet
-Refer: 52 -1 N 1 0 0 1 -916 0 2
-Refer: 93 -1 N 1 0 0 1 388 -4 2
 EndChar
 
 StartChar: part39
@@ -3982,51 +3977,26 @@ EndSplineSet
 Validated: 37
 EndChar
 
-StartChar: part52
-Encoding: 99 -1 92
-Width: 2027
-VWidth: 0
-Flags: HW
-AnchorPoint: "Cursive" 2011.05 409.6 exit 0
-AnchorPoint: "Cursive" 1320.05 0 entry 0
-LayerCount: 3
-Fore
-SplineSet
-1997.05078125 410 m 1
- 1107.05078125 -209 632.05078125 -725 447.05078125 -942 c 0
- -221.94921875 -1729 -117.94921875 -1901 611.05078125 -1106 c 0
- 952.05078125 -734 1025.05078125 -649 1258.05078125 -328 c 0
- 1496.05078125 0 1512.05078125 131 1307.05078125 0 c 1
- 1332.05078125 0 l 1
- 1586.05078125 156 1291.05078125 -253 1242.05078125 -319 c 0
- 1007.05078125 -632 936.05078125 -720 594.05078125 -1090 c 0
- -93.94921875 -1835 -196.94921875 -1745 463.05078125 -958 c 0
- 646.05078125 -739 1129.05078125 -213 2027.05078125 410 c 1
- 1997.05078125 410 l 1
-EndSplineSet
-Validated: 37
-EndChar
-
 StartChar: part54
-Encoding: 65 -1 93
-Width: 1413
+Encoding: 65 -1 92
+Width: 2141
 VWidth: 0
 Flags: HW
-AnchorPoint: "Cursive" 1400 818.8 exit 0
-AnchorPoint: "Cursive" -11.9297 9 entry 0
+AnchorPoint: "Cursive" 2199 819.252 exit 0
+AnchorPoint: "Cursive" 788 9 entry 0
 LayerCount: 3
 Fore
 SplineSet
--11.9296875 0 m 9
- -11.9296875 19 l 17
- 584.0703125 219 920.0703125 411 1387.00195312 818.599609375 c 9
- 1415.00195312 818.599609375 l 17
- 920.0703125 389 608.0703125 209 -11.9296875 0 c 9
+787.071289062 0 m 9
+ 787.071289062 19 l 17
+ 1200.70598812 9.05450814264 1773.55761719 493.4921875 2186.00292969 818.953125 c 9
+ 2214.00292969 818.953125 l 17
+ 1776 465 1200 -12 787.071289062 0 c 9
 EndSplineSet
 EndChar
 
 StartChar: Demo
-Encoding: 100 -1 94
+Encoding: 100 -1 93
 Width: 1976
 VWidth: 0
 Flags: HW
@@ -4038,30 +4008,8 @@ Refer: 56 -1 N 1 0 0 1 0 0 2
 Refer: 55 -1 N 1 0 0 1 655 0 2
 EndChar
 
-StartChar: part55
-Encoding: 101 -1 95
-Width: 1522
-VWidth: 0
-Flags: HW
-HStem: 0 172G<0 416> 655 164G<1106 1522>
-AnchorPoint: "Cursive" 1514 819.2 exit 0
-LayerCount: 3
-Fore
-SplineSet
-917 410 m 0
- 1417 1049 802 901 24 0 c 9
- 0 0 l 1
- 832 971 1425 1038 940 410 c 0
- 440 -229 727 -66 1497 819 c 9
- 1522 819 l 1
- 690 -152 432 -218 917 410 c 0
-EndSplineSet
-Validated: 33
-Substitution2: "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs-1" null2
-EndChar
-
 StartChar: part56
-Encoding: 102 -1 96
+Encoding: 102 -1 94
 Width: 1237
 VWidth: 0
 Flags: HW
@@ -4082,7 +4030,7 @@ Substitution2: "'aalt' For replacing starting part of glyphs with intermediate g
 EndChar
 
 StartChar: part57
-Encoding: 103 -1 97
+Encoding: 103 -1 95
 Width: 360
 VWidth: 0
 Flags: HW
@@ -4103,7 +4051,7 @@ Validated: 33
 EndChar
 
 StartChar: part58
-Encoding: 104 65279 98
+Encoding: 104 65279 96
 Width: 2678
 VWidth: 0
 Flags: HW
@@ -4122,7 +4070,7 @@ Validated: 1
 EndChar
 
 StartChar: null1
-Encoding: 105 -1 99
+Encoding: 105 -1 97
 Width: 0
 VWidth: 0
 Flags: W
@@ -4132,7 +4080,7 @@ LayerCount: 3
 EndChar
 
 StartChar: null2
-Encoding: 106 -1 100
+Encoding: 106 -1 98
 Width: 1053
 VWidth: 0
 Flags: HW
@@ -4142,27 +4090,27 @@ LayerCount: 3
 EndChar
 
 StartChar: part61
-Encoding: 108 -1 101
+Encoding: 108 -1 99
 Width: 1495
 VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive" 1018 819.2 exit 0
-AnchorPoint: "Cursive" 627 819.2 entry 0
+AnchorPoint: "Cursive" 305 409.8 entry 0
 LayerCount: 3
 Fore
 SplineSet
-616.276367188 819.200195312 m 5
- -142 -136 103 -131 486.989257812 208 c 0
- 704.684570312 400.189453125 1030.98925781 819 1030.98925781 819 c 1
- 1006.98925781 819 l 1
- 1006.98925781 819 692.403764266 412.537867676 475 223 c 4
- 108.971292092 -96.1126935601 -100 -133 639.3359375 819 c 5
- 616.276367188 819.200195312 l 5
+294 409 m 1
+ -122 -123 166.652776487 -69.464254855 486.989257812 209 c 0
+ 706.149372813 399.512981429 1030.98925781 819 1030.98925781 819 c 1
+ 1005.98925781 819 l 1
+ 1005.98925781 819 689.089200383 411.745019482 475 223 c 0
+ 208.710570281 -11.7657121899 -116.570504419 -147 318 409 c 1
+ 294 409 l 1
 EndSplineSet
 EndChar
 
 StartChar: part62
-Encoding: 109 -1 102
+Encoding: 109 -1 100
 Width: 1858
 VWidth: 0
 Flags: HW
@@ -4180,7 +4128,7 @@ EndSplineSet
 EndChar
 
 StartChar: part63
-Encoding: 110 -1 103
+Encoding: 110 -1 101
 Width: 1235
 VWidth: 0
 Flags: HW
