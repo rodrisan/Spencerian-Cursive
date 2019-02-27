@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1551290639
+ModificationTime: 1551293584
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -42,12 +42,22 @@ Lookup: 2 0 0 "'ccmp' For decomposing lowercase letters" { "'ccmp' For decomposi
 Lookup: 1 0 0 "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs" { "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'aalt' for parts before e" { "'aalt' for parts before e-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'aalt' for parts before c" { "'aalt' for parts before c-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'aalt' for parts before a d g o and q" { "'aalt' for parts before a d g o and q-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' For replacing first parts of glyphs with intermedite glyphs(null1 and null2)" { "'calt' For replacing first parts of glyphs with intermedite glyphs(null1 and null2)-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' for parts before e" { "'calt' for parts before e-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' for parts before c" { "'calt' for parts before c-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' for parts before a d g o and q" { "'calt' for parts before a d g o and q-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 259 0 0 "'curs'" { "'curs'-1"  } [' RQD' ('DFLT' <'dflt' > 'latn' <'dflt' > ) 'curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "'calt' for parts before a d g o and q-1" 0 0 0 1
+ 3 0 0
+  Coverage: 33 part62 part9 part17 part51 part54
+  Coverage: 5 null1
+  Coverage: 12 part4 part32
+ 1
+  SeqLookup: 0 "'aalt' for parts before a d g o and q"
+EndFPST
 ChainSub2: coverage "'calt' for parts before c-1" 0 0 0 1
  3 0 0
   Coverage: 39 part62 part9 part8 part17 part51 part54
@@ -57,9 +67,10 @@ ChainSub2: coverage "'calt' for parts before c-1" 0 0 0 1
   SeqLookup: 0 "'aalt' for parts before c"
 EndFPST
 ChainSub2: coverage "'calt' for parts before e-1" 0 0 0 1
- 2 0 0
+ 3 0 0
   Coverage: 39 part62 part9 part8 part17 part51 part54
-  Coverage: 6 part18
+  Coverage: 5 null2
+  Coverage: 6 part20
  1
   SeqLookup: 0 "'aalt' for parts before e"
 EndFPST
@@ -155,8 +166,8 @@ Grid
     0 0 z
   EndSpiro
 EndSplineSet
-AnchorClass2: "test"""  "Cursive" "'curs'-1"
-BeginChars: 94 89
+AnchorClass2: "Cursive for a d g o and q" "'curs'-1" "test"""  "Cursive" "'curs'-1"
+BeginChars: 94 90
 
 StartChar: O
 Encoding: 15 79 0
@@ -3187,6 +3198,7 @@ Width: 1321
 VWidth: 0
 Flags: HW
 HStem: 802 17<1095.32 1287.35>
+AnchorPoint: "Cursive for a d g o and q" 97 410 entry 0
 AnchorPoint: "Cursive" 1315.35 819 exit 0
 LayerCount: 3
 Fore
@@ -3821,6 +3833,7 @@ SplineSet
  569.46484375 221.200195312 -413.9140625 -407.799804688 228.46484375 409.799804688 c 4
  228.46484375 409.799804688 204.46484375 409.799804688 204.46484375 409.799804688 c 1
 EndSplineSet
+Substitution2: "'aalt' for parts before a d g o and q-1" part66
 Substitution2: "'aalt' for parts before c-1" part65
 Substitution2: "'aalt' for parts before e-1" part64
 EndChar
@@ -3880,6 +3893,24 @@ SplineSet
  1123.38964844 220.41015625 309.080505869 -126.878389589 164.521484375 45.6298828125 c 0
  110.784179687 109.756835938 149.774414062 218.737304688 298 409.599609375 c 1
  322 409.599609375 l 1
+EndSplineSet
+EndChar
+
+StartChar: part66
+Encoding: 89 -1 89
+Width: 1313
+VWidth: 0
+Flags: HW
+AnchorPoint: "Cursive for a d g o and q" 774 410 exit 0
+AnchorPoint: "Cursive" 215.265 409.6 entry 0
+LayerCount: 3
+Fore
+SplineSet
+757.662016209 409.599609375 m 1
+ 195.512406408 4.71622448774 -262.127363035 -214.610481403 228.46484375 409.799804688 c 0
+ 228.46484375 409.799804688 204.46484375 409.799804688 204.46484375 409.799804688 c 1
+ -258.459219106 -186.283190086 119.055528654 -82.1996193408 793.032626928 409.599609375 c 1
+ 757.662016209 409.599609375 l 1
 EndSplineSet
 EndChar
 EndChars
