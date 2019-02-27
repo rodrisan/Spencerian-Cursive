@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1551293584
+ModificationTime: 1551294025
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -167,7 +167,7 @@ Grid
   EndSpiro
 EndSplineSet
 AnchorClass2: "Cursive for a d g o and q" "'curs'-1" "test"""  "Cursive" "'curs'-1"
-BeginChars: 94 90
+BeginChars: 95 90
 
 StartChar: O
 Encoding: 15 79 0
@@ -2594,7 +2594,7 @@ SplineSet
  1278 623 1423 667 1458 713 c 4
  1540 819 1474 926 1208 754 c 4
 EndSplineSet
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part0 part18 part62
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part18 part62
 EndChar
 
 StartChar: e
@@ -2837,7 +2837,7 @@ SplineSet
  701 139 725 382 886 588 c 0
 EndSplineSet
 Validated: 37
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part56 part32 part17
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part32 part17
 EndChar
 
 StartChar: a
@@ -2851,7 +2851,7 @@ Fore
 Refer: 56 -1 S 1 0 0 1 1319 0 2
 Refer: 55 -1 N 1 0 0 1 -25 0 2
 Refer: 54 -1 N 1 0 0 1 426 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part5 part4 part6 part62
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part4 part6 part62
 EndChar
 
 StartChar: t
@@ -2901,7 +2901,7 @@ Fore
 Refer: 55 -1 N 1 0 0 1 -1098 0 2
 Refer: 54 -1 N 1 0 0 1 -647 0 2
 Refer: 57 -1 N 1 0 0 1 74 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part5 part4 part7 part6 part62
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part4 part7 part6 part62
 EndChar
 
 StartChar: q
@@ -2915,7 +2915,7 @@ Fore
 Refer: 55 -1 S 1 0 0 1 -66 0 2
 Refer: 54 -1 S 1 0 0 1 384 0 2
 Refer: 59 -1 N 1 0 0 1 335 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part5 part4 part9
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part4 part9
 EndChar
 
 StartChar: p
@@ -3079,7 +3079,7 @@ Fore
 Refer: 55 -1 S 1 0 0 1 238 0 2
 Refer: 54 -1 S 1 0 0 1 688 0 2
 Refer: 58 -1 N 1 0 0 1 197 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part5 part4 part8
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part4 part8
 EndChar
 
 StartChar: f
@@ -3791,7 +3791,7 @@ StartChar: null2
 Encoding: 83 -1 83
 Width: 1053
 VWidth: 0
-Flags: HW
+Flags: HWO
 AnchorPoint: "Cursive" 507 0 exit 0
 AnchorPoint: "Cursive" 507 0 entry 0
 LayerCount: 3
