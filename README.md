@@ -1,4 +1,4 @@
-# Spencerian_Script
+# Spencerian Script
 An open source cursive type that has been designed in a detailed way to simulate the Spencerian Script in the digital world.
 
 This type has been desigened base on 
