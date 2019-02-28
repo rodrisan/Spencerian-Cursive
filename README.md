@@ -9,4 +9,4 @@ This type has been desigened base on
 
 ### Support Me
 
-You can support me in this project through [this page](https://www.alirezaalipour.com/Donation).
+You can support through [this page](https://www.alirezaalipour.com/Donation).
