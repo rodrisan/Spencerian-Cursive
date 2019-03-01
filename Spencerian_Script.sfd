@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1551389624
+ModificationTime: 1551467506
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -150,7 +150,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 14 6
+WinInfo: 28 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -233,7 +233,7 @@ Grid
   EndSpiro
 EndSplineSet
 AnchorClass2: "cursive 3" "'curs' for parts and glyphs without anchor points__ it is for space problem-1" "cursive 2" "'curs' a d g o and q-1" "Cursive 1" "'curs'-1"
-BeginChars: 100 98
+BeginChars: 101 98
 
 StartChar: O
 Encoding: 16 79 0
@@ -3308,6 +3308,7 @@ Width: 1425
 VWidth: 0
 Flags: W
 HStem: 784 19<1341.32 1425>
+AnchorPoint: "cursive 3" -0.0211579 0 entry 0
 AnchorPoint: "Cursive 1" 1425 795 exit 0
 LayerCount: 3
 Fore
@@ -3363,6 +3364,7 @@ Width: 2212
 VWidth: 0
 Flags: HW
 HStem: 655 164G<1558.52 1630.52 1704.52 2212.52>
+AnchorPoint: "cursive 3" 2050 -3 exit 0
 AnchorPoint: "Cursive 1" 2051.04 820.2 exit 0
 AnchorPoint: "Cursive 1" 1555.04 820 entry 0
 LayerCount: 3
@@ -3386,6 +3388,7 @@ Width: 2225
 VWidth: 0
 Flags: HW
 HStem: 811 16<2204.1 2225.32>
+AnchorPoint: "cursive 3" 1406 0 exit 0
 AnchorPoint: "Cursive 1" 1416.32 819.2 exit 0
 AnchorPoint: "Cursive 1" 623.32 819 entry 0
 LayerCount: 3
@@ -3393,7 +3396,7 @@ Fore
 SplineSet
 612.317382812 819 m 25
  -610.682617188 -737 l 2
- -804.646161419 -983.776185466 -666.714241178 -1080.20431668 -453 -781 c 4
+ -804.646161419 -983.776185466 -666.714241178 -1080.20431668 -453 -781 c 0
  41.7178669275 -88.3848494798 614 658 1416.31738281 811 c 1
  1416.31738281 827 l 1
  581 666 5.05341888323 -108.094903586 -467.682617188 -770 c 0
@@ -3507,16 +3510,17 @@ Encoding: 66 -1 65
 Width: 414
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive 3" 682 2 exit 0
 AnchorPoint: "Cursive 1" 678 820.006 exit 0
 AnchorPoint: "Cursive 1" 13 819.2 entry 0
 LayerCount: 3
 Fore
 SplineSet
-0 819 m 5
- 26 819.200195312 l 5
- 219 692 441 680 664 819.487304688 c 5
- 693 819.200195312 l 5
- 447 658 199 674 0 819 c 5
+0 819 m 1
+ 26 819.200195312 l 1
+ 219 692 441 680 664 819.487304688 c 1
+ 693 819.200195312 l 1
+ 447 658 199 674 0 819 c 1
 EndSplineSet
 Substitution2: "'aalt' for initial part of glyphs like n after glyphs like b-1" part71
 EndChar
@@ -3619,6 +3623,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21G<0 169.5> 390 20G<878.5 929>
 VStem: 0 929
+AnchorPoint: "cursive 3" 0 0 entry 0
 AnchorPoint: "Cursive 1" 912 410 exit 0
 LayerCount: 3
 Fore
@@ -3631,7 +3636,6 @@ SplineSet
  269 83 528 196 772 336 c 0
  815 361 858 385 899 410 c 1
 EndSplineSet
-Validated: 1
 Substitution2: "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs-1" null2
 EndChar
 
@@ -3662,6 +3666,7 @@ Encoding: 73 -1 72
 Width: 693
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive 3" 0 -1 entry 0
 AnchorPoint: "cursive 2" 249 625.858 entry 0
 AnchorPoint: "Cursive 1" 604.117 819.2 exit 0
 AnchorPoint: "Cursive 1" 560.117 808.2 entry 0
@@ -3815,6 +3820,7 @@ Encoding: 80 -1 79
 Width: 1427
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive 3" 1427 0 exit 0
 AnchorPoint: "Cursive 1" 1412 819.252 exit 0
 AnchorPoint: "Cursive 1" 0.99707 9 entry 0
 LayerCount: 3
@@ -3835,6 +3841,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21G<0 83.5> 795 24<1196.45 1213>
 VStem: 0 1237
+AnchorPoint: "cursive 3" 0 0 entry 0
 AnchorPoint: "Cursive 1" 1225 807 exit 0
 LayerCount: 3
 Fore
@@ -3847,7 +3854,6 @@ SplineSet
  0 0 l 1
  117 164 258 311 418 434 c 0
 EndSplineSet
-Validated: 1
 Substitution2: "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs-1" null1
 EndChar
 
@@ -3915,6 +3921,7 @@ Encoding: 86 -1 85
 Width: 1313
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive 3" 1313 2 exit 0
 AnchorPoint: "Cursive 1" 1298.46 819.2 exit 0
 AnchorPoint: "Cursive 1" 215.265 409.6 entry 0
 LayerCount: 3
@@ -4012,13 +4019,9 @@ StartChar: glyph90
 Encoding: 1 32 90
 Width: 1949
 VWidth: 0
-Flags: W
-AnchorPoint: "cursive 2" 1950 623.858 exit 0
+Flags: HW
 AnchorPoint: "cursive 3" 1950 0 exit 0
 AnchorPoint: "cursive 3" 0 0 entry 0
-AnchorPoint: "cursive 2" 0 623.858 entry 0
-AnchorPoint: "Cursive 1" 1948.94 819.801 exit 0
-AnchorPoint: "Cursive 1" -1.06348 817.802 entry 0
 LayerCount: 3
 EndChar
 
@@ -4027,16 +4030,17 @@ Encoding: 91 -1 91
 Width: 556
 VWidth: 0
 Flags: W
+AnchorPoint: "cursive 3" -1 0 entry 0
 AnchorPoint: "Cursive 1" 536.198 409.6 exit 0
 AnchorPoint: "Cursive 1" 14.1982 0.599609 entry 0
 LayerCount: 3
 Fore
 SplineSet
-520.629882812 409.599609375 m 5
- 361.321289062 293.352539062 185.450195312 155.444335938 0.1982421875 0 c 5
- 29.1982421875 0 l 5
- 198.14453125 141.299804688 382.07421875 284.331054688 556 409.599609375 c 5
- 520.629882812 409.599609375 l 5
+520.629882812 409.599609375 m 1
+ 361.321289062 293.352539062 185.450195312 155.444335938 0.1982421875 0 c 1
+ 29.1982421875 0 l 1
+ 198.14453125 141.299804688 382.07421875 284.331054688 556 409.599609375 c 1
+ 520.629882812 409.599609375 l 1
 EndSplineSet
 Substitution2: "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs-1" null2
 EndChar
