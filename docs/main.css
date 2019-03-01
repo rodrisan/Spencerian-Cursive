@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Spencerian-Script';
+    src: url('Spencerian_Script.ttf')
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+#pill-spencerian-script{
+    font-family: 'Spencerian-Script';
+    font-size:9em;
+}
+header{
+    padding: 5em;
+    background-color: rgba(255, 80, 80, 0.829);
+    color:#ffff;
+}
+main{
+    padding-top: 3em;
+}
