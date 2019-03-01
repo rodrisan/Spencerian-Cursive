@@ -11,7 +11,7 @@ body{
 }
 header{
     padding: 5em;
-    background-color: rgb(235, 235, 235);
+    background-color: rgba(235, 235, 235, 0.849);
 }
 main{
     padding-top: 3em;
