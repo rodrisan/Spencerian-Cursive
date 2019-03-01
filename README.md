@@ -3,10 +3,14 @@ An open source cursive type that has been designed in a detailed way to simulate
 
 This type has been desigened base on 
 *[Compendium of Real Pen Work](https://www.iampeth.com/pdf/compendium-real-pen-work)* and *[New Standard Practical Penmanship](https://www.iampeth.com/pdf/new-standard-practical-penmanship)*.
+
+*Note: this project is ongoing and it is not yet functional.*
+
 ### Demo Image
 
 ### Demo Web Page
 
+To visit web base example of this font you can visit [this page](https://alirezaalipour.github.io/Spencerian_Script/).
 ### Support Me
 
 You can support through [this page](https://www.alirezaalipour.com/Donation).
