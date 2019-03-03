@@ -12,10 +12,12 @@ UnderlineWidth: 204
 Ascent: 2458
 Descent: 1638
 InvalidEm: 0
-LayerCount: 3
+LayerCount: 5
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 Layer: 2 0 "With Intersection" 1
+Layer: 3 0 "Open Path" 1
+Layer: 4 0 "Guid2" 1
 XUID: [1021 621 -37808773 11451075]
 StyleMap: 0x0000
 FSType: 0
@@ -23,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1551480562
+ModificationTime: 1551648363
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -37,6 +39,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2Vendor: 'PfEd'
 Lookup: 2 0 0 "'ccmp' For decomposing lowercase letters" { "'ccmp' For decomposing lowercase letters-1"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs" { "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'aalt' for parts before e" { "'aalt' for parts before e-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -149,10 +152,56 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 14 6
+WinInfo: 28 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
+6100 -3423 m 25
+ -1468 -7791 l 25
+ 6100 -3423 l 25
+5304.88769531 -1295.09570312 m 1
+ -413.127929688 -8602.36035156 l 1
+ 5304.88769531 -1295.09570312 l 1
+  Spiro
+    5305.89 -1295.1 v
+    -413.13 -8602.36 v
+    0 0 z
+  EndSpiro
+6079.015625 -1297.73535156 m 1
+ 361 -8605 l 1
+ 6079.015625 -1297.73535156 l 1
+  Spiro
+    6080.02 -1297.74 v
+    361 -8605 v
+    0 0 z
+  EndSpiro
+-2221 -7776 m 25
+ 5347 -3408 l 1049
+-1153.74414062 -8552.51953125 m 1
+ 4564.27246094 -1245.25585938 l 1025
+  Spiro
+    -1153.74 -8552.52 {
+    4564.27 -1245.26 v
+    0 0 z
+  EndSpiro
+-4096 -6234.75 m 0
+ 8192 -6234.75 l 1024
+-4096 -4808.25 m 0
+ 8192 -4808.25 l 1024
+-4096 -5043 m 0
+ 8192 -5043 l 1024
+-4096 -5277.75 m 0
+ 8192 -5277.75 l 1024
+-4096 -5512.5 m 0
+ 8192 -5512.5 l 1024
+-4096 -5756.25 m 0
+ 8192 -5756.25 l 1024
+-4096 -6000 m 0
+ 8192 -6000 l 1024
+  Named: "Baseline for number"
+-4096 975 m 0
+ 8192 975 l 1024
+  Named: "For numbers"
 -4096 625.857788086 m 0
  8192 625.857788086 l 1024
   Named: "a d g o and q"
@@ -232,7 +281,7 @@ Grid
   EndSpiro
 EndSplineSet
 AnchorClass2: "cursive 3" "'curs' for parts and glyphs without anchor points__ it is for space problem-1" "cursive 2" "'curs' a d g o and q-1" "Cursive 1" "'curs'-1"
-BeginChars: 310 101
+BeginChars: 310 107
 
 StartChar: O
 Encoding: 79 79 0
@@ -242,7 +291,7 @@ InSpiro: 1
 Flags: W
 HStem: 2403.03 20.6357<1544.91 1808.35> 2499.64 2.76562<1592.53 1687.41>
 VStem: 253.952 57.3438<715.513 1249.72> 2547.71 24.5762<1324.6 1645.49>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 2211.83984375 2351.10351562 m 1
@@ -325,7 +374,7 @@ HStem: 0 21G<1875.9 1990.58> 795.816 20G<2573.05 2605.53> 866.656 14.7197<2159.7
 VStem: 0.416992 25.6475<572.859 818.974>
 AnchorPoint: "cursive 3" 3493 3 exit 0
 AnchorPoint: "cursive 3" -2 0 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 3476.546875 2457.59960938 m 1
@@ -427,7 +476,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: N
@@ -438,7 +487,7 @@ InSpiro: 1
 Flags: W
 HStem: 16.3838 32.7686<700.563 975.319> 2437.6 20G<3278.81 3432.45>
 VStem: 140.574 25.6934<574.053 818.98>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 2236.41601562 0 m 1
@@ -531,7 +580,7 @@ InSpiro: 1
 Flags: W
 HStem: 16.3838 32.7686<700.563 975.319> 799.2 20G<4345.18 4382.72> 2437.6 20G<3278.81 3432.45 3826.18 4022.27>
 VStem: 140.574 25.6934<574.053 818.98> 3059.53 13.9082<252.184 439.243>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 4022.27246094 2457.59960938 m 1
@@ -658,7 +707,7 @@ InSpiro: 1
 Flags: W
 HStem: 16.3838 32.7686<831.024 1095.86> 2437.6 20G<4234.35 4308.99>
 VStem: 263.148 26.1143<569.25 818.978> 1785.86 8.19141<1851.39 1882.3> 2025.18 18.0713<1871.39 2002.28> 2555.9 16.3838<2084.1 2231.41>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 4284.41601562 2457.59960938 m 1
@@ -787,7 +836,7 @@ HStem: 16.3838 32.7686<557.33 822.096> 2437.6 20G<3968.36 4043>
 VStem: 1519.86 8.19141<1851.39 1882.3> 1759.19 18.0713<1871.39 2002.28> 2126.07 32.7676<942.08 972.811> 2289.91 16.3838<2084.1 2231.41>
 AnchorPoint: "cursive 3" 1579.35 -2.36328 exit 0
 AnchorPoint: "cursive 3" 0 0 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 2175.22363281 999.423828125 m 0
@@ -921,7 +970,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: K
@@ -934,7 +983,7 @@ HStem: 0 8.19238<2241.85 2346.5> 1129.84 6.13574<2131.04 2203.48> 1302.53 8.1914
 VStem: 25.9824 25.9688<569.36 818.968>
 AnchorPoint: "cursive 3" 3172 -1 exit 0
 AnchorPoint: "cursive 3" 3.14355 4 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 2645.72753906 2113.53613281 m 1
@@ -1079,7 +1128,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: H
@@ -1090,7 +1139,7 @@ InSpiro: 1
 Flags: W
 HStem: 0 21G<2326.53 2354> 782.816 20G<3055.9 3088.38> 853.656 14.7197<2642.62 2758.17> 2437.6 20G<4116.3 4300.8>
 VStem: 263.839 25.9688<569.36 818.968>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 2793.47167969 851.967773438 m 1
@@ -1216,7 +1265,7 @@ VWidth: 0
 InSpiro: 1
 Flags: W
 HStem: 16.3838 32.7686<752.334 1036.27> 1261.57 8.19141<2260.99 2283.49>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 3301.37597656 2105.34375 m 1
@@ -1302,7 +1351,7 @@ HStem: -122.332 10.9229<1175.84 1319.89> 16.3838 32.7686<375.96 659.955> 1219.7 
 VStem: 713.16 32.7676<293.858 631.687> 1866.55 13.959<1287.15 1340.11>
 AnchorPoint: "cursive 3" 2923 -1 exit 0
 AnchorPoint: "cursive 3" -1 -4 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 2925 2105.34375 m 1
@@ -1432,7 +1481,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: R
@@ -1443,7 +1492,7 @@ InSpiro: 1
 Flags: W
 HStem: 8.61914 13.4951<2750.37 2875.73> 16.3838 32.7686<752.336 1036.27> 799.2 20G<3516.78 3563.52> 1219.66 14.1182<2346.94 2528.94>
 VStem: 2242.94 13.9756<1287.15 1340.11> 2532.15 12.252<250.19 281.866 300.984 466.128>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 3301.37597656 2105.34375 m 1x7c
@@ -1582,7 +1631,7 @@ InSpiro: 1
 Flags: W
 HStem: 16.3838 32.7686<831.012 1095.76> 622.592 16.3838<1318.9 1490.51>
 VStem: 263.199 26.1348<569.264 818.977> 2658.13 8.21582<2321.86 2380.92>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 106.49609375 8.1923828125 m 1
@@ -1725,7 +1774,7 @@ InSpiro: 1
 Flags: W
 HStem: 0 21G<24.5762 245.857>
 VStem: 263.721 25.6328<574.093 818.976>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 24.576171875 0 m 1
@@ -1830,7 +1879,7 @@ InSpiro: 1
 Flags: W
 HStem: 0 8.19238<2447.89 2520.47>
 VStem: 1982.46 49.1523<366.068 700.37> 3203.63 11.5137<508.947 691.324>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 1114.11230469 0 m 1
@@ -1968,7 +2017,7 @@ VWidth: 0
 InSpiro: 1
 Flags: W
 HStem: 0 21G<1993.08 2048 2588.67 2683.07> 799.2 20G<4640.47 4677.63> 2437.6 20G<4983.29 5095.42>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 5095.42382812 2457.59960938 m 2
@@ -2072,7 +2121,7 @@ VWidth: 0
 InSpiro: 1
 Flags: W
 HStem: 0 21G<1993.08 2048 2588.67 2683.07>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 3932.16015625 0 m 1
@@ -2173,7 +2222,7 @@ Width: 4096
 VWidth: 0
 Flags: W
 HStem: -1 21G<1249.5 1303> 799 20G<3396 3678>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 1289 -1 m 1
@@ -2212,7 +2261,7 @@ VWidth: 0
 Flags: W
 HStem: 0 8<1399.1 1781.23> 2465 8<2281.57 2436.61>
 VStem: 1097 5<780.064 955.591> 3185 36<1406.74 1451 1584 1768.01>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 1335 0 m 17
@@ -2263,7 +2312,7 @@ VWidth: 0
 Flags: W
 HStem: -1 21G<598 815.5> 557 21G<1655 1699>
 VStem: 1655 16<557 575.052>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 1655 557 m 4
@@ -2321,7 +2370,7 @@ Width: 4096
 VWidth: 0
 Flags: W
 HStem: 1636 2<2908 3334>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 2720 262 m 0
@@ -2357,7 +2406,7 @@ Width: 4096
 VWidth: 0
 Flags: W
 HStem: 2449 9<2325.03 2671>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 2671 2458 m 5
@@ -2404,7 +2453,7 @@ HStem: 0 21G<1334.57 1344.57>
 VStem: 1334.57 16<0 180.295>
 AnchorPoint: "cursive 3" 1677 -5 exit 0
 AnchorPoint: "cursive 3" 1 -1 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 1334.56835938 0 m 1
@@ -2429,7 +2478,7 @@ SplineSet
  1459.56835938 1161 1338.56835938 655 1350.56835938 0 c 1
  1334.56835938 0 l 1
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: J
@@ -2438,7 +2487,7 @@ Width: 4096
 VWidth: 0
 Flags: W
 VStem: 2073 16<0 43.3771>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 2089 0 m 1
@@ -2469,7 +2518,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21G<1221 1376> 799 20G<4031 4121>
 VStem: 2351 25<1750.55 2027.85>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 3228 1638 m 1
@@ -2509,7 +2558,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21G<1221 1376> 799 20G<3088.5 3473>
 VStem: 2351 25<1750.55 2027.85>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 3473 819 m 5
@@ -2549,7 +2598,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21G<1221 1376>
 VStem: 2351 25<1750.55 2027.85>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 1352 0 m 1
@@ -2582,7 +2631,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21G<0 169.5> 799 20G<1339.5 1467 1474.5 1614 2158.5 2335> 1622 33<2318.03 2350.98>
 VStem: 2318 33<1622.02 1654.97>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 2318 1638 m 4
@@ -2611,7 +2660,7 @@ Width: 2909
 VWidth: 0
 Flags: W
 HStem: 0 21G<-147 22.5> 799 20G<1192.5 1320 1327.5 1467 2011.5 2188 2732.5 2909>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 2884 819 m 13
@@ -2644,7 +2693,7 @@ Width: 3154
 VWidth: 0
 Flags: W
 HStem: 0 21G<-147 22.5> 762 16<2974.89 3061.46> 799 20G<1192.5 1320>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 3154 819 m 1
@@ -2684,7 +2733,7 @@ Width: 2015
 VWidth: 0
 Flags: W
 HStem: 0 844 799 20G<1319 1335 1839.5 2015>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 0 0 m 5x80
@@ -2718,7 +2767,7 @@ Width: 1990
 VWidth: 0
 Flags: W
 HStem: 0 21G<0 168.5> 799 20G<1814.5 1990>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 1089 664 m 0
@@ -2748,7 +2797,7 @@ VWidth: 0
 Flags: W
 HStem: 0 950 795 4G<1393.5 1532 2077.5 2253> 795 21G<1508 1535.23>
 VStem: 1508 24<795 950>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 1557 950 m 5x90
@@ -2784,7 +2833,7 @@ VWidth: 0
 Flags: W
 HStem: 0 8<1139 1418> 799 20G<2101.5 2180>
 VStem: 861 16<237.429 295>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 1139 8 m 5
@@ -2821,7 +2870,7 @@ Width: 2464
 VWidth: 0
 Flags: W
 HStem: 0 21G<0 416 606 1022> 799 20G<2048 2464>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 1524 410 m 4
@@ -2849,7 +2898,7 @@ Width: 3070
 VWidth: 0
 Flags: W
 HStem: 0 21G<0 416 606 1022 1212 1628> 799 20G<2654 3070>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 2130 410 m 0
@@ -2884,7 +2933,7 @@ Width: 1858
 VWidth: 0
 Flags: W
 HStem: 0 21G<401 459.006> 409.4 21G<400.569 656.031> 799 20G<1392.19 1458>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 401 0 m 29
@@ -2894,7 +2943,7 @@ SplineSet
  401 0 l 29
 EndSplineSet
 Refer: 61 -1 S 1 0 0 1 -164 0 2
-Validated: 524289
+Validated: 1
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part67 part11 part42 part62
 EndChar
 
@@ -2904,7 +2953,7 @@ Width: 1859
 VWidth: 0
 Flags: W
 HStem: 0 21G<0 416> 799 20G<1106 1522>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 917 410 m 4
@@ -2930,7 +2979,7 @@ Width: 1671
 VWidth: 0
 Flags: W
 HStem: 0 21G<0 83.5> 745 17<1429.83 1553.89> 799 20G<1093 1217>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 1344 811 m 5
@@ -2969,7 +3018,7 @@ VWidth: 0
 Flags: W
 HStem: 409.6 409.4 784 19<1316.32 1400> 800 19<1494.13 1703.35>
 VStem: 1318.9 344.096
-LayerCount: 3
+LayerCount: 5
 Fore
 Refer: 56 -1 S 1 0 0 1 1319 0 2
 Refer: 55 -1 N 1 0 0 1 -25 0 2
@@ -2984,7 +3033,7 @@ Width: 2261
 VWidth: 0
 Flags: W
 HStem: 0 21G<0 185.5> 799 20G<2237 2261> 1221 16<1344 2187>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 1344 1237 m 5
@@ -3022,7 +3071,7 @@ VWidth: 0
 Flags: W
 HStem: 784 19<243.317 327> 800 19<421.128 630.348> 819.2 819.2
 VStem: 688.071 665.929
-LayerCount: 3
+LayerCount: 5
 Fore
 Refer: 55 -1 N 1 0 0 1 -1098 0 2
 Refer: 54 -1 N 1 0 0 1 -647 0 2
@@ -3037,7 +3086,7 @@ Width: 2637
 VWidth: 0
 Flags: W
 HStem: 784 19<1275.32 1359> 800 19<1452.13 1661.35> 811 16<1713.88 1751.32>
-LayerCount: 3
+LayerCount: 5
 Fore
 Refer: 55 -1 S 1 0 0 1 -66 0 2
 Refer: 54 -1 S 1 0 0 1 384 0 2
@@ -3052,7 +3101,7 @@ Width: 2825
 VWidth: 0
 Flags: W
 HStem: -967 21G<237 300.534> 0 21G<0 177.5> 417.4 21G<1367.57 1623.03>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 2154 1638 m 29
@@ -3069,7 +3118,7 @@ SplineSet
  0 0 l 5
 EndSplineSet
 Refer: 61 -1 N 1 0 0 1 803 8 2
-Validated: 524293
+Validated: 5
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part14 part33 part67 part11 part62
 EndChar
 
@@ -3079,7 +3128,7 @@ Width: 4096
 VWidth: 0
 Flags: W
 HStem: 0 21G<573 1073> 799 20G<2515 2679>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 2679 819 m 5
@@ -3106,7 +3155,7 @@ Width: 2351
 VWidth: 0
 Flags: W
 HStem: 0 21G<0 219> 799 20G<1565.5 2310>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 2310 819 m 5
@@ -3131,7 +3180,7 @@ SplineSet
  2422.05859375 2476.95996094 2313 2664 1868 2075 c 4
  1501.72865155 1590.20488936 1254 1191 1075 848 c 5
 EndSplineSet
-Validated: 524321
+Validated: 33
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part14 part15 part6 part61 part17
 EndChar
 
@@ -3141,7 +3190,7 @@ Width: 4096
 VWidth: 0
 Flags: W
 HStem: 409.4 21G<1654.57 1910.03>
-LayerCount: 3
+LayerCount: 5
 Fore
 Refer: 61 -1 S 1 0 0 1 1090 0 2
 Refer: 60 -1 N 1 0 0 1 0 0 2
@@ -3154,7 +3203,7 @@ Encoding: 107 107 46
 Width: 4096
 VWidth: 0
 Flags: W
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 1262 0 m 13
@@ -3174,7 +3223,7 @@ SplineSet
  1893 655 1516 319 1262 0 c 13
 EndSplineSet
 Refer: 60 -1 N 1 0 0 1 0 0 2
-Validated: 524329
+Validated: 41
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part14 part15 part10 part27 part6 part62
 EndChar
 
@@ -3184,7 +3233,7 @@ Width: 2678
 VWidth: 0
 Flags: W
 HStem: 0 21G<172 341.5> 799 20G<1511.5 1639> 800 20G<1309.26 1948.52>
-LayerCount: 3
+LayerCount: 5
 Fore
 Refer: 58 -1 S 1 0 0 1 -115 0 2
 Refer: 52 -1 N 1 0 0 1 172 0 2
@@ -3198,7 +3247,7 @@ Width: 2417
 VWidth: 0
 Flags: W
 HStem: 417.4 21G<400.569 656.031> 800 20G<1383.26 2022.52>
-LayerCount: 3
+LayerCount: 5
 Fore
 Refer: 61 -1 N 1 0 0 1 -164 8 2
 Refer: 58 -1 N 1 0 0 1 -41 0 2
@@ -3212,7 +3261,7 @@ Width: 3137
 VWidth: 0
 Flags: W
 HStem: 784 19<1579.32 1663> 800 19<1756.13 1965.35> 800 20G<1621.26 2260.52>
-LayerCount: 3
+LayerCount: 5
 Fore
 Refer: 55 -1 S 1 0 0 1 238 0 2
 Refer: 54 -1 S 1 0 0 1 688 0 2
@@ -3227,7 +3276,7 @@ Width: 3341
 VWidth: 0
 Flags: W
 HStem: 0 21G<553.995 976.495> 410 21G<1414 1488> 799 20G<1295.5 1414 2246 2315>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 1413.99511719 410 m 9
@@ -3251,7 +3300,7 @@ SplineSet
  -308.004882812 -1769 29.9951171875 -1974 766.995117188 -893 c 0
  884.995117188 -720 1126.99511719 -254 1413.99511719 410 c 1
 EndSplineSet
-Validated: 524325
+Validated: 37
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part14 part15 part53 part54
 EndChar
 
@@ -3261,7 +3310,7 @@ Width: 2077
 VWidth: 0
 Flags: W
 HStem: 0 21G<578.05 994.05 1184.05 1270.55>
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 1495.04980469 410 m 0
@@ -3295,7 +3344,7 @@ Flags: W
 HStem: 0 21G<0 169.5> 799 20G<1339.5 1467>
 AnchorPoint: "cursive 3" -2 0 entry 0
 AnchorPoint: "Cursive 1" 1454 819 exit 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 0 0 m 1
@@ -3318,7 +3367,7 @@ Flags: W
 HStem: 799 20G<555.468 694.968 1239.47 1415.97>
 AnchorPoint: "Cursive 1" 1401.97 819 exit 0
 AnchorPoint: "Cursive 1" 681.968 819.2 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 1390.96777344 819 m 9
@@ -3344,7 +3393,7 @@ AnchorPoint: "Cursive 1" 1014 820.2 entry 0
 AnchorPoint: "cursive 3" -36 0 entry 0
 AnchorPoint: "cursive 2" 336 624.858 entry 0
 AnchorPoint: "Cursive 1" 1315.35 819 exit 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 1277.34765625 800 m 1
@@ -3358,7 +3407,7 @@ SplineSet
  667.34765625 197 936.34765625 426 1174.34765625 664 c 2
  1321.34765625 819 l 1
 EndSplineSet
-Validated: 524329
+Validated: 41
 EndChar
 
 StartChar: part5
@@ -3369,7 +3418,7 @@ Flags: W
 HStem: 784 19<1341.32 1425>
 AnchorPoint: "cursive 3" -0.0211579 0 entry 0
 AnchorPoint: "Cursive 1" 1425 795 exit 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 19 0 m 1
@@ -3391,7 +3440,7 @@ HStem: 409.6 409.4
 VStem: -0.0957031 344.096
 AnchorPoint: "Cursive 1" 13.1611 410 exit 0
 AnchorPoint: "Cursive 1" 334 819.2 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 -0.095703125 409.599609375 m 5
@@ -3400,7 +3449,7 @@ SplineSet
  23.904296875 409.599609375 l 5
  -0.095703125 409.599609375 l 5
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: part7
@@ -3412,7 +3461,7 @@ HStem: 819.2 819.2
 VStem: 614.071 665.929
 AnchorPoint: "Cursive 1" 624 820 exit 0
 AnchorPoint: "Cursive 1" 624 820 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 614.071289062 819.200195312 m 1
@@ -3421,7 +3470,7 @@ SplineSet
  638.071289062 819.200195312 l 1
  614.071289062 819.200195312 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: part8
@@ -3433,7 +3482,7 @@ HStem: 800 20G<1424.26 2063.52>
 AnchorPoint: "cursive 3" 2050 -3 exit 0
 AnchorPoint: "Cursive 1" 2051.04 820.2 exit 0
 AnchorPoint: "Cursive 1" 1555.04 820 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 1541.51855469 812 m 1
@@ -3446,7 +3495,7 @@ SplineSet
  -375 -1766 -92.5928688368 -1834.21544014 541 -808.200195312 c 2
  1541.51855469 812 l 1
 EndSplineSet
-Validated: 524325
+Validated: 37
 Substitution2: "'aalt' for parts before e-1" part73
 EndChar
 
@@ -3459,7 +3508,7 @@ HStem: 811 16<1378.88 1416.32>
 AnchorPoint: "cursive 3" 1406 0 exit 0
 AnchorPoint: "Cursive 1" 1416.32 819.2 exit 0
 AnchorPoint: "Cursive 1" 623.32 819 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 612.317382812 819 m 25
@@ -3472,7 +3521,7 @@ SplineSet
  636.317382812 819 l 1
  612.317382812 819 l 25
 EndSplineSet
-Validated: 524329
+Validated: 41
 EndChar
 
 StartChar: part10
@@ -3483,7 +3532,7 @@ Flags: W
 AnchorPoint: "cursive 3" 0 -2 entry 0
 AnchorPoint: "Cursive 1" 651 820 entry 0
 AnchorPoint: "Cursive 1" 13 0 exit 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 0 0 m 25
@@ -3492,7 +3541,7 @@ SplineSet
  637 819.200195312 l 1
  0 0 l 25
 EndSplineSet
-Validated: 524297
+Validated: 9
 EndChar
 
 StartChar: part11
@@ -3503,7 +3552,7 @@ Flags: W
 HStem: 409.4 21G<564.569 820.031>
 AnchorPoint: "Cursive 1" 577.47 410 exit 0
 AnchorPoint: "Cursive 1" 17.5693 409.6 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 0 409.599609375 m 1
@@ -3512,7 +3561,7 @@ SplineSet
  1055.16210938 1033.81152344 597.520507812 814.483398438 35.37109375 409.599609375 c 1
  0 409.599609375 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Substitution2: "'aalt' for initial part of glyphs like n after glyphs like b-1" part72
 EndChar
 
@@ -3523,7 +3572,7 @@ VWidth: 0
 Flags: W
 AnchorPoint: "Cursive 1" 1728 819.2 entry 0
 AnchorPoint: "Cursive 1" 1093 10 exit 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 1716 819 m 1
@@ -3541,7 +3590,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: uni0000
@@ -3549,7 +3598,7 @@ Encoding: 0 0 63
 Width: 0
 VWidth: 0
 Flags: W
-LayerCount: 3
+LayerCount: 5
 Fore
 Validated: 1
 EndChar
@@ -3561,7 +3610,7 @@ VWidth: 0
 Flags: W
 AnchorPoint: "Cursive 1" 15.2275 819.801 exit 0
 AnchorPoint: "Cursive 1" 15.2275 819.801 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 873 1902 m 2
@@ -3574,7 +3623,7 @@ SplineSet
  572.71484375 1549.03808594 286.264648438 1184.13574219 0 819.200195312 c 1
  29 819.200195312 l 1
 EndSplineSet
-Validated: 524329
+Validated: 41
 EndChar
 
 StartChar: part17
@@ -3586,7 +3635,7 @@ HStem: 799.487 20G<552.5 693>
 AnchorPoint: "cursive 3" 682 2 exit 0
 AnchorPoint: "Cursive 1" 678 820.006 exit 0
 AnchorPoint: "Cursive 1" 13 819.2 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 0 819 m 1
@@ -3595,7 +3644,7 @@ SplineSet
  693 819.200195312 l 1
  447 658 199 674 0 819 c 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Substitution2: "'aalt' for initial part of glyphs like n after glyphs like b-1" part71
 EndChar
 
@@ -3607,7 +3656,7 @@ Flags: W
 HStem: 722 20G<766.65 767.078> 819 21G<293.917 361.453 858.3 887.3>
 AnchorPoint: "Cursive 1" 305.217 409.6 exit 0
 AnchorPoint: "Cursive 1" 870.3 819 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 858.299804688 819 m 1
@@ -3625,7 +3674,7 @@ SplineSet
  949.299804688 826 845 944 634.299804688 754 c 0
  483.458007812 617.977539062 405.25 521.499023438 317.65625 409.599609375 c 1
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: part16
@@ -3637,7 +3686,7 @@ HStem: 799 20G<0 45.5>
 VStem: 0 17<793.416 819>
 AnchorPoint: "Cursive 1" 587 410.6 exit 0
 AnchorPoint: "Cursive 1" 9 819.2 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 17 819 m 1
@@ -3658,7 +3707,7 @@ HStem: 0 21G<0 276> 799 20G<1002 1237>
 VStem: 0 1237
 AnchorPoint: "cursive 3" 0 0 entry 0
 AnchorPoint: "Cursive 1" 1221 819.2 exit 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 1237 819 m 17
@@ -3679,7 +3728,7 @@ Flags: W
 HStem: 410 21G<0 61.1143 86.2471 170.247>
 AnchorPoint: "Cursive 1" 11.2471 409.6 exit 0
 AnchorPoint: "Cursive 1" 104.247 410.199 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 0 410 m 1
@@ -3692,7 +3741,7 @@ SplineSet
  179.889648438 586.924804688 99.228515625 499.060546875 23 410 c 1
  0 410 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: part21
@@ -3704,7 +3753,7 @@ HStem: 0 21G<0 169.5> 390 20G<878.5 929>
 VStem: 0 929
 AnchorPoint: "cursive 3" 0 0 entry 0
 AnchorPoint: "Cursive 1" 912 410 exit 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 899 410 m 1
@@ -3728,7 +3777,7 @@ HStem: 0 21G<0 251>
 VStem: 1479 18<848.92 926.984>
 AnchorPoint: "Cursive 1" 1037 820 exit 0
 AnchorPoint: "Cursive 1" 12 0 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 1044 819.200195312 m 1
@@ -3741,7 +3790,7 @@ SplineSet
  1493 734 1219 643 1031 806 c 5
  1044 819.200195312 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: part32
@@ -3753,7 +3802,7 @@ AnchorPoint: "cursive 3" 0 -1 entry 0
 AnchorPoint: "cursive 2" 249 625.858 entry 0
 AnchorPoint: "Cursive 1" 604.117 819.2 exit 0
 AnchorPoint: "Cursive 1" 560.117 808.2 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 178.557617188 527.759765625 m 0
@@ -3767,7 +3816,7 @@ SplineSet
  352.422851562 56.5068359375 148.975585938 -50.8974609375 50.5576171875 17.759765625 c 0
  -47.8603515625 86.4169921875 1.5927734375 331.734375 162.557617188 537.759765625 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: part33
@@ -3778,7 +3827,7 @@ Flags: W
 HStem: -967 21G<-790 -749.363> 819 21G<413 515>
 AnchorPoint: "Cursive 1" -23 0.200195 exit 0
 AnchorPoint: "Cursive 1" 425 819.4 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 413 819 m 1
@@ -3790,7 +3839,7 @@ SplineSet
  827 1138 592 951 438 819 c 1
  413 819 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: part35
@@ -3802,7 +3851,7 @@ HStem: 410 539 819 21G<133.281 179.281>
 VStem: 0 329.281
 AnchorPoint: "Cursive 1" 12.2803 410.2 exit 0
 AnchorPoint: "Cursive 1" 146.28 819.2 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 0 410 m 1xa0
@@ -3816,7 +3865,7 @@ SplineSet
  24 410 l 1
  0 410 l 1xa0
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: part37
@@ -3828,7 +3877,7 @@ HStem: 819.2 21G<1393 1441.5>
 VStem: 562 19<186.301 214>
 AnchorPoint: "Cursive 1" 790 9 exit 0
 AnchorPoint: "Cursive 1" 1406 819.2 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 562 214 m 1
@@ -3840,7 +3889,7 @@ SplineSet
  1519 949 1541.08886155 949.214763948 1541 949 c 0
  1054 -228 640 -96 562 214 c 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: part39
@@ -3852,7 +3901,7 @@ HStem: 818.2 21G<1386.54 1432.57> 1221 16<1344 2187>
 VStem: 1344 843<1221 1237>
 AnchorPoint: "Cursive 1" 1407 818.001 exit 0
 AnchorPoint: "Cursive 1" 1397 818.2 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 1344 1237 m 1
@@ -3866,7 +3915,7 @@ SplineSet
  2062 1638 l 1
  1416.83496094 818.200195312 l 1
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: part42
@@ -3878,7 +3927,7 @@ HStem: 0 21G<231 274.75> 800 20G<1119 1122.98>
 VStem: 231 913.734
 AnchorPoint: "Cursive 1" 687 410 exit 0
 AnchorPoint: "Cursive 1" 687 410 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 231 0 m 1
@@ -3887,7 +3936,7 @@ SplineSet
  253 0 l 1
  231 0 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: part51
@@ -3897,7 +3946,7 @@ VWidth: 0
 Flags: W
 AnchorPoint: "Cursive 1" 2487 819.2 exit 0
 AnchorPoint: "Cursive 1" 1102 0 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 1089 0 m 1
@@ -3910,7 +3959,7 @@ SplineSet
  -165.349609375 -1814.61816406 62.9248046875 -1770.02441406 532 -1102 c 0
  967.265625 -482.125 1338.42089844 163.87109375 1089 0 c 1
 EndSplineSet
-Validated: 524325
+Validated: 37
 Substitution2: "'aalt' for parts before a d g o and q-1" part69
 EndChar
 
@@ -3923,7 +3972,7 @@ HStem: 0 19<0.0683594 99.6909> 798.953 20G<1192.78 1427>
 AnchorPoint: "cursive 3" 1427 0 exit 0
 AnchorPoint: "Cursive 1" 1412 819.252 exit 0
 AnchorPoint: "Cursive 1" 0.99707 9 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 0.068359375 0 m 9
@@ -3932,7 +3981,7 @@ SplineSet
  1427 818.953125 l 17
  988.997070312 465 412.997070312 -12 0.068359375 0 c 9
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: part56
@@ -3944,7 +3993,7 @@ HStem: 0 21G<0 83.5> 795 24<1196.45 1213>
 VStem: 0 1237
 AnchorPoint: "cursive 3" 0 0 entry 0
 AnchorPoint: "Cursive 1" 1225 807 exit 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 418 434 m 0
@@ -3968,7 +4017,7 @@ HStem: 1622 33<0.026062 32.9768>
 VStem: 0 33<1622.02 1654.97>
 AnchorPoint: "Cursive 1" -602 814 exit 0
 AnchorPoint: "Cursive 1" -602 814 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 0 1638 m 0
@@ -3987,7 +4036,7 @@ VWidth: 0
 Flags: W
 AnchorPoint: "Cursive 1" 43 819.2 exit 0
 AnchorPoint: "Cursive 1" 43 819.2 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 Validated: 1
 EndChar
@@ -3999,7 +4048,7 @@ VWidth: 0
 Flags: W
 AnchorPoint: "Cursive 1" 507 0 exit 0
 AnchorPoint: "Cursive 1" 507 0 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 Validated: 1
 Substitution2: "'aalt' for initial part of glyphs like n after glyphs like b-1" null3
@@ -4012,7 +4061,7 @@ VWidth: 0
 Flags: W
 AnchorPoint: "Cursive 1" 930.736 819.2 exit 0
 AnchorPoint: "Cursive 1" 217.736 409.8 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 206.736328125 409 m 1
@@ -4023,7 +4072,7 @@ SplineSet
  121.447265625 -11.765625 -203.833984375 -147 230.736328125 409 c 1
  206.736328125 409 l 1
 EndSplineSet
-Validated: 524329
+Validated: 41
 EndChar
 
 StartChar: part62
@@ -4034,7 +4083,7 @@ Flags: W
 AnchorPoint: "cursive 3" 1313 2 exit 0
 AnchorPoint: "Cursive 1" 1298.46 819.2 exit 0
 AnchorPoint: "Cursive 1" 215.265 409.6 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 204.46484375 409.799804688 m 1
@@ -4043,7 +4092,7 @@ SplineSet
  569.46484375 221.200195312 -413.9140625 -407.799804688 228.46484375 409.799804688 c 0
  228.46484375 409.799804688 204.46484375 409.799804688 204.46484375 409.799804688 c 1
 EndSplineSet
-Validated: 524329
+Validated: 41
 Substitution2: "'aalt' for parts before m n x and z-1" part68
 Substitution2: "'aalt' for parts before a d g o and q-1" part66
 Substitution2: "'aalt' for parts before c-1" part65
@@ -4059,7 +4108,7 @@ HStem: 0.599609 409.4
 VStem: -0.0996094 344.096
 AnchorPoint: "Cursive 1" 333.996 410.2 entry 0
 AnchorPoint: "Cursive 1" 13.1572 1 exit 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 -0.099609375 0.599609375 m 5
@@ -4068,7 +4117,7 @@ SplineSet
  23.900390625 0.599609375 l 5
  -0.099609375 0.599609375 l 5
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: part64
@@ -4078,7 +4127,7 @@ VWidth: 0
 Flags: W
 AnchorPoint: "Cursive 1" 960.516 409.199 exit 0
 AnchorPoint: "Cursive 1" 194.763 409.799 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 183.842773438 409 m 1
@@ -4087,7 +4136,7 @@ SplineSet
  345.853515625 29.6396484375 -311.698242188 -236 206.510742188 409 c 1
  183.842773438 409 l 1
 EndSplineSet
-Validated: 524329
+Validated: 41
 EndChar
 
 StartChar: part65
@@ -4098,7 +4147,7 @@ Flags: W
 HStem: 389.6 429.601G<223.887 322 1447.1 1837>
 AnchorPoint: "Cursive 1" 310 409.6 entry 0
 AnchorPoint: "Cursive 1" 1821 819.2 exit 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 322 409.599609375 m 1
@@ -4109,7 +4158,7 @@ SplineSet
  110.784179687 109.756835938 149.774414062 218.737304688 298 409.599609375 c 1
  322 409.599609375 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: part66
@@ -4120,7 +4169,7 @@ Flags: W
 HStem: 605.857 20G<726.251 1147.35>
 AnchorPoint: "cursive 2" 1129 624.858 exit 0
 AnchorPoint: "Cursive 1" 200.707 409.6 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 1147.34960938 625.857421875 m 1
@@ -4129,7 +4178,7 @@ SplineSet
  -358.696289062 -319.329101562 446.388671875 102.012695312 1116.03808594 625.857421875 c 1
  1147.34960938 625.857421875 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: glyph90
@@ -4139,7 +4188,7 @@ VWidth: 0
 Flags: W
 AnchorPoint: "cursive 3" 1950 0 exit 0
 AnchorPoint: "cursive 3" 0 0 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 Validated: 1
 EndChar
@@ -4152,7 +4201,7 @@ Flags: W
 AnchorPoint: "cursive 3" -1 0 entry 0
 AnchorPoint: "Cursive 1" 536.198 409.6 exit 0
 AnchorPoint: "Cursive 1" 14.1982 0.599609 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 520.629882812 409.599609375 m 1
@@ -4161,7 +4210,7 @@ SplineSet
  198.14453125 141.299804688 382.07421875 284.331054688 556 409.599609375 c 1
  520.629882812 409.599609375 l 1
 EndSplineSet
-Validated: 524297
+Validated: 9
 Substitution2: "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs-1" null2
 EndChar
 
@@ -4172,7 +4221,7 @@ VWidth: 0
 Flags: W
 AnchorPoint: "Cursive 1" 773.461 409.8 exit 0
 AnchorPoint: "Cursive 1" 215.266 409.6 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 757.662109375 409.599609375 m 1
@@ -4181,7 +4230,7 @@ SplineSet
  -258.458984375 -186.283203125 119.055664062 -82.19921875 793.033203125 409.599609375 c 1
  757.662109375 409.599609375 l 1
 EndSplineSet
-Validated: 524329
+Validated: 41
 EndChar
 
 StartChar: part69
@@ -4191,7 +4240,7 @@ VWidth: 0
 Flags: W
 AnchorPoint: "cursive 2" 2064 625.858 exit 0
 AnchorPoint: "Cursive 1" 1101.57 0 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 2049.29980469 625.857421875 m 1
@@ -4204,7 +4253,7 @@ SplineSet
  221.965820312 -1143.25585938 765.885742188 -57.1337890625 2082 625.857421875 c 1
  2049.29980469 625.857421875 l 1
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: part70
@@ -4214,7 +4263,7 @@ VWidth: 0
 Flags: W
 AnchorPoint: "Cursive 1" 1694 409.8 exit 0
 AnchorPoint: "Cursive 1" 1102 0 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 1679.232336 410.070890353 m 1
@@ -4227,7 +4276,7 @@ SplineSet
  215.562531289 -1155.60853619 662.353695928 -264.604639985 1710.69414629 410.378305543 c 1
  1679.232336 410.070890353 l 1
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: part71
@@ -4237,7 +4286,7 @@ VWidth: 0
 Flags: W
 AnchorPoint: "Cursive 1" 577 763 exit 0
 AnchorPoint: "Cursive 1" 19 819.2 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 573.415039062 769.502929688 m 1
@@ -4246,7 +4295,7 @@ SplineSet
  190.602539062 688.916992188 375.694335938 673.80078125 579.474609375 755.520507812 c 1
  573.415039062 769.502929688 l 1
 EndSplineSet
-Validated: 524329
+Validated: 41
 EndChar
 
 StartChar: part72
@@ -4257,7 +4306,7 @@ Flags: W
 HStem: 409.4 21G<564.569 746.961>
 AnchorPoint: "Cursive 1" 577.47 410 exit 0
 AnchorPoint: "Cursive 1" 576.569 762.6 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 573.415447509 769.50281344 m 1
@@ -4266,7 +4315,7 @@ SplineSet
  882.132460261 813.584799637 804 858 579.474587121 755.520183567 c 1
  573.415447509 769.50281344 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: null3
@@ -4276,7 +4325,7 @@ VWidth: 0
 Flags: W
 AnchorPoint: "Cursive 1" 577 763 entry 0
 AnchorPoint: "Cursive 1" 577 763 exit 0
-LayerCount: 3
+LayerCount: 5
 Fore
 Validated: 1
 EndChar
@@ -4288,7 +4337,7 @@ VWidth: 0
 VStem: 390 62<-45.9682 39.2772>
 AnchorPoint: "cursive 3" 511 0 exit 0
 AnchorPoint: "cursive 3" 334 0 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 452 16 m 0
@@ -4299,7 +4348,7 @@ SplineSet
  403 -46 381.229492188 -2.15625 390 11 c 0
  412.434570312 44.65234375 452 64 452 16 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: part73
@@ -4309,7 +4358,7 @@ VWidth: 0
 Flags: W
 AnchorPoint: "Cursive 1" 1665.52 408.8 exit 0
 AnchorPoint: "Cursive 1" 1555.04 820 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 1650.94098487 409.599609375 m 5
@@ -4322,7 +4371,7 @@ SplineSet
  199 -827.200195312 842 -63 1684.94959259 409.599609375 c 1
  1650.94098487 409.599609375 l 5
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: period
@@ -4333,7 +4382,7 @@ HStem: 1 18<587.003 604.997>
 VStem: 587 18<1.00292 18.9971>
 AnchorPoint: "cursive 3" 606 0 exit 0
 AnchorPoint: "cursive 3" 586 0 entry 0
-LayerCount: 3
+LayerCount: 5
 Fore
 SplineSet
 587 10 m 0
@@ -4343,6 +4392,248 @@ SplineSet
  591 1 587 5 587 10 c 0
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: zero
+Encoding: 48 48 101
+Width: 896
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive 3" 540 1 exit 0
+AnchorPoint: "cursive 3" -0.496498 0 entry 0
+LayerCount: 5
+Fore
+SplineSet
+246.64453125 627.80859375 m 4
+ 55.3642578125 382.981445312 11.9501953125 107.6484375 109.086914062 39.630859375 c 4
+ 206.225585938 -28.3857421875 438.390625 85.333984375 629.671875 330.163085938 c 4
+ 820.952148438 574.989257812 890.924804688 867.09765625 792.131835938 933.755859375 c 4
+ 693.831054688 1000.08105469 437.92578125 872.635742188 246.64453125 627.80859375 c 4
+227.670898438 639.666015625 m 4
+ 432.69921875 902.08984375 686.221679688 1028.49902344 805.700195312 951.206054688 c 4
+ 925.176757812 873.912109375 839.9140625 557.143554688 648.64453125 315.932617188 c 4
+ 452.821289062 68.9775390625 211.565429688 -58.38671875 94.8564453125 23.029296875 c 4
+ -21.8515625 104.446289062 36.79296875 395.353515625 227.670898438 639.666015625 c 4
+EndSplineSet
+EndChar
+
+StartChar: one
+Encoding: 49 49 102
+Width: 1004
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive 3" 617 1 exit 0
+AnchorPoint: "cursive 3" 3 0 entry 0
+LayerCount: 5
+Fore
+SplineSet
+100 0 m 25
+ 139 0 l 25
+ 904 975 l 25
+ 865 975 l 25
+ 100 0 l 25
+EndSplineSet
+EndChar
+
+StartChar: two
+Encoding: 50 50 103
+Width: 1015
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive 3" 963 0 exit 0
+AnchorPoint: "cursive 3" 7 0 entry 0
+LayerCount: 5
+Fore
+SplineSet
+721.625976562 948.330078125 m 1
+ 714.11328125 927.1015625 683.373046875 842.946289062 640.141601562 799.196289062 c 0
+ 590.778320312 749.240234375 542.177734375 736.064453125 510.012695312 752.810546875 c 0
+ 477.33203125 769.826171875 470.227539062 813.39453125 494.252929688 859.172851562 c 0
+ 521.219726562 910.555664062 569.038085938 946.955078125 622.024414062 962.920898438 c 0
+ 652.1640625 972.002929688 684.084960938 974.502929688 714.97265625 969.24609375 c 0
+ 780.490234375 958.094726562 840.40234375 911.776367188 867.145507812 822.91796875 c 0
+ 934.247070312 599.966796875 554.044921875 248.584960938 288.928710938 64.021484375 c 1
+ 563.341796875 -29.0703125 836.63671875 81.0439453125 887.712890625 119.3515625 c 1
+ 893.47265625 111.671875 l 1
+ 899.232421875 103.991210938 l 1
+ 841.686523438 60.8310546875 557.016601562 -53.1005859375 270.859375 50.0029296875 c 0
+ 269.95703125 50.328125 270.481445312 50.138671875 269.338867188 50.5517578125 c 2
+ 269.338867188 50.5517578125 268.745117188 50.1494140625 267.950195312 49.6103515625 c 0
+ 255.163085938 40.943359375 242.66015625 32.6875 230.502929688 24.875 c 0
+ 193.63671875 1.1845703125 163.868164062 -2.9541015625 142.958984375 6.326171875 c 0
+ 118.208984375 17.3115234375 110.779296875 45.248046875 120.56640625 67.2978515625 c 0
+ 133.6015625 96.66796875 173.749023438 112.286132812 233.057617188 85.8818359375 c 0
+ 243.53515625 81.216796875 254.030273438 76.8759765625 264.53125 72.8427734375 c 0
+ 265.427734375 72.4990234375 265.036132812 72.6494140625 266.713867188 72.0078125 c 2
+ 266.713867188 72.0078125 267.208007812 72.3466796875 267.999023438 72.890625 c 0
+ 536.208007812 257.2421875 910.80078125 611.252929688 848.760742188 817.384765625 c 0
+ 825.287109375 895.375976562 776.013671875 935.629882812 721.625976562 948.330078125 c 1
+702.422851562 951.641601562 m 1
+ 628.18359375 960.049804688 547.911132812 920.09765625 511.25390625 850.25 c 0
+ 489.642578125 809.07421875 499.423828125 779.969726562 518.879882812 769.840820312 c 0
+ 539.369140625 759.173828125 579.375976562 765.016601562 626.485351562 812.690429688 c 0
+ 663.247070312 849.89453125 693.390625 926.64453125 702.422851562 951.641601562 c 1
+247.428710938 58.9384765625 m 1
+ 240.03125 61.927734375 232.439453125 65.1396484375 225.249023438 68.3408203125 c 0
+ 170.6171875 92.6640625 145.255859375 75.59765625 138.115234375 59.5078125 c 0
+ 132.030273438 45.7998046875 136.779296875 30.0751953125 150.748046875 23.8759765625 c 0
+ 162.99609375 18.439453125 185.850585938 19.00390625 220.124023438 41.0283203125 c 0
+ 228.965820312 46.7099609375 238.150390625 52.734375 247.428710938 58.9384765625 c 1
+EndSplineSet
+Layer: 3
+SplineSet
+722.455078125 975 m 21
+ 722.455078125 975 686.805664062 868.130859375 638.455078125 819.200195312 c 4
+ 538.455078125 718 454.682617188 778.973632812 502.455078125 870 c 4
+ 576.455078125 1011 810.455078125 1040 872.455078125 834 c 4
+ 944.3515625 595.118164062 490.455078125 192 213.455078125 14 c 4
+ 78.1357421875 -72.95703125 71.455078125 125 217.455078125 60 c 4
+ 526.318359375 -77.5078125 849.455078125 51 909.455078125 96 c 1029
+EndSplineSet
+EndChar
+
+StartChar: three
+Encoding: 51 51 104
+Width: 4096
+VWidth: 0
+Flags: H
+LayerCount: 5
+Fore
+SplineSet
+687.139648438 953.799804688 m 5
+ 637.920898438 959.821289062 581.357421875 947.639648438 530.088867188 916.140625 c 4
+ 437.479492188 859.243164062 414.619140625 779.19140625 431.309570312 752.081054688 c 4
+ 439.616210938 738.586914062 462.467773438 731.073242188 508.225585938 759.37890625 c 4
+ 552.91015625 787.01953125 612.344726562 844.962890625 687.625 953.716796875 c 5
+ 687.311523438 953.770507812 687.139648438 953.799804688 687.139648438 953.799804688 c 5
+688.947265625 953.490234375 m 6
+ 704.33203125 942.86328125 l 5
+ 629.166992188 834.024414062 566.891601562 772.251953125 518.701171875 742.442382812 c 4
+ 471.057617188 712.970703125 431.8671875 713.189453125 414.3515625 741.640625 c 4
+ 387.305664062 785.572265625 424.610351562 874.7109375 519.6640625 933.109375 c 4
+ 577.999023438 968.950195312 643.20703125 981.844726562 699.896484375 972.043945312 c 4
+ 704.908203125 971.176757812 709.853515625 970.131835938 714.72265625 968.909179688 c 4
+ 804.484375 946.352539062 865.010742188 862.926757812 831.250976562 729.268554688 c 4
+ 793.134765625 578.361328125 659.907226562 513.280273438 552.844726562 494.291992188 c 5
+ 555.884765625 490.0390625 558.831054688 485.6171875 561.469726562 481.3359375 c 4
+ 646.034179688 344.072265625 562.176757812 147.62109375 405.608398438 51.8564453125 c 4
+ 333.7109375 7.880859375 259.646484375 -6.5244140625 194.2109375 2.072265625 c 4
+ 68.1630859375 18.6357421875 -25.55078125 121.108398438 -7.7412109375 256.55859375 c 5
+ 12.001953125 253.962890625 l 5
+ -4.2666015625 130.234375 80.140625 37.146484375 196.805664062 21.8173828125 c 4
+ 257.440429688 13.8515625 326.874023438 27.0439453125 395.216796875 68.8447265625 c 4
+ 546.047851562 161.100585938 620.888671875 346.919921875 544.514648438 470.888671875 c 4
+ 540.34765625 477.655273438 535.580078125 484.436523438 530.416992188 490.942382812 c 4
+ 529.849609375 490.874023438 529.23828125 490.799804688 528.72265625 490.73828125 c 4
+ 512.956054688 488.874023438 497.940429688 488.0078125 484.051757812 488.0078125 c 4
+ 462.943359375 488.0078125 446.641601562 492.889648438 435.064453125 500.920898438 c 4
+ 415.579101562 514.438476562 410.172851562 537.432617188 421.41015625 553.538085938 c 4
+ 434.393554688 572.1484375 462.861328125 573.489257812 493.735351562 551.931640625 c 4
+ 510.364257812 540.319335938 524.833984375 527.509765625 537.213867188 513.72265625 c 4
+ 537.583984375 513.310546875 538.149414062 512.67578125 538.61328125 512.150390625 c 4
+ 643.607421875 527.947265625 775.276367188 588.9765625 811.943359375 734.145507812 c 4
+ 844.002929688 861.073242188 787.000976562 931.946289062 706.270507812 950.458984375 c 4
+ 705.490234375 950.637695312 693.565429688 952.6953125 688.947265625 953.490234375 c 6
+514.004882812 509.25 m 5
+ 504.641601562 518.561523438 494.086914062 527.397460938 482.3359375 535.602539062 c 4
+ 455.052734375 554.655273438 441.489257812 547.515625 437.7421875 542.143554688 c 4
+ 434.022460938 536.8125 433.876953125 525.982421875 446.415039062 517.282226562 c 4
+ 453.838867188 512.133789062 465.95703125 507.921875 484.051757812 507.921875 c 4
+ 493.744140625 507.921875 502.079101562 508.24609375 514.004882812 509.25 c 5
+EndSplineSet
+Layer: 3
+SplineSet
+1136 -5060 m 0
+ 857 -5464 758.985527554 -5209.95660399 964 -5084 c 0
+ 1117 -4990 1317 -5060 1262 -5277.75 c 0
+ 1216.55282978 -5457.67947846 1031.91601562 -5512.5 923 -5512.5 c 4
+ 833 -5512.5 856.202369099 -5417.06372325 927 -5466.5 c 4
+ 1101 -5588 1023.11450042 -5839.38627644 839 -5952 c 4
+ 633 -6078 413 -5954 439 -5756.25 c 1028
+EndSplineSet
+EndChar
+
+StartChar: four
+Encoding: 52 52 105
+Width: 4096
+VWidth: 0
+Flags: H
+LayerCount: 5
+Fore
+SplineSet
+1165.29394531 970.770507812 m 5
+ 1169.78027344 961.72265625 l 5
+ 936.3671875 846.00390625 276.392578125 -1.9921875 276.392578125 -1.9921875 c 5
+ 271.073242188 2.13671875 265.754882812 6.265625 260.435546875 10.3935546875 c 4
+ 260.703125 10.7392578125 917.236328125 859.06640625 1160.80859375 979.819335938 c 5
+ 1165.29394531 970.770507812 l 5
+454.25390625 733.673828125 m 5
+ 463.184570312 728.956054688 l 5
+ 356.52734375 527.038085938 174.669921875 319.260742188 121.647460938 260.48828125 c 5
+ 797.654296875 260.48828125 l 5
+ 797.654296875 250.388671875 l 5
+ 797.654296875 240.288085938 l 5
+ 98.734375 240.288085938 l 6
+ 96.7939453125 240.288085938 94.2392578125 241.053710938 92.4365234375 242.493164062 c 4
+ 87.8974609375 246.112304688 87.3916015625 253.045898438 91.3564453125 257.287109375 c 6
+ 91.3564453125 257.287109375 320.884765625 502.809570312 445.32421875 738.390625 c 5
+ 454.25390625 733.673828125 l 5
+EndSplineSet
+Layer: 3
+SplineSet
+1956 -5043 m 4
+ 1720 -5160 1068 -6000 1068 -6000 c 1028
+1252 -5277.75 m 4
+ 1128 -5512.5 900 -5756.25 900 -5756.25 c 5
+ 1592 -5756.25 l 1029
+EndSplineSet
+EndChar
+
+StartChar: five
+Encoding: 53 53 106
+Width: 4096
+VWidth: 0
+Flags: HW
+LayerCount: 5
+Fore
+SplineSet
+1501 969.499023438 m 1
+ 1501 959.999023438 l 1
+ 1026.20996094 959.999023438 l 1
+ 882.392578125 734.907226562 747.087890625 582.633789062 639.733398438 520.663085938 c 1
+ 725.508789062 440.94921875 680.639648438 259.565429688 581.829101562 144.315429688 c 0
+ 477.254882812 22.3427734375 310.141601562 -25.279296875 198.678710938 11.3759765625 c 0
+ 109.614257812 40.6650390625 58.6826171875 124.64453125 102.9765625 259.21875 c 1
+ 112 256.249023438 l 1
+ 121.0234375 253.279296875 l 1
+ 79.1669921875 126.107421875 126.0078125 55.275390625 204.614257812 29.4248046875 c 0
+ 306.948242188 -4.228515625 467.279296875 39.8984375 567.405273438 156.682617188 c 0
+ 666.93359375 272.770507812 700.00390625 447.967773438 621.791015625 511.053710938 c 1
+ 594.708984375 497.719726562 569.291992188 490.499023438 546 490.499023438 c 0
+ 542.328125 490.499023438 538.80078125 490.581054688 535.415039062 490.741210938 c 0
+ 499.53125 492.430664062 471.282226562 502.872070312 472.38671875 524.845703125 c 0
+ 473.58203125 548.616210938 508.073242188 558.227539062 550.612304688 555.479492188 c 0
+ 579.333007812 553.624023438 603.784179688 545.796875 623.397460938 533.288085938 c 1
+ 726.731445312 589.622070312 866.427734375 744.294921875 1012.98535156 974.599609375 c 0
+ 1014.64941406 977.213867188 1017.74707031 978.999023438 1021 978.999023438 c 2
+ 1501 978.999023438 l 1
+ 1501 969.499023438 l 1
+603 522 m 1
+ 588.327148438 529.240234375 570.576171875 533.99609375 549.596679688 535.3515625 c 0
+ 504.276367188 538.279296875 491.629882812 523.868164062 491.572265625 522.724609375 c 0
+ 491.568359375 522.657226562 498.119140625 510.360351562 536.517578125 508.552734375 c 0
+ 539.591796875 508.407226562 542.822265625 508.33203125 546.208984375 508.33203125 c 0
+ 562.77734375 508.33203125 581.911132812 512.8515625 603 522 c 1
+EndSplineSet
+Layer: 3
+SplineSet
+1878 -5043 m 29
+ 1398 -5043 l 5
+ 1209 -5340 1031.91601562 -5512.5 923 -5512.5 c 4
+ 833 -5512.5 840.830070513 -5460.93284163 927 -5466.5 c 4
+ 1105 -5478 1074.51027369 -5718.66065875 951.6171875 -5862 c 4
+ 769 -6075 391 -6054 489 -5756.25 c 1028
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
