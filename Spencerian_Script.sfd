@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1552059585
+ModificationTime: 1552060122
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -47,7 +47,7 @@ Lookup: 1 0 0 "'aalt' for parts before c" { "'aalt' for parts before c-1"  } ['a
 Lookup: 1 0 0 "'aalt' for parts before a d g o and q" { "'aalt' for parts before a d g o and q-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'aalt' for parts before m n x and z" { "'aalt' for parts before m n x and z-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'aalt' for initial part of glyphs like n after glyphs like b" { "'aalt' for initial part of glyphs like n after glyphs like b-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'aalt' for quotation" { "'aalt' for quotation-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'fina' for quotation" { "'fina' for quotation-1"  } ['fina' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' For replacing first parts of glyphs with intermedite glyphs(null1 and null2)" { "'calt' For replacing first parts of glyphs with intermedite glyphs(null1 and null2)-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' for parts before e" { "'calt' for parts before e-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' for parts before c" { "'calt' for parts before c-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -92,22 +92,16 @@ KernClass2: 20 10 "'kern' Horizontal Kerning in Latin lookup 1-1"
  7 glyph90
  3 A F
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -1099 {} -819 {} -1163 {} -1366 {} 0 {} -978 {} -800 {} 0 {} -532 {} 0 {} -1533 {} 0 {} -1189 {} 0 {} -1397 {} -1186 {} 0 {} -556 {} -757 {} 0 {} -1445 {} 0 {} -1135 {} 0 {} -1357 {} -1072 {} 0 {} -70 {} -400 {} 0 {} -1906 {} 0 {} -1555 {} 0 {} -1772 {} -1548 {} 0 {} -811 {} -1080 {} 0 {} -3118 {} 0 {} -2756 {} 0 {} -2992 {} -2734 {} 0 {} 0 {} -2498 {} 0 {} -3103 {} 0 {} -2754 {} 0 {} -2989 {} -2721 {} 0 {} -1347 {} -2183 {} 0 {} -2627 {} 0 {} -2280 {} 0 {} -2504 {} -2253 {} 0 {} -216 {} -1961 {} 0 {} -2487 {} 0 {} -2152 {} 0 {} -2359 {} -2130 {} 0 {} -444 {} -1615 {} 0 {} -1284 {} 0 {} -800 {} 0 {} -1016 {} -938 {} 0 {} 0 {} -1158 {} 0 {} -1043 {} 0 {} -696 {} 0 {} -901 {} -701 {} 0 {} -120 {} -395 {} 0 {} -917 {} 0 {} -593 {} 0 {} -821 {} -539 {} 0 {} 0 {} 0 {} 0 {} -1712 {} 0 {} -1337 {} 0 {} -1547 {} -1358 {} 0 {} 0 {} -924 {} 0 {} -2571 {} 0 {} -2224 {} 0 {} -2461 {} -2186 {} 0 {} 0 {} -1850 {} 0 {} -2125 {} 0 {} -1744 {} 0 {} -1951 {} -1777 {} 0 {} -307 {} -1405 {} 0 {} -2224 {} 0 {} -1869 {} 0 {} -2088 {} -1860 {} 0 {} -745 {} -1630 {} 0 {} -1065 {} 0 {} -760 {} 0 {} -977 {} -695 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
-ChainSub2: class "'calt' for quotation-1" 3 3 3 1
-  Class: 520 uni0000 glyph90 exclam glyph98 period zero one two three four five six seven eight nine colon semicolon question A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z part0 part1 part4 part5 part6 part7 part8 part9 part10 part11 part53 part15 part17 part18 part16 part14 part20 part21 part27 part32 part33 part35 part37 part39 part42 part51 part54 part56 part58 null1 null2 part61 part62 part63 part64 part65 part66 part67 part68 part69 part70 part71 part72 null3 part73
-  Class: 8 quotedbl
-  BClass: 520 uni0000 glyph90 exclam glyph98 period zero one two three four five six seven eight nine colon semicolon question A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z part0 part1 part4 part5 part6 part7 part8 part9 part10 part11 part53 part15 part17 part18 part16 part14 part20 part21 part27 part32 part33 part35 part37 part39 part42 part51 part54 part56 part58 null1 null2 part61 part62 part63 part64 part65 part66 part67 part68 part69 part70 part71 part72 null3 part73
-  BClass: 8 quotedbl
-  FClass: 520 uni0000 glyph90 exclam glyph98 period zero one two three four five six seven eight nine colon semicolon question A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z part0 part1 part4 part5 part6 part7 part8 part9 part10 part11 part53 part15 part17 part18 part16 part14 part20 part21 part27 part32 part33 part35 part37 part39 part42 part51 part54 part56 part58 null1 null2 part61 part62 part63 part64 part65 part66 part67 part68 part69 part70 part71 part72 null3 part73
-  FClass: 8 quotedbl
- 2 1 0
-  ClsList: 1 2
-  BClsList: 2
+ChainSub2: class "'calt' for quotation-1" 1 1 1 1
+ 1 0 0
+  ClsList: 0
+  BClsList:
   FClsList:
  1
-  SeqLookup: 1 "'aalt' for quotation"
-  ClassNames: "All_Others" "class1" "Quotaion"
-  BClassNames: "All_Others" "class1" "Quotaion"
-  FClassNames: "All_Others" "class1" "Quotaion"
+  SeqLookup: 0 "'fina' for quotation"
+  ClassNames: "All_Others"
+  BClassNames: "All_Others"
+  FClassNames: "All_Others"
 EndFPST
 ChainSub2: coverage "'calt' for initial part of ghlyps like n after glyphs like b-1" 0 0 0 1
  3 0 0
@@ -171,7 +165,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 14 6
+WinInfo: 42 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -4826,7 +4820,7 @@ LayerCount: 5
 Fore
 Refer: 98 44 S -1 0 0 -1 793 41 2
 Refer: 98 44 N -1 0 0 -1 641 41 2
-Substitution2: "'aalt' for quotation-1" Quotation_Mark2
+Substitution2: "'fina' for quotation-1" Quotation_Mark2
 EndChar
 
 StartChar: Quotation_Mark2
