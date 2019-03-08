@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1552046767
+ModificationTime: 1552049951
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -281,7 +281,7 @@ Grid
   EndSpiro
 EndSplineSet
 AnchorClass2: "cursive 3" "'curs' for parts and glyphs without anchor points__ it is for space problem-1" "cursive 2" "'curs' a d g o and q-1" "Cursive 1" "'curs'-1"
-BeginChars: 310 113
+BeginChars: 310 114
 
 StartChar: O
 Encoding: 79 79 0
@@ -4770,6 +4770,19 @@ SplineSet
  1165.04980469 2224 2325.04980469 1276 1429.04980469 784.043945312 c 4
  1044.44140625 572.872070312 617.049804688 625.857421875 258.927734375 240 c 1029
 EndSplineSet
+EndChar
+
+StartChar: colon
+Encoding: 58 58 113
+Width: 2699
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive 3" 1359 0 exit 0
+AnchorPoint: "cursive 3" 1020 1 entry 0
+LayerCount: 5
+Fore
+Refer: 100 46 N 1 0 0 1 585 -2 2
+Refer: 100 46 N 1 0 0 1 1208.04 794 2
 EndChar
 EndChars
 EndSplineFont
