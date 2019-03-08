@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1552042539
+ModificationTime: 1552046767
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -4334,21 +4334,21 @@ StartChar: glyph98
 Encoding: 44 44 98
 Width: 0
 VWidth: 0
+Flags: H
 VStem: 390 62<-45.9682 39.2772>
-AnchorPoint: "cursive 3" 511 0 exit 0
-AnchorPoint: "cursive 3" 334 0 entry 0
+AnchorPoint: "cursive 3" 481 0 exit 0
+AnchorPoint: "cursive 3" 357 0 entry 0
 LayerCount: 5
 Fore
 SplineSet
-452 16 m 0
- 452 -20.8779296875 440 -24 410 -62 c 0
- 321 -151 l 1
- 313 -139 l 1
- 403 -46 l 1
- 403 -46 381.229492188 -2.15625 390 11 c 0
- 412.434570312 44.65234375 452 64 452 16 c 0
+421 41 m 25
+ 458 3 l 1
+ 347 -110 l 1
+ 335 -98 l 1
+ 411 -20 l 1
+ 386 5 l 1
+ 421 41 l 25
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: part73
