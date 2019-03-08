@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1552050384
+ModificationTime: 1552050608
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -4777,12 +4777,12 @@ Encoding: 58 58 113
 Width: 2699
 VWidth: 0
 Flags: HW
-AnchorPoint: "cursive 3" 1359 0 exit 0
-AnchorPoint: "cursive 3" 1020 1 entry 0
+AnchorPoint: "cursive 3" 966 0 exit 0
+AnchorPoint: "cursive 3" 627 1 entry 0
 LayerCount: 5
 Fore
-Refer: 100 46 N 1 0 0 1 585 -2 2
-Refer: 100 46 N 1 0 0 1 1208.04 794 2
+Refer: 100 46 N 1 0 0 1 192 -2 2
+Refer: 100 46 S 1 0 0 1 742.402 708 2
 EndChar
 
 StartChar: semicolon
@@ -4795,7 +4795,7 @@ AnchorPoint: "cursive 3" 587 0 entry 0
 LayerCount: 5
 Fore
 Refer: 98 44 N 1 0 0 1 357 0 2
-Refer: 100 46 N 1 0 0 1 601.804 521 2
+Refer: 100 46 S 1 0 0 1 744.027 703 2
 EndChar
 EndChars
 EndSplineFont
