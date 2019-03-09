@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1552060122
+ModificationTime: 1552154474
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -720,6 +720,8 @@ InSpiro: 1
 Flags: W
 HStem: 16.3838 32.7686<831.024 1095.86> 2437.6 20G<4234.35 4308.99>
 VStem: 263.148 26.1143<569.25 818.978> 1785.86 8.19141<1851.39 1882.3> 2025.18 18.0713<1871.39 2002.28> 2555.9 16.3838<2084.1 2231.41>
+AnchorPoint: "cursive 3" 2077 1 exit 0
+AnchorPoint: "cursive 3" 0 0 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -836,7 +838,6 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 37
 EndChar
 
 StartChar: F
@@ -1784,9 +1785,11 @@ Encoding: 83 83 12
 Width: 4096
 VWidth: 0
 InSpiro: 1
-Flags: W
+Flags: WO
 HStem: 0 21G<24.5762 245.857>
 VStem: 263.721 25.6328<574.093 818.976>
+AnchorPoint: "cursive 3" 2358 0 exit 0
+AnchorPoint: "cursive 3" -134 -1 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -1881,7 +1884,6 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 37
 EndChar
 
 StartChar: L
