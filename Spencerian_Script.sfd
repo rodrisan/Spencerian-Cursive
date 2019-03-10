@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1552234496
+ModificationTime: 1552238031
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -114,7 +114,7 @@ ChainSub2: coverage "'calt' for initial part of ghlyps like n after glyphs like 
 EndFPST
 ChainPos2: coverage "'kern' for applying all 'curs' features-1" 0 0 0 1
  1 0 0
-  Coverage: 545 uni0000 glyph90 exclam quotedbl glyph98 period zero one two three four five six seven eight nine colon semicolon question A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z part0 part1 part4 part5 part6 part7 part8 part9 part10 part11 part53 part15 part17 part18 part16 part14 part20 part21 part27 part32 part33 part35 part37 part39 part42 part51 part54 part56 part58 null1 null2 part61 part62 part63 part64 part65 part66 part67 part68 part69 part70 part71 part72 null3 part73 Quotation_Mark2
+  Coverage: 556 uni0000 glyph90 exclam quotedbl glyph98 period zero one two three four five six seven eight nine colon semicolon question A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z part0 part1 part4 part5 part6 part7 part8 part9 part10 part11 part53 part15 part17 part18 part16 part14 part20 part21 part27 part32 part33 part35 part37 part39 part42 part51 part54 part56 part58 null1 null2 part61 part62 part63 part64 part65 part66 part67 part68 part69 part70 part71 part72 null3 part73 Quotation_Mark2
  3
   SeqLookup: 0 "'curs'"
   SeqLookup: 0 "'curs' a d g o and q"
@@ -164,7 +164,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 70 14 6
+WinInfo: 42 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -4841,17 +4841,19 @@ EndChar
 
 StartChar: underscore
 Encoding: 95 95 117
-Width: 4096
+Width: 1122
 VWidth: 0
-Flags: H
+Flags: HW
+AnchorPoint: "cursive 3" 1121 -3 exit 0
+AnchorPoint: "cursive 3" 0 0 entry 0
 LayerCount: 5
 Fore
 SplineSet
-382 19 m 25
- 999 19 l 29
- 999 0 l 25
- 382 1 l 25
- 382 19 l 25
+248 19 m 25
+ 865 19 l 25
+ 865 0 l 25
+ 248 1 l 25
+ 248 19 l 25
 EndSplineSet
 EndChar
 EndChars
