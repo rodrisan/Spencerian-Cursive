@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1552233336
+ModificationTime: 1552234496
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -159,13 +159,12 @@ ChainSub2: coverage "'calt' For replacing first parts of glyphs with intermedite
   SeqLookup: 1 "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs"
 EndFPST
 Encoding: ISO8859-1
-Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 42 14 6
+WinInfo: 70 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -294,7 +293,7 @@ Grid
   EndSpiro
 EndSplineSet
 AnchorClass2: "cursive 3" "'curs' for parts and glyphs without anchor points__ it is for space problem-1" "cursive 2" "'curs' a d g o and q-1" "Cursive 1" "'curs'-1"
-BeginChars: 310 117
+BeginChars: 310 118
 
 StartChar: O
 Encoding: 79 79 0
@@ -4838,6 +4837,22 @@ LayerCount: 5
 Fore
 Refer: 98 44 N 1 0 0 1 -136 1748 2
 Refer: 98 44 N 1 0 0 1 -288 1748 2
+EndChar
+
+StartChar: underscore
+Encoding: 95 95 117
+Width: 4096
+VWidth: 0
+Flags: H
+LayerCount: 5
+Fore
+SplineSet
+382 19 m 25
+ 999 19 l 29
+ 999 0 l 25
+ 382 1 l 25
+ 382 19 l 25
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
