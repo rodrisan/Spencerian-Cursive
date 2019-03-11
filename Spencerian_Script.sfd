@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1552238031
+ModificationTime: 1552335962
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -164,7 +164,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 42 14 6
+WinInfo: 14 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -293,7 +293,7 @@ Grid
   EndSpiro
 EndSplineSet
 AnchorClass2: "cursive 3" "'curs' for parts and glyphs without anchor points__ it is for space problem-1" "cursive 2" "'curs' a d g o and q-1" "Cursive 1" "'curs'-1"
-BeginChars: 310 118
+BeginChars: 310 119
 
 StartChar: O
 Encoding: 79 79 0
@@ -4855,6 +4855,31 @@ SplineSet
  248 1 l 25
  248 19 l 25
 EndSplineSet
+EndChar
+
+StartChar: percent
+Encoding: 37 37 118
+Width: 4096
+VWidth: 0
+Flags: H
+LayerCount: 5
+Fore
+SplineSet
+1116 926 m 1
+ 1116.10415329 932.499165492 l 1
+ 1424.46956367 927.557412121 1591.01296602 1105.667892 2052.56444094 1639.25237234 c 1
+ 2057.48046875 1635 l 1
+ 2062.39649656 1630.74762766 l 1
+ 1601.8561746 1098.33210799 1431.53043633 914.442587879 1115.89584671 919.500834508 c 1
+ 1116 926 l 1
+2067 1633 m 1
+ 34 -979 l 1
+ 7 -957 l 1
+ 2053.21875 1643.78613281 l 1
+ 2067 1633 l 1
+EndSplineSet
+Refer: 101 48 N 0.5 0 0 0.5 1129.03 -0.950344 2
+Refer: 101 48 N 0.5 0 0 0.5 589.033 487.05 2
 EndChar
 EndChars
 EndSplineFont
