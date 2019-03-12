@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1552377364
+ModificationTime: 1552377755
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -164,7 +164,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 14 6
+WinInfo: 238 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -4019,29 +4019,8 @@ Validated: 1
 Substitution2: "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs-1" null1
 EndChar
 
-StartChar: part58
-Encoding: 284 65279 81
-Width: 33
-VWidth: 0
-Flags: W
-HStem: 1622 33<0.026062 32.9768>
-VStem: 0 33<1622.02 1654.97>
-AnchorPoint: "Cursive 1" -602 814 exit 0
-AnchorPoint: "Cursive 1" -602 814 entry 0
-LayerCount: 5
-Fore
-SplineSet
-0 1638 m 0
- 0 1646 9 1655 17 1655 c 0
- 25 1655 33 1646 33 1638 c 0
- 33 1630 25 1622 17 1622 c 0
- 9 1622 0 1630 0 1638 c 0
-EndSplineSet
-Validated: 1
-EndChar
-
 StartChar: null1
-Encoding: 285 -1 82
+Encoding: 285 -1 81
 Width: 0
 VWidth: 0
 Flags: W
@@ -4053,7 +4032,7 @@ Validated: 1
 EndChar
 
 StartChar: null2
-Encoding: 286 -1 83
+Encoding: 286 -1 82
 Width: 0
 VWidth: 0
 Flags: W
@@ -4066,7 +4045,7 @@ Substitution2: "'aalt' for initial part of glyphs like n after glyphs like b-1" 
 EndChar
 
 StartChar: part61
-Encoding: 287 -1 84
+Encoding: 287 -1 83
 Width: 942
 VWidth: 0
 Flags: W
@@ -4087,7 +4066,7 @@ Validated: 41
 EndChar
 
 StartChar: part62
-Encoding: 288 -1 85
+Encoding: 288 -1 84
 Width: 1313
 VWidth: 0
 Flags: W
@@ -4111,7 +4090,7 @@ Substitution2: "'aalt' for parts before e-1" part64
 EndChar
 
 StartChar: part63
-Encoding: 289 -1 86
+Encoding: 289 -1 85
 Width: 343
 VWidth: 0
 Flags: W
@@ -4132,7 +4111,7 @@ Validated: 1
 EndChar
 
 StartChar: part64
-Encoding: 290 -1 87
+Encoding: 290 -1 86
 Width: 977
 VWidth: 0
 Flags: W
@@ -4151,7 +4130,7 @@ Validated: 41
 EndChar
 
 StartChar: part65
-Encoding: 291 -1 88
+Encoding: 291 -1 87
 Width: 1313
 VWidth: 0
 Flags: W
@@ -4173,7 +4152,7 @@ Validated: 33
 EndChar
 
 StartChar: part66
-Encoding: 292 -1 89
+Encoding: 292 -1 88
 Width: 1144
 VWidth: 0
 Flags: W
@@ -4193,7 +4172,7 @@ Validated: 33
 EndChar
 
 StartChar: glyph90
-Encoding: 32 32 90
+Encoding: 32 32 89
 Width: 1949
 VWidth: 0
 Flags: W
@@ -4205,7 +4184,7 @@ Validated: 1
 EndChar
 
 StartChar: part67
-Encoding: 293 -1 91
+Encoding: 293 -1 90
 Width: 556
 VWidth: 0
 Flags: W
@@ -4226,7 +4205,7 @@ Substitution2: "'aalt' For replacing starting part of glyphs with intermediate g
 EndChar
 
 StartChar: part68
-Encoding: 294 -1 92
+Encoding: 294 -1 91
 Width: 791
 VWidth: 0
 Flags: W
@@ -4245,7 +4224,7 @@ Validated: 41
 EndChar
 
 StartChar: part69
-Encoding: 295 -1 93
+Encoding: 295 -1 92
 Width: 2082
 VWidth: 0
 Flags: W
@@ -4268,7 +4247,7 @@ Validated: 37
 EndChar
 
 StartChar: part70
-Encoding: 296 -1 94
+Encoding: 296 -1 93
 Width: 2505
 VWidth: 0
 Flags: W
@@ -4291,7 +4270,7 @@ Validated: 37
 EndChar
 
 StartChar: part71
-Encoding: 297 -1 95
+Encoding: 297 -1 94
 Width: 793
 VWidth: 0
 Flags: W
@@ -4310,7 +4289,7 @@ Validated: 41
 EndChar
 
 StartChar: part72
-Encoding: 298 -1 96
+Encoding: 298 -1 95
 Width: 793
 VWidth: 0
 Flags: W
@@ -4330,7 +4309,7 @@ Validated: 33
 EndChar
 
 StartChar: null3
-Encoding: 299 -1 97
+Encoding: 299 -1 96
 Width: 793
 VWidth: 0
 Flags: W
@@ -4342,7 +4321,7 @@ Validated: 1
 EndChar
 
 StartChar: glyph98
-Encoding: 44 44 98
+Encoding: 44 44 97
 Width: 0
 VWidth: 0
 Flags: H
@@ -4363,7 +4342,7 @@ EndSplineSet
 EndChar
 
 StartChar: part73
-Encoding: 300 -1 99
+Encoding: 300 -1 98
 Width: 2212
 VWidth: 0
 Flags: W
@@ -4386,7 +4365,7 @@ Validated: 37
 EndChar
 
 StartChar: period
-Encoding: 46 46 100
+Encoding: 46 46 99
 Width: 5671
 VWidth: 0
 Flags: HW
@@ -4406,7 +4385,7 @@ EndSplineSet
 EndChar
 
 StartChar: zero
-Encoding: 48 48 101
+Encoding: 48 48 100
 Width: 1153
 VWidth: 0
 Flags: HW
@@ -4429,7 +4408,7 @@ EndSplineSet
 EndChar
 
 StartChar: one
-Encoding: 49 49 102
+Encoding: 49 49 101
 Width: 979
 VWidth: 0
 Flags: HW
@@ -4447,7 +4426,7 @@ EndSplineSet
 EndChar
 
 StartChar: two
-Encoding: 50 50 103
+Encoding: 50 50 102
 Width: 1328
 VWidth: 0
 Flags: HW
@@ -4491,7 +4470,7 @@ EndSplineSet
 EndChar
 
 StartChar: three
-Encoding: 51 51 104
+Encoding: 51 51 103
 Width: 1051
 VWidth: 0
 Flags: HW
@@ -4538,7 +4517,7 @@ EndSplineSet
 EndChar
 
 StartChar: four
-Encoding: 52 52 105
+Encoding: 52 52 104
 Width: 1290
 VWidth: 0
 Flags: HW
@@ -4571,7 +4550,7 @@ EndSplineSet
 EndChar
 
 StartChar: five
-Encoding: 53 53 106
+Encoding: 53 53 105
 Width: 1051
 VWidth: 0
 Flags: HW
@@ -4616,7 +4595,7 @@ EndSplineSet
 EndChar
 
 StartChar: six
-Encoding: 54 54 107
+Encoding: 54 54 106
 Width: 921
 VWidth: 0
 Flags: HW
@@ -4653,7 +4632,7 @@ EndSplineSet
 EndChar
 
 StartChar: seven
-Encoding: 55 55 108
+Encoding: 55 55 107
 Width: 1188
 VWidth: 0
 Flags: HW
@@ -4684,7 +4663,7 @@ EndSplineSet
 EndChar
 
 StartChar: eight
-Encoding: 56 56 109
+Encoding: 56 56 108
 Width: 1224
 VWidth: 0
 Flags: HW
@@ -4715,7 +4694,7 @@ EndSplineSet
 EndChar
 
 StartChar: nine
-Encoding: 57 57 110
+Encoding: 57 57 109
 Width: 1342
 VWidth: 0
 Flags: HW
@@ -4734,7 +4713,7 @@ Refer: 54 -1 N 0.86 0 0 0.86 100.493 266.066 2
 EndChar
 
 StartChar: exclam
-Encoding: 33 33 111
+Encoding: 33 33 110
 Width: 4096
 VWidth: 0
 Flags: H
@@ -4749,11 +4728,11 @@ SplineSet
  2048 1649 l 1
  2074 1630 l 1
 EndSplineSet
-Refer: 100 46 N 1 0 0 1 192 0 2
+Refer: 99 46 N 1 0 0 1 192 0 2
 EndChar
 
 StartChar: question
-Encoding: 63 63 112
+Encoding: 63 63 111
 Width: 1870
 VWidth: 0
 Flags: HW
@@ -4774,7 +4753,7 @@ SplineSet
  1045.234375 1498.58007812 927.173828125 1350.34863281 853.469726562 1089.62011719 c 1
  836.629882812 1094.37988281 l 1
 EndSplineSet
-Refer: 100 46 N 1 0 0 1 -482.95 0 2
+Refer: 99 46 N 1 0 0 1 -482.95 0 2
 Layer: 3
 SplineSet
 845.049804688 1092 m 5
@@ -4784,7 +4763,7 @@ EndSplineSet
 EndChar
 
 StartChar: colon
-Encoding: 58 58 113
+Encoding: 58 58 112
 Width: 2699
 VWidth: 0
 Flags: HW
@@ -4792,12 +4771,12 @@ AnchorPoint: "cursive 3" 966 0 exit 0
 AnchorPoint: "cursive 3" 627 1 entry 0
 LayerCount: 5
 Fore
-Refer: 100 46 N 1 0 0 1 192 -2 2
-Refer: 100 46 S 1 0 0 1 742.402 708 2
+Refer: 99 46 N 1 0 0 1 192 -2 2
+Refer: 99 46 S 1 0 0 1 742.402 708 2
 EndChar
 
 StartChar: semicolon
-Encoding: 59 59 114
+Encoding: 59 59 113
 Width: 5671
 VWidth: 0
 Flags: HW
@@ -4805,12 +4784,12 @@ AnchorPoint: "cursive 3" 980 -4 exit 0
 AnchorPoint: "cursive 3" 587 0 entry 0
 LayerCount: 5
 Fore
-Refer: 98 44 N 1 0 0 1 357 0 2
-Refer: 100 46 S 1 0 0 1 744.027 703 2
+Refer: 97 44 N 1 0 0 1 357 0 2
+Refer: 99 46 S 1 0 0 1 744.027 703 2
 EndChar
 
 StartChar: quotedbl
-Encoding: 34 34 115
+Encoding: 34 34 114
 Width: 382
 VWidth: 0
 Flags: HW
@@ -4818,13 +4797,13 @@ AnchorPoint: "cursive 3" 382 -1 exit 0
 AnchorPoint: "cursive 3" 0 0 entry 0
 LayerCount: 5
 Fore
-Refer: 98 44 N -1 0 0 -1 661 1679 2
-Refer: 98 44 N -1 0 0 -1 509 1679 2
+Refer: 97 44 N -1 0 0 -1 661 1679 2
+Refer: 97 44 N -1 0 0 -1 509 1679 2
 Substitution2: "'aalt' for quotation-1" Quotation_Mark2
 EndChar
 
 StartChar: Quotation_Mark2
-Encoding: 302 -1 116
+Encoding: 302 -1 115
 Width: 376
 VWidth: 0
 Flags: HW
@@ -4832,12 +4811,12 @@ AnchorPoint: "cursive 3" 374 0 exit 0
 AnchorPoint: "cursive 3" -699 1 entry 0
 LayerCount: 5
 Fore
-Refer: 98 44 N 1 0 0 1 -136 1748 2
-Refer: 98 44 N 1 0 0 1 -288 1748 2
+Refer: 97 44 N 1 0 0 1 -136 1748 2
+Refer: 97 44 N 1 0 0 1 -288 1748 2
 EndChar
 
 StartChar: underscore
-Encoding: 95 95 117
+Encoding: 95 95 116
 Width: 1845
 VWidth: 0
 Flags: HW
@@ -4855,7 +4834,7 @@ EndSplineSet
 EndChar
 
 StartChar: percent
-Encoding: 37 37 118
+Encoding: 37 37 117
 Width: 2411
 VWidth: 0
 Flags: HW
@@ -4877,12 +4856,12 @@ SplineSet
  2197.21875 1643.78613281 l 1
  2211 1633 l 1
 EndSplineSet
-Refer: 101 48 N 0.5 0 0 0.5 1273.03 -0.950344 2
-Refer: 101 48 N 0.5 0 0 0.5 733.033 487.05 2
+Refer: 100 48 N 0.5 0 0 0.5 1273.03 -0.950344 2
+Refer: 100 48 N 0.5 0 0 0.5 733.033 487.05 2
 EndChar
 
 StartChar: numbersign
-Encoding: 35 35 119
+Encoding: 35 35 118
 Width: 2250
 VWidth: 0
 Flags: HW
@@ -4926,7 +4905,7 @@ EndSplineSet
 EndChar
 
 StartChar: dollar
-Encoding: 36 36 120
+Encoding: 36 36 119
 Width: 2772
 VWidth: 0
 Flags: HW
@@ -5018,7 +4997,7 @@ EndSplineSet
 EndChar
 
 StartChar: ampersand
-Encoding: 38 38 121
+Encoding: 38 38 120
 Width: 3760
 VWidth: 0
 Flags: HW
@@ -5066,7 +5045,7 @@ EndSplineSet
 EndChar
 
 StartChar: quotesingle
-Encoding: 39 39 122
+Encoding: 39 39 121
 Width: 378
 VWidth: 0
 Flags: HW
@@ -5074,11 +5053,11 @@ AnchorPoint: "cursive 3" 378 -2 exit 0
 AnchorPoint: "cursive 3" 0 0 entry 0
 LayerCount: 5
 Fore
-Refer: 98 44 S 1 0 0 1 -206 1085 2
+Refer: 97 44 S 1 0 0 1 -206 1085 2
 EndChar
 
 StartChar: cent
-Encoding: 162 162 123
+Encoding: 162 162 122
 Width: 2768
 VWidth: 0
 Flags: HW
@@ -5124,7 +5103,7 @@ EndSplineSet
 EndChar
 
 StartChar: at
-Encoding: 64 64 124
+Encoding: 64 64 123
 Width: 3447
 VWidth: 0
 Flags: HW
@@ -5164,10 +5143,10 @@ Refer: 54 -1 S 0.75 0 0 0.75 901.168 0.349718 2
 EndChar
 
 StartChar: hyphen
-Encoding: 45 45 125
+Encoding: 45 45 124
 Width: 1756
 VWidth: 0
-Flags: HWO
+Flags: HW
 AnchorPoint: "cursive 3" 1756 -1 exit 0
 AnchorPoint: "cursive 3" 0 -2 entry 0
 LayerCount: 5
@@ -5179,6 +5158,20 @@ SplineSet
  368 400.849609375 l 1
  368 406.682617188 368 412.516601562 368 418.349609375 c 1
 EndSplineSet
+EndChar
+
+StartChar: part58
+Encoding: 301 -1 125
+Width: 33
+VWidth: 0
+Flags: W
+HStem: 1622 33<0.026062 32.9768>
+VStem: 0 33<1622.02 1654.97>
+AnchorPoint: "Cursive 1" -602 814 exit 0
+AnchorPoint: "Cursive 1" -602 814 entry 0
+LayerCount: 5
+Fore
+Refer: 99 46 N 1 0 0 1 -579 1616 2
 EndChar
 EndChars
 EndSplineFont
