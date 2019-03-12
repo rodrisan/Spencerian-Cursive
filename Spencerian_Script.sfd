@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1552383292
+ModificationTime: 1552416805
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -164,7 +164,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 14 14 6
+WinInfo: 84 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2285,7 +2285,7 @@ StartChar: D
 Encoding: 68 68 19
 Width: 4096
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 1636 2<2908 3334>
 LayerCount: 5
 Fore
@@ -2543,713 +2543,317 @@ EndChar
 
 StartChar: i
 Encoding: 105 105 26
-Width: 2678
+Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<0 169.5> 799 20G<1339.5 1467 1474.5 1614 2158.5 2335> 1622 33<2318.03 2350.98>
 VStem: 2318 33<1622.02 1654.97>
 LayerCount: 5
 Fore
-SplineSet
-2318 1638 m 4
- 2318 1646 2327 1655 2335 1655 c 4
- 2343 1655 2351 1646 2351 1638 c 4
- 2351 1630 2343 1622 2335 1622 c 4
- 2327 1622 2318 1630 2318 1638 c 4
-2310 819 m 9
- 2335 819 l 17
- 2032 557 1695 344 1343 147 c 16
- 819 -140 858 33 1049 262 c 0
- 1213 458 1360 606 1589 819 c 9
- 1614 819 l 17
- 1385 606 1235 460 1073 262 c 0
- 852 -8 878 -88 1352 172 c 8
- 1706 366 2007 557 2310 819 c 9
-EndSplineSet
-Refer: 52 -1 N 1 0 0 1 0 0 2
-Validated: 33
+Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part0 part58 part6 part62
 EndChar
 
 StartChar: u
 Encoding: 117 117 27
-Width: 2909
+Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<-147 22.5> 799 20G<1192.5 1320 1327.5 1467 2011.5 2188 2732.5 2909>
 LayerCount: 5
 Fore
-SplineSet
-2884 819 m 13
- 2909 819 l 21
- 2606 557 2270 344 1918 147 c 20
- 1394 -140 1432 33 1623 262 c 4
- 1787 458 1934 606 2163 819 c 13
- 2188 819 l 21
- 1959 606 1809 460 1647 262 c 4
- 1426 -8 1452 -88 1926 172 c 12
- 2280 366 2581 557 2884 819 c 13
-2163 819 m 13
- 2188 819 l 21
- 1885 557 1549 344 1197 147 c 20
- 673 -140 711 33 902 262 c 4
- 1066 458 1213 606 1442 819 c 13
- 1467 819 l 21
- 1238 606 1088 460 926 262 c 4
- 705 -8 731 -88 1205 172 c 12
- 1559 366 1860 557 2163 819 c 13
-EndSplineSet
-Refer: 52 -1 S 1 0 0 1 -147 0 2
-Validated: 37
+Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part0 part6 part62 part6 part62
 EndChar
 
 StartChar: w
 Encoding: 119 119 28
-Width: 3154
+Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<-147 22.5> 762 16<2974.89 3061.46> 799 20G<1192.5 1320>
 LayerCount: 5
 Fore
-SplineSet
-3154 819 m 1
- 3105 778 3056 762 3015 762 c 0
- 2982 762 2925 778 2884 819 c 1
- 2909 819 l 17
- 2942 794 2990 778 3015 778 c 4
- 3048 778 3097 794 3130 819 c 9
- 3154 819 l 1
-2884 819 m 13
- 2909 819 l 21
- 2606 557 2269 344 1917 147 c 20
- 1393 -140 1431 33 1622 262 c 4
- 1786 458 1934 606 2163 819 c 13
- 2188 819 l 21
- 1959 606 1809 460 1647 262 c 4
- 1426 -8 1452 -88 1926 172 c 12
- 2280 366 2581 557 2884 819 c 13
-2163 819 m 13
- 2188 819 l 21
- 1885 557 1548 344 1196 147 c 20
- 672 -140 711 33 902 262 c 4
- 1066 458 1213 606 1442 819 c 13
- 1467 819 l 21
- 1238 606 1088 460 926 262 c 4
- 705 -8 731 -88 1205 172 c 12
- 1559 366 1860 557 2163 819 c 13
-EndSplineSet
-Refer: 52 -1 N 1 0 0 1 -147 0 2
-Validated: 37
+Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part0 part6 part62 part6 part61 part17
 EndChar
 
 StartChar: c
 Encoding: 99 99 29
-Width: 2015
+Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 844 799 20G<1319 1335 1839.5 2015>
 LayerCount: 5
 Fore
-SplineSet
-0 0 m 5x80
- 269 83 529 196 773 336 c 4
- 1012 473 1261 660 1466 844 c 5
- 1483 836 l 5
- 1280 644 1020 458 778 319 c 4
- 545 185 298 78 41 0 c 5
- 0 0 l 5x80
-1208 754 m 4
- 1009 625 836 421 688 246 c 4
- 508 33 509 -104 983 156 c 4
- 1337 350 1688 557 1991 819 c 13
- 2015 819 l 21x40
- 1712 557 1351 344 999 147 c 20
- 475 -140 489 33 680 262 c 4
- 829 440 988 630 1192 762 c 4
- 1483 950 1564 820 1466 705 c 4
- 1394 621 1278 631 1335 713 c 5
- 1360 729 l 5
- 1278 623 1423 667 1458 713 c 4
- 1540 819 1474 926 1208 754 c 4
-EndSplineSet
-Validated: 37
+Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part18 part62
 EndChar
 
 StartChar: e
 Encoding: 101 101 30
-Width: 1990
+Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<0 168.5> 799 20G<1814.5 1990>
 LayerCount: 5
 Fore
-SplineSet
-1089 664 m 0
- 932 537 826 403 704 254 c 4
- 516 25 524 -98 999 164 c 4
- 1352 359 1663 557 1966 819 c 1
- 1990 819 l 17
- 1687 557 1359 344 1007 147 c 16
- 483 -140 504 42 688 262 c 0
- 816 416 915 543 1081 680 c 0
- 1359 909 1523 835 1220 607 c 0
- 1076 499 927 404 778 319 c 0
- 545 185 297 78 40 0 c 1
- 0 0 l 1
- 269 83 528 196 772 336 c 0
- 925 423 1065 507 1212 620 c 0
- 1491 835 1351 877 1089 664 c 0
-EndSplineSet
-Validated: 37
+Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part21 part20 part62
 EndChar
 
 StartChar: r
 Encoding: 114 114 31
-Width: 2253
+Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 950 795 4G<1393.5 1532 2077.5 2253> 795 21G<1508 1535.23>
 VStem: 1508 24<795 950>
 LayerCount: 5
 Fore
-SplineSet
-1557 950 m 5x90
- 1532 795 l 5
- 1508 795 l 5x50
- 1532 950 l 5
- 1557 950 l 5x90
-2229 819 m 13
- 2253 819 l 21
- 1950 557 1609 339 1254 147 c 4
- 738 -132 768 33 959 262 c 4
- 1123 458 1279 582 1508 795 c 13
- 1532 795 l 21
- 1303 582 1149 456 983 262 c 4
- 759 0 788 -88 1262 172 c 12
- 1616 366 1926 557 2229 819 c 13
-0 0 m 5x90
- 269 83 529 229 773 369 c 4
- 1012 506 1327 766 1532 950 c 5
- 1557 950 l 5
- 1354 758 1021 491 779 352 c 4
- 546 218 298 78 41 0 c 5
- 0 0 l 5x90
-EndSplineSet
-Validated: 37
+Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part0 part35 part62
 EndChar
 
 StartChar: s
 Encoding: 115 115 32
-Width: 2180
+Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 8<1139 1418> 799 20G<2101.5 2180>
 VStem: 861 16<237.429 295>
 LayerCount: 5
 Fore
-SplineSet
-1139 8 m 5
- 1462 32 1615 131 1754 270 c 4
- 1873 389 2040 639 2163 819 c 5
- 2180 819 l 5
- 2070 650 1895 388 1770 262 c 4
- 1623 114 1418 0 1139 0 c 5
- 1139 8 l 5
-1549 950 m 21
- 1549 950 1524 909 1508 860 c 4
- 1450 687 1463 601 1491 393 c 4
- 1551 -54 869 -164 861 295 c 13
- 877 295 l 5
- 893 -139 1510 -45 1467 385 c 4
- 1451 548 1433 687 1491 860 c 4
- 1507 909 1532 950 1532 950 c 5
- 1549 950 l 21
-0 0 m 5
- 269 83 529 229 773 369 c 4
- 1012 506 1327 766 1532 950 c 5
- 1557 950 l 5
- 1354 758 1021 491 779 352 c 4
- 546 218 298 78 41 0 c 5
- 0 0 l 5
-EndSplineSet
-Validated: 37
+Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part0 part37 part54
 EndChar
 
 StartChar: n
 Encoding: 110 110 33
-Width: 2464
+Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<0 416 606 1022> 799 20G<2048 2464>
 LayerCount: 5
 Fore
-SplineSet
-1524 410 m 4
- 2024 1049 1409 901 631 0 c 9
- 606 0 l 1
- 1438 971 2031 1038 1546 410 c 4
- 1046 -229 1661 -82 2439 819 c 13
- 2464 819 l 5
- 1632 -152 1039 -218 1524 410 c 4
-917 410 m 0
- 1417 1049 802 901 24 0 c 9
- 0 0 l 1
- 832 971 1433 1041 940 410 c 0
- 940 410 754 164 631 0 c 29
- 606 0 l 25
- 729 164 432 -218 917 410 c 0
-EndSplineSet
-Validated: 37
+Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part67 part11 part63 part67 part11 part62
 EndChar
 
 StartChar: m
 Encoding: 109 109 34
-Width: 3070
+Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<0 416 606 1022 1212 1628> 799 20G<2654 3070>
 LayerCount: 5
 Fore
-SplineSet
-2130 410 m 0
- 2630 1049 2015 901 1237 0 c 9
- 1212 0 l 1
- 2044 971 2638 1038 2153 410 c 0
- 1653 -229 2267 -82 3045 819 c 9
- 3070 819 l 1
- 2238 -152 1645 -218 2130 410 c 0
-917 410 m 4
- 1417 1049 802 901 24 0 c 13
- 0 0 l 5
- 832 971 1433 1041 940 410 c 4
- 940 410 754 164 631 0 c 29
- 606 0 l 29
- 729 164 432 -218 917 410 c 4
-1524 410 m 0
- 2024 1049 1409 901 631 0 c 9
- 606 0 l 1
- 1438 971 2039 1041 1546 410 c 0
- 1546 410 1360 164 1237 0 c 25
- 1212 0 l 25
- 1335 164 1039 -218 1524 410 c 0
-EndSplineSet
-Validated: 37
+Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part67 part11 part63 part67 part11 part63 part67 part11 part62
 EndChar
 
 StartChar: x
 Encoding: 120 120 35
-Width: 1858
+Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<401 459.006> 409.4 21G<400.569 656.031> 799 20G<1392.19 1458>
 LayerCount: 5
 Fore
-SplineSet
-401 0 m 29
- 1417 819 l 29
- 1458 819 l 29
- 434 0 l 29
- 401 0 l 29
-EndSplineSet
-Refer: 61 -1 S 1 0 0 1 -164 0 2
-Validated: 1
+Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part67 part11 part42 part62
 EndChar
 
 StartChar: v
 Encoding: 118 118 36
-Width: 1859
+Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<0 416> 799 20G<1106 1522>
 LayerCount: 5
 Fore
-SplineSet
-917 410 m 4
- 1417 1049 802 901 24 0 c 13
- 0 0 l 5
- 832 971 1425 1038 940 410 c 4
- 440 -229 727 -66 1497 819 c 13
- 1522 819 l 5
- 690 -152 432 -218 917 410 c 4
-1859 819 m 1
- 1703 753 1646 753 1499 819 c 1
- 1524 819 l 17
- 1647 770 1704 770 1835 819 c 9
- 1859 819 l 1
-EndSplineSet
-Validated: 37
+Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part67 part11 part61 part17
 EndChar
 
 StartChar: o
 Encoding: 111 111 37
-Width: 1671
+Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<0 83.5> 745 17<1429.83 1553.89> 799 20G<1093 1217>
 LayerCount: 5
 Fore
-SplineSet
-1344 811 m 5
- 1388 777 1444 760 1499 762 c 4
- 1553 764 1606 784 1647 819 c 5
- 1671 819 l 5
- 1622 768 1569 746 1499 745 c 4
- 1430 744 1361 771 1311 811 c 5
- 1344 811 l 5
-418 434 m 0
- 652 615 949 760 1237 819 c 1
- 1213 795 l 1
- 920 726 664 590 442 426 c 0
- 281 307 142 161 25 0 c 1
- 0 0 l 1
- 117 164 258 311 418 434 c 0
-904 574 m 0
- 756 384 726 152 841 62 c 0
- 956 -28 1177 55 1325 245 c 0
- 1473 435 1494 675 1379 765 c 0
- 1264 855 1052 764 904 574 c 0
-886 588 m 0
- 1047 794 1280 880 1402 778 c 0
- 1519 680 1496 429 1343 231 c 0
- 1183 24 951 -57 826 41 c 0
- 701 139 725 382 886 588 c 0
-EndSplineSet
-Validated: 37
+Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part32 part17
 EndChar
 
 StartChar: a
 Encoding: 97 97 38
-Width: 2588
+Width: 0
 VWidth: 0
 Flags: W
 HStem: 409.6 409.4 784 19<1316.32 1400> 800 19<1494.13 1703.35>
 VStem: 1318.9 344.096
 LayerCount: 5
 Fore
-Refer: 56 -1 S 1 0 0 1 1319 0 2
-Refer: 55 -1 N 1 0 0 1 -25 0 2
-Refer: 54 -1 N 1 0 0 1 426 0 2
-Validated: 5
+Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part4 part6 part62
 EndChar
 
 StartChar: t
 Encoding: 116 116 39
-Width: 2261
+Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<0 185.5> 799 20G<2237 2261> 1221 16<1344 2187>
 LayerCount: 5
 Fore
-SplineSet
-1344 1237 m 5
- 2187 1237 l 5
- 2187 1221 l 5
- 1344 1221 l 5
- 1344 1237 l 5
-0 0 m 5
- 269 83 574 197 773 295 c 4
- 895 355 1279 563 1516 918 c 6
- 1983 1638 l 5
- 2007 1638 l 5
- 1532 901 l 6
- 1303 551 921 348 787 279 c 4
- 566 164 314 78 57 0 c 5
- 0 0 l 5
-2007 1638 m 1
- 2024 1638 l 1
- 1229 393 l 2
- 856 -185 1313 28 1589 229 c 0
- 1865 430 2237 819 2237 819 c 1
- 2261 819 l 1
- 2261 819 1949 468 1606 213 c 0
- 1319 0 810 -209 1213 410 c 2
- 2007 1638 l 1
-EndSplineSet
-Validated: 37
+Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part0 part39 part6 part62
 EndChar
 
 StartChar: d
 Encoding: 100 100 40
-Width: 4300
+Width: 0
 VWidth: 0
 Flags: W
 HStem: 784 19<243.317 327> 800 19<421.128 630.348> 819.2 819.2
 VStem: 688.071 665.929
 LayerCount: 5
 Fore
-Refer: 55 -1 N 1 0 0 1 -1098 0 2
-Refer: 54 -1 N 1 0 0 1 -647 0 2
-Refer: 57 -1 N 1 0 0 1 74 0 2
-Validated: 5
+Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part4 part7 part6 part62
 EndChar
 
 StartChar: q
 Encoding: 113 113 41
-Width: 2637
+Width: 0
 VWidth: 0
 Flags: W
 HStem: 784 19<1275.32 1359> 800 19<1452.13 1661.35> 811 16<1713.88 1751.32>
 LayerCount: 5
 Fore
-Refer: 55 -1 S 1 0 0 1 -66 0 2
-Refer: 54 -1 S 1 0 0 1 384 0 2
-Refer: 59 -1 N 1 0 0 1 335 0 2
-Validated: 5
+Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part4 part9
 EndChar
 
 StartChar: p
 Encoding: 112 112 42
-Width: 2825
+Width: 0
 VWidth: 0
 Flags: W
 HStem: -967 21G<237 300.534> 0 21G<0 177.5> 417.4 21G<1367.57 1623.03>
 LayerCount: 5
 Fore
-SplineSet
-2154 1638 m 29
- 2179 1638 l 29
- 286 -967 l 29
- 237 -958 l 29
- 2154 1638 l 29
-0 0 m 5
- 269 83 893 475 1081 606 c 4
- 1288 750 1622 1015 2154 1638 c 5
- 2187 1647 l 5
- 1646 992 1294 729 1111 598 c 4
- 893 442 306 78 49 0 c 5
- 0 0 l 5
-EndSplineSet
-Refer: 61 -1 N 1 0 0 1 803 8 2
-Validated: 5
+Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part14 part33 part67 part11 part62
 EndChar
 
 StartChar: l
 Encoding: 108 108 43
-Width: 4096
+Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<573 1073> 799 20G<2515 2679>
 LayerCount: 5
 Fore
-SplineSet
-2679 819 m 5
- 2409 549 2179 381 1933 221 c 4
- 1327 -172 1229 -25 1491 573 c 0
- 1685 1016 1969 1484 2425 2089 c 0
- 2876 2687 3042 2511 2621 1892 c 0
- 2134 1176 1540 688 606 0 c 1
- 573 0 l 1
- 1507 688 2118 1202 2605 1917 c 0
- 2979 2465 2892 2662 2441 2064 c 0
- 1968 1436 1715 995 1516 565 c 0
- 1262 16 1328 -147 1901 229 c 4
- 2162 400 2384 565 2646 819 c 1
- 2679 819 l 5
-EndSplineSet
-Validated: 37
+Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part14 part15 part6 part62
 EndChar
 
 StartChar: b
 Encoding: 98 98 44
-Width: 2351
+Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<0 219> 799 20G<1565.5 2310>
 LayerCount: 5
 Fore
-SplineSet
-2310 819 m 5
- 2031 604 1838 645 1662 805 c 5
- 1489 529 1409 388 1237 208 c 4
- 876 -170 654 -25 916 573 c 4
- 942 632 984 710 1013 771 c 5
- 734 534 405 274 33 0 c 5
- 0 0 l 5
- 396 292 736 553 1031 811 c 5
- 1219 1186 1475 1590 1851 2089 c 4
- 2302 2687 2469 2511 2048 1892 c 4
- 1768 1480 1449 1144 1054 801 c 5
- 1013 721 973.655961839 643.157868352 938 565 c 4
- 688 17 869 -149 1221 221 c 4
- 1401.42659564 410.652955646 1484 568 1647 819 c 5
- 1671 819 l 5
- 1876 655 2007 639 2286 819 c 5
- 2310 819 l 5
-1075 848 m 5
- 1448 1180 1730.32711828 1468.77537929 2031 1907 c 4
- 2422.05859375 2476.95996094 2313 2664 1868 2075 c 4
- 1501.72865155 1590.20488936 1254 1191 1075 848 c 5
-EndSplineSet
-Validated: 33
+Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part14 part15 part6 part61 part17
 EndChar
 
 StartChar: h
 Encoding: 104 104 45
-Width: 4096
+Width: 0
 VWidth: 0
 Flags: W
 HStem: 409.4 21G<1654.57 1910.03>
 LayerCount: 5
 Fore
-Refer: 61 -1 S 1 0 0 1 1090 0 2
-Refer: 60 -1 N 1 0 0 1 0 0 2
-Validated: 9
+Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part14 part15 part10 part67 part11 part62
 EndChar
 
 StartChar: k
 Encoding: 107 107 46
-Width: 4096
+Width: 0
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 5
 Fore
-SplineSet
-1262 0 m 13
- 1286 0 l 21
- 1548 303 1909 647 2122 803 c 4
- 2548 1114 2722 803 2441 639 c 4
- 2343 582 1917 467 1917 467 c 5
- 1917 467 1967 342 2015 246 c 4
- 2162 -49 2423 -31 2580 74 c 4
- 2875 271 2998 573 3113 819 c 13
- 3088 819 l 5
- 2965 557 2831 266 2564 90 c 4
- 2427 0 2187 -24 2048 238 c 4
- 1988 351 1942 459 1942 459 c 5
- 1942 459 2359 557 2449 614 c 4
- 2773 820 2550 1161 2106 819 c 4
- 1893 655 1516 319 1262 0 c 13
-EndSplineSet
-Refer: 60 -1 N 1 0 0 1 0 0 2
-Validated: 41
+Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part14 part15 part10 part27 part6 part62
 EndChar
 
 StartChar: j
 Encoding: 106 106 47
-Width: 2678
+Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<172 341.5> 799 20G<1511.5 1639> 800 20G<1309.26 1948.52>
 LayerCount: 5
 Fore
-Refer: 58 -1 S 1 0 0 1 -115 0 2
-Refer: 52 -1 N 1 0 0 1 172 0 2
-Validated: 5
+Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part0 part8
 EndChar
 
 StartChar: y
 Encoding: 121 121 48
-Width: 2417
+Width: 0
 VWidth: 0
 Flags: W
 HStem: 417.4 21G<400.569 656.031> 800 20G<1383.26 2022.52>
 LayerCount: 5
 Fore
-Refer: 61 -1 N 1 0 0 1 -164 8 2
-Refer: 58 -1 N 1 0 0 1 -41 0 2
-Validated: 5
+Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part67 part11 part62 part8
 EndChar
 
 StartChar: g
 Encoding: 103 103 49
-Width: 3137
+Width: 0
 VWidth: 0
 Flags: W
 HStem: 784 19<1579.32 1663> 800 19<1756.13 1965.35> 800 20G<1621.26 2260.52>
 LayerCount: 5
 Fore
-Refer: 55 -1 S 1 0 0 1 238 0 2
-Refer: 54 -1 S 1 0 0 1 688 0 2
-Refer: 58 -1 N 1 0 0 1 197 0 2
-Validated: 5
+Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part4 part8
 EndChar
 
 StartChar: f
 Encoding: 102 102 50
-Width: 3341
+Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<553.995 976.495> 410 21G<1414 1488> 799 20G<1295.5 1414 2246 2315>
 LayerCount: 5
 Fore
-SplineSet
-1413.99511719 410 m 9
- 1413.99511719 426 l 17
- 1618.99511719 475 1699.99511719 486 1905.99511719 573 c 0
- 2044.99511719 632 2192.99511719 721 2298.99511719 819 c 9
- 2314.99511719 819 l 17
- 2199.99511719 704 2044.99511719 615 1905.99511719 557 c 0
- 1706.99511719 473 1561.99511719 443 1413.99511719 410 c 9
-1413.99511719 410 m 1
- 1438.99511719 418 l 1
- 1151.99511719 -246 900.995117188 -735 783.995117188 -909 c 0
- 46.9951171875 -2007 -357.004882812 -1786 422.995117188 -811 c 2
- 2380.99511719 1638 l 2
- 3364.99511719 2869 3846.99511719 2621 2568.99511719 1491 c 0
- 1824.99511719 833 1373.99511719 532 578.995117188 0 c 1
- 553.995117188 0 l 1
- 1372.99511719 565 1840.99511719 856 2560.99511719 1507 c 0
- 3838.99511719 2662 3313.99511719 2782 2396.99511719 1630 c 2
- 447.995117188 -819 l 2
- -308.004882812 -1769 29.9951171875 -1974 766.995117188 -893 c 0
- 884.995117188 -720 1126.99511719 -254 1413.99511719 410 c 1
-EndSplineSet
-Validated: 37
+Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part14 part15 part53 part54
 EndChar
 
 StartChar: z
 Encoding: 122 122 51
-Width: 2077
+Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<578.05 994.05 1184.05 1270.55>
 LayerCount: 5
 Fore
-SplineSet
-1495.04980469 410 m 0
- 1995.04980469 1049 1380.04980469 901 602.049804688 0 c 9
- 578.049804688 0 l 1
- 1410.04980469 971 2011.04980469 1041 1518.04980469 410 c 0
- 1518.04980469 410 1332.04980469 164 1209.04980469 0 c 25
- 1184.04980469 0 l 25
- 1307.04980469 164 1010.04980469 -218 1495.04980469 410 c 0
-1307.05078125 0 m 9
- 1332.05078125 0 l 1
- 1365.05078125 49 1479.05078125 25 1422.05078125 -57 c 0
- 1068.05078125 -563 995.05078125 -655 594.05078125 -1090 c 0
- -93.94921875 -1835 -196.94921875 -1745 463.05078125 -958 c 0
- 685.05078125 -693 1037.05078125 -254 2077.05078125 410 c 1
- 2044.05078125 410 l 1
- 1012.05078125 -254 671.05078125 -678 447.05078125 -942 c 0
- -221.94921875 -1729 -117.94921875 -1901 611.05078125 -1106 c 0
- 1011.05078125 -670 1069.05078125 -598 1438.05078125 -66 c 4
- 1504.05078125 30 1364.05078125 82 1307.05078125 0 c 9
-EndSplineSet
-Validated: 37
+Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part67 part11 part63 part51
 EndChar
 
