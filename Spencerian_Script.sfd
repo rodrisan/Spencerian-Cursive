@@ -104,7 +104,7 @@ ChainSub2: coverage "'calt' for quotation-1" 1 1 1 1
 EndFPST
 ChainSub2: coverage "'calt' for initial part of ghlyps like n after glyphs like b-1" 0 0 0 1
  3 0 0
-  Coverage: 4 P108
+  Coverage: 5 P9600
   Coverage: 5 null2
   Coverage: 4 P105
  3
@@ -114,7 +114,7 @@ ChainSub2: coverage "'calt' for initial part of ghlyps like n after glyphs like 
 EndFPST
 ChainPos2: coverage "'kern' for applying all 'curs' features-1" 0 0 0 1
  1 0 0
-  Coverage: 551 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 hyphen period zero one two three four five six seven eight nine colon semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent P000 P100 P101 P001 P102 P103 P9200 P9100 P104 P105 P106 P107 P108 P109 P110 P002 P111 P003 P112 P113 P114 P115 P116 P117 P118 P9400 P9500 P004 P127 null1 null2 P119 P9000 P120 P121 P122 P123 P005 P124 P9401 P9402 P125 P126 null3 P9201 Quotation_Mark2
+  Coverage: 552 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 hyphen period zero one two three four five six seven eight nine colon semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent P000 P100 P101 P001 P102 P103 P9200 P9100 P104 P105 P106 P107 P9600 P109 P110 P002 P111 P003 P112 P113 P114 P115 P116 P117 P118 P9400 P9500 P004 P127 null1 null2 P119 P9000 P120 P121 P122 P123 P005 P124 P9401 P9402 P125 P126 null3 P9201 Quotation_Mark2
  3
   SeqLookup: 0 "'curs'"
   SeqLookup: 0 "'curs' a d g o and q"
@@ -122,7 +122,7 @@ ChainPos2: coverage "'kern' for applying all 'curs' features-1" 0 0 0 1
 EndFPST
 ChainSub2: coverage "'calt' for parts before m n x and z" 0 0 0 1
  1 0 2
-  Coverage: 34 P9000 P9100 P9200 P108 P9400 P9500
+  Coverage: 35 P9000 P9100 P9200 P9600 P9400 P9500
   FCoverage: 5 null2
   FCoverage: 4 P105
  1
@@ -130,14 +130,14 @@ ChainSub2: coverage "'calt' for parts before m n x and z" 0 0 0 1
 EndFPST
 ChainSub2: coverage "'calt' for parts before a d g o and q-1" 0 0 0 1
  1 0 1
-  Coverage: 28 P9000 P9100 P108 P9400 P9500
+  Coverage: 29 P9000 P9100 P9600 P9400 P9500
   FCoverage: 9 P101 P113
  1
   SeqLookup: 0 "'aalt' for parts before a d g o and q"
 EndFPST
 ChainSub2: coverage "'calt' for parts before c-1" 0 0 0 1
  3 0 0
-  Coverage: 34 P9000 P9100 P9200 P108 P9400 P9500
+  Coverage: 35 P9000 P9100 P9200 P9600 P9400 P9500
   Coverage: 5 null1
   Coverage: 4 P109
  1
@@ -145,7 +145,7 @@ ChainSub2: coverage "'calt' for parts before c-1" 0 0 0 1
 EndFPST
 ChainSub2: coverage "'calt' for parts before e-1" 0 0 0 1
  3 0 0
-  Coverage: 34 P9000 P9100 P9200 P108 P9400 P9500
+  Coverage: 35 P9000 P9100 P9200 P9600 P9400 P9500
   Coverage: 5 null2
   Coverage: 4 P111
  1
@@ -153,7 +153,7 @@ ChainSub2: coverage "'calt' for parts before e-1" 0 0 0 1
 EndFPST
 ChainSub2: coverage "'calt' For replacing first parts of glyphs with intermedite glyphs(null1 and null2)-1" 0 0 0 1
  2 0 0
-  Coverage: 34 P9000 P9100 P108 P9200 P9400 P9500
+  Coverage: 35 P9000 P9100 P9600 P9200 P9400 P9500
   Coverage: 29 P001 P000 P005 P002 P003 P004
  1
   SeqLookup: 1 "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs"
@@ -2576,7 +2576,7 @@ HStem: 0 21G<-147 22.5> 762 16<2974.89 3061.46> 799 20G<1192.5 1320>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P000 P102 P9000 part6 P119 P108
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P000 P102 P9000 part6 P119 P9600
 EndChar
 
 StartChar: c
@@ -2674,7 +2674,7 @@ HStem: 0 21G<0 416> 799 20G<1106 1522>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P005 P105 P119 P108
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P005 P105 P119 P9600
 EndChar
 
 StartChar: o
@@ -2686,7 +2686,7 @@ HStem: 0 21G<0 83.5> 745 17<1429.83 1553.89> 799 20G<1093 1217>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P113 P108
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P113 P9600
 EndChar
 
 StartChar: a
@@ -2772,7 +2772,7 @@ HStem: 0 21G<0 219> 799 20G<1565.5 2310>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P002 P107 P102 P119 P108
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P002 P107 P102 P119 P9600
 EndChar
 
 StartChar: h
@@ -3148,7 +3148,7 @@ EndSplineSet
 Validated: 41
 EndChar
 
-StartChar: P108
+StartChar: P9600
 Encoding: 268 -1 65
 Width: 414
 VWidth: 0
@@ -3438,6 +3438,7 @@ SplineSet
  1416.83496094 818.200195312 l 1
 EndSplineSet
 Validated: 5
+Colour: 63ff14
 EndChar
 
 StartChar: P118
@@ -3459,6 +3460,8 @@ SplineSet
  231 0 l 1
 EndSplineSet
 Validated: 1
+Comment: "It is for x."
+Colour: 66ff0a
 EndChar
 
 StartChar: P9400
@@ -3483,6 +3486,7 @@ SplineSet
 EndSplineSet
 Validated: 37
 Substitution2: "'aalt' for parts before a d g o and q-1" P9401
+Colour: ff4036
 EndChar
 
 StartChar: P9500
@@ -3504,6 +3508,7 @@ SplineSet
  988.997070312 465 412.997070312 -12 0.068359375 0 c 9
 EndSplineSet
 Validated: 33
+Colour: ff3b2e
 EndChar
 
 StartChar: P004
@@ -3528,6 +3533,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Substitution2: "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs-1" null1
+Colour: 5b8ff
 EndChar
 
 StartChar: null1
@@ -3574,6 +3580,8 @@ SplineSet
  206.736328125 409 l 1
 EndSplineSet
 Validated: 41
+Comment: "It is for b."
+Colour: 63ff17
 EndChar
 
 StartChar: P9000
@@ -3598,6 +3606,8 @@ Substitution2: "'aalt' for parts before e-1" part64
 Substitution2: "'aalt' for parts before c-1" part65
 Substitution2: "'aalt' for parts before a d g o and q-1" part66
 Substitution2: "'aalt' for parts before m n x and z-1" part68
+Comment: "It is for final part of characters like a, c and w."
+Colour: ff544a
 EndChar
 
 StartChar: P120
@@ -3619,6 +3629,8 @@ SplineSet
  -0.099609375 0.599609375 l 5
 EndSplineSet
 Validated: 1
+Comment: "it is for glyph like m and n"
+Colour: 78ff1c
 EndChar
 
 StartChar: P121
@@ -3638,6 +3650,7 @@ SplineSet
  183.842773438 409 l 1
 EndSplineSet
 Validated: 41
+Colour: ffc71a
 EndChar
 
 StartChar: P122
@@ -3660,6 +3673,7 @@ SplineSet
  322 409.599609375 l 1
 EndSplineSet
 Validated: 33
+Colour: ffc712
 EndChar
 
 StartChar: P123
@@ -3680,6 +3694,7 @@ SplineSet
  1147.34960938 625.857421875 l 1
 EndSplineSet
 Validated: 33
+Colour: ffe014
 EndChar
 
 StartChar: glyph90
@@ -3712,6 +3727,8 @@ SplineSet
  520.629882812 409.599609375 l 1
 EndSplineSet
 Substitution2: "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs-1" null2
+Comment: "It is for initial part of v, x, m, n."
+Colour: 4aabff
 EndChar
 
 StartChar: P124
@@ -3731,6 +3748,7 @@ SplineSet
  757.662109375 409.599609375 l 1
 EndSplineSet
 Validated: 41
+Colour: ffc90a
 EndChar
 
 StartChar: P9401
@@ -3754,6 +3772,7 @@ SplineSet
  2049.29980469 625.857421875 l 1
 EndSplineSet
 Validated: 37
+Colour: ff292e
 EndChar
 
 StartChar: P9402
@@ -3777,6 +3796,7 @@ SplineSet
  1679.232336 410.070890353 l 1
 EndSplineSet
 Validated: 37
+Colour: ff3645
 EndChar
 
 StartChar: P125
@@ -3796,6 +3816,8 @@ SplineSet
  573.415039062 769.502929688 l 1
 EndSplineSet
 Validated: 41
+Comment: "It is for final part of b and v."
+Colour: ff2638
 EndChar
 
 StartChar: P126
@@ -3816,6 +3838,8 @@ SplineSet
  573.415447509 769.50281344 l 1
 EndSplineSet
 Validated: 33
+Comment: "It is for m, n and v."
+Colour: 75ff1a
 EndChar
 
 StartChar: null3
