@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1552375620
+ModificationTime: 1552376477
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -114,7 +114,7 @@ ChainSub2: coverage "'calt' for initial part of ghlyps like n after glyphs like 
 EndFPST
 ChainPos2: coverage "'kern' for applying all 'curs' features-1" 0 0 0 1
  1 0 0
-  Coverage: 612 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 period zero one two three four five six seven eight nine colon semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent part0 part1 part4 part5 part6 part7 part8 part9 part10 part11 part53 part15 part17 part18 part16 part14 part20 part21 part27 part32 part33 part35 part37 part39 part42 part51 part54 part56 part58 null1 null2 part61 part62 part63 part64 part65 part66 part67 part68 part69 part70 part71 part72 null3 part73 Quotation_Mark2
+  Coverage: 619 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 hyphen period zero one two three four five six seven eight nine colon semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent part0 part1 part4 part5 part6 part7 part8 part9 part10 part11 part53 part15 part17 part18 part16 part14 part20 part21 part27 part32 part33 part35 part37 part39 part42 part51 part54 part56 part58 null1 null2 part61 part62 part63 part64 part65 part66 part67 part68 part69 part70 part71 part72 null3 part73 Quotation_Mark2
  3
   SeqLookup: 0 "'curs'"
   SeqLookup: 0 "'curs' a d g o and q"
@@ -164,7 +164,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 14 6
+WinInfo: 28 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -293,7 +293,7 @@ Grid
   EndSpiro
 EndSplineSet
 AnchorClass2: "cursive 3" "'curs' for parts and glyphs without anchor points__ it is for space problem-1" "cursive 2" "'curs' a d g o and q-1" "Cursive 1" "'curs'-1"
-BeginChars: 310 125
+BeginChars: 310 126
 
 StartChar: O
 Encoding: 79 79 0
@@ -381,7 +381,7 @@ Encoding: 65 65 1
 Width: 3492
 VWidth: 0
 InSpiro: 1
-Flags: W
+Flags: HW
 HStem: 0 21G<1875.9 1990.58> 795.816 20G<2573.05 2605.53> 866.656 14.7197<2159.77 2275.32> 2437.6 20G<3307.64 3492.93>
 VStem: 0.416992 25.6475<572.859 818.974>
 AnchorPoint: "cursive 3" 3493 3 exit 0
@@ -488,7 +488,6 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 37
 EndChar
 
 StartChar: N
@@ -1359,7 +1358,7 @@ Encoding: 66 66 9
 Width: 2925
 VWidth: 0
 InSpiro: 1
-Flags: W
+Flags: HW
 HStem: -122.332 10.9229<1175.84 1319.89> 16.3838 32.7686<375.96 659.955> 1219.7 14.2236<1970.6 2152.58> 1327.1 8.19238<1350.7 1360.33>
 VStem: 713.16 32.7676<293.858 631.687> 1866.55 13.959<1287.15 1340.11>
 AnchorPoint: "cursive 3" 2923 -1 exit 0
@@ -1494,7 +1493,6 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 37
 EndChar
 
 StartChar: R
@@ -2418,7 +2416,7 @@ StartChar: E
 Encoding: 69 69 20
 Width: 4096
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 2449 9<2325.03 2671>
 LayerCount: 5
 Fore
@@ -2455,7 +2453,6 @@ SplineSet
  2392 2405 2526 2449 2671 2449 c 5
  2671 2458 l 5
 EndSplineSet
-Validated: 37
 EndChar
 
 StartChar: I
@@ -4841,19 +4838,19 @@ EndChar
 
 StartChar: underscore
 Encoding: 95 95 117
-Width: 1122
+Width: 1845
 VWidth: 0
-Flags: HW
-AnchorPoint: "cursive 3" 1121 -3 exit 0
-AnchorPoint: "cursive 3" 0 0 entry 0
+Flags: HWO
+AnchorPoint: "cursive 3" 1845 -1 exit 0
+AnchorPoint: "cursive 3" 1 0 entry 0
 LayerCount: 5
 Fore
 SplineSet
-248 19 m 25
- 865 19 l 25
- 865 0 l 25
- 248 1 l 25
- 248 19 l 25
+297 18 m 1
+ 1542 19 l 5
+ 1542 0 l 5
+ 297 0 l 1
+ 297 18 l 1
 EndSplineSet
 EndChar
 
@@ -5164,6 +5161,22 @@ SplineSet
  2106.36816406 -477.591796875 2445 -262 2817 0 c 1029
 EndSplineSet
 Refer: 54 -1 S 0.75 0 0 0.75 901.168 0.349718 2
+EndChar
+
+StartChar: hyphen
+Encoding: 45 45 125
+Width: 1756
+VWidth: 0
+Flags: HW
+LayerCount: 5
+Fore
+SplineSet
+368 418.349609375 m 1
+ 1310 418.349609375 l 1
+ 1310 412.516601562 1310 406.682617188 1310 400.849609375 c 1
+ 368 400.849609375 l 1
+ 368 406.682617188 368 412.516601562 368 418.349609375 c 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
