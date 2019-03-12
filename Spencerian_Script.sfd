@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1552416805
+ModificationTime: 1552418465
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -79,15 +79,15 @@ KernClass2: 20 10 "'kern' Horizontal Kerning in Latin lookup 1-1"
  3 V W
  1 X
  1 Z
- 6 part62
+ 5 P9000
  7 glyph90
  0 
- 5 part5
- 5 part0
- 6 part67
- 6 part14
- 6 part21
- 6 part56
+ 5 P0100
+ 5 P0000
+ 5 P0004
+ 5 P0001
+ 5 P0002
+ 5 P0003
  5 part4
  7 glyph90
  3 A F
@@ -104,7 +104,7 @@ ChainSub2: coverage "'calt' for quotation-1" 1 1 1 1
 EndFPST
 ChainSub2: coverage "'calt' for initial part of ghlyps like n after glyphs like b-1" 0 0 0 1
  3 0 0
-  Coverage: 6 part17
+  Coverage: 5 P9300
   Coverage: 5 null2
   Coverage: 6 part11
  3
@@ -114,7 +114,7 @@ ChainSub2: coverage "'calt' for initial part of ghlyps like n after glyphs like 
 EndFPST
 ChainPos2: coverage "'kern' for applying all 'curs' features-1" 0 0 0 1
  1 0 0
-  Coverage: 619 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 hyphen period zero one two three four five six seven eight nine colon semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent part0 part1 part4 part5 part6 part7 part8 part9 part10 part11 part53 part15 part17 part18 part16 part14 part20 part21 part27 part32 part33 part35 part37 part39 part42 part51 part54 part56 part58 null1 null2 part61 part62 part63 part64 part65 part66 part67 part68 part69 part70 part71 part72 null3 part73 Quotation_Mark2
+  Coverage: 611 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 hyphen period zero one two three four five six seven eight nine colon semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent P0000 part1 part4 P0100 part6 part7 P9200 P9100 part10 part11 part53 part15 P9300 part18 part16 P0001 part20 P0002 part27 part32 part33 part35 part37 part39 part42 P9400 P9500 P0003 part58 null1 null2 part61 P9000 part63 part64 part65 part66 P0004 part68 part69 part70 part71 part72 null3 part73 Quotation_Mark2
  3
   SeqLookup: 0 "'curs'"
   SeqLookup: 0 "'curs' a d g o and q"
@@ -122,7 +122,7 @@ ChainPos2: coverage "'kern' for applying all 'curs' features-1" 0 0 0 1
 EndFPST
 ChainSub2: coverage "'calt' for parts before m n x and z" 0 0 0 1
  1 0 2
-  Coverage: 39 part62 part9 part8 part17 part51 part54
+  Coverage: 35 P9000 P9100 P9200 P9300 P9400 P9500
   FCoverage: 5 null2
   FCoverage: 6 part11
  1
@@ -130,14 +130,14 @@ ChainSub2: coverage "'calt' for parts before m n x and z" 0 0 0 1
 EndFPST
 ChainSub2: coverage "'calt' for parts before a d g o and q-1" 0 0 0 1
  1 0 1
-  Coverage: 33 part62 part9 part17 part51 part54
+  Coverage: 29 P9000 P9100 P9300 P9400 P9500
   FCoverage: 12 part4 part32
  1
   SeqLookup: 0 "'aalt' for parts before a d g o and q"
 EndFPST
 ChainSub2: coverage "'calt' for parts before c-1" 0 0 0 1
  3 0 0
-  Coverage: 39 part62 part9 part8 part17 part51 part54
+  Coverage: 35 P9000 P9100 P9200 P9300 P9400 P9500
   Coverage: 5 null1
   Coverage: 6 part18
  1
@@ -145,7 +145,7 @@ ChainSub2: coverage "'calt' for parts before c-1" 0 0 0 1
 EndFPST
 ChainSub2: coverage "'calt' for parts before e-1" 0 0 0 1
  3 0 0
-  Coverage: 39 part62 part9 part8 part17 part51 part54
+  Coverage: 35 P9000 P9100 P9200 P9300 P9400 P9500
   Coverage: 5 null2
   Coverage: 6 part20
  1
@@ -153,18 +153,19 @@ ChainSub2: coverage "'calt' for parts before e-1" 0 0 0 1
 EndFPST
 ChainSub2: coverage "'calt' For replacing first parts of glyphs with intermedite glyphs(null1 and null2)-1" 0 0 0 1
  2 0 0
-  Coverage: 39 part62 part9 part17 part8 part51 part54
-  Coverage: 39 part5 part0 part67 part14 part21 part56
+  Coverage: 35 P9000 P9100 P9300 P9200 P9400 P9500
+  Coverage: 35 P0100 P0000 P0004 P0001 P0002 P0003
  1
   SeqLookup: 1 "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs"
 EndFPST
 Encoding: ISO8859-1
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 84 14 6
+WinInfo: 84 7 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2551,7 +2552,7 @@ VStem: 2318 33<1622.02 1654.97>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part0 part58 part6 part62
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P0000 part58 part6 P9000
 EndChar
 
 StartChar: u
@@ -2563,7 +2564,7 @@ HStem: 0 21G<-147 22.5> 799 20G<1192.5 1320 1327.5 1467 2011.5 2188 2732.5 2909>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part0 part6 part62 part6 part62
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P0000 part6 P9000 part6 part62
 EndChar
 
 StartChar: w
@@ -2575,7 +2576,7 @@ HStem: 0 21G<-147 22.5> 762 16<2974.89 3061.46> 799 20G<1192.5 1320>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part0 part6 part62 part6 part61 part17
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P0000 part6 P9000 part6 part61 P9300
 EndChar
 
 StartChar: c
@@ -2587,7 +2588,7 @@ HStem: 0 844 799 20G<1319 1335 1839.5 2015>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part18 part62
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part18 P9000
 EndChar
 
 StartChar: e
@@ -2599,7 +2600,7 @@ HStem: 0 21G<0 168.5> 799 20G<1814.5 1990>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part21 part20 part62
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P0002 part20 P9000
 EndChar
 
 StartChar: r
@@ -2612,7 +2613,7 @@ VStem: 1508 24<795 950>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part0 part35 part62
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P0000 part35 P9000
 EndChar
 
 StartChar: s
@@ -2625,7 +2626,7 @@ VStem: 861 16<237.429 295>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part0 part37 part54
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P0000 part37 P9500
 EndChar
 
 StartChar: n
@@ -2637,7 +2638,7 @@ HStem: 0 21G<0 416 606 1022> 799 20G<2048 2464>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part67 part11 part63 part67 part11 part62
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P0004 part11 part63 part67 part11 P9000
 EndChar
 
 StartChar: m
@@ -2649,7 +2650,7 @@ HStem: 0 21G<0 416 606 1022 1212 1628> 799 20G<2654 3070>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part67 part11 part63 part67 part11 part63 part67 part11 part62
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P0004 part11 part63 part67 part11 part63 part67 part11 P9000
 EndChar
 
 StartChar: x
@@ -2661,7 +2662,7 @@ HStem: 0 21G<401 459.006> 409.4 21G<400.569 656.031> 799 20G<1392.19 1458>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part67 part11 part42 part62
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P0004 part11 part42 P9000
 EndChar
 
 StartChar: v
@@ -2673,7 +2674,7 @@ HStem: 0 21G<0 416> 799 20G<1106 1522>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part67 part11 part61 part17
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P0004 part11 part61 P9300
 EndChar
 
 StartChar: o
@@ -2685,7 +2686,7 @@ HStem: 0 21G<0 83.5> 745 17<1429.83 1553.89> 799 20G<1093 1217>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part32 part17
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part32 P9300
 EndChar
 
 StartChar: a
@@ -2698,7 +2699,7 @@ VStem: 1318.9 344.096
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part4 part6 part62
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part4 part6 P9000
 EndChar
 
 StartChar: t
@@ -2710,7 +2711,7 @@ HStem: 0 21G<0 185.5> 799 20G<2237 2261> 1221 16<1344 2187>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part0 part39 part6 part62
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P0000 part39 part6 P9000
 EndChar
 
 StartChar: d
@@ -2723,7 +2724,7 @@ VStem: 688.071 665.929
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part4 part7 part6 part62
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part4 part7 part6 P9000
 EndChar
 
 StartChar: q
@@ -2735,7 +2736,7 @@ HStem: 784 19<1275.32 1359> 800 19<1452.13 1661.35> 811 16<1713.88 1751.32>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part4 part9
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part4 P9100
 EndChar
 
 StartChar: p
@@ -2747,7 +2748,7 @@ HStem: -967 21G<237 300.534> 0 21G<0 177.5> 417.4 21G<1367.57 1623.03>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part14 part33 part67 part11 part62
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P0001 part33 P0004 part11 P9000
 EndChar
 
 StartChar: l
@@ -2759,7 +2760,7 @@ HStem: 0 21G<573 1073> 799 20G<2515 2679>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part14 part15 part6 part62
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P0001 part15 part6 P9000
 EndChar
 
 StartChar: b
@@ -2771,7 +2772,7 @@ HStem: 0 21G<0 219> 799 20G<1565.5 2310>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part14 part15 part6 part61 part17
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P0001 part15 part6 part61 P9300
 EndChar
 
 StartChar: h
@@ -2783,7 +2784,7 @@ HStem: 409.4 21G<1654.57 1910.03>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part14 part15 part10 part67 part11 part62
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P0001 part15 part10 P0004 part11 P9000
 EndChar
 
 StartChar: k
@@ -2794,7 +2795,7 @@ Flags: HW
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part14 part15 part10 part27 part6 part62
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P0001 part15 part10 part27 part6 P9000
 EndChar
 
 StartChar: j
@@ -2806,7 +2807,7 @@ HStem: 0 21G<172 341.5> 799 20G<1511.5 1639> 800 20G<1309.26 1948.52>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part0 part8
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P0000 P9200
 EndChar
 
 StartChar: y
@@ -2818,7 +2819,7 @@ HStem: 417.4 21G<400.569 656.031> 800 20G<1383.26 2022.52>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part67 part11 part62 part8
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P0004 part11 P9000 P9200
 EndChar
 
 StartChar: g
@@ -2830,7 +2831,7 @@ HStem: 784 19<1579.32 1663> 800 19<1756.13 1965.35> 800 20G<1621.26 2260.52>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part4 part8
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part4 P9200
 EndChar
 
 StartChar: f
@@ -2842,7 +2843,7 @@ HStem: 0 21G<553.995 976.495> 410 21G<1414 1488> 799 20G<1295.5 1414 2246 2315>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part14 part15 part53 part54
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P0001 part15 part53 P9500
 EndChar
 
 StartChar: z
@@ -2854,10 +2855,10 @@ HStem: 0 21G<578.05 994.05 1184.05 1270.55>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" part67 part11 part63 part51
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P0004 part11 part63 P9400
 EndChar
 
-StartChar: part0
+StartChar: P0000
 Encoding: 256 -1 52
 Width: 1467
 VWidth: 0
@@ -2931,7 +2932,7 @@ EndSplineSet
 Validated: 41
 EndChar
 
-StartChar: part5
+StartChar: P0100
 Encoding: 259 -1 55
 Width: 1425
 VWidth: 0
@@ -2994,7 +2995,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: part8
+StartChar: P9200
 Encoding: 262 -1 58
 Width: 2212
 VWidth: 0
@@ -3020,7 +3021,7 @@ Validated: 37
 Substitution2: "'aalt' for parts before e-1" part73
 EndChar
 
-StartChar: part9
+StartChar: P9100
 Encoding: 263 -1 59
 Width: 2225
 VWidth: 0
@@ -3147,7 +3148,7 @@ EndSplineSet
 Validated: 41
 EndChar
 
-StartChar: part17
+StartChar: P9300
 Encoding: 268 -1 65
 Width: 414
 VWidth: 0
@@ -3219,7 +3220,7 @@ EndSplineSet
 Validated: 33
 EndChar
 
-StartChar: part14
+StartChar: P0001
 Encoding: 271 -1 68
 Width: 1237
 VWidth: 0
@@ -3265,7 +3266,7 @@ EndSplineSet
 Validated: 33
 EndChar
 
-StartChar: part21
+StartChar: P0002
 Encoding: 273 -1 70
 Width: 929
 VWidth: 0
@@ -3460,7 +3461,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: part51
+StartChar: P9400
 Encoding: 281 -1 78
 Width: 2505
 VWidth: 0
@@ -3484,7 +3485,7 @@ Validated: 37
 Substitution2: "'aalt' for parts before a d g o and q-1" part69
 EndChar
 
-StartChar: part54
+StartChar: P9500
 Encoding: 282 -1 79
 Width: 1427
 VWidth: 0
@@ -3505,7 +3506,7 @@ EndSplineSet
 Validated: 33
 EndChar
 
-StartChar: part56
+StartChar: P0003
 Encoding: 283 -1 80
 Width: 1237
 VWidth: 0
@@ -3575,7 +3576,7 @@ EndSplineSet
 Validated: 41
 EndChar
 
-StartChar: part62
+StartChar: P9000
 Encoding: 288 -1 84
 Width: 1313
 VWidth: 0
@@ -3693,7 +3694,7 @@ Fore
 Validated: 1
 EndChar
 
-StartChar: part67
+StartChar: P0004
 Encoding: 293 -1 90
 Width: 556
 VWidth: 0
@@ -3710,7 +3711,6 @@ SplineSet
  198.14453125 141.299804688 382.07421875 284.331054688 556 409.599609375 c 1
  520.629882812 409.599609375 l 1
 EndSplineSet
-Validated: 9
 Substitution2: "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs-1" null2
 EndChar
 
