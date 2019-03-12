@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1552376477
+ModificationTime: 1552377364
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -164,7 +164,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 28 14 6
+WinInfo: 0 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -4397,11 +4397,11 @@ AnchorPoint: "cursive 3" 581.5 -4.5 entry 0
 LayerCount: 5
 Fore
 SplineSet
-582.950195312 13 m 4
- 582.950195312 20.25 588.75 26.0498046875 596 26.0498046875 c 4
- 603.25 26.0498046875 609.049804688 20.25 609.049804688 13 c 4
- 609.049804688 5.75 603.25 -0.0498046875 596 -0.0498046875 c 4
- 588.75 -0.0498046875 582.950195312 5.75 582.950195312 13 c 4
+573.815429688 22 m 4
+ 573.815429688 34.3251953125 583.674804688 44.1845703125 596 44.1845703125 c 4
+ 608.325195312 44.1845703125 618.184570312 34.3251953125 618.184570312 22 c 4
+ 618.184570312 9.6748046875 608.325195312 -0.1845703125 596 -0.1845703125 c 4
+ 583.674804688 -0.1845703125 573.815429688 9.6748046875 573.815429688 22 c 4
 EndSplineSet
 EndChar
 
@@ -4840,7 +4840,7 @@ StartChar: underscore
 Encoding: 95 95 117
 Width: 1845
 VWidth: 0
-Flags: HWO
+Flags: HW
 AnchorPoint: "cursive 3" 1845 -1 exit 0
 AnchorPoint: "cursive 3" 1 0 entry 0
 LayerCount: 5
@@ -5167,7 +5167,9 @@ StartChar: hyphen
 Encoding: 45 45 125
 Width: 1756
 VWidth: 0
-Flags: HW
+Flags: HWO
+AnchorPoint: "cursive 3" 1756 -1 exit 0
+AnchorPoint: "cursive 3" 0 -2 entry 0
 LayerCount: 5
 Fore
 SplineSet
