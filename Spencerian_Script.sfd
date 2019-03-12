@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1552348829
+ModificationTime: 1552350289
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -114,7 +114,7 @@ ChainSub2: coverage "'calt' for initial part of ghlyps like n after glyphs like 
 EndFPST
 ChainPos2: coverage "'kern' for applying all 'curs' features-1" 0 0 0 1
  1 0 0
-  Coverage: 604 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 period zero one two three four five six seven eight nine colon semicolon question A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z part0 part1 part4 part5 part6 part7 part8 part9 part10 part11 part53 part15 part17 part18 part16 part14 part20 part21 part27 part32 part33 part35 part37 part39 part42 part51 part54 part56 part58 null1 null2 part61 part62 part63 part64 part65 part66 part67 part68 part69 part70 part71 part72 null3 part73 Quotation_Mark2
+  Coverage: 609 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 period zero one two three four five six seven eight nine colon semicolon question A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent part0 part1 part4 part5 part6 part7 part8 part9 part10 part11 part53 part15 part17 part18 part16 part14 part20 part21 part27 part32 part33 part35 part37 part39 part42 part51 part54 part56 part58 null1 null2 part61 part62 part63 part64 part65 part66 part67 part68 part69 part70 part71 part72 null3 part73 Quotation_Mark2
  3
   SeqLookup: 0 "'curs'"
   SeqLookup: 0 "'curs' a d g o and q"
@@ -164,7 +164,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 14 6
+WinInfo: 112 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -293,7 +293,7 @@ Grid
   EndSpiro
 EndSplineSet
 AnchorClass2: "cursive 3" "'curs' for parts and glyphs without anchor points__ it is for space problem-1" "cursive 2" "'curs' a d g o and q-1" "Cursive 1" "'curs'-1"
-BeginChars: 310 123
+BeginChars: 310 124
 
 StartChar: O
 Encoding: 79 79 0
@@ -5078,6 +5078,52 @@ AnchorPoint: "cursive 3" 0 0 entry 0
 LayerCount: 5
 Fore
 Refer: 98 44 S 1 0 0 1 -206 1085 2
+EndChar
+
+StartChar: cent
+Encoding: 162 162 123
+Width: 2768
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive 3" 1947 3 exit 0
+AnchorPoint: "cursive 3" 3 -7 entry 0
+LayerCount: 5
+Fore
+SplineSet
+1552 1500 m 1
+ 1545.09082031 1505.36914062 l 1
+ 1556.08789062 1519.52148438 1566.13574219 1533.21582031 1575.26953125 1546.44824219 c 0
+ 1670.02441406 1683.70507812 1664.43945312 1766.53710938 1613.62402344 1801.57226562 c 0
+ 1503.33105469 1877.61523438 1151.015625 1754.54199219 899.217773438 1387.0546875 c 0
+ 867.982421875 1341.46777344 840.786132812 1295.89648438 817.762695312 1250.94140625 c 0
+ 677.677734375 977.4140625 693.143554688 731.177734375 883.981445312 633.6484375 c 0
+ 1044.66699219 551.530273438 1611.48339844 689.958984375 2096.80566406 1390.98046875 c 1
+ 2104 1386 l 1
+ 2111.19433594 1381.01953125 l 1
+ 1624.51660156 678.041015625 1051.33300781 528.469726562 876.018554688 618.06640625 c 0
+ 671.65625 722.505859375 660.924804688 983.092773438 802.186523438 1258.91894531 c 0
+ 825.571289062 1304.57910156 853.150390625 1350.78027344 884.782226562 1396.9453125 c 0
+ 1137.08984375 1765.17871094 1497.25488281 1903.05957031 1623.55761719 1815.98046875 c 0
+ 1688.01855469 1771.53613281 1684.73730469 1674.21484375 1589.671875 1536.50585938 c 0
+ 1580.3359375 1522.98242188 1570.09375 1509.02441406 1558.90917969 1494.63085938 c 1
+ 1552 1500 l 1
+364 0 m 1
+ 357.103515625 5.3857421875 l 1
+ 2268.765625 2453.38574219 l 1
+ 2275.66210938 2448 l 1
+ 2282.55859375 2442.61425781 l 1
+ 370.896484375 -5.3857421875 l 1
+ 364 0 l 1
+EndSplineSet
+Layer: 3
+SplineSet
+1552 1500 m 5
+ 1911 1962 1278.81152344 1956.53613281 892 1392 c 4
+ 670 1068 649.806640625 743.499023438 880 625.857421875 c 4
+ 1048 540 1618 684 2104 1386 c 1028
+364 0 m 29
+ 2275.66210938 2448 l 1053
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
