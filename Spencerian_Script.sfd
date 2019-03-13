@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1552436210
+ModificationTime: 1552439656
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -104,7 +104,7 @@ ChainSub2: coverage "'calt' for quotation-1" 1 1 1 1
 EndFPST
 ChainSub2: coverage "'calt' for initial part of ghlyps like n after glyphs like b-1" 0 0 0 1
  3 0 0
-  Coverage: 5 P9600
+  Coverage: 5 P9500
   Coverage: 5 null2
   Coverage: 4 P105
  3
@@ -114,7 +114,7 @@ ChainSub2: coverage "'calt' for initial part of ghlyps like n after glyphs like 
 EndFPST
 ChainPos2: coverage "'kern' for applying all 'curs' features-1" 0 0 0 1
  1 0 0
-  Coverage: 556 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 hyphen period zero one two three four five six seven eight nine colon semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent P000 P100 P101 P001 P102 P103 P9200 P9100 P104 P105 P106 P107 P9600 P109 P110 P002 P111 P003 P112 P113 P114 P115 P116 P117 P118 P9400 P9500 P004 P127 null1 null2 P119 P9000 P120 P121 P9003 P9002 P005 P9001 P9401 P9402 P9601 P126 null3 P9201 Quotation_Mark2
+  Coverage: 556 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 hyphen period zero one two three four five six seven eight nine colon semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent P000 P100 P101 P001 P102 P103 P9200 P9100 P104 P105 P106 P107 P9500 P109 P110 P002 P111 P003 P112 P113 P114 P115 P116 P117 P118 P9400 P9300 P004 P127 null1 null2 P119 P9000 P120 P121 P9003 P9002 P005 P9001 P9401 P9402 P9501 P126 null3 P9201 Quotation_Mark2
  3
   SeqLookup: 0 "'curs'"
   SeqLookup: 0 "'curs' a d g o and q"
@@ -122,7 +122,7 @@ ChainPos2: coverage "'kern' for applying all 'curs' features-1" 0 0 0 1
 EndFPST
 ChainSub2: coverage "'calt' for parts before m n x and z" 0 0 0 1
  1 0 2
-  Coverage: 35 P9000 P9100 P9200 P9600 P9400 P9500
+  Coverage: 35 P9000 P9100 P9200 P9500 P9400 P9300
   FCoverage: 5 null2
   FCoverage: 4 P105
  1
@@ -130,21 +130,21 @@ ChainSub2: coverage "'calt' for parts before m n x and z" 0 0 0 1
 EndFPST
 ChainSub2: coverage "'calt' for parts before a d g o and q-1" 0 0 0 1
  1 0 1
-  Coverage: 29 P9000 P9100 P9600 P9400 P9500
+  Coverage: 29 P9000 P9100 P9500 P9400 P9300
   FCoverage: 9 P101 P113
  1
   SeqLookup: 0 "'aalt' for parts before a d g o and q"
 EndFPST
 ChainSub2: coverage "'calt' for parts before c-1" 0 0 0 1
  2 0 0
-  Coverage: 35 P9000 P9100 P9200 P9600 P9400 P9500
+  Coverage: 35 P9000 P9100 P9200 P9500 P9400 P9300
   Coverage: 4 P109
  1
   SeqLookup: 0 "'aalt' for parts before c"
 EndFPST
 ChainSub2: coverage "'calt' for parts before e-1" 0 0 0 1
  3 0 0
-  Coverage: 35 P9000 P9100 P9200 P9600 P9400 P9500
+  Coverage: 35 P9000 P9100 P9200 P9500 P9400 P9300
   Coverage: 5 null2
   Coverage: 4 P111
  1
@@ -152,19 +152,18 @@ ChainSub2: coverage "'calt' for parts before e-1" 0 0 0 1
 EndFPST
 ChainSub2: coverage "'calt' For replacing first parts of glyphs with intermedite glyphs(null1 and null2)-1" 0 0 0 1
  2 0 0
-  Coverage: 35 P9000 P9100 P9600 P9200 P9400 P9500
+  Coverage: 35 P9000 P9100 P9500 P9200 P9400 P9300
   Coverage: 29 P001 P000 P005 P002 P003 P004
  1
   SeqLookup: 1 "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs"
 EndFPST
-Encoding: ISO8859-1
-Compacted: 1
+Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 42 14 6
+WinInfo: 56 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -293,10 +292,10 @@ Grid
   EndSpiro
 EndSplineSet
 AnchorClass2: "cursive 3" "'curs' for parts and glyphs without anchor points__ it is for space problem-1" "cursive 2" "'curs' a d g o and q-1" "Cursive 1" "'curs'-1"
-BeginChars: 310 126
+BeginChars: 137 128
 
 StartChar: O
-Encoding: 79 79 0
+Encoding: 40 79 0
 Width: 2867
 VWidth: 0
 InSpiro: 1
@@ -377,7 +376,7 @@ Validated: 41
 EndChar
 
 StartChar: A
-Encoding: 65 65 1
+Encoding: 26 65 1
 Width: 3492
 VWidth: 0
 Flags: HW
@@ -501,7 +500,7 @@ EndSplineSet
 EndChar
 
 StartChar: N
-Encoding: 78 78 2
+Encoding: 39 78 2
 Width: 4096
 VWidth: 0
 InSpiro: 1
@@ -594,7 +593,7 @@ Validated: 37
 EndChar
 
 StartChar: M
-Encoding: 77 77 3
+Encoding: 38 77 3
 Width: 5062
 VWidth: 0
 InSpiro: 1
@@ -721,7 +720,7 @@ Validated: 37
 EndChar
 
 StartChar: T
-Encoding: 84 84 4
+Encoding: 45 84 4
 Width: 4628
 VWidth: 0
 InSpiro: 1
@@ -850,7 +849,7 @@ Validated: 37
 EndChar
 
 StartChar: F
-Encoding: 70 70 5
+Encoding: 31 70 5
 Width: 4043
 VWidth: 0
 InSpiro: 1
@@ -997,7 +996,7 @@ Validated: 37
 EndChar
 
 StartChar: K
-Encoding: 75 75 6
+Encoding: 36 75 6
 Width: 3596
 VWidth: 0
 InSpiro: 1
@@ -1155,7 +1154,7 @@ Validated: 37
 EndChar
 
 StartChar: H
-Encoding: 72 72 7
+Encoding: 33 72 7
 Width: 4636
 VWidth: 0
 InSpiro: 1
@@ -1282,7 +1281,7 @@ Validated: 37
 EndChar
 
 StartChar: P
-Encoding: 80 80 8
+Encoding: 41 80 8
 Width: 4628
 VWidth: 0
 InSpiro: 1
@@ -1365,7 +1364,7 @@ Validated: 37
 EndChar
 
 StartChar: B
-Encoding: 66 66 9
+Encoding: 27 66 9
 Width: 2925
 VWidth: 0
 Flags: HW
@@ -1399,7 +1398,7 @@ EndSplineSet
 EndChar
 
 StartChar: R
-Encoding: 82 82 10
+Encoding: 43 82 10
 Width: 4628
 VWidth: 0
 InSpiro: 1
@@ -1538,7 +1537,7 @@ Validated: 37
 EndChar
 
 StartChar: G
-Encoding: 71 71 11
+Encoding: 32 71 11
 Width: 4628
 VWidth: 0
 InSpiro: 1
@@ -1681,7 +1680,7 @@ Validated: 37
 EndChar
 
 StartChar: S
-Encoding: 83 83 12
+Encoding: 44 83 12
 Width: 4096
 VWidth: 0
 InSpiro: 1
@@ -1788,7 +1787,7 @@ Validated: 37
 EndChar
 
 StartChar: L
-Encoding: 76 76 13
+Encoding: 37 76 13
 Width: 4096
 VWidth: 0
 InSpiro: 1
@@ -1927,7 +1926,7 @@ Validated: 37
 EndChar
 
 StartChar: X
-Encoding: 88 88 14
+Encoding: 49 88 14
 Width: 6455
 VWidth: 0
 InSpiro: 1
@@ -2031,7 +2030,7 @@ Validated: 37
 EndChar
 
 StartChar: W
-Encoding: 87 87 15
+Encoding: 48 87 15
 Width: 6455
 VWidth: 0
 InSpiro: 1
@@ -2133,7 +2132,7 @@ Validated: 37
 EndChar
 
 StartChar: Z
-Encoding: 90 90 16
+Encoding: 51 90 16
 Width: 4096
 VWidth: 0
 Flags: W
@@ -2171,7 +2170,7 @@ Validated: 37
 EndChar
 
 StartChar: Q
-Encoding: 81 81 17
+Encoding: 42 81 17
 Width: 4096
 VWidth: 0
 Flags: W
@@ -2222,7 +2221,7 @@ Validated: 37
 EndChar
 
 StartChar: C
-Encoding: 67 67 18
+Encoding: 28 67 18
 Width: 2812
 VWidth: 0
 Flags: HW
@@ -2282,7 +2281,7 @@ EndSplineSet
 EndChar
 
 StartChar: D
-Encoding: 68 68 19
+Encoding: 29 68 19
 Width: 4096
 VWidth: 0
 Flags: W
@@ -2318,7 +2317,7 @@ Validated: 37
 EndChar
 
 StartChar: E
-Encoding: 69 69 20
+Encoding: 30 69 20
 Width: 4096
 VWidth: 0
 Flags: HW
@@ -2362,7 +2361,7 @@ Validated: 37
 EndChar
 
 StartChar: I
-Encoding: 73 73 21
+Encoding: 34 73 21
 Width: 2896
 VWidth: 0
 Flags: W
@@ -2399,7 +2398,7 @@ Validated: 37
 EndChar
 
 StartChar: J
-Encoding: 74 74 22
+Encoding: 35 74 22
 Width: 4096
 VWidth: 0
 Flags: W
@@ -2429,7 +2428,7 @@ Validated: 37
 EndChar
 
 StartChar: U
-Encoding: 85 85 23
+Encoding: 46 85 23
 Width: 4096
 VWidth: 0
 Flags: W
@@ -2469,7 +2468,7 @@ Validated: 37
 EndChar
 
 StartChar: Y
-Encoding: 89 89 24
+Encoding: 50 89 24
 Width: 4096
 VWidth: 0
 Flags: W
@@ -2509,7 +2508,7 @@ Validated: 37
 EndChar
 
 StartChar: V
-Encoding: 86 86 25
+Encoding: 47 86 25
 Width: 4096
 VWidth: 0
 Flags: W
@@ -2542,7 +2541,7 @@ Validated: 33
 EndChar
 
 StartChar: i
-Encoding: 105 105 26
+Encoding: 61 105 26
 Width: 0
 VWidth: 0
 Flags: W
@@ -2555,7 +2554,7 @@ MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P000 P127 P102 P9000
 EndChar
 
 StartChar: u
-Encoding: 117 117 27
+Encoding: 73 117 27
 Width: 0
 VWidth: 0
 Flags: W
@@ -2567,7 +2566,7 @@ MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P000 P102 P9000 P102
 EndChar
 
 StartChar: w
-Encoding: 119 119 28
+Encoding: 75 119 28
 Width: 0
 VWidth: 0
 Flags: W
@@ -2575,11 +2574,11 @@ HStem: 0 21G<-147 22.5> 762 16<2974.89 3061.46> 799 20G<1192.5 1320>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P000 P102 P9000 P102 P119 P9600
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P000 P102 P9000 P102 P119 P9500
 EndChar
 
 StartChar: c
-Encoding: 99 99 29
+Encoding: 55 99 29
 Width: 0
 VWidth: 0
 Flags: W
@@ -2591,7 +2590,7 @@ MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P109 P9000
 EndChar
 
 StartChar: e
-Encoding: 101 101 30
+Encoding: 57 101 30
 Width: 0
 VWidth: 0
 Flags: W
@@ -2603,7 +2602,7 @@ MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P003 P111 P9000
 EndChar
 
 StartChar: r
-Encoding: 114 114 31
+Encoding: 70 114 31
 Width: 0
 VWidth: 0
 Flags: W
@@ -2616,7 +2615,7 @@ MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P000 P115 P9000
 EndChar
 
 StartChar: s
-Encoding: 115 115 32
+Encoding: 71 115 32
 Width: 0
 VWidth: 0
 Flags: W
@@ -2625,11 +2624,11 @@ VStem: 861 16<237.429 295>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P000 P116 P9500
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P000 P116 P9300
 EndChar
 
 StartChar: n
-Encoding: 110 110 33
+Encoding: 66 110 33
 Width: 0
 VWidth: 0
 Flags: W
@@ -2641,7 +2640,7 @@ MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P005 P105 P120 P005 
 EndChar
 
 StartChar: m
-Encoding: 109 109 34
+Encoding: 65 109 34
 Width: 0
 VWidth: 0
 Flags: W
@@ -2653,7 +2652,7 @@ MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P005 P105 P120 P005 
 EndChar
 
 StartChar: x
-Encoding: 120 120 35
+Encoding: 76 120 35
 Width: 0
 VWidth: 0
 Flags: W
@@ -2665,7 +2664,7 @@ MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P005 P105 P118 P9000
 EndChar
 
 StartChar: v
-Encoding: 118 118 36
+Encoding: 74 118 36
 Width: 0
 VWidth: 0
 Flags: W
@@ -2673,11 +2672,11 @@ HStem: 0 21G<0 416> 799 20G<1106 1522>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P005 P105 P119 P9600
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P005 P105 P119 P9500
 EndChar
 
 StartChar: o
-Encoding: 111 111 37
+Encoding: 67 111 37
 Width: 0
 VWidth: 0
 Flags: W
@@ -2685,11 +2684,11 @@ HStem: 0 21G<0 83.5> 745 17<1429.83 1553.89> 799 20G<1093 1217>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P113 P9600
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P113 P9500
 EndChar
 
 StartChar: a
-Encoding: 97 97 38
+Encoding: 53 97 38
 Width: 0
 VWidth: 0
 Flags: W
@@ -2702,7 +2701,7 @@ MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P101 P102 P9000
 EndChar
 
 StartChar: t
-Encoding: 116 116 39
+Encoding: 72 116 39
 Width: 0
 VWidth: 0
 Flags: W
@@ -2714,7 +2713,7 @@ MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P000 P117 P102 P9000
 EndChar
 
 StartChar: d
-Encoding: 100 100 40
+Encoding: 56 100 40
 Width: 0
 VWidth: 0
 Flags: W
@@ -2727,7 +2726,7 @@ MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P101 P103 P102 P9000
 EndChar
 
 StartChar: q
-Encoding: 113 113 41
+Encoding: 69 113 41
 Width: 0
 VWidth: 0
 Flags: W
@@ -2739,7 +2738,7 @@ MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P101 P9100
 EndChar
 
 StartChar: p
-Encoding: 112 112 42
+Encoding: 68 112 42
 Width: 0
 VWidth: 0
 Flags: W
@@ -2751,7 +2750,7 @@ MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P002 P114 P005 P105 
 EndChar
 
 StartChar: l
-Encoding: 108 108 43
+Encoding: 64 108 43
 Width: 0
 VWidth: 0
 Flags: W
@@ -2763,7 +2762,7 @@ MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P002 P107 P102 P9000
 EndChar
 
 StartChar: b
-Encoding: 98 98 44
+Encoding: 54 98 44
 Width: 0
 VWidth: 0
 Flags: W
@@ -2771,11 +2770,11 @@ HStem: 0 21G<0 219> 799 20G<1565.5 2310>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P002 P107 P102 P119 P9600
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P002 P107 P102 P119 P9500
 EndChar
 
 StartChar: h
-Encoding: 104 104 45
+Encoding: 60 104 45
 Width: 0
 VWidth: 0
 Flags: W
@@ -2787,7 +2786,7 @@ MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P002 P107 P104 P005 
 EndChar
 
 StartChar: k
-Encoding: 107 107 46
+Encoding: 63 107 46
 Width: 0
 VWidth: 0
 Flags: HW
@@ -2798,7 +2797,7 @@ MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P002 P107 P104 P112 
 EndChar
 
 StartChar: j
-Encoding: 106 106 47
+Encoding: 62 106 47
 Width: 0
 VWidth: 0
 Flags: W
@@ -2810,7 +2809,7 @@ MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P000 P9200
 EndChar
 
 StartChar: y
-Encoding: 121 121 48
+Encoding: 77 121 48
 Width: 0
 VWidth: 0
 Flags: W
@@ -2822,7 +2821,7 @@ MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P005 P105 P9000 P920
 EndChar
 
 StartChar: g
-Encoding: 103 103 49
+Encoding: 59 103 49
 Width: 0
 VWidth: 0
 Flags: W
@@ -2834,7 +2833,7 @@ MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P101 P9200
 EndChar
 
 StartChar: f
-Encoding: 102 102 50
+Encoding: 58 102 50
 Width: 0
 VWidth: 0
 Flags: W
@@ -2842,11 +2841,11 @@ HStem: 0 21G<553.995 976.495> 410 21G<1414 1488> 799 20G<1295.5 1414 2246 2315>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P002 P107 P106 P9500
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P002 P107 P106 P9300
 EndChar
 
 StartChar: z
-Encoding: 122 122 51
+Encoding: 78 122 51
 Width: 0
 VWidth: 0
 Flags: W
@@ -2858,7 +2857,7 @@ MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P005 P105 P120 P9400
 EndChar
 
 StartChar: P000
-Encoding: 256 -1 52
+Encoding: 80 -1 52
 Width: 1467
 VWidth: 0
 Flags: W
@@ -2882,7 +2881,7 @@ Colour: 5bfff
 EndChar
 
 StartChar: P100
-Encoding: 257 -1 53
+Encoding: 81 -1 53
 Width: 1415
 VWidth: 0
 Flags: W
@@ -2906,7 +2905,7 @@ Validated: 33
 EndChar
 
 StartChar: P101
-Encoding: 258 -1 54
+Encoding: 82 -1 54
 Width: 1321
 VWidth: 0
 Flags: W
@@ -2933,7 +2932,7 @@ Validated: 41
 EndChar
 
 StartChar: P001
-Encoding: 259 -1 55
+Encoding: 83 -1 55
 Width: 1425
 VWidth: 0
 Flags: W
@@ -2955,7 +2954,7 @@ Colour: 129eff
 EndChar
 
 StartChar: P102
-Encoding: 260 -1 56
+Encoding: 84 -1 56
 Width: 344
 VWidth: 0
 Flags: W
@@ -2976,7 +2975,7 @@ Validated: 1
 EndChar
 
 StartChar: P103
-Encoding: 261 -1 57
+Encoding: 85 -1 57
 Width: 1214
 VWidth: 0
 Flags: W
@@ -2997,7 +2996,7 @@ Validated: 1
 EndChar
 
 StartChar: P9200
-Encoding: 262 -1 58
+Encoding: 86 -1 58
 Width: 2212
 VWidth: 0
 Flags: W
@@ -3024,7 +3023,7 @@ Colour: ff1226
 EndChar
 
 StartChar: P9100
-Encoding: 263 -1 59
+Encoding: 87 -1 59
 Width: 2225
 VWidth: 0
 Flags: W
@@ -3050,7 +3049,7 @@ Colour: ff1c3b
 EndChar
 
 StartChar: P104
-Encoding: 264 -1 60
+Encoding: 88 -1 60
 Width: 665
 VWidth: 0
 Flags: W
@@ -3070,7 +3069,7 @@ Validated: 9
 EndChar
 
 StartChar: P105
-Encoding: 265 -1 61
+Encoding: 89 -1 61
 Width: 793
 VWidth: 0
 Flags: W
@@ -3087,11 +3086,11 @@ SplineSet
  0 409.599609375 l 1
 EndSplineSet
 Validated: 33
-Substitution2: "'aalt' for initial part of glyphs like n after glyphs like b-1" part72
+Substitution2: "'aalt' for initial part of glyphs like n after glyphs like b-1" P126
 EndChar
 
 StartChar: P106
-Encoding: 266 -1 62
+Encoding: 90 -1 62
 Width: 1742
 VWidth: 0
 Flags: W
@@ -3129,7 +3128,7 @@ Validated: 1
 EndChar
 
 StartChar: P107
-Encoding: 267 -1 64
+Encoding: 91 -1 64
 Width: 1526
 VWidth: 0
 Flags: W
@@ -3151,8 +3150,8 @@ EndSplineSet
 Validated: 41
 EndChar
 
-StartChar: P9600
-Encoding: 268 -1 65
+StartChar: P9500
+Encoding: 92 -1 65
 Width: 414
 VWidth: 0
 Flags: W
@@ -3170,12 +3169,14 @@ SplineSet
  447 658 199 674 0 819 c 1
 EndSplineSet
 Validated: 33
-Substitution2: "'aalt' for initial part of glyphs like n after glyphs like b-1" part71
+Substitution2: "'aalt' for parts before c-1" P9503
+Substitution2: "'aalt' for parts before e-1" P9502
+Substitution2: "'aalt' for initial part of glyphs like n after glyphs like b-1" P9501
 Colour: ff2938
 EndChar
 
 StartChar: P109
-Encoding: 269 -1 66
+Encoding: 93 -1 66
 Width: 1456
 VWidth: 0
 Flags: W
@@ -3204,7 +3205,7 @@ Validated: 37
 EndChar
 
 StartChar: P110
-Encoding: 270 -1 67
+Encoding: 94 -1 67
 Width: 602
 VWidth: 0
 Flags: W
@@ -3225,7 +3226,7 @@ Validated: 33
 EndChar
 
 StartChar: P002
-Encoding: 271 -1 68
+Encoding: 95 -1 68
 Width: 1237
 VWidth: 0
 Flags: W
@@ -3244,11 +3245,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Substitution2: "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs-1" null1
-Colour: ff2117
+Colour: 59cff
 EndChar
 
 StartChar: P111
-Encoding: 272 -1 69
+Encoding: 96 -1 69
 Width: 572
 VWidth: 0
 Flags: W
@@ -3272,7 +3273,7 @@ Validated: 33
 EndChar
 
 StartChar: P003
-Encoding: 273 -1 70
+Encoding: 97 -1 70
 Width: 929
 VWidth: 0
 Flags: W
@@ -3293,11 +3294,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Substitution2: "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs-1" null2
-Colour: ff3026
+Colour: 1f96ff
 EndChar
 
 StartChar: P112
-Encoding: 274 -1 71
+Encoding: 98 -1 71
 Width: 1494
 VWidth: 0
 Flags: W
@@ -3322,7 +3323,7 @@ Validated: 33
 EndChar
 
 StartChar: P113
-Encoding: 275 -1 72
+Encoding: 99 -1 72
 Width: 693
 VWidth: 0
 Flags: W
@@ -3348,7 +3349,7 @@ Validated: 33
 EndChar
 
 StartChar: P114
-Encoding: 276 -1 73
+Encoding: 100 -1 73
 Width: 1950
 VWidth: 0
 Flags: W
@@ -3371,7 +3372,7 @@ Validated: 1
 EndChar
 
 StartChar: P115
-Encoding: 277 -1 74
+Encoding: 101 -1 74
 Width: 329
 VWidth: 0
 Flags: W
@@ -3397,7 +3398,7 @@ Validated: 33
 EndChar
 
 StartChar: P116
-Encoding: 278 -1 75
+Encoding: 102 -1 75
 Width: 2141
 VWidth: 0
 Flags: W
@@ -3421,7 +3422,7 @@ Validated: 33
 EndChar
 
 StartChar: P117
-Encoding: 279 -1 76
+Encoding: 103 -1 76
 Width: 843
 VWidth: 0
 Flags: W
@@ -3447,7 +3448,7 @@ Validated: 5
 EndChar
 
 StartChar: P118
-Encoding: 280 -1 77
+Encoding: 104 -1 77
 Width: 1858
 VWidth: 0
 Flags: W
@@ -3469,7 +3470,7 @@ Comment: "It is for x."
 EndChar
 
 StartChar: P9400
-Encoding: 281 -1 78
+Encoding: 105 -1 78
 Width: 2505
 VWidth: 0
 Flags: W
@@ -3493,8 +3494,8 @@ Substitution2: "'aalt' for parts before a d g o and q-1" P9401
 Colour: ff4036
 EndChar
 
-StartChar: P9500
-Encoding: 282 -1 79
+StartChar: P9300
+Encoding: 106 -1 79
 Width: 1427
 VWidth: 0
 Flags: W
@@ -3516,7 +3517,7 @@ Colour: ff3b2e
 EndChar
 
 StartChar: P004
-Encoding: 283 -1 80
+Encoding: 107 -1 80
 Width: 1237
 VWidth: 0
 Flags: W
@@ -3541,7 +3542,7 @@ Colour: 5b8ff
 EndChar
 
 StartChar: null1
-Encoding: 285 -1 81
+Encoding: 108 -1 81
 Width: 0
 VWidth: 0
 Flags: W
@@ -3553,7 +3554,7 @@ Validated: 1
 EndChar
 
 StartChar: null2
-Encoding: 286 -1 82
+Encoding: 109 -1 82
 Width: 0
 VWidth: 0
 Flags: W
@@ -3566,7 +3567,7 @@ Substitution2: "'aalt' for initial part of glyphs like n after glyphs like b-1" 
 EndChar
 
 StartChar: P119
-Encoding: 287 -1 83
+Encoding: 110 -1 83
 Width: 942
 VWidth: 0
 Flags: W
@@ -3588,7 +3589,7 @@ Comment: "It is for b."
 EndChar
 
 StartChar: P9000
-Encoding: 288 -1 84
+Encoding: 111 -1 84
 Width: 1313
 VWidth: 0
 Flags: W
@@ -3614,7 +3615,7 @@ Colour: ff544a
 EndChar
 
 StartChar: P120
-Encoding: 289 -1 85
+Encoding: 112 -1 85
 Width: 343
 VWidth: 0
 Flags: W
@@ -3636,7 +3637,7 @@ Comment: "it is for glyph like m and n"
 EndChar
 
 StartChar: P121
-Encoding: 290 -1 86
+Encoding: 113 -1 86
 Width: 977
 VWidth: 0
 Flags: W
@@ -3646,8 +3647,8 @@ LayerCount: 5
 Fore
 SplineSet
 183.842773438 409 m 1
- -345.484375 -269 376.877929688 19.765625 978.515625 409 c 5
- 943.6171875 409 l 5
+ -345.484375 -269 376.877929688 19.765625 978.515625 409 c 1
+ 943.6171875 409 l 1
  345.853515625 29.6396484375 -311.698242188 -236 206.510742188 409 c 1
  183.842773438 409 l 1
 EndSplineSet
@@ -3656,7 +3657,7 @@ Colour: ffc71a
 EndChar
 
 StartChar: P9003
-Encoding: 291 -1 87
+Encoding: 114 -1 87
 Width: 1313
 VWidth: 0
 Flags: W
@@ -3679,7 +3680,7 @@ Colour: ff1214
 EndChar
 
 StartChar: P9002
-Encoding: 292 -1 88
+Encoding: 115 -1 88
 Width: 1144
 VWidth: 0
 Flags: W
@@ -3700,7 +3701,7 @@ Colour: ff0d0d
 EndChar
 
 StartChar: glyph90
-Encoding: 32 32 89
+Encoding: 1 32 89
 Width: 1949
 VWidth: 0
 Flags: W
@@ -3712,7 +3713,7 @@ Validated: 1
 EndChar
 
 StartChar: P005
-Encoding: 293 -1 90
+Encoding: 116 -1 90
 Width: 556
 VWidth: 0
 Flags: W
@@ -3734,7 +3735,7 @@ Colour: 4aabff
 EndChar
 
 StartChar: P9001
-Encoding: 294 -1 91
+Encoding: 117 -1 91
 Width: 791
 VWidth: 0
 Flags: W
@@ -3754,7 +3755,7 @@ Colour: ff141c
 EndChar
 
 StartChar: P9401
-Encoding: 295 -1 92
+Encoding: 118 -1 92
 Width: 2082
 VWidth: 0
 Flags: W
@@ -3778,7 +3779,7 @@ Colour: ff292e
 EndChar
 
 StartChar: P9402
-Encoding: 296 -1 93
+Encoding: 119 -1 93
 Width: 2505
 VWidth: 0
 Flags: W
@@ -3801,8 +3802,8 @@ Validated: 37
 Colour: ff3645
 EndChar
 
-StartChar: P9601
-Encoding: 297 -1 94
+StartChar: P9501
+Encoding: 120 -1 94
 Width: 793
 VWidth: 0
 Flags: W
@@ -3823,7 +3824,7 @@ Colour: ff2638
 EndChar
 
 StartChar: P126
-Encoding: 298 -1 95
+Encoding: 121 -1 95
 Width: 793
 VWidth: 0
 Flags: W
@@ -3844,7 +3845,7 @@ Comment: "It is for m, n and v."
 EndChar
 
 StartChar: null3
-Encoding: 299 -1 96
+Encoding: 122 -1 96
 Width: 793
 VWidth: 0
 Flags: W
@@ -3856,7 +3857,7 @@ Validated: 1
 EndChar
 
 StartChar: glyph98
-Encoding: 44 44 97
+Encoding: 9 44 97
 Width: 0
 VWidth: 0
 Flags: H
@@ -3878,7 +3879,7 @@ Validated: 1
 EndChar
 
 StartChar: P9201
-Encoding: 300 -1 98
+Encoding: 123 -1 98
 Width: 2212
 VWidth: 0
 Flags: W
@@ -3902,7 +3903,7 @@ Colour: ff171f
 EndChar
 
 StartChar: period
-Encoding: 46 46 99
+Encoding: 11 46 99
 Width: 5671
 VWidth: 0
 Flags: HW
@@ -3923,7 +3924,7 @@ Validated: 1
 EndChar
 
 StartChar: zero
-Encoding: 48 48 100
+Encoding: 12 48 100
 Width: 1153
 VWidth: 0
 Flags: HW
@@ -3947,7 +3948,7 @@ Validated: 33
 EndChar
 
 StartChar: one
-Encoding: 49 49 101
+Encoding: 13 49 101
 Width: 979
 VWidth: 0
 Flags: HW
@@ -3966,7 +3967,7 @@ Validated: 1
 EndChar
 
 StartChar: two
-Encoding: 50 50 102
+Encoding: 14 50 102
 Width: 1328
 VWidth: 0
 Flags: HW
@@ -4011,7 +4012,7 @@ EndSplineSet
 EndChar
 
 StartChar: three
-Encoding: 51 51 103
+Encoding: 15 51 103
 Width: 1051
 VWidth: 0
 Flags: HW
@@ -4059,7 +4060,7 @@ EndSplineSet
 EndChar
 
 StartChar: four
-Encoding: 52 52 104
+Encoding: 16 52 104
 Width: 1290
 VWidth: 0
 Flags: HW
@@ -4093,7 +4094,7 @@ EndSplineSet
 EndChar
 
 StartChar: five
-Encoding: 53 53 105
+Encoding: 17 53 105
 Width: 1051
 VWidth: 0
 Flags: HW
@@ -4139,7 +4140,7 @@ EndSplineSet
 EndChar
 
 StartChar: six
-Encoding: 54 54 106
+Encoding: 18 54 106
 Width: 921
 VWidth: 0
 Flags: HW
@@ -4177,7 +4178,7 @@ EndSplineSet
 EndChar
 
 StartChar: seven
-Encoding: 55 55 107
+Encoding: 19 55 107
 Width: 1188
 VWidth: 0
 Flags: HW
@@ -4209,7 +4210,7 @@ EndSplineSet
 EndChar
 
 StartChar: eight
-Encoding: 56 56 108
+Encoding: 20 56 108
 Width: 1224
 VWidth: 0
 Flags: HW
@@ -4241,7 +4242,7 @@ EndSplineSet
 EndChar
 
 StartChar: nine
-Encoding: 57 57 109
+Encoding: 21 57 109
 Width: 1342
 VWidth: 0
 Flags: HW
@@ -4261,7 +4262,7 @@ Validated: 5
 EndChar
 
 StartChar: exclam
-Encoding: 33 33 110
+Encoding: 2 33 110
 Width: 4096
 VWidth: 0
 Flags: H
@@ -4281,7 +4282,7 @@ Validated: 1
 EndChar
 
 StartChar: question
-Encoding: 63 63 111
+Encoding: 24 63 111
 Width: 1870
 VWidth: 0
 Flags: HW
@@ -4313,7 +4314,7 @@ EndSplineSet
 EndChar
 
 StartChar: colon
-Encoding: 58 58 112
+Encoding: 22 58 112
 Width: 2699
 VWidth: 0
 Flags: HW
@@ -4327,7 +4328,7 @@ Validated: 1
 EndChar
 
 StartChar: semicolon
-Encoding: 59 59 113
+Encoding: 23 59 113
 Width: 5671
 VWidth: 0
 Flags: HW
@@ -4341,7 +4342,7 @@ Validated: 1
 EndChar
 
 StartChar: quotedbl
-Encoding: 34 34 114
+Encoding: 3 34 114
 Width: 382
 VWidth: 0
 Flags: HW
@@ -4356,7 +4357,7 @@ Substitution2: "'aalt' for quotation-1" Quotation_Mark2
 EndChar
 
 StartChar: Quotation_Mark2
-Encoding: 302 -1 115
+Encoding: 125 -1 115
 Width: 376
 VWidth: 0
 Flags: HW
@@ -4370,7 +4371,7 @@ Validated: 1
 EndChar
 
 StartChar: underscore
-Encoding: 95 95 116
+Encoding: 52 95 116
 Width: 1845
 VWidth: 0
 Flags: HW
@@ -4389,7 +4390,7 @@ Validated: 1
 EndChar
 
 StartChar: percent
-Encoding: 37 37 117
+Encoding: 6 37 117
 Width: 2411
 VWidth: 0
 Flags: HW
@@ -4417,7 +4418,7 @@ Validated: 37
 EndChar
 
 StartChar: numbersign
-Encoding: 35 35 118
+Encoding: 4 35 118
 Width: 2250
 VWidth: 0
 Flags: HW
@@ -4462,7 +4463,7 @@ EndSplineSet
 EndChar
 
 StartChar: dollar
-Encoding: 36 36 119
+Encoding: 5 36 119
 Width: 2772
 VWidth: 0
 Flags: HW
@@ -4555,7 +4556,7 @@ EndSplineSet
 EndChar
 
 StartChar: ampersand
-Encoding: 38 38 120
+Encoding: 7 38 120
 Width: 3760
 VWidth: 0
 Flags: HW
@@ -4604,7 +4605,7 @@ EndSplineSet
 EndChar
 
 StartChar: quotesingle
-Encoding: 39 39 121
+Encoding: 8 39 121
 Width: 378
 VWidth: 0
 Flags: HW
@@ -4617,7 +4618,7 @@ Validated: 1
 EndChar
 
 StartChar: cent
-Encoding: 162 162 122
+Encoding: 79 162 122
 Width: 2768
 VWidth: 0
 Flags: HW
@@ -4664,7 +4665,7 @@ EndSplineSet
 EndChar
 
 StartChar: at
-Encoding: 64 64 123
+Encoding: 25 64 123
 Width: 3447
 VWidth: 0
 Flags: HW
@@ -4705,7 +4706,7 @@ Refer: 54 -1 S 0.75 0 0 0.75 901.168 0.349718 2
 EndChar
 
 StartChar: hyphen
-Encoding: 45 45 124
+Encoding: 10 45 124
 Width: 1756
 VWidth: 0
 Flags: HW
@@ -4724,7 +4725,7 @@ Validated: 1
 EndChar
 
 StartChar: P127
-Encoding: 301 -1 125
+Encoding: 124 -1 125
 Width: 33
 VWidth: 0
 Flags: W
@@ -4736,6 +4737,49 @@ LayerCount: 5
 Fore
 Refer: 99 46 N 1 0 0 1 -579 1616 2
 Validated: 1
+EndChar
+
+StartChar: P9502
+Encoding: 127 -1 126
+Width: 942
+VWidth: 0
+Flags: HW
+HStem: 799.487 20G<552.5 693>
+AnchorPoint: "Cursive 1" 307 408.006 exit 0
+AnchorPoint: "Cursive 1" -32 819.4 entry 0
+LayerCount: 5
+Fore
+SplineSet
+-41 819.200195312 m 1
+ -23 819.200195312 l 1
+ -81 482 -12 238 290.999023438 408 c 1
+ 325.999023438 408 l 1
+ -34 190 -101 482 -41 819.200195312 c 1
+EndSplineSet
+Comment: "It is for final part of b and v before e."
+Colour: ff1c2e
+EndChar
+
+StartChar: P9503
+Encoding: 128 -1 127
+Width: 414
+VWidth: 0
+Flags: HW
+HStem: 799.487 20G<552.5 693>
+AnchorPoint: "cursive 3" 682 2 exit 0
+AnchorPoint: "Cursive 1" 678 820.006 exit 0
+AnchorPoint: "Cursive 1" 13 819.2 entry 0
+LayerCount: 5
+Fore
+SplineSet
+0 819 m 1
+ 26 819.200195312 l 5
+ 214 632 424 566 664 819.487304688 c 1
+ 693 819.200195312 l 1
+ 424 534 200 607 0 819 c 1
+EndSplineSet
+Comment: "For final part of b and v before c"
+Colour: ff3829
 EndChar
 EndChars
 EndSplineFont
