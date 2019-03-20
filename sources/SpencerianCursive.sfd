@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1553099091
+ModificationTime: 1553116670
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -61,7 +61,6 @@ Lookup: 6 0 0 "'calt' for parts before m n x and z" { "'calt' for parts before m
 Lookup: 6 0 0 "'calt' for initial part of ghlyps like n after glyphs like b" { "'calt' for initial part of ghlyps like n after glyphs like b-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' for quotation" { "'calt' for quotation-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 259 0 0 "'curs' a d g o and q" { "'curs' a d g o and q-1"  } ['curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) 'curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 259 0 0 "'curs' for parts and glyphs without anchor points__ it is for space problem" { "'curs' for parts and glyphs without anchor points__ it is for space problem-1"  } [' RQD' ('DFLT' <'dflt' > 'latn' <'dflt' > ) 'curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 259 0 0 "'curs'" { "'curs'-1"  } [' RQD' ('DFLT' <'dflt' > 'latn' <'dflt' > ) 'curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 264 0 0 "'kern' for applying all 'curs' features" { "'kern' for applying all 'curs' features-1"  } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 1" { "'kern' Horizontal Kerning in Latin lookup 1-1" [614,0,2] } [' RQD' ('DFLT' <'dflt' > 'latn' <'dflt' > ) 'kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -120,10 +119,9 @@ EndFPST
 ChainPos2: coverage "'kern' for applying all 'curs' features-1" 0 0 0 1
  1 0 0
   Coverage: 556 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 hyphen period zero one two three four five six seven eight nine colon semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent P000 P100 P101 P001 P102 P103 P9200 P9100 P104 P105 P106 P107 P9500 P109 P110 P002 P111 P003 P112 P113 P114 P115 P116 P117 P118 P9400 P9300 P004 P127 null1 null2 P119 P9000 P120 P121 P9003 P9002 P005 P9001 P9401 P9402 P9501 P126 null3 P9201 Quotation_Mark2
- 3
+ 2
   SeqLookup: 0 "'curs'"
   SeqLookup: 0 "'curs' a d g o and q"
-  SeqLookup: 0 "'curs' for parts and glyphs without anchor points__ it is for space problem"
 EndFPST
 ChainSub2: coverage "'calt' for parts before m n x and z" 0 0 0 1
  1 0 2
@@ -297,7 +295,7 @@ Grid
     0 0 z
   EndSpiro
 EndSplineSet
-AnchorClass2: "cursive 3" "'curs' for parts and glyphs without anchor points__ it is for space problem-1" "cursive 2" "'curs' a d g o and q-1" "Cursive 1" "'curs'-1"
+AnchorClass2: "cursive 2" "'curs' a d g o and q-1" "Cursive 1" "'curs'-1"
 BeginChars: 137 128
 
 StartChar: O
@@ -388,8 +386,6 @@ VWidth: 0
 Flags: HW
 HStem: 0 21G<1875.9 1990.58> 795.816 20G<2573.05 2605.53> 866.656 14.7197<2159.77 2275.32> 2437.6 20G<3307.64 3492.93>
 VStem: 0.416992 25.6475<572.859 818.974>
-AnchorPoint: "cursive 3" 3493 3 exit 0
-AnchorPoint: "cursive 3" -2 -1 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -733,8 +729,6 @@ InSpiro: 1
 Flags: W
 HStem: 16.3838 32.7686<831.024 1095.86> 2437.6 20G<4234.35 4308.99>
 VStem: 263.148 26.1143<569.25 818.978> 1785.86 8.19141<1851.39 1882.3> 2025.18 18.0713<1871.39 2002.28> 2555.9 16.3838<2084.1 2231.41>
-AnchorPoint: "cursive 3" 2077 1 exit 0
-AnchorPoint: "cursive 3" 0 0 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -862,8 +856,6 @@ InSpiro: 1
 Flags: W
 HStem: 16.3838 32.7686<557.33 822.096> 2437.6 20G<3968.36 4043>
 VStem: 1519.86 8.19141<1851.39 1882.3> 1759.19 18.0713<1871.39 2002.28> 2126.07 32.7676<942.08 972.811> 2289.91 16.3838<2084.1 2231.41>
-AnchorPoint: "cursive 3" 1579.35 -2.36328 exit 0
-AnchorPoint: "cursive 3" 0 0 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -1009,8 +1001,6 @@ InSpiro: 1
 Flags: W
 HStem: 0 8.19238<2241.85 2346.5> 1129.84 6.13574<2131.04 2203.48> 1302.53 8.19141<2076.64 2119.43> 2449.41 8.19141<3466.16 3596>
 VStem: 25.9824 25.9688<569.36 818.968>
-AnchorPoint: "cursive 3" 3172 -1 exit 0
-AnchorPoint: "cursive 3" 3.14355 4 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -1376,8 +1366,6 @@ VWidth: 0
 Flags: HW
 HStem: -122.332 10.9229<1175.84 1319.89> 16.3838 32.7686<375.96 659.955> 1219.7 14.2236<1970.6 2152.58> 1327.1 8.19238<1350.7 1360.33>
 VStem: 713.16 32.7676<293.858 631.687> 1866.55 13.959<1287.15 1340.11>
-AnchorPoint: "cursive 3" 2923 -1 exit 0
-AnchorPoint: "cursive 3" -1 -4 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -1693,8 +1681,6 @@ InSpiro: 1
 Flags: W
 HStem: 0 21G<24.5762 245.857>
 VStem: 263.721 25.6328<574.093 818.976>
-AnchorPoint: "cursive 3" 2358 0 exit 0
-AnchorPoint: "cursive 3" -134 -1 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -2233,8 +2219,6 @@ VWidth: 0
 Flags: HW
 HStem: -1 21G<338 555.5> 557 21G<1395 1439>
 VStem: 1395 16<557 575.052>
-AnchorPoint: "cursive 3" 2817 -8 exit 0
-AnchorPoint: "cursive 3" -1 -2 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -2373,8 +2357,6 @@ VWidth: 0
 Flags: W
 HStem: 0 21G<1334.57 1344.57>
 VStem: 1334.57 16<0 180.295>
-AnchorPoint: "cursive 3" 1677 -5 exit 0
-AnchorPoint: "cursive 3" 1 -1 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -2868,7 +2850,6 @@ Width: 1467
 VWidth: 0
 Flags: W
 HStem: 0 21G<0 169.5> 799 20G<1339.5 1467>
-AnchorPoint: "cursive 3" -2 0 entry 0
 AnchorPoint: "Cursive 1" 1454 819 exit 0
 LayerCount: 5
 Fore
@@ -2917,7 +2898,6 @@ VWidth: 0
 Flags: W
 HStem: 800 19<1068.13 1277.35>
 AnchorPoint: "Cursive 1" 1014 820.2 entry 0
-AnchorPoint: "cursive 3" -36 0 entry 0
 AnchorPoint: "cursive 2" 336 624.858 entry 0
 AnchorPoint: "Cursive 1" 1315.35 819 exit 0
 LayerCount: 5
@@ -2943,7 +2923,6 @@ Width: 1425
 VWidth: 0
 Flags: W
 HStem: 784 19<1341.32 1425>
-AnchorPoint: "cursive 3" -0.0211579 0 entry 0
 AnchorPoint: "Cursive 1" 1425 795 exit 0
 LayerCount: 5
 Fore
@@ -3007,7 +2986,6 @@ Width: 2212
 VWidth: 0
 Flags: W
 HStem: 800 20G<1424.26 2063.52>
-AnchorPoint: "cursive 3" 2050 -3 exit 0
 AnchorPoint: "Cursive 1" 2051.04 820.2 exit 0
 AnchorPoint: "Cursive 1" 1555.04 820 entry 0
 LayerCount: 5
@@ -3034,7 +3012,6 @@ Width: 2225
 VWidth: 0
 Flags: W
 HStem: 811 16<1378.88 1416.32>
-AnchorPoint: "cursive 3" 1406 0 exit 0
 AnchorPoint: "Cursive 1" 1416.32 819.2 exit 0
 AnchorPoint: "Cursive 1" 623.32 819 entry 0
 LayerCount: 5
@@ -3059,7 +3036,6 @@ Encoding: 88 -1 60
 Width: 665
 VWidth: 0
 Flags: W
-AnchorPoint: "cursive 3" 0 -2 entry 0
 AnchorPoint: "Cursive 1" 651 820 entry 0
 AnchorPoint: "Cursive 1" 13 0 exit 0
 LayerCount: 5
@@ -3162,7 +3138,6 @@ Width: 414
 VWidth: 0
 Flags: W
 HStem: 799.487 20G<552.5 693>
-AnchorPoint: "cursive 3" 682 2 exit 0
 AnchorPoint: "Cursive 1" 678 820.006 exit 0
 AnchorPoint: "Cursive 1" 13 819.2 entry 0
 LayerCount: 5
@@ -3238,7 +3213,6 @@ VWidth: 0
 Flags: W
 HStem: 0 21G<0 276> 799 20G<1002 1237>
 VStem: 0 1237
-AnchorPoint: "cursive 3" 0 0 entry 0
 AnchorPoint: "Cursive 1" 1221 819.2 exit 0
 LayerCount: 5
 Fore
@@ -3285,7 +3259,6 @@ VWidth: 0
 Flags: W
 HStem: 0 21G<0 169.5> 390 20G<878.5 929>
 VStem: 0 929
-AnchorPoint: "cursive 3" 0 0 entry 0
 AnchorPoint: "Cursive 1" 912 410 exit 0
 LayerCount: 5
 Fore
@@ -3333,7 +3306,6 @@ Encoding: 99 -1 72
 Width: 693
 VWidth: 0
 Flags: W
-AnchorPoint: "cursive 3" 0 -1 entry 0
 AnchorPoint: "cursive 2" 249 625.858 entry 0
 AnchorPoint: "Cursive 1" 604.117 819.2 exit 0
 AnchorPoint: "Cursive 1" 560.117 808.2 entry 0
@@ -3506,7 +3478,6 @@ Width: 1427
 VWidth: 0
 Flags: W
 HStem: 0 19<0.0683594 99.6909> 798.953 20G<1192.78 1427>
-AnchorPoint: "cursive 3" 1427 0 exit 0
 AnchorPoint: "Cursive 1" 1412 819.252 exit 0
 AnchorPoint: "Cursive 1" 0.99707 9 entry 0
 LayerCount: 5
@@ -3529,7 +3500,6 @@ VWidth: 0
 Flags: W
 HStem: 0 21G<0 83.5> 795 24<1196.45 1213>
 VStem: 0 1237
-AnchorPoint: "cursive 3" 0 0 entry 0
 AnchorPoint: "Cursive 1" 1225 807 exit 0
 LayerCount: 5
 Fore
@@ -3599,7 +3569,6 @@ Encoding: 111 -1 84
 Width: 1313
 VWidth: 0
 Flags: W
-AnchorPoint: "cursive 3" 1313 2 exit 0
 AnchorPoint: "Cursive 1" 1298.46 819.2 exit 0
 AnchorPoint: "Cursive 1" 215.265 409.6 entry 0
 LayerCount: 5
@@ -3711,8 +3680,6 @@ Encoding: 1 32 89
 Width: 1949
 VWidth: 0
 Flags: W
-AnchorPoint: "cursive 3" 1950 0 exit 0
-AnchorPoint: "cursive 3" 0 0 entry 0
 LayerCount: 5
 Fore
 Validated: 1
@@ -3723,7 +3690,6 @@ Encoding: 116 -1 90
 Width: 556
 VWidth: 0
 Flags: W
-AnchorPoint: "cursive 3" -1 0 entry 0
 AnchorPoint: "Cursive 1" 536.198 409.6 exit 0
 AnchorPoint: "Cursive 1" 14.1982 0.599609 entry 0
 LayerCount: 5
@@ -3868,8 +3834,6 @@ Width: 0
 VWidth: 0
 Flags: H
 VStem: 390 62<-45.9682 39.2772>
-AnchorPoint: "cursive 3" 481 0 exit 0
-AnchorPoint: "cursive 3" 357 0 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -3915,8 +3879,6 @@ VWidth: 0
 Flags: HW
 HStem: -8.9225 37.845<577.084 614.916>
 VStem: 577.078 37.845<-8.91636 28.9164>
-AnchorPoint: "cursive 3" 610.5 -4.5 exit 0
-AnchorPoint: "cursive 3" 581.5 -4.5 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -3934,8 +3896,6 @@ Encoding: 12 48 100
 Width: 1153
 VWidth: 0
 Flags: HW
-AnchorPoint: "cursive 3" 1065.39 -1 exit 0
-AnchorPoint: "cursive 3" -84.04 -4 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -3958,8 +3918,6 @@ Encoding: 13 49 101
 Width: 979
 VWidth: 0
 Flags: HW
-AnchorPoint: "cursive 3" 524.522 1 exit 0
-AnchorPoint: "cursive 3" -89.4775 0 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -3977,8 +3935,6 @@ Encoding: 14 50 102
 Width: 1328
 VWidth: 0
 Flags: HW
-AnchorPoint: "cursive 3" 1250.73 -1 exit 0
-AnchorPoint: "cursive 3" -1.27246 -1 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -4022,8 +3978,6 @@ Encoding: 15 51 103
 Width: 1051
 VWidth: 0
 Flags: HW
-AnchorPoint: "cursive 3" 1121 -1 exit 0
-AnchorPoint: "cursive 3" -47 -2 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -4070,8 +4024,6 @@ Encoding: 16 52 104
 Width: 1290
 VWidth: 0
 Flags: HW
-AnchorPoint: "cursive 3" 1020 1 exit 0
-AnchorPoint: "cursive 3" -131 -2 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -4104,8 +4056,6 @@ Encoding: 17 53 105
 Width: 1051
 VWidth: 0
 Flags: HW
-AnchorPoint: "cursive 3" 1049 -5 exit 0
-AnchorPoint: "cursive 3" -210 0 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -4150,8 +4100,6 @@ Encoding: 18 54 106
 Width: 921
 VWidth: 0
 Flags: HW
-AnchorPoint: "cursive 3" 879 0 exit 0
-AnchorPoint: "cursive 3" -204 0 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -4188,8 +4136,6 @@ Encoding: 19 55 107
 Width: 1188
 VWidth: 0
 Flags: HW
-AnchorPoint: "cursive 3" 773 -1 exit 0
-AnchorPoint: "cursive 3" -141 0 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -4220,8 +4166,6 @@ Encoding: 20 56 108
 Width: 1224
 VWidth: 0
 Flags: HW
-AnchorPoint: "cursive 3" 706 0 exit 0
-AnchorPoint: "cursive 3" -35 1 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -4252,8 +4196,6 @@ Encoding: 21 57 109
 Width: 1342
 VWidth: 0
 Flags: HW
-AnchorPoint: "cursive 3" 1079 0 exit 0
-AnchorPoint: "cursive 3" -331 0 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -4272,8 +4214,6 @@ Encoding: 2 33 110
 Width: 4096
 VWidth: 0
 Flags: H
-AnchorPoint: "cursive 3" 1496 -1 exit 0
-AnchorPoint: "cursive 3" 392 -1 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -4292,8 +4232,6 @@ Encoding: 24 63 111
 Width: 1870
 VWidth: 0
 Flags: HW
-AnchorPoint: "cursive 3" 1814 -1 exit 0
-AnchorPoint: "cursive 3" -218 0 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -4324,8 +4262,6 @@ Encoding: 22 58 112
 Width: 2699
 VWidth: 0
 Flags: HW
-AnchorPoint: "cursive 3" 966 0 exit 0
-AnchorPoint: "cursive 3" 627 1 entry 0
 LayerCount: 5
 Fore
 Refer: 99 46 N 1 0 0 1 192 -2 2
@@ -4338,8 +4274,6 @@ Encoding: 23 59 113
 Width: 5671
 VWidth: 0
 Flags: HW
-AnchorPoint: "cursive 3" 980 -4 exit 0
-AnchorPoint: "cursive 3" 587 0 entry 0
 LayerCount: 5
 Fore
 Refer: 97 44 N 1 0 0 1 357 0 2
@@ -4352,8 +4286,6 @@ Encoding: 3 34 114
 Width: 382
 VWidth: 0
 Flags: HW
-AnchorPoint: "cursive 3" 382 -1 exit 0
-AnchorPoint: "cursive 3" 0 0 entry 0
 LayerCount: 5
 Fore
 Refer: 97 44 N -1 0 0 -1 661 1679 2
@@ -4367,8 +4299,6 @@ Encoding: 125 -1 115
 Width: 376
 VWidth: 0
 Flags: HW
-AnchorPoint: "cursive 3" 374 0 exit 0
-AnchorPoint: "cursive 3" -699 1 entry 0
 LayerCount: 5
 Fore
 Refer: 97 44 N 1 0 0 1 -136 1748 2
@@ -4381,8 +4311,6 @@ Encoding: 52 95 116
 Width: 1845
 VWidth: 0
 Flags: HW
-AnchorPoint: "cursive 3" 1845 -1 exit 0
-AnchorPoint: "cursive 3" 1 0 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -4400,8 +4328,6 @@ Encoding: 6 37 117
 Width: 2411
 VWidth: 0
 Flags: HW
-AnchorPoint: "cursive 3" 2253 -3 exit 0
-AnchorPoint: "cursive 3" 312 -2 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -4428,8 +4354,6 @@ Encoding: 4 35 118
 Width: 2250
 VWidth: 0
 Flags: HW
-AnchorPoint: "cursive 3" 2013 -8 exit 0
-AnchorPoint: "cursive 3" 2 -7 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -4473,8 +4397,6 @@ Encoding: 5 36 119
 Width: 2772
 VWidth: 0
 Flags: HW
-AnchorPoint: "cursive 3" 1882 1 exit 0
-AnchorPoint: "cursive 3" 558 1 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -4566,8 +4488,6 @@ Encoding: 7 38 120
 Width: 3760
 VWidth: 0
 Flags: HW
-AnchorPoint: "cursive 3" 3051 -6 exit 0
-AnchorPoint: "cursive 3" 0 -6 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -4615,8 +4535,6 @@ Encoding: 8 39 121
 Width: 378
 VWidth: 0
 Flags: HW
-AnchorPoint: "cursive 3" 378 -2 exit 0
-AnchorPoint: "cursive 3" 0 0 entry 0
 LayerCount: 5
 Fore
 Refer: 97 44 S 1 0 0 1 -206 1085 2
@@ -4628,8 +4546,6 @@ Encoding: 79 162 122
 Width: 2768
 VWidth: 0
 Flags: HW
-AnchorPoint: "cursive 3" 1947 3 exit 0
-AnchorPoint: "cursive 3" 3 -7 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -4675,8 +4591,6 @@ Encoding: 25 64 123
 Width: 3447
 VWidth: 0
 Flags: HW
-AnchorPoint: "cursive 3" 3451 -8 exit 0
-AnchorPoint: "cursive 3" -1 3 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -4716,8 +4630,6 @@ Encoding: 10 45 124
 Width: 1756
 VWidth: 0
 Flags: HW
-AnchorPoint: "cursive 3" 1756 -1 exit 0
-AnchorPoint: "cursive 3" 0 -2 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -4772,7 +4684,6 @@ Width: 414
 VWidth: 0
 Flags: HW
 HStem: 799.487 20G<552.5 693>
-AnchorPoint: "cursive 3" 682 2 exit 0
 AnchorPoint: "Cursive 1" 678 820.006 exit 0
 AnchorPoint: "Cursive 1" 13 819.2 entry 0
 LayerCount: 5
