@@ -1,4 +1,4 @@
-Copyright (c) 2019, Alireza Alipour (https://github.com/AlirezaAlipour/Spencerian-Cursive),
+Copyright (c) 2019, Alireza Alipour (https://github.com/AlirezaAlipour/Spencerian-Cursive).
 
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
