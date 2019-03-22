@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1553252130
+ModificationTime: 1553257147
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -171,6 +171,9 @@ WinInfo: 70 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
+-4096 780.760742188 m 4
+ 8192 780.760742188 l 1028
+  Named: "final part of b, v, and o"
 6100 -3423 m 25
  -1468 -7791 l 25
  6100 -3423 l 25
@@ -2980,7 +2983,7 @@ StartChar: P9200
 Encoding: 86 -1 58
 Width: 2212
 VWidth: 0
-Flags: W
+Flags: WO
 HStem: 800 20G<1424.26 2063.52>
 AnchorPoint: "Cursive 1" 2051.04 820.2 exit 0
 AnchorPoint: "Cursive 1" 1555.04 820 entry 0
@@ -3130,22 +3133,21 @@ EndChar
 
 StartChar: P9500
 Encoding: 92 -1 65
-Width: 414
+Width: 602
 VWidth: 0
-Flags: W
-HStem: 799.487 20G<552.5 693>
-AnchorPoint: "Cursive 1" 678 820.006 exit 0
-AnchorPoint: "Cursive 1" 13 819.2 entry 0
+Flags: HW
+HStem: 799.487 20G<740.5 881>
+AnchorPoint: "Cursive 1" 444 819.006 exit 0
+AnchorPoint: "Cursive 1" -217 780.4 entry 0
 LayerCount: 5
 Fore
 SplineSet
-0 819 m 1
- 26 819.200195312 l 1
- 219 692 441 680 664 819.487304688 c 1
- 693 819.200195312 l 1
- 447 658 199 674 0 819 c 1
+-222 775 m 1
+ -210 788.200195312 l 1
+ -110 625.857421875 71 688 427 819.200195312 c 1
+ 464 819.200195312 l 1
+ 47 650 -124 618 -222 775 c 1
 EndSplineSet
-Validated: 33
 Substitution2: "'aalt' for parts before c-1" P9503
 Substitution2: "'aalt' for parts before e-1" P9502
 Substitution2: "'aalt' for initial part of glyphs like n after glyphs like b-1" P9501
@@ -3303,7 +3305,7 @@ Width: 693
 VWidth: 0
 Flags: W
 AnchorPoint: "cursive 2" 249 625.858 entry 0
-AnchorPoint: "Cursive 1" 604.117 819.2 exit 0
+AnchorPoint: "Cursive 1" 660 781 exit 0
 AnchorPoint: "Cursive 1" 560.117 808.2 entry 0
 LayerCount: 5
 Fore
@@ -3319,7 +3321,6 @@ SplineSet
  352.422851562 56.5068359375 148.975585938 -50.8974609375 50.5576171875 17.759765625 c 0
  -47.8603515625 86.4169921875 1.5927734375 331.734375 162.557617188 537.759765625 c 0
 EndSplineSet
-Validated: 33
 EndChar
 
 StartChar: P114
@@ -3542,8 +3543,8 @@ StartChar: P119
 Encoding: 110 -1 83
 Width: 942
 VWidth: 0
-Flags: W
-AnchorPoint: "Cursive 1" 930.736 819.2 exit 0
+Flags: HW
+AnchorPoint: "Cursive 1" 909 781 exit 0
 AnchorPoint: "Cursive 1" 217.736 409.8 entry 0
 LayerCount: 5
 Fore
@@ -3556,7 +3557,6 @@ SplineSet
  121.447265625 -11.765625 -203.833984375 -147 230.736328125 409 c 1
  206.736328125 409 l 1
 EndSplineSet
-Validated: 41
 Comment: "It is for b."
 EndChar
 
@@ -4654,7 +4654,7 @@ StartChar: P9502
 Encoding: 127 -1 126
 Width: 942
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 799.487 20G<552.5 693>
 AnchorPoint: "Cursive 1" 307 408.006 exit 0
 AnchorPoint: "Cursive 1" -32 819.4 entry 0
