@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1553257147
+ModificationTime: 1553269372
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -52,6 +52,7 @@ Lookup: 1 0 0 "'aalt' for parts before c" { "'aalt' for parts before c-1"  } ['a
 Lookup: 1 0 0 "'aalt' for parts before a d g o and q" { "'aalt' for parts before a d g o and q-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'aalt' for parts before m n x and z" { "'aalt' for parts before m n x and z-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'aalt' for initial part of glyphs like n after glyphs like b" { "'aalt' for initial part of glyphs like n after glyphs like b-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'aalt' for final part of glyphs like b fallowed by another part" { "'aalt' for final part of glyphs like b fallowed by another part-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'aalt' for quotation" { "'aalt' for quotation-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' For replacing first parts of glyphs with intermedite glyphs(null1 and null2)" { "'calt' For replacing first parts of glyphs with intermedite glyphs(null1 and null2)-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' for parts before e" { "'calt' for parts before e-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -59,6 +60,7 @@ Lookup: 6 0 0 "'calt' for parts before c" { "'calt' for parts before c-1"  } ['c
 Lookup: 6 0 0 "'calt' for parts before a d g o and q" { "'calt' for parts before a d g o and q-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' for parts before m n x and z" { "'calt' for parts before m n x and z"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' for initial part of ghlyps like n after glyphs like b" { "'calt' for initial part of ghlyps like n after glyphs like b-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' for final part of glyphs like b fallowed by another part" { "'calt' for final part of glyphs like b fallowed by another part-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' for quotation" { "'calt' for quotation-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 259 0 0 "'curs' a d g o and q" { "'curs' a d g o and q-1"  } ['curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) 'curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 259 0 0 "'curs'" { "'curs'-1"  } [' RQD' ('DFLT' <'dflt' > 'latn' <'dflt' > ) 'curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -96,6 +98,13 @@ KernClass2: 20 10 "'kern' Horizontal Kerning in Latin lookup 1-1"
  7 glyph90
  3 A F
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -1099 {} -819 {} -1163 {} -1366 {} 0 {} -978 {} -800 {} 0 {} -532 {} 0 {} -1533 {} 0 {} -1189 {} 0 {} -1397 {} -1186 {} 0 {} -556 {} -757 {} 0 {} -1445 {} 0 {} -1135 {} 0 {} -1357 {} -1072 {} 0 {} -70 {} -400 {} 0 {} -1906 {} 0 {} -1555 {} 0 {} -1772 {} -1548 {} 0 {} -811 {} -1080 {} 0 {} -3118 {} 0 {} -2756 {} 0 {} -2992 {} -2734 {} 0 {} 0 {} -2498 {} 0 {} -3103 {} 0 {} -2754 {} 0 {} -2989 {} -2721 {} 0 {} -1347 {} -2183 {} 0 {} -2627 {} 0 {} -2280 {} 0 {} -2504 {} -2253 {} 0 {} -216 {} -1961 {} 0 {} -2487 {} 0 {} -2152 {} 0 {} -2359 {} -2130 {} 0 {} -444 {} -1615 {} 0 {} -1284 {} 0 {} -800 {} 0 {} -1016 {} -938 {} 0 {} 0 {} -1158 {} 0 {} -1043 {} 0 {} -696 {} 0 {} -901 {} -701 {} 0 {} -120 {} -395 {} 0 {} -917 {} 0 {} -593 {} 0 {} -821 {} -539 {} 0 {} 0 {} 0 {} 0 {} -1712 {} 0 {} -1337 {} 0 {} -1547 {} -1358 {} 0 {} 0 {} -924 {} 0 {} -2571 {} 0 {} -2224 {} 0 {} -2461 {} -2186 {} 0 {} 0 {} -1850 {} 0 {} -2125 {} 0 {} -1744 {} 0 {} -1951 {} -1777 {} 0 {} -307 {} -1405 {} 0 {} -2224 {} 0 {} -1869 {} 0 {} -2088 {} -1860 {} 0 {} -745 {} -1630 {} 0 {} -1065 {} 0 {} -760 {} 0 {} -977 {} -695 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
+ChainSub2: coverage "'calt' for final part of glyphs like b fallowed by another part-1" 0 0 0 1
+ 1 0 1
+  Coverage: 5 P9500
+  FCoverage: 9 P101 P113
+ 1
+  SeqLookup: 0 "'aalt' for final part of glyphs like b fallowed by another part"
+EndFPST
 ChainSub2: coverage "'calt' for quotation-1" 1 1 1 1
  2 0 0
   Coverage: 8 quotedbl
@@ -171,9 +180,9 @@ WinInfo: 70 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
--4096 780.760742188 m 4
- 8192 780.760742188 l 1028
-  Named: "final part of b, v, and o"
+-4096 780.76171875 m 4
+ 8192 780.76171875 l 1028
+  Named: "final part of b, v, w, and o"
 6100 -3423 m 25
  -1468 -7791 l 25
  6100 -3423 l 25
@@ -299,7 +308,7 @@ Grid
   EndSpiro
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' a d g o and q-1" "Cursive 1" "'curs'-1"
-BeginChars: 142 128
+BeginChars: 143 129
 
 StartChar: O
 Encoding: 40 79 0
@@ -2541,7 +2550,7 @@ VStem: 2318 33<1622.02 1654.97>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P000 P127 P102 P9000
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P127 P102 P9000
 EndChar
 
 StartChar: u
@@ -2553,7 +2562,7 @@ HStem: 0 21G<-147 22.5> 799 20G<1192.5 1320 1327.5 1467 2011.5 2188 2732.5 2909>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P000 P102 P9000 P102 P9000
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P102 P9000 P102 P9000
 EndChar
 
 StartChar: w
@@ -2565,7 +2574,7 @@ HStem: 0 21G<-147 22.5> 762 16<2974.89 3061.46> 799 20G<1192.5 1320>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P000 P102 P9000 P102 P119 P9500
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P102 P9000 P102 P119 P9500
 EndChar
 
 StartChar: c
@@ -2700,7 +2709,7 @@ HStem: 0 21G<0 185.5> 799 20G<2237 2261> 1221 16<1344 2187>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P000 P117 P102 P9000
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P117 P102 P9000
 EndChar
 
 StartChar: d
@@ -2796,7 +2805,7 @@ HStem: 0 21G<172 341.5> 799 20G<1511.5 1639> 800 20G<1309.26 1948.52>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P000 P9200
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P9200
 EndChar
 
 StartChar: y
@@ -2900,7 +2909,7 @@ Width: 1433
 VWidth: 0
 Flags: HW
 HStem: 800 19<1068.13 1277.35>
-AnchorPoint: "Cursive 1" 862 821.4 entry 0
+AnchorPoint: "Cursive 1" 956 819.161 entry 0
 AnchorPoint: "cursive 2" 579.504 625.716 entry 0
 AnchorPoint: "Cursive 1" 1395.05 819.2 exit 0
 LayerCount: 5
@@ -2983,7 +2992,7 @@ StartChar: P9200
 Encoding: 86 -1 58
 Width: 2212
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 800 20G<1424.26 2063.52>
 AnchorPoint: "Cursive 1" 2051.04 820.2 exit 0
 AnchorPoint: "Cursive 1" 1555.04 820 entry 0
@@ -3148,6 +3157,7 @@ SplineSet
  464 819.200195312 l 1
  47 650 -124 618 -222 775 c 1
 EndSplineSet
+Substitution2: "'aalt' for final part of glyphs like b fallowed by another part-1" P9504
 Substitution2: "'aalt' for parts before c-1" P9503
 Substitution2: "'aalt' for parts before e-1" P9502
 Substitution2: "'aalt' for initial part of glyphs like n after glyphs like b-1" P9501
@@ -3306,7 +3316,7 @@ VWidth: 0
 Flags: W
 AnchorPoint: "cursive 2" 249 625.858 entry 0
 AnchorPoint: "Cursive 1" 660 781 exit 0
-AnchorPoint: "Cursive 1" 560.117 808.2 entry 0
+AnchorPoint: "Cursive 1" 465.117 817.961 entry 0
 LayerCount: 5
 Fore
 SplineSet
@@ -4682,14 +4692,32 @@ AnchorPoint: "Cursive 1" 13 819.2 entry 0
 LayerCount: 5
 Fore
 SplineSet
-0 819 m 1
- 26 819.200195312 l 5
+0 819 m 5
+ 26 819.200195312 l 1
  214 632 424 566 664 819.487304688 c 1
  693 819.200195312 l 1
- 424 534 200 607 0 819 c 1
+ 424 534 200 607 0 819 c 5
 EndSplineSet
 Comment: "For final part of b and v before c"
 Colour: ff3829
+EndChar
+
+StartChar: P9504
+Encoding: 129 -1 128
+Width: 602
+VWidth: 0
+Flags: HW
+AnchorPoint: "Cursive 1" 570 818.761 exit 0
+AnchorPoint: "Cursive 1" -217 780.761 entry 0
+LayerCount: 5
+Fore
+SplineSet
+-222 775 m 1
+ -210 788.200195312 l 1
+ -110 625.857421875 188 649.560546875 544 780.760742188 c 1
+ 581 780.760742188 l 1
+ 164 611.560546875 -124 618 -222 775 c 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
