@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1553269372
+ModificationTime: 1553270126
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -127,7 +127,7 @@ ChainSub2: coverage "'calt' for initial part of ghlyps like n after glyphs like 
 EndFPST
 ChainPos2: coverage "'kern' for applying all 'curs' features-1" 0 0 0 1
  1 0 0
-  Coverage: 556 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 hyphen period zero one two three four five six seven eight nine colon semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent P000 P100 P101 P001 P102 P103 P9200 P9100 P104 P105 P106 P107 P9500 P109 P110 P002 P111 P003 P112 P113 P114 P115 P116 P117 P118 P9400 P9300 P004 P127 null1 null2 P119 P9000 P120 P121 P9003 P9002 P005 P9001 P9401 P9402 P9501 P126 null3 P9201 Quotation_Mark2
+  Coverage: 580 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 hyphen period zero one two three four five six seven eight nine colon semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent P000 P100 P101 P001 P102 P103 P9200 P9100 P104 P105 P106 P107 P9500 P109 P110 P002 P111 P003 P112 P113 P114 P115 P116 P117 P118 P9400 P9300 P004 null1 null2 P119 P9000 P120 P121 P9003 P9002 P005 P9001 P9401 P9402 P9501 P126 null3 P9201 P127 Quotation_Mark2 P9502 P9503 P9504 P9301
  2
   SeqLookup: 0 "'curs'"
   SeqLookup: 0 "'curs' a d g o and q"
@@ -308,7 +308,7 @@ Grid
   EndSpiro
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' a d g o and q-1" "Cursive 1" "'curs'-1"
-BeginChars: 143 129
+BeginChars: 144 130
 
 StartChar: O
 Encoding: 40 79 0
@@ -3497,6 +3497,7 @@ SplineSet
  988.997070312 465 412.997070312 -12 0.068359375 0 c 9
 EndSplineSet
 Validated: 33
+Substitution2: "'aalt' for parts before a d g o and q-1" P9301
 Colour: ff3b2e
 EndChar
 
@@ -4717,6 +4718,25 @@ SplineSet
  -110 625.857421875 188 649.560546875 544 780.760742188 c 1
  581 780.760742188 l 1
  164 611.560546875 -124 618 -222 775 c 1
+EndSplineSet
+EndChar
+
+StartChar: P9301
+Encoding: 130 -1 129
+Width: 1427
+VWidth: 0
+Flags: HW
+HStem: 0 19<0.0683594 99.6909> 798.953 20G<1192.78 1427>
+AnchorPoint: "cursive 2" 1170 626 exit 0
+AnchorPoint: "Cursive 1" 0.99707 9 entry 0
+LayerCount: 5
+Fore
+SplineSet
+1155.29232738 625.857788086 m 1
+ 779.77013356 330.969058469 337.074626956 10.8971205419 0.068359375 19 c 9
+ 0.068359375 0 l 17
+ 341.009201037 -9.90798167235 793.119478433 313.546545688 1186.93538343 625.857788086 c 1
+ 1155.29232738 625.857788086 l 1
 EndSplineSet
 EndChar
 EndChars
