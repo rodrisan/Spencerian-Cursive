@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1553116670
+ModificationTime: 1553251627
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -167,7 +167,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 56 14 6
+WinInfo: 70 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -296,7 +296,7 @@ Grid
   EndSpiro
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' a d g o and q-1" "Cursive 1" "'curs'-1"
-BeginChars: 137 128
+BeginChars: 142 128
 
 StartChar: O
 Encoding: 40 79 0
@@ -2893,28 +2893,25 @@ EndChar
 
 StartChar: P101
 Encoding: 82 -1 54
-Width: 1321
+Width: 1433
 VWidth: 0
-Flags: W
+Flags: HWO
 HStem: 800 19<1068.13 1277.35>
-AnchorPoint: "Cursive 1" 1014 820.2 entry 0
-AnchorPoint: "cursive 2" 336 624.858 entry 0
-AnchorPoint: "Cursive 1" 1315.35 819 exit 0
+AnchorPoint: "Cursive 1" 862 821.4 entry 0
+AnchorPoint: "cursive 2" 579.504 625.716 entry 0
+AnchorPoint: "Cursive 1" 1395.05 819.2 exit 0
 LayerCount: 5
 Fore
 SplineSet
-1277.34765625 800 m 1
- 1155.34765625 674 l 2
- 934.34765625 453 644.02734375 213.522460938 477.34765625 111 c 0
- 14 -174 -196.65234375 293 370.34765625 621 c 0
- 609.34765625 759 837.34765625 786 1277.34765625 800 c 1
-1321.34765625 819 m 1
- 820.34765625 804 600.34765625 796 346.34765625 644 c 0
- -231.65234375 299 -17.65234375 -208 486.34765625 90 c 0
- 667.34765625 197 936.34765625 426 1174.34765625 664 c 2
- 1321.34765625 819 l 1
+1371.34765625 798 m 1
+ 1165 526 791.620920839 234.800299907 569.34765625 127 c 0
+ 63.9856765873 -118.095482221 101.092799635 126.064599486 314.452066279 373.999994824 c 0
+ 662.830183719 778.834842792 1083 806 1371.34765625 798 c 1
+1413.34765625 819 m 1
+ 969 819.200195312 662.678493729 803 296.121883952 384.000005615 c 0
+ 72.7244112691 128.640977014 46.1723995832 -150.430567947 578.34765625 108 c 0
+ 808.929461458 219.973238387 1181.85098387 516 1413.34765625 819 c 1
 EndSplineSet
-Validated: 41
 EndChar
 
 StartChar: P001
@@ -2942,7 +2939,7 @@ StartChar: P102
 Encoding: 84 -1 56
 Width: 344
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 409.6 409.4
 VStem: -0.0957031 344.096
 AnchorPoint: "Cursive 1" 13.1611 410 exit 0
@@ -2950,13 +2947,12 @@ AnchorPoint: "Cursive 1" 334 819.2 entry 0
 LayerCount: 5
 Fore
 SplineSet
--0.095703125 409.599609375 m 5
- 320 819 l 5
- 344 819 l 5
- 23.904296875 409.599609375 l 5
- -0.095703125 409.599609375 l 5
+-0.095703125 409.599609375 m 1
+ 320 819 l 1
+ 344 819 l 1
+ 23.904296875 409.599609375 l 1
+ -0.095703125 409.599609375 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: P103
@@ -3658,7 +3654,7 @@ StartChar: P9002
 Encoding: 115 -1 88
 Width: 1144
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 605.857 20G<726.251 1147.35>
 AnchorPoint: "cursive 2" 1129 624.858 exit 0
 AnchorPoint: "Cursive 1" 200.707 409.6 entry 0
@@ -3671,7 +3667,6 @@ SplineSet
  -358.696289062 -319.329101562 446.388671875 102.012695312 1116.03808594 625.857421875 c 1
  1147.34960938 625.857421875 l 1
 EndSplineSet
-Validated: 33
 Colour: ff0d0d
 EndChar
 
@@ -4206,7 +4201,6 @@ SplineSet
  1242 971.75 l 1
 EndSplineSet
 Refer: 54 -1 N 0.86 0 0 0.86 100.493 266.066 2
-Validated: 5
 EndChar
 
 StartChar: exclam
@@ -4612,7 +4606,6 @@ SplineSet
  1894 615 l 5
 EndSplineSet
 Refer: 54 -1 N 0.75 0 0 0.75 901.168 0.349718 2
-Validated: 37
 Layer: 3
 SplineSet
 1889 614 m 5
