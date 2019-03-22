@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1553273885
+ModificationTime: 1553275484
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -142,7 +142,7 @@ ChainSub2: coverage "'calt' for parts before m n x and z" 0 0 0 1
 EndFPST
 ChainSub2: coverage "'calt' for parts before a d g o and q-1" 0 0 0 1
  1 0 1
-  Coverage: 29 P9000 P9100 P9500 P9400 P9300
+  Coverage: 35 P9000 P9100 P9500 P9400 P9300 P9200
   FCoverage: 9 P101 P113
  1
   SeqLookup: 0 "'aalt' for parts before a d g o and q"
@@ -308,7 +308,7 @@ Grid
   EndSpiro
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' a d g o and q-1" "Cursive 1" "'curs'-1"
-BeginChars: 144 132
+BeginChars: 144 133
 
 StartChar: O
 Encoding: 40 79 0
@@ -3010,6 +3010,8 @@ SplineSet
  1541.51855469 812 l 1
 EndSplineSet
 Validated: 37
+Substitution2: "'aalt' for parts before m n x and z-1" P9201
+Substitution2: "'aalt' for parts before a d g o and q-1" P9202
 Substitution2: "'aalt' for parts before e-1" P9201
 Colour: ff1226
 EndChar
@@ -3860,23 +3862,22 @@ StartChar: P9201
 Encoding: 123 -1 98
 Width: 2212
 VWidth: 0
-Flags: W
-AnchorPoint: "Cursive 1" 1665.52 408.8 exit 0
+Flags: HW
+AnchorPoint: "Cursive 1" 1580 410 exit 0
 AnchorPoint: "Cursive 1" 1555.04 820 entry 0
 LayerCount: 5
 Fore
 SplineSet
-1650.94098487 409.599609375 m 5
- 820 -69 208 -780 -91 -1260.73242188 c 4
+1563.94140625 409.599609375 m 1
+ 831 -100 208 -780 -91 -1260.73242188 c 0
  -398.900123575 -1755.77446905 -109.627132262 -1901.63233124 557 -819.200195312 c 2
  1566.51855469 820 l 1
  1541.51855469 812 l 1
  541 -808.200195312 l 2
- -92.5928688368 -1834.21544014 -379.433654552 -1763.28765174 -74 -1269 c 4
- 199 -827.200195312 842 -63 1684.94959259 409.599609375 c 1
- 1650.94098487 409.599609375 l 5
+ -92.5928688368 -1834.21544014 -379.433654552 -1763.28765174 -74 -1269 c 0
+ 199 -827.200195312 849 -102 1598.94921875 409.599609375 c 1
+ 1563.94140625 409.599609375 l 1
 EndSplineSet
-Validated: 37
 Colour: ff171f
 EndChar
 
@@ -4777,6 +4778,29 @@ SplineSet
  0.068359375 0 l 17
  261.381494422 -7.59394427539 588.000139269 180.642992995 903.624459465 409.599609375 c 1
  869.483592083 409.599609375 l 1
+EndSplineSet
+EndChar
+
+StartChar: P9202
+Encoding: 126 -1 132
+Width: 2212
+VWidth: 0
+Flags: HW
+HStem: 800 20G<1424.26 2063.52>
+AnchorPoint: "cursive 2" 1808 626 exit 0
+AnchorPoint: "Cursive 1" 1555.04 820 entry 0
+LayerCount: 5
+Fore
+SplineSet
+1795.5611716 625.857788086 m 1
+ 738.929561 -223.132207843 260.891456103 -677.051860546 -91 -1260.73242188 c 0
+ -392 -1760 -109.627132262 -1901.63233124 557 -819.200195312 c 2
+ 1566.51855469 820 l 1
+ 1541.51855469 812 l 1
+ 541 -808.200195312 l 2
+ -92.5928688368 -1834.21544014 -375 -1766 -74 -1269 c 0
+ 280.042218541 -684.418916679 747.307902166 -243.57272279 1822.34062858 625.857788086 c 1
+ 1795.5611716 625.857788086 l 1
 EndSplineSet
 EndChar
 EndChars
