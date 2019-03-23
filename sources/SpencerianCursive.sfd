@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1553281215
+ModificationTime: 1553333442
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -127,7 +127,7 @@ ChainSub2: coverage "'calt' for initial part of ghlyps like n after glyphs like 
 EndFPST
 ChainPos2: coverage "'kern' for applying all 'curs' features-1" 0 0 0 1
  1 0 0
-  Coverage: 580 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 hyphen period zero one two three four five six seven eight nine colon semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent P000 P100 P101 P001 P102 P103 P9200 P9100 P104 P105 P106 P107 P9500 P109 P110 P002 P111 P003 P112 P113 P114 P115 P116 P117 P118 P9400 P9300 P004 null1 null2 P119 P9000 P120 P121 P9003 P9002 P005 P9001 P9401 P9402 P9501 P126 null3 P9201 P127 Quotation_Mark2 P9502 P9503 P9504 P9301
+  Coverage: 586 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 hyphen period zero one two three four five six seven eight nine colon semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent P000 P100 P101 P001 P102 P103 P9200 P9100 P104 P105 P106 P107 P9500 P109 P110 P002 P111 P003 P112 P113 P114 P115 P116 P117 P118 P9400 P9300 P004 null1 null2 P119 P9000 P120 P121 P9003 P9002 P005 P9001 P9401 P9402 P9501 P126 null3 P9201 P127 Quotation_Mark2 P9202 P9502 P9503 P9504 P9301
  2
   SeqLookup: 0 "'curs'"
   SeqLookup: 0 "'curs' a d g o and q"
@@ -2992,7 +2992,7 @@ StartChar: P9200
 Encoding: 86 -1 58
 Width: 2212
 VWidth: 0
-Flags: W
+Flags: WO
 HStem: 800 20G<1424.26 2063.52>
 AnchorPoint: "Cursive 1" 2051.04 820.2 exit 0
 AnchorPoint: "Cursive 1" 1555.04 820 entry 0
