@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1553416717
+ModificationTime: 1553421221
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -176,7 +176,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 70 14 6
+WinInfo: 42 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2550,7 +2550,7 @@ VStem: 2318 33<1622.02 1654.97>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P127 P102 P9000
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P102 P127 P9000
 EndChar
 
 StartChar: u
