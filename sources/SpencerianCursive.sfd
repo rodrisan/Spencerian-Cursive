@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1553421221
+ModificationTime: 1553421976
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -176,7 +176,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 42 14 6
+WinInfo: 56 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2924,6 +2924,7 @@ SplineSet
  72.7244112691 128.640977014 46.1723995832 -150.430567947 578.34765625 108 c 0
  808.929461458 219.973238387 1181.85098387 516 1413.34765625 819 c 1
 EndSplineSet
+Colour: bdbdbd
 EndChar
 
 StartChar: P001
@@ -2965,6 +2966,7 @@ SplineSet
  23.904296875 409.599609375 l 1
  -0.095703125 409.599609375 l 1
 EndSplineSet
+Colour: bdbdbd
 EndChar
 
 StartChar: P103
@@ -3013,7 +3015,7 @@ Validated: 37
 Substitution2: "'aalt' for parts before m n x and z-1" P9201
 Substitution2: "'aalt' for parts before a d g o and q-1" P9202
 Substitution2: "'aalt' for parts before e-1" P9201
-Colour: ff1226
+Colour: bd8582
 EndChar
 
 StartChar: P9100
@@ -3079,6 +3081,7 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'aalt' for initial part of glyphs like n after glyphs like b-1" P126
+Colour: bdbdbd
 EndChar
 
 StartChar: P106
@@ -3140,6 +3143,7 @@ SplineSet
  29 819.200195312 l 1
 EndSplineSet
 Validated: 41
+Colour: bdbdbd
 EndChar
 
 StartChar: P9500
@@ -3193,6 +3197,7 @@ SplineSet
  483.458007812 617.977539062 405.25 521.499023438 317.65625 409.599609375 c 1
 EndSplineSet
 Validated: 37
+Colour: bdbdbd
 EndChar
 
 StartChar: P110
@@ -3260,6 +3265,7 @@ SplineSet
  0 410 l 1
 EndSplineSet
 Validated: 33
+Colour: bdbdbd
 EndChar
 
 StartChar: P003
@@ -3333,6 +3339,7 @@ SplineSet
  352.422851562 56.5068359375 148.975585938 -50.8974609375 50.5576171875 17.759765625 c 0
  -47.8603515625 86.4169921875 1.5927734375 331.734375 162.557617188 537.759765625 c 0
 EndSplineSet
+Colour: bdbdbd
 EndChar
 
 StartChar: P114
@@ -3356,6 +3363,7 @@ SplineSet
  413 819 l 1
 EndSplineSet
 Validated: 1
+Colour: bdbdbd
 EndChar
 
 StartChar: P115
@@ -3382,6 +3390,7 @@ SplineSet
  0 410 l 1xa0
 EndSplineSet
 Validated: 33
+Colour: bdbdbd
 EndChar
 
 StartChar: P116
@@ -3406,6 +3415,7 @@ SplineSet
  1054 -228 640 -96 562 214 c 1
 EndSplineSet
 Validated: 33
+Colour: bdbdbd
 EndChar
 
 StartChar: P117
@@ -3432,6 +3442,7 @@ SplineSet
  1416.83496094 818.200195312 l 1
 EndSplineSet
 Validated: 5
+Colour: bdbdbd
 EndChar
 
 StartChar: P118
@@ -3579,7 +3590,7 @@ StartChar: P9000
 Encoding: 111 -1 84
 Width: 1313
 VWidth: 0
-Flags: W
+Flags: HW
 AnchorPoint: "Cursive 1" 1298.46 819.2 exit 0
 AnchorPoint: "Cursive 1" 215.265 409.6 entry 0
 LayerCount: 5
@@ -3591,13 +3602,12 @@ SplineSet
  569.46484375 221.200195312 -413.9140625 -407.799804688 228.46484375 409.799804688 c 0
  228.46484375 409.799804688 204.46484375 409.799804688 204.46484375 409.799804688 c 1
 EndSplineSet
-Validated: 41
 Substitution2: "'aalt' for parts before e-1" P9004
 Substitution2: "'aalt' for parts before c-1" P9003
 Substitution2: "'aalt' for parts before a d g o and q-1" P9002
 Substitution2: "'aalt' for parts before m n x and z-1" P9001
 Comment: "It is for final part of characters like a, c and w."
-Colour: ff544a
+Colour: ff454c
 EndChar
 
 StartChar: P120
@@ -3825,6 +3835,7 @@ SplineSet
 EndSplineSet
 Validated: 33
 Comment: "It is for m, n and v."
+Colour: bdbdbd
 EndChar
 
 StartChar: null3
