@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1553421976
+ModificationTime: 1553423457
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -127,7 +127,7 @@ ChainSub2: coverage "'calt' for initial part of ghlyps like n after glyphs like 
 EndFPST
 ChainPos2: coverage "'kern' for applying all 'curs' features-1" 0 0 0 1
  1 0 0
-  Coverage: 587 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 hyphen period zero one two three four five six seven eight nine colon semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent P000 P100 P101 P001 P102 P103 P9200 P9100 P104 P105 P106 P107 P9500 P109 P110 P002 P111 P003 P112 P113 P114 P115 P116 P117 P118 P9400 P9300 P004 null1 null2 P119 P9000 P120 P9004 P9003 P9002 P005 P9001 P9401 P9402 P9501 P126 null3 P9201 P127 Quotation_Mark2 P9202 P9502 P9503 P9504 P9301
+  Coverage: 593 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 hyphen period zero one two three four five six seven eight nine colon semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent P000 P100 P101 P001 P102 P103 P9200 P9100 P104 P105 P106 P107 P9500 P109 P110 P002 P111 P003 P112 P113 P114 P115 P116 P117 P118 P9400 P9300 P004 null1 null2 P119 P9000 P120 P9004 P9003 P9002 P005 P9001 P9401 P9402 P9501 P126 null3 P9201 P127 Quotation_Mark2 P9202 P9502 P9503 P9504 P9301 P9005
  2
   SeqLookup: 0 "'curs'"
   SeqLookup: 0 "'curs' a d g o and q"
@@ -148,15 +148,15 @@ ChainSub2: coverage "'calt' for parts before a d g o and q-1" 0 0 0 1
   SeqLookup: 0 "'aalt' for parts before a d g o and q"
 EndFPST
 ChainSub2: coverage "'calt' for parts before c-1" 0 0 0 1
- 2 0 0
-  Coverage: 35 P9000 P9100 P9200 P9500 P9400 P9300
-  Coverage: 4 P109
+ 1 0 1
+  Coverage: 41 P9000 P9100 P9200 P9500 P9400 P9300 P9005
+  FCoverage: 4 P109
  1
   SeqLookup: 0 "'aalt' for parts before c"
 EndFPST
 ChainSub2: coverage "'calt' for parts before e-1" 0 0 0 1
  1 0 2
-  Coverage: 35 P9000 P9100 P9200 P9500 P9400 P9300
+  Coverage: 41 P9000 P9100 P9200 P9500 P9400 P9300 P9005
   FCoverage: 5 null2
   FCoverage: 4 P111
  1
@@ -164,7 +164,7 @@ ChainSub2: coverage "'calt' for parts before e-1" 0 0 0 1
 EndFPST
 ChainSub2: coverage "'calt' For replacing first parts of glyphs with intermedite glyphs(null1 and null2)-1" 0 0 0 1
  2 0 0
-  Coverage: 35 P9000 P9100 P9500 P9200 P9400 P9300
+  Coverage: 41 P9000 P9100 P9500 P9200 P9400 P9300 P9005
   Coverage: 29 P001 P000 P005 P002 P003 P004
  1
   SeqLookup: 1 "'aalt' For replacing starting part of glyphs with intermediate glyph for that connect two ghyphs"
@@ -308,7 +308,7 @@ Grid
   EndSpiro
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' a d g o and q-1" "Cursive 1" "'curs'-1"
-BeginChars: 144 133
+BeginChars: 144 134
 
 StartChar: O
 Encoding: 40 79 0
@@ -2586,7 +2586,7 @@ HStem: 0 844 799 20G<1319 1335 1839.5 2015>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P109 P9000
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P109 P9005
 EndChar
 
 StartChar: e
@@ -2598,7 +2598,7 @@ HStem: 0 21G<0 168.5> 799 20G<1814.5 1990>
 LayerCount: 5
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P003 P111 P9000
+MultipleSubs2: "'ccmp' For decomposing lowercase letters-1" P003 P111 P9005
 EndChar
 
 StartChar: r
@@ -4814,6 +4814,28 @@ SplineSet
  280.042218541 -684.418916679 747.307902166 -243.57272279 1822.34062858 625.857788086 c 1
  1795.5611716 625.857788086 l 1
 EndSplineSet
+EndChar
+
+StartChar: P9005
+Encoding: 133 -1 133
+Width: 1313
+VWidth: 0
+Flags: HW
+AnchorPoint: "Cursive 1" 1576 819.2 exit 0
+AnchorPoint: "Cursive 1" 215.265 409.6 entry 0
+LayerCount: 5
+Fore
+SplineSet
+204.46484375 409.799804688 m 1
+ -367.880859375 -327.1796875 622.013671875 6.1240234375 1591 819.200195312 c 5
+ 1562 819.200195312 l 5
+ 753 143 -377 -365 228.46484375 409.799804688 c 4
+ 204.46484375 409.799804688 l 1
+EndSplineSet
+Substitution2: "'aalt' for parts before c-1" P9003
+Substitution2: "'aalt' for parts before e-1" P9004
+Comment: "it is for final part of +ACIA-c+ACIA and +ACIA-e+ACIA."
+Colour: ff3336
 EndChar
 EndChars
 EndSplineFont
