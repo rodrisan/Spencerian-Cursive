@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1553423457
+ModificationTime: 1553423729
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -134,7 +134,7 @@ ChainPos2: coverage "'kern' for applying all 'curs' features-1" 0 0 0 1
 EndFPST
 ChainSub2: coverage "'calt' for parts before m n x and z" 0 0 0 1
  1 0 2
-  Coverage: 35 P9000 P9100 P9200 P9500 P9400 P9300
+  Coverage: 41 P9000 P9100 P9200 P9500 P9400 P9300 P9005
   FCoverage: 5 null2
   FCoverage: 4 P105
  1
@@ -176,7 +176,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 56 14 6
+WinInfo: 70 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -4832,6 +4832,7 @@ SplineSet
  753 143 -377 -365 228.46484375 409.799804688 c 4
  204.46484375 409.799804688 l 1
 EndSplineSet
+Substitution2: "'aalt' for parts before m n x and z-1" P9001
 Substitution2: "'aalt' for parts before c-1" P9003
 Substitution2: "'aalt' for parts before e-1" P9004
 Comment: "it is for final part of +ACIA-c+ACIA and +ACIA-e+ACIA."
