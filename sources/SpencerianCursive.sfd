@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1553529392
+ModificationTime: 1553529720
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -186,7 +186,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 70 14 6
+WinInfo: 56 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3017,22 +3017,22 @@ StartChar: P9200
 Encoding: 86 -1 58
 Width: 2212
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: 800 20G<1424.26 2063.52>
-AnchorPoint: "Cursive 1" 2196 819 exit 0
+AnchorPoint: "Cursive 1" 2193 819 exit 0
 AnchorPoint: "Cursive 1" 1418 819 entry 0
 LayerCount: 5
 Fore
 SplineSet
-1402 811 m 1
+1408 819.200195312 m 1
  1430 819 l 1
  336 -746 l 2
  -439.751953125 -1857.66308594 -1023.17409704 -1854.44214837 -469 -1153.46865142 c 0
  -56.8113568807 -632.092217349 931 177 2177 819 c 1
  2185 802 l 1
  900 143 -72.9061988047 -684.967664121 -454.000005573 -1164.241162 c 0
- -999.96705953 -1850.86355006 -426.104675546 -1801.8951384 321 -735 c 2
- 1402 811 l 1
+ -999.96705953 -1850.86355006 -425.484105619 -1802.3281902 321 -735 c 2
+ 1408 819.200195312 l 1
 EndSplineSet
 Substitution2: "'aalt' for final part of glyphs like j before glyphs like h" P9203
 Substitution2: "'aalt' for parts before m n x and z-1" P9201
