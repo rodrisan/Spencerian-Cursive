@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1553423729
+ModificationTime: 1553517016
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -176,12 +176,25 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 70 14 6
+WinInfo: 56 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
--4096 780.76171875 m 4
- 8192 780.76171875 l 1028
+-311.8468 -960 m 25
+ -311.8468 -978 l 1049
+-467.7702 -960 m 25
+ -467.7702 -978 l 1049
+-155.9 -978 m 25
+ -155.9 -960 l 25
+ -155.9 -978 l 25
+-623.6936 -960 m 25
+ -623.6936 -978 l 1049
+155.9 -960 m 25
+ 155.9 -978 l 1049
+0 -960 m 25
+ 0 -978 l 1049
+-4096 780.76171875 m 0
+ 8192 780.76171875 l 1024
   Named: "final part of b, v, w, and o"
 6100 -3423 m 25
  -1468 -7791 l 25
@@ -2994,24 +3007,23 @@ StartChar: P9200
 Encoding: 86 -1 58
 Width: 2212
 VWidth: 0
-Flags: W
+Flags: HWO
 HStem: 800 20G<1424.26 2063.52>
-AnchorPoint: "Cursive 1" 2051.04 820.2 exit 0
-AnchorPoint: "Cursive 1" 1555.04 820 entry 0
+AnchorPoint: "Cursive 1" 2199.52 822.337 exit 0
+AnchorPoint: "Cursive 1" 1417.52 819.2 entry 0
 LayerCount: 5
 Fore
 SplineSet
-1541.51855469 812 m 1
- 1566.51855469 820 l 1
- 557 -819.200195312 l 2
- -109.627132262 -1901.63233124 -392 -1760 -91 -1260.73242188 c 0
- 286.797851562 -634.081054688 810 -157 2038.51855469 820 c 1
- 2063.51855469 820 l 1
- 815 -181 305.465820312 -642.440429688 -74 -1269 c 0
- -375 -1766 -92.5928688368 -1834.21544014 541 -808.200195312 c 2
- 1541.51855469 812 l 1
+1404 811.200195312 m 1
+ 1429 819.200195312 l 1
+ 300 -729 l 2
+ -486.336422186 -1807.3048737 -659.822437081 -1390.3835267 -258 -968 c 4
+ 426 -249 864 177 2187 822.137695312 c 1
+ 2212 822.137695312 l 1
+ 1236 393 441 -255 -237 -968 c 4
+ -637.394199505 -1389.06351659 -421.079411055 -1680.68533312 284 -718 c 2
+ 1404 811.200195312 l 1
 EndSplineSet
-Validated: 37
 Substitution2: "'aalt' for parts before m n x and z-1" P9201
 Substitution2: "'aalt' for parts before a d g o and q-1" P9202
 Substitution2: "'aalt' for parts before e-1" P9201
