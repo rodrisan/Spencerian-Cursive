@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1553521950
+ModificationTime: 1553527360
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -54,6 +54,7 @@ Lookup: 1 0 0 "'aalt' for parts before m n x and z" { "'aalt' for parts before m
 Lookup: 1 0 0 "'aalt' for initial part of glyphs like n after glyphs like b" { "'aalt' for initial part of glyphs like n after glyphs like b-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'aalt' for final part of glyphs like b fallowed by another part" { "'aalt' for final part of glyphs like b fallowed by another part-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'aalt' for quotation" { "'aalt' for quotation-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'aalt' for final part of glyphs lik k before glyphs like h" { "'aalt' for final part of glyphs like k before glyphs like h"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' For replacing first parts of glyphs with intermedite glyphs(null1 and null2)" { "'calt' For replacing first parts of glyphs with intermedite glyphs(null1 and null2)-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' for parts before e" { "'calt' for parts before e-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' for parts before c" { "'calt' for parts before c-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -61,6 +62,7 @@ Lookup: 6 0 0 "'calt' for parts before a d g o and q" { "'calt' for parts before
 Lookup: 6 0 0 "'calt' for parts before m n x and z" { "'calt' for parts before m n x and z"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' for initial part of ghlyps like n after glyphs like b" { "'calt' for initial part of ghlyps like n after glyphs like b-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' for final part of glyphs like b fallowed by another part" { "'calt' for final part of glyphs like b fallowed by another part-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' for final part of glyphs like k before glyphs like h" { "'calt' for final part of glyphs like k before glyphs like h-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' for quotation" { "'calt' for quotation-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 259 0 0 "'curs' a d g o and q" { "'curs' a d g o and q-1"  } ['curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) 'curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 259 0 0 "'curs'" { "'curs'-1"  } [' RQD' ('DFLT' <'dflt' > 'latn' <'dflt' > ) 'curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -98,6 +100,14 @@ KernClass2: 20 10 "'kern' Horizontal Kerning in Latin lookup 1-1"
  7 glyph90
  3 A F
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -1099 {} -819 {} -1163 {} -1366 {} 0 {} -978 {} -800 {} 0 {} -532 {} 0 {} -1533 {} 0 {} -1189 {} 0 {} -1397 {} -1186 {} 0 {} -556 {} -757 {} 0 {} -1445 {} 0 {} -1135 {} 0 {} -1357 {} -1072 {} 0 {} -70 {} -400 {} 0 {} -1906 {} 0 {} -1555 {} 0 {} -1772 {} -1548 {} 0 {} -811 {} -1080 {} 0 {} -3118 {} 0 {} -2756 {} 0 {} -2992 {} -2734 {} 0 {} 0 {} -2498 {} 0 {} -3103 {} 0 {} -2754 {} 0 {} -2989 {} -2721 {} 0 {} -1347 {} -2183 {} 0 {} -2627 {} 0 {} -2280 {} 0 {} -2504 {} -2253 {} 0 {} -216 {} -1961 {} 0 {} -2487 {} 0 {} -2152 {} 0 {} -2359 {} -2130 {} 0 {} -444 {} -1615 {} 0 {} -1284 {} 0 {} -800 {} 0 {} -1016 {} -938 {} 0 {} 0 {} -1158 {} 0 {} -1043 {} 0 {} -696 {} 0 {} -901 {} -701 {} 0 {} -120 {} -395 {} 0 {} -917 {} 0 {} -593 {} 0 {} -821 {} -539 {} 0 {} 0 {} 0 {} 0 {} -1712 {} 0 {} -1337 {} 0 {} -1547 {} -1358 {} 0 {} 0 {} -924 {} 0 {} -2571 {} 0 {} -2224 {} 0 {} -2461 {} -2186 {} 0 {} 0 {} -1850 {} 0 {} -2125 {} 0 {} -1744 {} 0 {} -1951 {} -1777 {} 0 {} -307 {} -1405 {} 0 {} -2224 {} 0 {} -1869 {} 0 {} -2088 {} -1860 {} 0 {} -745 {} -1630 {} 0 {} -1065 {} 0 {} -760 {} 0 {} -977 {} -695 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
+ChainSub2: coverage "'calt' for final part of glyphs like k before glyphs like h-1" 0 0 0 1
+ 3 0 0
+  Coverage: 5 P9200
+  Coverage: 5 null1
+  Coverage: 4 P107
+ 1
+  SeqLookup: 0 "'aalt' for final part of glyphs lik k before glyphs like h"
+EndFPST
 ChainSub2: coverage "'calt' for final part of glyphs like b fallowed by another part-1" 0 0 0 1
  1 0 1
   Coverage: 5 P9500
@@ -321,7 +331,7 @@ Grid
   EndSpiro
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' a d g o and q-1" "Cursive 1" "'curs'-1"
-BeginChars: 144 134
+BeginChars: 144 135
 
 StartChar: O
 Encoding: 40 79 0
@@ -3024,6 +3034,7 @@ SplineSet
  -999.96705953 -1850.86355006 -426.104675546 -1801.8951384 321 -735 c 2
  1402 811 l 1
 EndSplineSet
+Substitution2: "'aalt' for final part of glyphs like k before glyphs like h" P9203
 Substitution2: "'aalt' for parts before m n x and z-1" P9201
 Substitution2: "'aalt' for parts before a d g o and q-1" P9202
 Substitution2: "'aalt' for parts before e-1" P9201
@@ -4849,6 +4860,30 @@ Substitution2: "'aalt' for parts before c-1" P9003
 Substitution2: "'aalt' for parts before e-1" P9004
 Comment: "it is for final part of +ACIA-c+ACIA and +ACIA-e+ACIA."
 Colour: ff3336
+EndChar
+
+StartChar: P9203
+Encoding: 134 -1 134
+Width: 2212
+VWidth: 0
+Flags: HWO
+HStem: 800 20G<1424.26 2063.52>
+AnchorPoint: "Cursive 1" 2196 819 exit 0
+AnchorPoint: "Cursive 1" 1418 819 entry 0
+LayerCount: 5
+Fore
+SplineSet
+1402 811 m 1
+ 1430 819 l 1
+ 336 -746 l 2
+ -782.432157882 -2345.95093884 -835 -1459 -32 -658.568855276 c 0
+ 734.739687575 105.717976395 1065.76343876 -8.37839768264 2182 819 c 1
+ 2211 819 l 1
+ 1175.38825214 34.0350856369 721.299946977 70.6536574744 -21.9999822301 -672.327141354 c 0
+ -436.832180998 -1086.98123496 -631.198126782 -1546.78123705 -537 -1613 c 0
+ -461.587890625 -1666.01269531 -176.081201971 -1445.9042907 321 -735 c 2
+ 1402 811 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
