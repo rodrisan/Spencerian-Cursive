@@ -2900,6 +2900,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Substitution2: "'aalt' * +- [+AH4A^b]" null1
+Comment: "It is for initial part of 'r' and 's'."
 Colour: 5bfff
 EndChar
 
@@ -2931,7 +2932,7 @@ StartChar: P101
 Encoding: 82 -1 54
 Width: 1433
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 800 19<1068.13 1277.35>
 AnchorPoint: "Cursive 1" 956 819.161 entry 0
 AnchorPoint: "cursive 2" 579.504 625.716 entry 0
