@@ -3924,6 +3924,7 @@ SplineSet
  -145.678542149 -776.488058638 896 42 1422.95117188 409.599609375 c 1
  1388.19824219 409.599609375 l 1
 EndSplineSet
+Comment: "It will be placed before glyphs like m."
 Colour: ff171f
 EndChar
 
