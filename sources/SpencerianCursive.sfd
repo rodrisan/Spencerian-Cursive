@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1553701164
+ModificationTime: 1553716517
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -340,7 +340,7 @@ Grid
   EndSpiro
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' [a,d,g,o,q]" "Cursive 1" "'curs' *"
-BeginChars: 140 136
+BeginChars: 141 136
 
 StartChar: O
 Encoding: 40 79 0
@@ -3047,7 +3047,7 @@ EndSplineSet
 Substitution2: "'aalt' [+AH4A-j] +- [+AH4A-a]" P9204
 Substitution2: "'aalt' [+AH4A-j] +- [+AH4A-h]" P9203
 Substitution2: "'aalt' * +- [m,n,x,z]" P9201
-Substitution2: "'aalt' * +- [e]" P9201
+Substitution2: "'aalt' * +- [e]" P9202
 Colour: bd8582
 EndChar
 
@@ -4834,20 +4834,22 @@ Width: 2212
 VWidth: 0
 Flags: HW
 HStem: 800 20G<1424.26 2063.52>
-AnchorPoint: "cursive 2" 1808 626 exit 0
-AnchorPoint: "Cursive 1" 1555.04 820 entry 0
+AnchorPoint: "Cursive 1" 2012 410 exit 0
+AnchorPoint: "Cursive 1" 1418 819 entry 0
 LayerCount: 5
 Fore
 SplineSet
-1795.5611716 625.857788086 m 1
- 738.929561 -223.132207843 260.891456103 -677.051860546 -91 -1260.73242188 c 0
- -392 -1760 -109.627132262 -1901.63233124 557 -819.200195312 c 2
- 1566.51855469 820 l 1
- 1541.51855469 812 l 1
- 541 -808.200195312 l 2
- -92.5928688368 -1834.21544014 -375 -1766 -74 -1269 c 0
- 280.042218541 -684.418916679 747.307902166 -243.57272279 1822.34062858 625.857788086 c 1
- 1795.5611716 625.857788086 l 1
+1408 819 m 1
+ 1430 819 l 1
+ 336 -746 l 2
+ -440 -1858 -1023 -1854 -469 -1153 c 0
+ -226 -846 220.245060542 -443.493440293 795 -25 c 0
+ 1115 208 1537 157 1996 410 c 1
+ 2030 410 l 1
+ 1552 134 1125 191 805 -41 c 0
+ 215.646970793 -468.280946175 -226 -877 -454 -1164 c 0
+ -1000 -1851 -425 -1802 321 -735 c 2
+ 1408 819 l 1
 EndSplineSet
 EndChar
 
