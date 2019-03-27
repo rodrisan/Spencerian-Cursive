@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1553698583
+ModificationTime: 1553699638
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -146,7 +146,7 @@ ChainSub2: coverage "'calt' [+AH4A-b] +- [+AH4A-n]" 0 0 0 1
 EndFPST
 ChainPos2: coverage "'kern' `applying 'curs' features`" 0 0 0 1
  1 0 0
-  Coverage: 593 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 hyphen period zero one two three four five six seven eight nine colon semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent P000 P100 P101 P001 P102 P103 P9200 P9100 P104 P105 P106 P107 P9500 P109 P110 P002 P111 P003 P112 P113 P114 P115 P116 P117 P118 P9400 P9300 P004 null1 null2 P119 P9000 P120 P9004 P9003 P9002 P005 P9001 P9401 P9402 P9501 P126 null3 P9201 P127 Quotation_Mark2 P9202 P9502 P9503 P9504 P9301 P9005
+  Coverage: 617 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 hyphen period zero one two three four five six seven eight nine colon semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent P000 P100 P101 P001 P102 P103 P9200 P9100 P104 P105 P106 P107 P9500 P109 P110 P002 P111 P003 P112 P113 P114 P115 P116 P117 P118 P9400 P9300 P004 null1 null2 P119 P9000 P120 P9004 P9003 P9002 P005 P9001 P9401 P9402 P9501 P126 null3 P9201 P127 Quotation_Mark2 P9202 P9502 P9503 P9504 P9301 P9302 P9303 P9005 P9203 P9204
  2
   SeqLookup: 0 "'curs' *"
   SeqLookup: 0 "'curs' [a,d,g,o,q]"
@@ -3720,11 +3720,11 @@ AnchorPoint: "Cursive 1" 200.707 409.6 entry 0
 LayerCount: 5
 Fore
 SplineSet
-1147.34960938 625.857421875 m 1
+1147.34960938 625.857421875 m 5
  305.153320312 -42.0859375 -334.37109375 -265.625976562 190.171875 409.799804688 c 1
  214.171875 409.799804688 l 0
- -358.696289062 -319.329101562 446.388671875 102.012695312 1116.03808594 625.857421875 c 1
- 1147.34960938 625.857421875 l 1
+ -358.696289062 -319.329101562 446.388671875 102.012695312 1116.03808594 625.857421875 c 5
+ 1147.34960938 625.857421875 l 5
 EndSplineSet
 Colour: ff0d0d
 EndChar
@@ -4918,6 +4918,7 @@ SplineSet
  -999.96705953 -1850.86355006 -425.484105619 -1802.3281902 321 -735 c 2
  1408 819.200195312 l 1
 EndSplineSet
+Comment: "It will come berofe a."
 EndChar
 EndChars
 EndSplineFont
