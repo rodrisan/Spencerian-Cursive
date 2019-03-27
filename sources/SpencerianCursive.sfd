@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1553582872
+ModificationTime: 1553694245
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -181,6 +181,7 @@ ChainSub2: coverage "'calt' * +- [+AH4A^b]" 0 0 0 1
 EndFPST
 LangName: 1033
 Encoding: Custom
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -128
@@ -2930,11 +2931,11 @@ StartChar: P101
 Encoding: 82 -1 54
 Width: 1433
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: 800 19<1068.13 1277.35>
 AnchorPoint: "Cursive 1" 956 819.161 entry 0
 AnchorPoint: "cursive 2" 579.504 625.716 entry 0
-AnchorPoint: "Cursive 1" 1395.05 819.2 exit 0
+AnchorPoint: "Cursive 1" 1401.05 819.2 exit 0
 LayerCount: 5
 Fore
 SplineSet
@@ -2979,7 +2980,7 @@ Flags: HW
 HStem: 409.6 409.4
 VStem: -0.0957031 344.096
 AnchorPoint: "Cursive 1" 13.1611 410 exit 0
-AnchorPoint: "Cursive 1" 334 819.2 entry 0
+AnchorPoint: "Cursive 1" 331 819.2 entry 0
 LayerCount: 5
 Fore
 SplineSet
