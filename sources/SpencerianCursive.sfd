@@ -4924,6 +4924,7 @@ SplineSet
  1408 819.200195312 l 1
 EndSplineSet
 Comment: "It will come berofe a."
+Colour: ff3324
 EndChar
 EndChars
 EndSplineFont
