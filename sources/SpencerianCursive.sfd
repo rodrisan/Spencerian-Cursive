@@ -12,12 +12,13 @@ UnderlineWidth: 204
 Ascent: 2458
 Descent: 1638
 InvalidEm: 0
-LayerCount: 5
+LayerCount: 6
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 Layer: 2 0 "With Intersection" 1
 Layer: 3 0 "Open Path" 1
 Layer: 4 0 "Guid2" 1
+Layer: 5 0 "COMPLETE" 1
 XUID: [1021 621 -37808773 11451075]
 StyleMap: 0x0000
 FSType: 0
@@ -25,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1553763666
+ModificationTime: 1553767042
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -106,23 +107,23 @@ KernClass2: 20 10 "'kern' *"
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -1099 {} -819 {} -1163 {} -1366 {} 0 {} -978 {} -800 {} 0 {} -532 {} 0 {} -1533 {} 0 {} -1189 {} 0 {} -1397 {} -1186 {} 0 {} -556 {} -757 {} 0 {} -1445 {} 0 {} -1135 {} 0 {} -1357 {} -1072 {} 0 {} -70 {} -400 {} 0 {} -1906 {} 0 {} -1555 {} 0 {} -1772 {} -1548 {} 0 {} -811 {} -1080 {} 0 {} -3118 {} 0 {} -2756 {} 0 {} -2992 {} -2734 {} 0 {} 0 {} -2498 {} 0 {} -3103 {} 0 {} -2754 {} 0 {} -2989 {} -2721 {} 0 {} -1347 {} -2183 {} 0 {} -2627 {} 0 {} -2280 {} 0 {} -2504 {} -2253 {} 0 {} -216 {} -1961 {} 0 {} -2487 {} 0 {} -2152 {} 0 {} -2359 {} -2130 {} 0 {} -444 {} -1615 {} 0 {} -1284 {} 0 {} -800 {} 0 {} -1016 {} -938 {} 0 {} 0 {} -1158 {} 0 {} -1043 {} 0 {} -696 {} 0 {} -901 {} -701 {} 0 {} -120 {} -395 {} 0 {} -917 {} 0 {} -593 {} 0 {} -821 {} -539 {} 0 {} 0 {} 0 {} 0 {} -1712 {} 0 {} -1337 {} 0 {} -1547 {} -1358 {} 0 {} 0 {} -924 {} 0 {} -2571 {} 0 {} -2224 {} 0 {} -2461 {} -2186 {} 0 {} 0 {} -1850 {} 0 {} -2125 {} 0 {} -1744 {} 0 {} -1951 {} -1777 {} 0 {} -307 {} -1405 {} 0 {} -2224 {} 0 {} -1869 {} 0 {} -2088 {} -1860 {} 0 {} -745 {} -1630 {} 0 {} -1065 {} 0 {} -760 {} 0 {} -977 {} -695 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
 ChainSub2: coverage "'calt' [+AH4A-j] +- [+AH4A-t]" 0 0 0 1
  1 0 1
-  Coverage: 5 P9200
+  Coverage: 5 P9206
   FCoverage: 4 P117
  1
   SeqLookup: 0 "'aalt' [+AH4A-j] +- [+AH4A-t]"
 EndFPST
 ChainSub2: coverage "'calt' [+AH4A-j] +- [+AH4A-a]-1" 0 0 0 1
- 2 0 0
-  Coverage: 5 P9200
-  Coverage: 4 P101
+ 1 0 1
+  Coverage: 5 P9206
+  FCoverage: 4 P101
  1
   SeqLookup: 0 "'aalt' [+AH4A-j] +- [+AH4A-a]"
 EndFPST
 ChainSub2: coverage "'calt' [+AH4A-j] +- [+AH4A-h]" 0 0 0 1
- 3 0 0
-  Coverage: 5 P9200
-  Coverage: 5 null1
-  Coverage: 4 P107
+ 1 0 2
+  Coverage: 5 P9206
+  FCoverage: 5 null1
+  FCoverage: 4 P107
  1
   SeqLookup: 0 "'aalt' [+AH4A-j] +- [+AH4A-h]"
 EndFPST
@@ -354,7 +355,7 @@ Grid
   EndSpiro
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' [a,d,g,o,q]" "Cursive 1" "'curs' *"
-BeginChars: 141 138
+BeginChars: 142 138
 
 StartChar: O
 Encoding: 40 79 0
@@ -364,7 +365,7 @@ InSpiro: 1
 Flags: W
 HStem: 2403.03 20.6357<1544.91 1808.35> 2499.64 2.76562<1592.53 1687.41>
 VStem: 253.952 57.3438<715.513 1249.72> 2547.71 24.5762<1324.6 1645.49>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 2211.83984375 2351.10351562 m 1
@@ -444,7 +445,7 @@ VWidth: 0
 Flags: HW
 HStem: 0 21G<1875.9 1990.58> 795.816 20G<2573.05 2605.53> 866.656 14.7197<2159.77 2275.32> 2437.6 20G<3307.64 3492.93>
 VStem: 0.416992 25.6475<572.859 818.974>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 2310.61914062 864.967773438 m 1
@@ -567,7 +568,7 @@ InSpiro: 1
 Flags: W
 HStem: 16.3838 32.7686<700.563 975.319> 2437.6 20G<3278.81 3432.45>
 VStem: 140.574 25.6934<574.053 818.98>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 2236.41601562 0 m 1
@@ -660,7 +661,7 @@ InSpiro: 1
 Flags: W
 HStem: 16.3838 32.7686<700.563 975.319> 799.2 20G<4345.18 4382.72> 2437.6 20G<3278.81 3432.45 3826.18 4022.27>
 VStem: 140.574 25.6934<574.053 818.98> 3059.53 13.9082<252.184 439.243>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 4022.27246094 2457.59960938 m 1
@@ -787,7 +788,7 @@ InSpiro: 1
 Flags: W
 HStem: 16.3838 32.7686<831.024 1095.86> 2437.6 20G<4234.35 4308.99>
 VStem: 263.148 26.1143<569.25 818.978> 1785.86 8.19141<1851.39 1882.3> 2025.18 18.0713<1871.39 2002.28> 2555.9 16.3838<2084.1 2231.41>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 4284.41601562 2457.59960938 m 1
@@ -914,7 +915,7 @@ InSpiro: 1
 Flags: W
 HStem: 16.3838 32.7686<557.33 822.096> 2437.6 20G<3968.36 4043>
 VStem: 1519.86 8.19141<1851.39 1882.3> 1759.19 18.0713<1871.39 2002.28> 2126.07 32.7676<942.08 972.811> 2289.91 16.3838<2084.1 2231.41>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 2175.22363281 999.423828125 m 0
@@ -1059,7 +1060,7 @@ InSpiro: 1
 Flags: W
 HStem: 0 8.19238<2241.85 2346.5> 1129.84 6.13574<2131.04 2203.48> 1302.53 8.19141<2076.64 2119.43> 2449.41 8.19141<3466.16 3596>
 VStem: 25.9824 25.9688<569.36 818.968>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 2645.72753906 2113.53613281 m 1
@@ -1215,7 +1216,7 @@ InSpiro: 1
 Flags: W
 HStem: 0 21G<2326.53 2354> 782.816 20G<3055.9 3088.38> 853.656 14.7197<2642.62 2758.17> 2437.6 20G<4116.3 4300.8>
 VStem: 263.839 25.9688<569.36 818.968>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 2793.47167969 851.967773438 m 1
@@ -1341,7 +1342,7 @@ VWidth: 0
 InSpiro: 1
 Flags: W
 HStem: 16.3838 32.7686<752.334 1036.27> 1261.57 8.19141<2260.99 2283.49>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 3301.37597656 2105.34375 m 1
@@ -1424,7 +1425,7 @@ VWidth: 0
 Flags: HW
 HStem: -122.332 10.9229<1175.84 1319.89> 16.3838 32.7686<375.96 659.955> 1219.7 14.2236<1970.6 2152.58> 1327.1 8.19238<1350.7 1360.33>
 VStem: 713.16 32.7676<293.858 631.687> 1866.55 13.959<1287.15 1340.11>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 2925 2105.34375 m 1
@@ -1457,7 +1458,7 @@ InSpiro: 1
 Flags: W
 HStem: 8.61914 13.4951<2750.37 2875.73> 16.3838 32.7686<752.336 1036.27> 799.2 20G<3516.78 3563.52> 1219.66 14.1182<2346.94 2528.94>
 VStem: 2242.94 13.9756<1287.15 1340.11> 2532.15 12.252<250.19 281.866 300.984 466.128>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 3301.37597656 2105.34375 m 1x7c
@@ -1596,7 +1597,7 @@ InSpiro: 1
 Flags: W
 HStem: 16.3838 32.7686<831.012 1095.76> 622.592 16.3838<1318.9 1490.51>
 VStem: 263.199 26.1348<569.264 818.977> 2658.13 8.21582<2321.86 2380.92>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 106.49609375 8.1923828125 m 1
@@ -1739,7 +1740,7 @@ InSpiro: 1
 Flags: W
 HStem: 0 21G<24.5762 245.857>
 VStem: 263.721 25.6328<574.093 818.976>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 24.576171875 0 m 1
@@ -1844,7 +1845,7 @@ InSpiro: 1
 Flags: W
 HStem: 0 8.19238<2447.89 2520.47>
 VStem: 1982.46 49.1523<366.068 700.37> 3203.63 11.5137<508.947 691.324>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 1114.11230469 0 m 1
@@ -1982,7 +1983,7 @@ VWidth: 0
 InSpiro: 1
 Flags: W
 HStem: 0 21G<1993.08 2048 2588.67 2683.07> 799.2 20G<4640.47 4677.63> 2437.6 20G<4983.29 5095.42>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 5095.42382812 2457.59960938 m 2
@@ -2086,7 +2087,7 @@ VWidth: 0
 InSpiro: 1
 Flags: W
 HStem: 0 21G<1993.08 2048 2588.67 2683.07>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 3932.16015625 0 m 1
@@ -2187,7 +2188,7 @@ Width: 4096
 VWidth: 0
 Flags: W
 HStem: -1 21G<1249.5 1303> 799 20G<3396 3678>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 1289 -1 m 1
@@ -2226,7 +2227,7 @@ VWidth: 0
 Flags: W
 HStem: 0 8<1399.1 1781.23> 2465 8<2281.57 2436.61>
 VStem: 1097 5<780.064 955.591> 3185 36<1406.74 1451 1584 1768.01>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 1335 0 m 17
@@ -2277,7 +2278,7 @@ VWidth: 0
 Flags: HW
 HStem: -1 21G<338 555.5> 557 21G<1395 1439>
 VStem: 1395 16<557 575.052>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 1395 557 m 0
@@ -2334,7 +2335,7 @@ Width: 4096
 VWidth: 0
 Flags: W
 HStem: 1636 2<2908 3334>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 2720 262 m 0
@@ -2370,7 +2371,7 @@ Width: 4096
 VWidth: 0
 Flags: HW
 HStem: 2449 9<2325.03 2671>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 2671 2458 m 5
@@ -2415,7 +2416,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21G<1334.57 1344.57>
 VStem: 1334.57 16<0 180.295>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 1334.56835938 0 m 1
@@ -2449,7 +2450,7 @@ Width: 4096
 VWidth: 0
 Flags: W
 VStem: 2073 16<0 43.3771>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 2089 0 m 1
@@ -2480,7 +2481,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21G<1221 1376> 799 20G<4031 4121>
 VStem: 2351 25<1750.55 2027.85>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 3228 1638 m 1
@@ -2520,7 +2521,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21G<1221 1376> 799 20G<3088.5 3473>
 VStem: 2351 25<1750.55 2027.85>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 3473 819 m 5
@@ -2560,7 +2561,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21G<1221 1376>
 VStem: 2351 25<1750.55 2027.85>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 1352 0 m 1
@@ -2593,7 +2594,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21G<0 169.5> 799 20G<1339.5 1467 1474.5 1614 2158.5 2335> 1622 33<2318.03 2350.98>
 VStem: 2318 33<1622.02 1654.97>
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P102 P127 P9000
@@ -2605,7 +2606,7 @@ Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<-147 22.5> 799 20G<1192.5 1320 1327.5 1467 2011.5 2188 2732.5 2909>
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P102 P9000 P102 P9000
@@ -2617,7 +2618,7 @@ Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<-147 22.5> 762 16<2974.89 3061.46> 799 20G<1192.5 1320>
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P102 P9000 P102 P119 P9500
@@ -2629,7 +2630,7 @@ Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 844 799 20G<1319 1335 1839.5 2015>
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P109 P9005
@@ -2641,7 +2642,7 @@ Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<0 168.5> 799 20G<1814.5 1990>
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P003 P111 P9005
@@ -2654,7 +2655,7 @@ VWidth: 0
 Flags: W
 HStem: 0 950 795 4G<1393.5 1532 2077.5 2253> 795 21G<1508 1535.23>
 VStem: 1508 24<795 950>
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P000 P115 P9000
@@ -2667,7 +2668,7 @@ VWidth: 0
 Flags: W
 HStem: 0 8<1139 1418> 799 20G<2101.5 2180>
 VStem: 861 16<237.429 295>
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P000 P116 P9300
@@ -2679,7 +2680,7 @@ Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<0 416 606 1022> 799 20G<2048 2464>
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P005 P105 P120 P005 P105 P9000
@@ -2691,7 +2692,7 @@ Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<0 416 606 1022 1212 1628> 799 20G<2654 3070>
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P005 P105 P120 P005 P105 P120 P005 P105 P9000
@@ -2703,7 +2704,7 @@ Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<401 459.006> 409.4 21G<400.569 656.031> 799 20G<1392.19 1458>
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P005 P105 P118 P9000
@@ -2715,7 +2716,7 @@ Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<0 416> 799 20G<1106 1522>
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P005 P105 P119 P9500
@@ -2727,7 +2728,7 @@ Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<0 83.5> 745 17<1429.83 1553.89> 799 20G<1093 1217>
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P113 P9500
@@ -2740,7 +2741,7 @@ VWidth: 0
 Flags: W
 HStem: 409.6 409.4 784 19<1316.32 1400> 800 19<1494.13 1703.35>
 VStem: 1318.9 344.096
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P101 P102 P9000
@@ -2752,7 +2753,7 @@ Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<0 185.5> 799 20G<2237 2261> 1221 16<1344 2187>
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P117 P102 P9000
@@ -2765,7 +2766,7 @@ VWidth: 0
 Flags: W
 HStem: 784 19<243.317 327> 800 19<421.128 630.348> 819.2 819.2
 VStem: 688.071 665.929
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P101 P103 P102 P9000
@@ -2777,7 +2778,7 @@ Width: 0
 VWidth: 0
 Flags: W
 HStem: 784 19<1275.32 1359> 800 19<1452.13 1661.35> 811 16<1713.88 1751.32>
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P101 P9100
@@ -2789,7 +2790,7 @@ Width: 0
 VWidth: 0
 Flags: W
 HStem: -967 21G<237 300.534> 0 21G<0 177.5> 417.4 21G<1367.57 1623.03>
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P002 P114 P005 P105 P9000
@@ -2801,7 +2802,7 @@ Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<573 1073> 799 20G<2515 2679>
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P002 P107 P102 P9000
@@ -2813,7 +2814,7 @@ Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<0 219> 799 20G<1565.5 2310>
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P002 P107 P102 P119 P9500
@@ -2825,7 +2826,7 @@ Width: 0
 VWidth: 0
 Flags: W
 HStem: 409.4 21G<1654.57 1910.03>
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P002 P107 P104 P005 P105 P9000
@@ -2836,7 +2837,7 @@ Encoding: 63 107 46
 Width: 0
 VWidth: 0
 Flags: HW
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P002 P107 P104 P112 P102 P9000
@@ -2848,7 +2849,7 @@ Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<172 341.5> 799 20G<1511.5 1639> 800 20G<1309.26 1948.52>
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P9200
@@ -2860,7 +2861,7 @@ Width: 0
 VWidth: 0
 Flags: W
 HStem: 417.4 21G<400.569 656.031> 800 20G<1383.26 2022.52>
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P005 P105 P9000 P9200
@@ -2872,7 +2873,7 @@ Width: 0
 VWidth: 0
 Flags: W
 HStem: 784 19<1579.32 1663> 800 19<1756.13 1965.35> 800 20G<1621.26 2260.52>
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P101 P9200 P9206
@@ -2884,7 +2885,7 @@ Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<553.995 976.495> 410 21G<1414 1488> 799 20G<1295.5 1414 2246 2315>
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P002 P107 P106 P9300
@@ -2896,7 +2897,7 @@ Width: 0
 VWidth: 0
 Flags: W
 HStem: 0 21G<578.05 994.05 1184.05 1270.55>
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 63 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P005 P105 P120 P9400 P9206
@@ -2909,7 +2910,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21G<0 169.5> 799 20G<1339.5 1467>
 AnchorPoint: "Cursive 1" 1454 819 exit 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 0 0 m 1
@@ -2934,7 +2935,7 @@ Flags: W
 HStem: 799 20G<555.468 694.968 1239.47 1415.97>
 AnchorPoint: "Cursive 1" 1401.97 819 exit 0
 AnchorPoint: "Cursive 1" 681.968 819.2 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 1390.96777344 819 m 9
@@ -2959,7 +2960,7 @@ HStem: 800 19<1068.13 1277.35>
 AnchorPoint: "Cursive 1" 912 819.361 entry 0
 AnchorPoint: "cursive 2" 609.504 646.573 entry 0
 AnchorPoint: "Cursive 1" 1401.05 819.2 exit 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 1371.34765625 798 m 1
@@ -2981,7 +2982,7 @@ VWidth: 0
 Flags: W
 HStem: 784 19<1341.32 1425>
 AnchorPoint: "Cursive 1" 1425 795 exit 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 19 0 m 1
@@ -3004,7 +3005,7 @@ HStem: 410 409
 VStem: -0 344
 AnchorPoint: "Cursive 1" 13 410 exit 0
 AnchorPoint: "Cursive 1" 331 819 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 -0 410 m 1
@@ -3025,7 +3026,7 @@ HStem: 819.2 819.2
 VStem: 614.071 665.929
 AnchorPoint: "Cursive 1" 624 820 exit 0
 AnchorPoint: "Cursive 1" 624 820 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 614.071289062 819.200195312 m 1
@@ -3041,11 +3042,10 @@ StartChar: P9200
 Encoding: 86 -1 58
 Width: 2212
 VWidth: 0
-Flags: HW
-HStem: 800 20G<1424.26 2063.52>
+Flags: W
 AnchorPoint: "Cursive 1" -656 -1620 exit 0
 AnchorPoint: "Cursive 1" 1418 819 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 -649.485351562 -1612.37011719 m 1
@@ -3056,9 +3056,6 @@ SplineSet
  -145.761692452 -1436.3710491 -553.347049596 -1696.76189129 -660.352958411 -1627.08072056 c 1
  -649.485351562 -1612.37011719 l 1
 EndSplineSet
-Substitution2: "'aalt' [+AH4A-j] +- [+AH4A-t]" P9205
-Substitution2: "'aalt' [+AH4A-j] +- [+AH4A-a]" P9204
-Substitution2: "'aalt' [+AH4A-j] +- [+AH4A-h]" P9203
 Substitution2: "'aalt' * +- [e]" P9202
 Colour: bd8582
 EndChar
@@ -3071,7 +3068,7 @@ Flags: W
 HStem: 811 16<1378.88 1416.32>
 AnchorPoint: "Cursive 1" 1416.32 819.2 exit 0
 AnchorPoint: "Cursive 1" 623.32 819 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 612.317382812 819 m 25
@@ -3095,7 +3092,7 @@ VWidth: 0
 Flags: W
 AnchorPoint: "Cursive 1" 651 820 entry 0
 AnchorPoint: "Cursive 1" 13 0 exit 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 0 0 m 25
@@ -3115,7 +3112,7 @@ Flags: HW
 HStem: 409 21G<564.569 820.031>
 AnchorPoint: "Cursive 1" 577 410 exit 0
 AnchorPoint: "Cursive 1" 18 410 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 0 410 m 1
@@ -3135,7 +3132,7 @@ VWidth: 0
 Flags: W
 AnchorPoint: "Cursive 1" 1728 819.2 entry 0
 AnchorPoint: "Cursive 1" 1093 10 exit 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 1716 819 m 1
@@ -3161,7 +3158,7 @@ Encoding: 0 0 63
 Width: 0
 VWidth: 0
 Flags: W
-LayerCount: 5
+LayerCount: 6
 Fore
 Validated: 1
 EndChar
@@ -3173,7 +3170,7 @@ VWidth: 0
 Flags: W
 AnchorPoint: "Cursive 1" 15.2275 819.801 exit 0
 AnchorPoint: "Cursive 1" 15.2275 819.801 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 873 1902 m 2
@@ -3198,7 +3195,7 @@ Flags: HW
 HStem: 799.487 20G<740.5 881>
 AnchorPoint: "Cursive 1" 444 819.006 exit 0
 AnchorPoint: "Cursive 1" -217 780.4 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 -222 775 m 1
@@ -3222,7 +3219,7 @@ Flags: W
 HStem: 722 20G<766.65 767.078> 819 21G<293.917 361.453 858.3 887.3>
 AnchorPoint: "Cursive 1" 305.217 409.6 exit 0
 AnchorPoint: "Cursive 1" 870.3 819 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 858.299804688 819 m 1
@@ -3253,7 +3250,7 @@ HStem: 799 20G<0 45.5>
 VStem: 0 17<793.416 819>
 AnchorPoint: "Cursive 1" 587 410.6 exit 0
 AnchorPoint: "Cursive 1" 9 819.2 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 17 819 m 1
@@ -3273,7 +3270,7 @@ Flags: W
 HStem: 0 21G<0 276> 799 20G<1002 1237>
 VStem: 0 1237
 AnchorPoint: "Cursive 1" 1221 819.2 exit 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 1237 819 m 17
@@ -3295,7 +3292,7 @@ Flags: W
 HStem: 410 21G<0 61.1143 86.2471 170.247>
 AnchorPoint: "Cursive 1" 11.2471 409.6 exit 0
 AnchorPoint: "Cursive 1" 104.247 410.199 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 0 410 m 1
@@ -3320,7 +3317,7 @@ Flags: W
 HStem: 0 21G<0 169.5> 390 20G<878.5 929>
 VStem: 0 929
 AnchorPoint: "Cursive 1" 912 410 exit 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 899 410 m 1
@@ -3345,7 +3342,7 @@ HStem: 0 21G<0 251>
 VStem: 1479 18<848.92 926.984>
 AnchorPoint: "Cursive 1" 1037 820 exit 0
 AnchorPoint: "Cursive 1" 12 0 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 1044 819.200195312 m 1
@@ -3369,7 +3366,7 @@ Flags: W
 AnchorPoint: "cursive 2" 249 625.858 entry 0
 AnchorPoint: "Cursive 1" 660 781 exit 0
 AnchorPoint: "Cursive 1" 465.117 817.961 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 178.557617188 527.759765625 m 0
@@ -3394,7 +3391,7 @@ Flags: W
 HStem: -967 21G<-790 -749.363> 819 21G<413 515>
 AnchorPoint: "Cursive 1" -23 0.200195 exit 0
 AnchorPoint: "Cursive 1" 425 819.4 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 413 819 m 1
@@ -3419,7 +3416,7 @@ HStem: 410 539 819 21G<133.281 179.281>
 VStem: 0 329.281
 AnchorPoint: "Cursive 1" 12.2803 410.2 exit 0
 AnchorPoint: "Cursive 1" 146.28 819.2 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 0 410 m 1xa0
@@ -3446,7 +3443,7 @@ HStem: 819.2 21G<1393 1441.5>
 VStem: 562 19<186.301 214>
 AnchorPoint: "Cursive 1" 790 9 exit 0
 AnchorPoint: "Cursive 1" 1406 819.2 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 562 214 m 1
@@ -3471,7 +3468,7 @@ HStem: 818.2 21G<1386.54 1432.57> 1221 16<1344 2187>
 VStem: 1344 843<1221 1237>
 AnchorPoint: "Cursive 1" 1405 819 exit 0
 AnchorPoint: "Cursive 1" 1405 819 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 1344 1237 m 1
@@ -3497,7 +3494,7 @@ HStem: 0 21G<231 274.75> 800 20G<1119 1122.98>
 VStem: 231 913.734
 AnchorPoint: "Cursive 1" 687 410 exit 0
 AnchorPoint: "Cursive 1" 687 410 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 231 0 m 1
@@ -3517,7 +3514,7 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" -655 -1620 exit 0
 AnchorPoint: "Cursive 1" 771 0 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 -649 -1613 m 1
@@ -3541,7 +3538,7 @@ Flags: W
 HStem: 0 19<0.0683594 99.6909> 798.953 20G<1192.78 1427>
 AnchorPoint: "Cursive 1" 1412 819.252 exit 0
 AnchorPoint: "Cursive 1" 0.99707 9 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 0.068359375 0 m 9
@@ -3565,7 +3562,7 @@ Flags: W
 HStem: 0 21G<0 83.5> 795 24<1196.45 1213>
 VStem: 0 1237
 AnchorPoint: "Cursive 1" 1225 807 exit 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 418 434 m 0
@@ -3588,7 +3585,7 @@ VWidth: 0
 Flags: W
 AnchorPoint: "Cursive 1" 43 819.2 exit 0
 AnchorPoint: "Cursive 1" 43 819.2 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 Validated: 1
 EndChar
@@ -3600,7 +3597,7 @@ VWidth: 0
 Flags: W
 AnchorPoint: "Cursive 1" 507 0 exit 0
 AnchorPoint: "Cursive 1" 507 0 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 Validated: 1
 Substitution2: "'aalt' [+AH4A-b] +- [+AH4A-n]" null3
@@ -3613,7 +3610,7 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 909 781 exit 0
 AnchorPoint: "Cursive 1" 217.736 409.8 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 206.736328125 409 m 1
@@ -3634,7 +3631,7 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 1298.46 819.2 exit 0
 AnchorPoint: "Cursive 1" 215.265 409.6 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 204.46484375 409.799804688 m 1
@@ -3660,7 +3657,7 @@ HStem: 0.599609 409.4
 VStem: -0.0996094 344.096
 AnchorPoint: "Cursive 1" 333.996 410.2 entry 0
 AnchorPoint: "Cursive 1" 13.1572 1 exit 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 -0.099609375 0.599609375 m 1
@@ -3680,7 +3677,7 @@ VWidth: 0
 Flags: W
 AnchorPoint: "Cursive 1" 960.516 409.199 exit 0
 AnchorPoint: "Cursive 1" 194.763 409.799 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 183.842773438 409 m 1
@@ -3702,7 +3699,7 @@ Flags: W
 HStem: 389.6 429.601G<223.887 322 1447.1 1837>
 AnchorPoint: "Cursive 1" 310 409.6 entry 0
 AnchorPoint: "Cursive 1" 1821 819.2 exit 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 322 409.599609375 m 1
@@ -3725,7 +3722,7 @@ Flags: HW
 HStem: 605.857 20G<726.251 1147.35>
 AnchorPoint: "cursive 2" 1377.65 645.858 exit 0
 AnchorPoint: "Cursive 1" 318.707 409.6 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 1396 646.857421875 m 1
@@ -3743,7 +3740,7 @@ Encoding: 1 32 89
 Width: 1949
 VWidth: 0
 Flags: W
-LayerCount: 5
+LayerCount: 6
 Fore
 Validated: 1
 EndChar
@@ -3755,7 +3752,7 @@ VWidth: 0
 Flags: W
 AnchorPoint: "Cursive 1" 536.198 409.6 exit 0
 AnchorPoint: "Cursive 1" 14.1982 0.599609 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 520.629882812 409.599609375 m 1
@@ -3776,7 +3773,7 @@ VWidth: 0
 Flags: W
 AnchorPoint: "Cursive 1" 773.461 409.8 exit 0
 AnchorPoint: "Cursive 1" 215.266 409.6 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 757.662109375 409.599609375 m 1
@@ -3796,7 +3793,7 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 2488 820.4 exit 0
 AnchorPoint: "Cursive 1" 786 0 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 771 0 m 1
@@ -3820,7 +3817,7 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 1653 410 exit 0
 AnchorPoint: "Cursive 1" 1100 0 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 1636 410 m 1
@@ -3844,7 +3841,7 @@ VWidth: 0
 Flags: W
 AnchorPoint: "Cursive 1" 577 763 exit 0
 AnchorPoint: "Cursive 1" 19 819.2 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 573.415039062 769.502929688 m 1
@@ -3866,7 +3863,7 @@ Flags: W
 HStem: 409.4 21G<564.569 746.961>
 AnchorPoint: "Cursive 1" 577.47 410 exit 0
 AnchorPoint: "Cursive 1" 576.569 762.6 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 573.415447509 769.50281344 m 1
@@ -3887,7 +3884,7 @@ VWidth: 0
 Flags: W
 AnchorPoint: "Cursive 1" 577 763 entry 0
 AnchorPoint: "Cursive 1" 577 763 exit 0
-LayerCount: 5
+LayerCount: 6
 Fore
 Validated: 1
 EndChar
@@ -3898,7 +3895,7 @@ Width: 0
 VWidth: 0
 Flags: H
 VStem: 390 62<-45.9682 39.2772>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 421 41 m 25
@@ -3916,10 +3913,10 @@ StartChar: P9201
 Encoding: 123 -1 98
 Width: 2212
 VWidth: 0
-Flags: HWO
+Flags: HW
 AnchorPoint: "Cursive 1" -655.586 -1619.93 entry 0
 AnchorPoint: "Cursive 1" 1404.2 409.6 exit 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 -660.585894311 -1626.92820108 m 1
@@ -3929,6 +3926,18 @@ SplineSet
  896 42 -145.678542149 -776.488058638 -454.000005573 -1164.241162 c 0
  -656.242262008 -1418.58629157 -701 -1573 -648.698242188 -1613.22851562 c 5
  -660.585894311 -1626.92820108 l 1
+EndSplineSet
+Layer: 5
+SplineSet
+1388.19824219 409.599609375 m 5
+ 915 83 -140.797744626 -738.326399402 -469 -1153.46865142 c 4
+ -1023.17409704 -1854.44214837 -439.751953125 -1857.66308594 336 -746 c 6
+ 1430 819 l 5
+ 1408 819.200195312 l 5
+ 321 -735 l 6
+ -425.484105619 -1802.3281902 -999.96705953 -1850.86355006 -454.000005573 -1164.241162 c 4
+ -145.678542149 -776.488058638 896 42 1422.95117188 409.599609375 c 5
+ 1388.19824219 409.599609375 l 5
 EndSplineSet
 Comment: "It will be placed before glyphs like m."
 Colour: ff171f
@@ -3941,7 +3950,7 @@ VWidth: 0
 Flags: HW
 HStem: -8.9225 37.845<577.084 614.916>
 VStem: 577.078 37.845<-8.91636 28.9164>
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 573.815429688 22 m 4
@@ -3958,7 +3967,7 @@ Encoding: 12 48 100
 Width: 1153
 VWidth: 0
 Flags: HW
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 467.03125 627.80859375 m 0
@@ -3980,7 +3989,7 @@ Encoding: 13 49 101
 Width: 979
 VWidth: 0
 Flags: HW
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 883 975 m 5
@@ -3997,7 +4006,7 @@ Encoding: 14 50 102
 Width: 1328
 VWidth: 0
 Flags: HW
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 1110.78515625 937.04296875 m 1
@@ -4040,7 +4049,7 @@ Encoding: 15 51 103
 Width: 1051
 VWidth: 0
 Flags: HW
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 728.833007812 506.525390625 m 1
@@ -4086,7 +4095,7 @@ Encoding: 16 52 104
 Width: 1290
 VWidth: 0
 Flags: HW
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 1190 961.72265625 m 1
@@ -4118,7 +4127,7 @@ Encoding: 17 53 105
 Width: 1051
 VWidth: 0
 Flags: HW
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 1400.39941406 956.948242188 m 1
@@ -4162,7 +4171,7 @@ Encoding: 18 54 106
 Width: 921
 VWidth: 0
 Flags: HW
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 270.274414062 17.1005859375 m 1
@@ -4198,7 +4207,7 @@ Encoding: 19 55 107
 Width: 1188
 VWidth: 0
 Flags: HW
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 372 964 m 1
@@ -4228,7 +4237,7 @@ Encoding: 20 56 108
 Width: 1224
 VWidth: 0
 Flags: HW
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 459.802140713 527.549444119 m 1
@@ -4258,7 +4267,7 @@ Encoding: 21 57 109
 Width: 1342
 VWidth: 0
 Flags: HW
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 1242 971.75 m 1
@@ -4275,7 +4284,7 @@ Encoding: 2 33 110
 Width: 4096
 VWidth: 0
 Flags: H
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 2074 1630 m 1
@@ -4293,7 +4302,7 @@ Encoding: 24 63 111
 Width: 1870
 VWidth: 0
 Flags: HW
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 836.629882812 1094.37988281 m 1
@@ -4323,7 +4332,7 @@ Encoding: 22 58 112
 Width: 2699
 VWidth: 0
 Flags: HW
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 99 46 N 1 0 0 1 192 -2 2
 Refer: 99 46 S 1 0 0 1 742.402 708 2
@@ -4335,7 +4344,7 @@ Encoding: 23 59 113
 Width: 5671
 VWidth: 0
 Flags: HW
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 97 44 N 1 0 0 1 357 0 2
 Refer: 99 46 S 1 0 0 1 744.027 703 2
@@ -4347,7 +4356,7 @@ Encoding: 3 34 114
 Width: 382
 VWidth: 0
 Flags: HW
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 97 44 N -1 0 0 -1 661 1679 2
 Refer: 97 44 N -1 0 0 -1 509 1679 2
@@ -4360,7 +4369,7 @@ Encoding: 125 -1 115
 Width: 376
 VWidth: 0
 Flags: HW
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 97 44 N 1 0 0 1 -136 1748 2
 Refer: 97 44 N 1 0 0 1 -288 1748 2
@@ -4372,7 +4381,7 @@ Encoding: 52 95 116
 Width: 1845
 VWidth: 0
 Flags: HW
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 297 18 m 1
@@ -4389,7 +4398,7 @@ Encoding: 6 37 117
 Width: 2411
 VWidth: 0
 Flags: HW
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 1260 926 m 1
@@ -4415,7 +4424,7 @@ Encoding: 4 35 118
 Width: 2250
 VWidth: 0
 Flags: HW
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 562 901.250976562 m 1
@@ -4458,7 +4467,7 @@ Encoding: 5 36 119
 Width: 2772
 VWidth: 0
 Flags: HW
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 1980.59082031 721.338867188 m 1
@@ -4549,7 +4558,7 @@ Encoding: 7 38 120
 Width: 3760
 VWidth: 0
 Flags: HW
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 3324 1638.40039062 m 1
@@ -4596,7 +4605,7 @@ Encoding: 8 39 121
 Width: 378
 VWidth: 0
 Flags: HW
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 97 44 S 1 0 0 1 -206 1085 2
 Validated: 1
@@ -4607,7 +4616,7 @@ Encoding: 79 162 122
 Width: 2768
 VWidth: 0
 Flags: HW
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 1552 1500 m 1
@@ -4652,7 +4661,7 @@ Encoding: 25 64 123
 Width: 3447
 VWidth: 0
 Flags: HW
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 1894 615 m 5
@@ -4690,7 +4699,7 @@ Encoding: 10 45 124
 Width: 1756
 VWidth: 0
 Flags: HW
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 368 418.349609375 m 1
@@ -4711,7 +4720,7 @@ HStem: 1622 33<0.026062 32.9768>
 VStem: 0 33<1622.02 1654.97>
 AnchorPoint: "Cursive 1" -602 814 exit 0
 AnchorPoint: "Cursive 1" -602 814 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 Refer: 99 46 N 1 0 0 1 -579 1616 2
 Validated: 1
@@ -4725,7 +4734,7 @@ Flags: HW
 HStem: 799.487 20G<552.5 693>
 AnchorPoint: "Cursive 1" 307 408.006 exit 0
 AnchorPoint: "Cursive 1" -32 819.4 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 -41 819.200195312 m 1
@@ -4746,7 +4755,7 @@ Flags: HW
 HStem: 799.487 20G<552.5 693>
 AnchorPoint: "Cursive 1" 678 820.006 exit 0
 AnchorPoint: "Cursive 1" 13 819.2 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 0 819 m 5
@@ -4766,7 +4775,7 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 662 818.761 exit 0
 AnchorPoint: "Cursive 1" -217 780.761 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 -222 775 m 1
@@ -4785,7 +4794,7 @@ Flags: HW
 HStem: 0 19<0.0683594 99.6909> 798.953 20G<1192.78 1427>
 AnchorPoint: "cursive 2" 1170 626 exit 0
 AnchorPoint: "Cursive 1" 0.99707 9 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 1155.29232738 625.857788086 m 1
@@ -4804,7 +4813,7 @@ Flags: HW
 HStem: 0 19<0.0683594 99.6909> 798.953 20G<1192.78 1427>
 AnchorPoint: "Cursive 1" 979 409.6 exit 0
 AnchorPoint: "Cursive 1" 0.99707 9 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 963 409 m 1
@@ -4823,7 +4832,7 @@ Flags: W
 HStem: 0 19<0.0683594 110.746>
 AnchorPoint: "Cursive 1" 886 410 exit 0
 AnchorPoint: "Cursive 1" 0.99707 9 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 869.483592083 409.599609375 m 1
@@ -4842,7 +4851,7 @@ Flags: HW
 HStem: 800 20G<1424.26 2063.52>
 AnchorPoint: "Cursive 1" 2012 410 exit 0
 AnchorPoint: "Cursive 1" 1418 819 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 1408 819 m 1
@@ -4867,7 +4876,7 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 1576 819.2 exit 0
 AnchorPoint: "Cursive 1" 215.265 409.6 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 204.46484375 409.799804688 m 1
@@ -4888,23 +4897,31 @@ Encoding: 134 -1 134
 Width: 2212
 VWidth: 0
 Flags: HW
-HStem: 800 20G<1424.26 2063.52>
-AnchorPoint: "Cursive 1" 2196 819 exit 0
-AnchorPoint: "Cursive 1" 1418 819 entry 0
-LayerCount: 5
+AnchorPoint: "Cursive 1" 2084 819 exit 0
+AnchorPoint: "Cursive 1" -656.733 -1622.19 entry 0
+LayerCount: 6
 Fore
 SplineSet
-1402 811 m 1
- 1430 819 l 1
- 336 -746 l 2
- -782.432157882 -2345.95093884 -835 -1459 -32 -658.568855276 c 0
- 734.739687575 105.717976395 1065.76343876 -8.37839768264 2182 819 c 1
- 2211 819 l 1
- 1175.38825214 34.0350856369 721.299946977 70.6536574744 -21.9999822301 -672.327141354 c 0
- -436.832180998 -1086.98123496 -631.198126782 -1546.78123705 -537 -1613 c 0
- -461.587890625 -1666.01269531 -176.081201971 -1445.9042907 321 -735 c 2
- 1402 811 l 1
+-648.733398438 -1613.18554688 m 17
+ -827.186663567 -1490.06339229 -91.3876953125 -750.944335938 22 -644.110351562 c 0
+ 764 55 1057.93355836 29.9003305588 2099 819 c 1
+ 2070 819 l 1
+ 950.232303814 -10.9954542398 740.680915147 57.4064178043 10 -629.223915504 c 0
+ -143 -773 -856.744719626 -1498.40507693 -659.930664062 -1628.16015625 c 1
+ -648.733398438 -1613.18554688 l 17
 EndSplineSet
+Layer: 5
+SplineSet
+-648.733398438 -1613.18554688 m 21
+ -743.939453125 -1547.49902344 -442.149414062 -1030.27832031 22 -672.327148438 c 4
+ 965.11328125 55 1063.38867188 34.03515625 2099 819 c 5
+ 2070 819 l 5
+ 953.763671875 -8.3779296875 951 67 12 -658.569335938 c 4
+ -477.819335938 -1037.0546875 -765.791992188 -1558.36816406 -659.930664062 -1628.16015625 c 5
+ -648.733398438 -1613.18554688 l 21
+EndSplineSet
+Refer: 58 -1 S 1 0 0 1 0 0 2
+Refer: 78 -1 S 1 0 0 1 0 0 2
 Colour: ff171a
 EndChar
 
@@ -4915,19 +4932,29 @@ VWidth: 0
 Flags: HW
 HStem: 800 20G<1424.26 2063.52>
 AnchorPoint: "Cursive 1" 2449 820.2 exit 0
-AnchorPoint: "Cursive 1" 1418 819 entry 0
-LayerCount: 5
+AnchorPoint: "Cursive 1" -655 -1621 entry 0
+LayerCount: 6
 Fore
 SplineSet
-1408 819.200195312 m 1
- 1430 819 l 1
- 336 -746 l 2
- -439.751953125 -1857.66308594 -1023.17409704 -1854.44214837 -469 -1153.46865142 c 0
- -56.8113568807 -632.092217349 1162 434 2470 780.76171875 c 1
- 2477 765 l 1
- 1150 409.599609375 -72.906198806 -684.96766412 -454.000005573 -1164.241162 c 0
- -999.96705953 -1850.86355006 -425.484105619 -1802.3281902 321 -735 c 2
- 1408 819.200195312 l 1
+-648.698242188 -1614.22851562 m 5
+ -707 -1572 -656.242262008 -1418.58629157 -454.000005573 -1164.241162 c 0
+ -72.906198806 -684.96766412 1150 409.599609375 2477 765 c 1
+ 2470 780.76171875 l 1
+ 1162 434 -56.8113568807 -632.092217349 -469 -1153.46865142 c 0
+ -678.767651808 -1418.80325515 -725.5408836 -1584.16409874 -660.585894311 -1626.92820108 c 1
+ -648.698242188 -1614.22851562 l 5
+EndSplineSet
+Layer: 5
+SplineSet
+1408 819.200195312 m 5
+ 1430 819 l 5
+ 336 -746 l 6
+ -439.751953125 -1857.66308594 -1023.17409704 -1854.44214837 -469 -1153.46865142 c 4
+ -56.8113568807 -632.092217349 1162 434 2470 780.76171875 c 5
+ 2477 765 l 5
+ 1150 409.599609375 -72.906198806 -684.96766412 -454.000005573 -1164.241162 c 4
+ -999.96705953 -1850.86355006 -425.484105619 -1802.3281902 321 -735 c 6
+ 1408 819.200195312 l 5
 EndSplineSet
 Comment: "It will come berofe a."
 Colour: ff3324
@@ -4940,19 +4967,29 @@ VWidth: 0
 Flags: HW
 HStem: 800 20G<1424.26 2063.52>
 AnchorPoint: "Cursive 1" 2193 819 exit 0
-AnchorPoint: "Cursive 1" 1418 819 entry 0
-LayerCount: 5
+AnchorPoint: "Cursive 1" -653.467 -1620 entry 0
+LayerCount: 6
 Fore
 SplineSet
-1408 819.200195312 m 1
- 1430 819 l 1
- 336 -746 l 2
- -439.751953125 -1857.66308594 -1025.61691953 -1852.50397109 -469 -1153.46865142 c 0
+-660.45576897 -1626.84751598 m 1
+ -727.256991999 -1585.26198685 -680.976416949 -1419.68226654 -469 -1153.46865142 c 0
  700 314.63671875 1696 210 2181 819.200195312 c 1
  2212 819.200195312 l 1
  1738 198 691 280 -454.000005573 -1164.241162 c 0
- -998.97891038 -1851.64811651 -425.484105619 -1802.3281902 321 -735 c 2
- 1408 819.200195312 l 1
+ -655.359336364 -1418.22494581 -704.028906289 -1571.63358844 -647.699072377 -1610.27922018 c 1
+ -660.45576897 -1626.84751598 l 1
+EndSplineSet
+Layer: 5
+SplineSet
+1408 819.200195312 m 5
+ 1430 819 l 5
+ 336 -746 l 6
+ -439.751953125 -1857.66308594 -1025.61691953 -1852.50397109 -469 -1153.46865142 c 4
+ 700 314.63671875 1696 210 2181 819.200195312 c 5
+ 2212 819.200195312 l 5
+ 1738 198 691 280 -454.000005573 -1164.241162 c 4
+ -998.97891038 -1851.64811651 -425.484105619 -1802.3281902 321 -735 c 6
+ 1408 819.200195312 l 5
 EndSplineSet
 Comment: "it will be placed before t"
 Colour: ff262e
@@ -4966,7 +5003,7 @@ Flags: HW
 HStem: 800 20G<1424.26 2063.52>
 AnchorPoint: "Cursive 1" 2193 819 exit 0
 AnchorPoint: "Cursive 1" -655 -1620 entry 0
-LayerCount: 5
+LayerCount: 6
 Fore
 SplineSet
 -649 -1613 m 1
@@ -4977,6 +5014,21 @@ SplineSet
  -679 -1418 -726 -1584 -661 -1627 c 1
  -649 -1613 l 1
 EndSplineSet
+Layer: 5
+SplineSet
+1408 819.200195312 m 1
+ 1430 819 l 1
+ 336 -746 l 2
+ -439.751953125 -1857.66308594 -1023.17409704 -1854.44214837 -469 -1153.46865142 c 0
+ -56.8113568807 -632.092217349 931 177 2177 819 c 1
+ 2185 802 l 1
+ 900 143 -72.9061988047 -684.967664121 -454.000005573 -1164.241162 c 0
+ -999.96705953 -1850.86355006 -425.484105619 -1802.3281902 321 -735 c 2
+ 1408 819.200195312 l 1
+EndSplineSet
+Substitution2: "'aalt' [+AH4A-j] +- [+AH4A-t]" P9205
+Substitution2: "'aalt' [+AH4A-j] +- [+AH4A-a]" P9204
+Substitution2: "'aalt' [+AH4A-j] +- [+AH4A-h]" P9203
 Substitution2: "'aalt' * +- [m,n,x,z]" P9201
 Colour: ff3845
 EndChar
