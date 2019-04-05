@@ -379,7 +379,7 @@ Grid
   EndSpiro
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' [a,d,g,o,q]" "Cursive 1" "'curs' *"
-BeginChars: 142 140
+BeginChars: 142 138
 
 StartChar: O
 Encoding: 40 79 0
@@ -3809,56 +3809,8 @@ Validated: 41
 Colour: ff141c
 EndChar
 
-StartChar: P9401
-Encoding: 118 -1 92
-Width: 2505
-VWidth: 0
-Flags: HW
-AnchorPoint: "Cursive 1" 2488 820.4 exit 0
-AnchorPoint: "Cursive 1" 786 0 entry 0
-LayerCount: 6
-Fore
-SplineSet
-771 0 m 1
- 799 0 l 1
- 960 101 630.999557671 -493.999678239 203 -1092 c 0
- -70.8549803519 -1474.62975611 -235.116210938 -1644.02539062 -264 -1619 c 0
- -300.083007812 -1587.73730469 -127.858040066 -1127.87619639 127 -760.695269637 c 0
- 478 -255 1160 450 2479 763.200195312 c 1
- 2475 781.200195312 l 1
- 1138.03036282 460 464 -244 111.999999501 -750.242937212 c 0
- -252.165558875 -1273.98226006 -610.379023112 -2259.84752695 218 -1102 c 0
- 658 -487 1032 166 771 0 c 1
-EndSplineSet
-Colour: ff292e
-EndChar
-
-StartChar: P9402
-Encoding: 119 -1 93
-Width: 2505
-VWidth: 0
-Flags: HW
-AnchorPoint: "Cursive 1" 1653 410 exit 0
-AnchorPoint: "Cursive 1" 1100 0 entry 0
-LayerCount: 6
-Fore
-SplineSet
-1636 410 m 1
- 1251 122 779.562517038 -206.116017573 138 -1251 c 0
- -204 -1808 57 -1766 532 -1102 c 0
- 972 -487 1346 166 1085 0 c 1
- 1113 0 l 1
- 1274 101 947.61959638 -490.837989213 517 -1092 c 0
- 214 -1515 33 -1637 6 -1618 c 0
- -19 -1600 26.2785045606 -1466.74917074 154 -1260 c 0
- 794 -224 1245 98 1671 410 c 1
- 1636 410 l 1
-EndSplineSet
-Colour: ff3645
-EndChar
-
 StartChar: P9501
-Encoding: 120 -1 94
+Encoding: 120 -1 92
 Width: 793
 VWidth: 0
 Flags: W
@@ -3879,7 +3831,7 @@ Colour: ff2638
 EndChar
 
 StartChar: P126
-Encoding: 121 -1 95
+Encoding: 121 -1 93
 Width: 793
 VWidth: 0
 Flags: W
@@ -3901,7 +3853,7 @@ Colour: bdbdbd
 EndChar
 
 StartChar: null3
-Encoding: 122 -1 96
+Encoding: 122 -1 94
 Width: 793
 VWidth: 0
 Flags: W
@@ -3913,7 +3865,7 @@ Validated: 1
 EndChar
 
 StartChar: glyph98
-Encoding: 9 44 97
+Encoding: 9 44 95
 Width: 0
 VWidth: 0
 Flags: H
@@ -3933,7 +3885,7 @@ Validated: 1
 EndChar
 
 StartChar: P9201
-Encoding: 123 -1 98
+Encoding: 123 -1 96
 Width: 2212
 VWidth: 0
 Flags: HW
@@ -3967,7 +3919,7 @@ Colour: ff171f
 EndChar
 
 StartChar: period
-Encoding: 11 46 99
+Encoding: 11 46 97
 Width: 5671
 VWidth: 0
 Flags: HW
@@ -3986,7 +3938,7 @@ Validated: 1
 EndChar
 
 StartChar: zero
-Encoding: 12 48 100
+Encoding: 12 48 98
 Width: 1153
 VWidth: 0
 Flags: HW
@@ -4008,7 +3960,7 @@ Validated: 33
 EndChar
 
 StartChar: one
-Encoding: 13 49 101
+Encoding: 13 49 99
 Width: 979
 VWidth: 0
 Flags: HW
@@ -4025,7 +3977,7 @@ Validated: 1
 EndChar
 
 StartChar: two
-Encoding: 14 50 102
+Encoding: 14 50 100
 Width: 1328
 VWidth: 0
 Flags: HW
@@ -4068,7 +4020,7 @@ EndSplineSet
 EndChar
 
 StartChar: three
-Encoding: 15 51 103
+Encoding: 15 51 101
 Width: 1051
 VWidth: 0
 Flags: HW
@@ -4114,7 +4066,7 @@ EndSplineSet
 EndChar
 
 StartChar: four
-Encoding: 16 52 104
+Encoding: 16 52 102
 Width: 1290
 VWidth: 0
 Flags: HW
@@ -4146,7 +4098,7 @@ EndSplineSet
 EndChar
 
 StartChar: five
-Encoding: 17 53 105
+Encoding: 17 53 103
 Width: 1051
 VWidth: 0
 Flags: HW
@@ -4190,7 +4142,7 @@ EndSplineSet
 EndChar
 
 StartChar: six
-Encoding: 18 54 106
+Encoding: 18 54 104
 Width: 921
 VWidth: 0
 Flags: HW
@@ -4226,7 +4178,7 @@ EndSplineSet
 EndChar
 
 StartChar: seven
-Encoding: 19 55 107
+Encoding: 19 55 105
 Width: 1188
 VWidth: 0
 Flags: HW
@@ -4256,7 +4208,7 @@ EndSplineSet
 EndChar
 
 StartChar: eight
-Encoding: 20 56 108
+Encoding: 20 56 106
 Width: 1224
 VWidth: 0
 Flags: HW
@@ -4286,7 +4238,7 @@ EndSplineSet
 EndChar
 
 StartChar: nine
-Encoding: 21 57 109
+Encoding: 21 57 107
 Width: 1342
 VWidth: 0
 Flags: HW
@@ -4303,7 +4255,7 @@ Refer: 54 -1 N 0.86 0 0 0.86 100.493 266.066 2
 EndChar
 
 StartChar: exclam
-Encoding: 2 33 110
+Encoding: 2 33 108
 Width: 4096
 VWidth: 0
 Flags: H
@@ -4316,12 +4268,12 @@ SplineSet
  2048 1649 l 1
  2074 1630 l 1
 EndSplineSet
-Refer: 99 46 N 1 0 0 1 192 0 2
+Refer: 97 46 N 1 0 0 1 192 0 2
 Validated: 1
 EndChar
 
 StartChar: question
-Encoding: 24 63 111
+Encoding: 24 63 109
 Width: 1870
 VWidth: 0
 Flags: HW
@@ -4340,7 +4292,7 @@ SplineSet
  1045.234375 1498.58007812 927.173828125 1350.34863281 853.469726562 1089.62011719 c 1
  836.629882812 1094.37988281 l 1
 EndSplineSet
-Refer: 99 46 N 1 0 0 1 -482.95 0 2
+Refer: 97 46 N 1 0 0 1 -482.95 0 2
 Validated: 33
 Layer: 3
 SplineSet
@@ -4351,56 +4303,56 @@ EndSplineSet
 EndChar
 
 StartChar: colon
-Encoding: 22 58 112
+Encoding: 22 58 110
 Width: 2699
 VWidth: 0
 Flags: HW
 LayerCount: 6
 Fore
-Refer: 99 46 N 1 0 0 1 192 -2 2
-Refer: 99 46 S 1 0 0 1 742.402 708 2
+Refer: 97 46 N 1 0 0 1 192 -2 2
+Refer: 97 46 S 1 0 0 1 742.402 708 2
 Validated: 1
 EndChar
 
 StartChar: semicolon
-Encoding: 23 59 113
+Encoding: 23 59 111
 Width: 5671
 VWidth: 0
 Flags: HW
 LayerCount: 6
 Fore
-Refer: 97 44 N 1 0 0 1 357 0 2
-Refer: 99 46 S 1 0 0 1 744.027 703 2
+Refer: 95 44 N 1 0 0 1 357 0 2
+Refer: 97 46 S 1 0 0 1 744.027 703 2
 Validated: 1
 EndChar
 
 StartChar: quotedbl
-Encoding: 3 34 114
+Encoding: 3 34 112
 Width: 382
 VWidth: 0
 Flags: HW
 LayerCount: 6
 Fore
-Refer: 97 44 N -1 0 0 -1 661 1679 2
-Refer: 97 44 N -1 0 0 -1 509 1679 2
+Refer: 95 44 N -1 0 0 -1 661 1679 2
+Refer: 95 44 N -1 0 0 -1 509 1679 2
 Validated: 1
 Substitution2: "'aalt' [+ACIA]" Quotation_Mark2
 EndChar
 
 StartChar: Quotation_Mark2
-Encoding: 125 -1 115
+Encoding: 125 -1 113
 Width: 376
 VWidth: 0
 Flags: HW
 LayerCount: 6
 Fore
-Refer: 97 44 N 1 0 0 1 -136 1748 2
-Refer: 97 44 N 1 0 0 1 -288 1748 2
+Refer: 95 44 N 1 0 0 1 -136 1748 2
+Refer: 95 44 N 1 0 0 1 -288 1748 2
 Validated: 1
 EndChar
 
 StartChar: underscore
-Encoding: 52 95 116
+Encoding: 52 95 114
 Width: 1845
 VWidth: 0
 Flags: HW
@@ -4417,7 +4369,7 @@ Validated: 1
 EndChar
 
 StartChar: percent
-Encoding: 6 37 117
+Encoding: 6 37 115
 Width: 2411
 VWidth: 0
 Flags: HW
@@ -4437,13 +4389,13 @@ SplineSet
  2197.21875 1643.78613281 l 1
  2211 1633 l 1
 EndSplineSet
-Refer: 100 48 N 0.5 0 0 0.5 1273.03 -0.950344 2
-Refer: 100 48 N 0.5 0 0 0.5 733.033 487.05 2
+Refer: 98 48 N 0.5 0 0 0.5 1273.03 -0.950344 2
+Refer: 98 48 N 0.5 0 0 0.5 733.033 487.05 2
 Validated: 37
 EndChar
 
 StartChar: numbersign
-Encoding: 4 35 118
+Encoding: 4 35 116
 Width: 2250
 VWidth: 0
 Flags: HW
@@ -4486,7 +4438,7 @@ EndSplineSet
 EndChar
 
 StartChar: dollar
-Encoding: 5 36 119
+Encoding: 5 36 117
 Width: 2772
 VWidth: 0
 Flags: HW
@@ -4577,7 +4529,7 @@ EndSplineSet
 EndChar
 
 StartChar: ampersand
-Encoding: 7 38 120
+Encoding: 7 38 118
 Width: 3760
 VWidth: 0
 Flags: HW
@@ -4624,18 +4576,18 @@ EndSplineSet
 EndChar
 
 StartChar: quotesingle
-Encoding: 8 39 121
+Encoding: 8 39 119
 Width: 378
 VWidth: 0
 Flags: HW
 LayerCount: 6
 Fore
-Refer: 97 44 S 1 0 0 1 -206 1085 2
+Refer: 95 44 S 1 0 0 1 -206 1085 2
 Validated: 1
 EndChar
 
 StartChar: cent
-Encoding: 79 162 122
+Encoding: 79 162 120
 Width: 2768
 VWidth: 0
 Flags: HW
@@ -4680,7 +4632,7 @@ EndSplineSet
 EndChar
 
 StartChar: at
-Encoding: 25 64 123
+Encoding: 25 64 121
 Width: 3447
 VWidth: 0
 Flags: HW
@@ -4718,7 +4670,7 @@ Refer: 54 -1 S 0.75 0 0 0.75 901.168 0.349718 2
 EndChar
 
 StartChar: hyphen
-Encoding: 10 45 124
+Encoding: 10 45 122
 Width: 1756
 VWidth: 0
 Flags: HW
@@ -4735,7 +4687,7 @@ Validated: 1
 EndChar
 
 StartChar: P127
-Encoding: 124 -1 125
+Encoding: 124 -1 123
 Width: 33
 VWidth: 0
 Flags: W
@@ -4745,12 +4697,12 @@ AnchorPoint: "Cursive 1" -602 814 exit 0
 AnchorPoint: "Cursive 1" -602 814 entry 0
 LayerCount: 6
 Fore
-Refer: 99 46 N 1 0 0 1 -579 1616 2
+Refer: 97 46 N 1 0 0 1 -579 1616 2
 Validated: 1
 EndChar
 
 StartChar: P9502
-Encoding: 127 -1 126
+Encoding: 127 -1 124
 Width: 942
 VWidth: 0
 Flags: HW
@@ -4771,7 +4723,7 @@ Colour: ff1c2e
 EndChar
 
 StartChar: P9503
-Encoding: 128 -1 127
+Encoding: 128 -1 125
 Width: 414
 VWidth: 0
 Flags: HW
@@ -4792,7 +4744,7 @@ Colour: ff3829
 EndChar
 
 StartChar: P9504
-Encoding: 129 -1 128
+Encoding: 129 -1 126
 Width: 602
 VWidth: 0
 Flags: HW
@@ -4810,7 +4762,7 @@ EndSplineSet
 EndChar
 
 StartChar: P9301
-Encoding: 130 -1 129
+Encoding: 130 -1 127
 Width: 1427
 VWidth: 0
 Flags: HW
@@ -4829,7 +4781,7 @@ EndSplineSet
 EndChar
 
 StartChar: P9302
-Encoding: 131 -1 130
+Encoding: 131 -1 128
 Width: 1427
 VWidth: 0
 Flags: HW
@@ -4848,7 +4800,7 @@ EndSplineSet
 EndChar
 
 StartChar: P9303
-Encoding: 132 -1 131
+Encoding: 132 -1 129
 Width: 1427
 VWidth: 0
 Flags: W
@@ -4867,7 +4819,7 @@ EndSplineSet
 EndChar
 
 StartChar: P9202
-Encoding: 126 -1 132
+Encoding: 126 -1 130
 Width: 2212
 VWidth: 0
 Flags: W
@@ -4904,7 +4856,7 @@ Colour: ff2b33
 EndChar
 
 StartChar: P9005
-Encoding: 133 -1 133
+Encoding: 133 -1 131
 Width: 1313
 VWidth: 0
 Flags: HW
@@ -4927,7 +4879,7 @@ Colour: ff3336
 EndChar
 
 StartChar: P9203
-Encoding: 134 -1 134
+Encoding: 134 -1 132
 Width: 2212
 VWidth: 0
 Flags: HW
@@ -4960,7 +4912,7 @@ Colour: ff171a
 EndChar
 
 StartChar: P9204
-Encoding: 135 -1 135
+Encoding: 135 -1 133
 Width: 2212
 VWidth: 0
 Flags: HW
@@ -4995,7 +4947,7 @@ Colour: ff3324
 EndChar
 
 StartChar: P9205
-Encoding: 136 -1 136
+Encoding: 136 -1 134
 Width: 2212
 VWidth: 0
 Flags: HW
@@ -5030,7 +4982,7 @@ Colour: ff262e
 EndChar
 
 StartChar: P9206
-Encoding: 137 -1 137
+Encoding: 137 -1 135
 Width: 2212
 VWidth: 0
 Flags: HW
@@ -5070,7 +5022,7 @@ Colour: ff3845
 EndChar
 
 StartChar: P9207
-Encoding: 138 -1 138
+Encoding: 138 -1 136
 Width: 2212
 VWidth: 0
 Flags: HW
@@ -5103,7 +5055,7 @@ Colour: ff292e
 EndChar
 
 StartChar: P129
-Encoding: 139 -1 139
+Encoding: 139 -1 137
 Width: 843
 VWidth: 0
 Flags: HW
