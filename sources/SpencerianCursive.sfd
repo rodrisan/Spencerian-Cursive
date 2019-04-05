@@ -3755,6 +3755,7 @@ SplineSet
  176 -34 679.965863446 241.373446237 1364.68847656 646.857421875 c 1
  1396 646.857421875 l 1
 EndSplineSet
+Comment: "It is final part of glyphs like 'a' that place before glyphs like 'a'."
 Colour: ff0d0d
 EndChar
 
