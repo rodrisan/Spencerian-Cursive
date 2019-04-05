@@ -5099,13 +5099,14 @@ SplineSet
  -999.96705953 -1850.86355006 -425.484105619 -1802.3281902 321 -735 c 6
  1408 819.200195312 l 5
 EndSplineSet
+Colour: ff292e
 EndChar
 
 StartChar: P129
 Encoding: 139 -1 139
 Width: 843
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 818.2 21G<1386.54 1432.57> 1221 16<1344 2187>
 VStem: 1344 843<1221 1237>
 AnchorPoint: "Cursive 1" 1411 819 exit 0
