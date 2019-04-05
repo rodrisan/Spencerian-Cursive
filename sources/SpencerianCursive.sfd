@@ -3734,6 +3734,7 @@ SplineSet
  322 409.599609375 l 1
 EndSplineSet
 Validated: 33
+Comment: "It is final part of glyphs like 'a' before 'c'."
 Colour: ff1214
 EndChar
 
