@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1554998652
+ModificationTime: 1554999469
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -227,10 +227,16 @@ WinInfo: 70 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
-25 412 m 25
- 25 407 l 1049
-0 412 m 25
- 0 407 l 1049
+15 415 m 25
+ 19 415 l 1049
+17 417 m 25
+ 17 413 l 1049
+34 402 m 25
+ 0 429 l 1049
+24 412 m 25
+ 24 408 l 1049
+9 424 m 25
+ 9 420 l 1049
 -651 -1612 m 25
  -647 -1612 l 1049
 -662 -1627 m 25
@@ -309,7 +315,7 @@ Grid
  5244 4715 l 1
 -3056 -1763 m 25
  4512 2605 l 1049
--4096 314 m 4
+-4096 314 m 0
  8192 314 l 1024
   Named: "e"
 -4096 410 m 0
@@ -2925,7 +2931,7 @@ StartChar: P001
 Encoding: 83 -1 54
 Width: 1425
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 784 19<1341.32 1425>
 AnchorPoint: "Cursive 1" 1425 795 exit 0
 LayerCount: 6
@@ -2945,7 +2951,7 @@ StartChar: P102
 Encoding: 84 -1 55
 Width: 344
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: 410 409
 VStem: -0 344
 AnchorPoint: "Cursive 1" 13 410 exit 0
