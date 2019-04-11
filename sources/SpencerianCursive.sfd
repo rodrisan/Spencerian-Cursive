@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1554884786
+ModificationTime: 1554997755
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -2880,21 +2880,18 @@ StartChar: P000
 Encoding: 80 -1 52
 Width: 1467
 VWidth: 0
-Flags: W
+Flags: HWO
 HStem: 0 21G<0 169.5> 799 20G<1339.5 1467>
-AnchorPoint: "Cursive 1" 1454 819 exit 0
+AnchorPoint: "Cursive 1" 1451 819 exit 0
 LayerCount: 6
 Fore
 SplineSet
-0 0 m 1
- 269 83 529 196 773 336 c 0
- 1012 473 1237 635 1442 819 c 1
- 1467 819 l 1
- 1264 627 1021 458 779 319 c 0
- 546 185 298 78 41 0 c 1
- 0 0 l 1
+36 17 m 1
+ 583 186 1054 471 1442 819 c 1
+ 1455 806 l 1
+ 1068 457 583 164 41 0 c 1
+ 36 17 l 1
 EndSplineSet
-Validated: 1
 Substitution2: "'aalt' * +- [+AH4A^b]" null1
 Comment: "It is for initial part of 'r' and 's'."
 Colour: 5bfff
