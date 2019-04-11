@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1555001102
+ModificationTime: 1555001377
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -2969,11 +2969,13 @@ AnchorPoint: "Cursive 1" 331 819 entry 0
 LayerCount: 6
 Fore
 SplineSet
-9 422 m 1
- 320 819 l 1
- 335 807 l 5
+9 420 m 25
+ 22 410 l 25
  24 410 l 1
+ 335 807 l 1
+ 320 819 l 1
  9 422 l 1
+ 9 420 l 25
 EndSplineSet
 Colour: bdbdbd
 EndChar
@@ -2990,11 +2992,13 @@ AnchorPoint: "Cursive 1" 631 824 entry 0
 LayerCount: 6
 Fore
 SplineSet
-623 831 m 1
- 1255 1638 l 5
- 1270.60449219 1626 l 1
+623 829 m 25
+ 636 819 l 25
  638 819 l 1
+ 1271 1626 l 1
+ 1255 1638 l 1
  623 831 l 1
+ 623 829 l 25
 EndSplineSet
 EndChar
 
