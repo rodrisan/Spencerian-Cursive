@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1555002091
+ModificationTime: 1555002279
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -227,26 +227,26 @@ WinInfo: 70 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
-632 812 m 29
- 636 812 l 1053
-634 814 m 29
- 634 810 l 1053
-651 799 m 29
- 617 826 l 1053
-641 809 m 29
- 641 805 l 1053
-626 821 m 29
- 626 817 l 1053
-15 415 m 25
- 19 415 l 1049
-17 417 m 25
- 17 413 l 1049
-34 402 m 25
- 0 429 l 1049
-24 412 m 25
- 24 408 l 1049
-9 424 m 25
- 9 420 l 1049
+632 812 m 25
+ 636 812 l 1049
+634 814 m 25
+ 634 810 l 1049
+651 799 m 25
+ 617 826 l 1049
+641 809 m 25
+ 641 805 l 1049
+626 821 m 25
+ 626 817 l 1049
+321 415 m 29
+ 325 415 l 1053
+323 417 m 29
+ 323 413 l 1053
+340 402 m 29
+ 306 429 l 1053
+330 412 m 29
+ 330 408 l 1053
+315 424 m 29
+ 315 420 l 1053
 -651 -1612 m 25
  -647 -1612 l 1049
 -662 -1627 m 25
@@ -2964,18 +2964,18 @@ VWidth: 0
 Flags: HW
 HStem: 410 409
 VStem: -0 344
-AnchorPoint: "Cursive 1" 17 415 exit 0
-AnchorPoint: "Cursive 1" 331 819 entry 0
+AnchorPoint: "Cursive 1" 323 415 exit 0
+AnchorPoint: "Cursive 1" 637 819 entry 0
 LayerCount: 6
 Fore
 SplineSet
-9 420 m 25
- 22 410 l 25
- 24 410 l 1
- 335 807 l 1
- 320 819 l 1
- 9 422 l 1
- 9 420 l 25
+315 420 m 29
+ 328 410 l 29
+ 330 410 l 5
+ 641 807 l 5
+ 626 819 l 5
+ 315 422 l 5
+ 315 420 l 29
 EndSplineSet
 Colour: bdbdbd
 EndChar
@@ -2984,7 +2984,7 @@ StartChar: P103
 Encoding: 85 -1 56
 Width: 1214
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 819.2 819.2
 VStem: 614.071 665.929
 AnchorPoint: "Cursive 1" 634 812 exit 0
