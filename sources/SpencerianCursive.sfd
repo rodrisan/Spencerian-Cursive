@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1555004579
+ModificationTime: 1555005244
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -227,6 +227,16 @@ WinInfo: 70 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
+1 5 m 29
+ 5 5 l 1053
+3 7 m 29
+ 3 3 l 1053
+20 -8 m 29
+ -14 19 l 1053
+10 2 m 29
+ 10 -2 l 1053
+-5 14 m 29
+ -5 10 l 1053
 632 812 m 25
  636 812 l 1049
 634 814 m 25
@@ -237,16 +247,16 @@ Grid
  641 805 l 1049
 626 821 m 25
  626 817 l 1049
-321 415 m 29
- 325 415 l 1053
-323 417 m 29
- 323 413 l 1053
-340 402 m 29
- 306 429 l 1053
-330 412 m 29
- 330 408 l 1053
-315 424 m 29
- 315 420 l 1053
+321 415 m 25
+ 325 415 l 1049
+323 417 m 25
+ 323 413 l 1049
+340 402 m 25
+ 306 429 l 1049
+330 412 m 25
+ 330 408 l 1049
+315 424 m 25
+ 315 420 l 1049
 -651 -1612 m 25
  -647 -1612 l 1049
 -662 -1627 m 25
@@ -2917,7 +2927,7 @@ StartChar: P101
 Encoding: 82 -1 53
 Width: 1433
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 800 19<1068.13 1277.35>
 AnchorPoint: "Cursive 1" 912 819 entry 0
 AnchorPoint: "cursive 2" 610 647 entry 0
@@ -3052,19 +3062,18 @@ StartChar: P104
 Encoding: 88 -1 59
 Width: 665
 VWidth: 0
-Flags: W
-AnchorPoint: "Cursive 1" 651 820 entry 0
-AnchorPoint: "Cursive 1" 13 0 exit 0
+Flags: HWO
+AnchorPoint: "Cursive 1" 634 812 entry 0
+AnchorPoint: "Cursive 1" 3 5 exit 0
 LayerCount: 6
 Fore
 SplineSet
-0 0 m 25
- 26 0 l 1
- 665 819.200195312 l 25
- 637 819.200195312 l 1
- 0 0 l 25
+-5 12 m 25
+ 10 0 l 1
+ 641 807.200195312 l 25
+ 626 819.200195312 l 1
+ -5 12 l 25
 EndSplineSet
-Validated: 9
 EndChar
 
 StartChar: P105
