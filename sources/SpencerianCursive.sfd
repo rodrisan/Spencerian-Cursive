@@ -328,7 +328,7 @@ Grid
  8192 -819 l 1024
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' [a,d,g,o,q]" "Cursive 1" "'curs' *"
-BeginChars: 143 138
+BeginChars: 143 137
 
 StartChar: O
 Encoding: 40 79 0
@@ -2569,7 +2569,7 @@ HStem: 0 21G<0 169.5> 799 20G<1339.5 1467 1474.5 1614 2158.5 2335> 1622 33<2318.
 VStem: 2318 33<1622.02 1654.97>
 LayerCount: 6
 Fore
-Refer: 63 0 N 1 0 0 1 0 0 2
+Refer: 62 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P102 P127 P9000
 EndChar
 
@@ -2581,7 +2581,7 @@ Flags: W
 HStem: 0 21G<-147 22.5> 799 20G<1192.5 1320 1327.5 1467 2011.5 2188 2732.5 2909>
 LayerCount: 6
 Fore
-Refer: 63 0 N 1 0 0 1 0 0 2
+Refer: 62 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P102 P9000 P102 P9000
 EndChar
 
@@ -2593,7 +2593,7 @@ Flags: W
 HStem: 0 21G<-147 22.5> 762 16<2974.89 3061.46> 799 20G<1192.5 1320>
 LayerCount: 6
 Fore
-Refer: 63 0 N 1 0 0 1 0 0 2
+Refer: 62 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P102 P9000 P102 P119 P9500
 EndChar
 
@@ -2605,7 +2605,7 @@ Flags: W
 HStem: 0 844 799 20G<1319 1335 1839.5 2015>
 LayerCount: 6
 Fore
-Refer: 63 0 N 1 0 0 1 0 0 2
+Refer: 62 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P109 P9005
 EndChar
 
@@ -2617,7 +2617,7 @@ Flags: W
 HStem: 0 21G<0 168.5> 799 20G<1814.5 1990>
 LayerCount: 6
 Fore
-Refer: 63 0 N 1 0 0 1 0 0 2
+Refer: 62 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P003 P111 P9005
 EndChar
 
@@ -2630,7 +2630,7 @@ HStem: 0 950 795 4G<1393.5 1532 2077.5 2253> 795 21G<1508 1535.23>
 VStem: 1508 24<795 950>
 LayerCount: 6
 Fore
-Refer: 63 0 N 1 0 0 1 0 0 2
+Refer: 62 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P000 P115 P9000
 EndChar
 
@@ -2643,7 +2643,7 @@ HStem: 0 8<1139 1418> 799 20G<2101.5 2180>
 VStem: 861 16<237.429 295>
 LayerCount: 6
 Fore
-Refer: 63 0 N 1 0 0 1 0 0 2
+Refer: 62 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P000 P116 P9300
 EndChar
 
@@ -2655,7 +2655,7 @@ Flags: W
 HStem: 0 21G<0 416 606 1022> 799 20G<2048 2464>
 LayerCount: 6
 Fore
-Refer: 63 0 N 1 0 0 1 0 0 2
+Refer: 62 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P005 P105 P120 P005 P105 P9000
 EndChar
 
@@ -2667,7 +2667,7 @@ Flags: W
 HStem: 0 21G<0 416 606 1022 1212 1628> 799 20G<2654 3070>
 LayerCount: 6
 Fore
-Refer: 63 0 N 1 0 0 1 0 0 2
+Refer: 62 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P005 P105 P120 P005 P105 P120 P005 P105 P9000
 EndChar
 
@@ -2679,7 +2679,7 @@ Flags: W
 HStem: 0 21G<401 459.006> 409.4 21G<400.569 656.031> 799 20G<1392.19 1458>
 LayerCount: 6
 Fore
-Refer: 63 0 N 1 0 0 1 0 0 2
+Refer: 62 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P005 P105 P118 P9000
 EndChar
 
@@ -2691,7 +2691,7 @@ Flags: W
 HStem: 0 21G<0 416> 799 20G<1106 1522>
 LayerCount: 6
 Fore
-Refer: 63 0 N 1 0 0 1 0 0 2
+Refer: 62 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P005 P105 P119 P9500
 EndChar
 
@@ -2703,7 +2703,7 @@ Flags: W
 HStem: 0 21G<0 83.5> 745 17<1429.83 1553.89> 799 20G<1093 1217>
 LayerCount: 6
 Fore
-Refer: 63 0 N 1 0 0 1 0 0 2
+Refer: 62 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P113 P9500
 EndChar
 
@@ -2716,7 +2716,7 @@ HStem: 409.6 409.4 784 19<1316.32 1400> 800 19<1494.13 1703.35>
 VStem: 1318.9 344.096
 LayerCount: 6
 Fore
-Refer: 63 0 N 1 0 0 1 0 0 2
+Refer: 62 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P101 P102 P9000
 EndChar
 
@@ -2728,7 +2728,7 @@ Flags: W
 HStem: 0 21G<0 185.5> 799 20G<2237 2261> 1221 16<1344 2187>
 LayerCount: 6
 Fore
-Refer: 63 0 N 1 0 0 1 0 0 2
+Refer: 62 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P117 P102 P9000
 EndChar
 
@@ -2741,7 +2741,7 @@ HStem: 784 19<243.317 327> 800 19<421.128 630.348> 819.2 819.2
 VStem: 688.071 665.929
 LayerCount: 6
 Fore
-Refer: 63 0 N 1 0 0 1 0 0 2
+Refer: 62 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P101 P103 P102 P9000
 EndChar
 
@@ -2753,7 +2753,7 @@ Flags: W
 HStem: 784 19<1275.32 1359> 800 19<1452.13 1661.35> 811 16<1713.88 1751.32>
 LayerCount: 6
 Fore
-Refer: 63 0 N 1 0 0 1 0 0 2
+Refer: 62 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P101 P9100
 EndChar
 
@@ -2765,7 +2765,7 @@ Flags: W
 HStem: -967 21G<237 300.534> 0 21G<0 177.5> 417.4 21G<1367.57 1623.03>
 LayerCount: 6
 Fore
-Refer: 63 0 N 1 0 0 1 0 0 2
+Refer: 62 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P002 P114 P005 P105 P9000
 EndChar
 
@@ -2777,7 +2777,7 @@ Flags: W
 HStem: 0 21G<573 1073> 799 20G<2515 2679>
 LayerCount: 6
 Fore
-Refer: 63 0 N 1 0 0 1 0 0 2
+Refer: 62 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P002 P107 P102 P9000
 EndChar
 
@@ -2789,7 +2789,7 @@ Flags: W
 HStem: 0 21G<0 219> 799 20G<1565.5 2310>
 LayerCount: 6
 Fore
-Refer: 63 0 N 1 0 0 1 0 0 2
+Refer: 62 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P002 P107 P102 P119 P9500
 EndChar
 
@@ -2801,7 +2801,7 @@ Flags: W
 HStem: 409.4 21G<1654.57 1910.03>
 LayerCount: 6
 Fore
-Refer: 63 0 N 1 0 0 1 0 0 2
+Refer: 62 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P002 P107 P104 P005 P105 P9000
 EndChar
 
@@ -2812,7 +2812,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 6
 Fore
-Refer: 63 0 N 1 0 0 1 0 0 2
+Refer: 62 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P002 P107 P104 P112 P102 P9000
 EndChar
 
@@ -2824,7 +2824,7 @@ Flags: W
 HStem: 0 21G<172 341.5> 799 20G<1511.5 1639> 800 20G<1309.26 1948.52>
 LayerCount: 6
 Fore
-Refer: 63 0 N 1 0 0 1 0 0 2
+Refer: 62 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P9200 P9206
 EndChar
 
@@ -2836,7 +2836,7 @@ Flags: W
 HStem: 417.4 21G<400.569 656.031> 800 20G<1383.26 2022.52>
 LayerCount: 6
 Fore
-Refer: 63 0 N 1 0 0 1 0 0 2
+Refer: 62 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P005 P105 P9000 P9200
 EndChar
 
@@ -2848,7 +2848,7 @@ Flags: W
 HStem: 784 19<1579.32 1663> 800 19<1756.13 1965.35> 800 20G<1621.26 2260.52>
 LayerCount: 6
 Fore
-Refer: 63 0 N 1 0 0 1 0 0 2
+Refer: 62 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P101 P9200 P9206
 EndChar
 
@@ -2860,7 +2860,7 @@ Flags: W
 HStem: 0 21G<553.995 976.495> 410 21G<1414 1488> 799 20G<1295.5 1414 2246 2315>
 LayerCount: 6
 Fore
-Refer: 63 0 N 1 0 0 1 0 0 2
+Refer: 62 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P002 P107 P106 P9300
 EndChar
 
@@ -2872,7 +2872,7 @@ Flags: W
 HStem: 0 21G<578.05 994.05 1184.05 1270.55>
 LayerCount: 6
 Fore
-Refer: 63 0 N 1 0 0 1 0 0 2
+Refer: 62 0 N 1 0 0 1 0 0 2
 MultipleSubs2: "'ccmp' [Lowercase]" P005 P105 P120 P9400 P9206
 EndChar
 
@@ -2880,7 +2880,7 @@ StartChar: P000
 Encoding: 80 -1 52
 Width: 1467
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 0 21G<0 169.5> 799 20G<1339.5 1467>
 AnchorPoint: "Cursive 1" 1451 819 exit 0
 LayerCount: 6
@@ -2897,32 +2897,8 @@ Comment: "It is for initial part of 'r' and 's'."
 Colour: 5bfff
 EndChar
 
-StartChar: P100
-Encoding: 81 -1 53
-Width: 1415
-VWidth: 0
-Flags: W
-HStem: 799 20G<555.468 694.968 1239.47 1415.97>
-AnchorPoint: "Cursive 1" 1401.97 819 exit 0
-AnchorPoint: "Cursive 1" 681.968 819.2 entry 0
-LayerCount: 6
-Fore
-SplineSet
-1390.96777344 819 m 9
- 1415.96777344 819 l 17
- 1112.96777344 557 775.967773438 344 423.967773438 147 c 16
- -100.032226562 -140 -61.0322265625 33 129.967773438 262 c 0
- 293.967773438 458 440.967773438 606 669.967773438 819 c 9
- 694.967773438 819 l 17
- 465.967773438 606 315.967773438 460 153.967773438 262 c 0
- -67.0322265625 -8 -41.0322265625 -88 432.967773438 172 c 8
- 786.967773438 366 1087.96777344 557 1390.96777344 819 c 9
-EndSplineSet
-Validated: 33
-EndChar
-
 StartChar: P101
-Encoding: 82 -1 54
+Encoding: 82 -1 53
 Width: 1433
 VWidth: 0
 Flags: HW
@@ -2946,7 +2922,7 @@ Colour: bdbdbd
 EndChar
 
 StartChar: P001
-Encoding: 83 -1 55
+Encoding: 83 -1 54
 Width: 1425
 VWidth: 0
 Flags: W
@@ -2967,7 +2943,7 @@ Colour: 129eff
 EndChar
 
 StartChar: P102
-Encoding: 84 -1 56
+Encoding: 84 -1 55
 Width: 344
 VWidth: 0
 Flags: HW
@@ -2988,7 +2964,7 @@ Colour: bdbdbd
 EndChar
 
 StartChar: P103
-Encoding: 85 -1 57
+Encoding: 85 -1 56
 Width: 1214
 VWidth: 0
 Flags: W
@@ -3009,7 +2985,7 @@ Validated: 1
 EndChar
 
 StartChar: P9200
-Encoding: 86 -1 58
+Encoding: 86 -1 57
 Width: 2212
 VWidth: 0
 Flags: HW
@@ -3032,7 +3008,7 @@ Colour: bd8582
 EndChar
 
 StartChar: P9100
-Encoding: 87 -1 59
+Encoding: 87 -1 58
 Width: 2225
 VWidth: 0
 Flags: W
@@ -3057,7 +3033,7 @@ Colour: ff1c3b
 EndChar
 
 StartChar: P104
-Encoding: 88 -1 60
+Encoding: 88 -1 59
 Width: 665
 VWidth: 0
 Flags: W
@@ -3076,7 +3052,7 @@ Validated: 9
 EndChar
 
 StartChar: P105
-Encoding: 89 -1 61
+Encoding: 89 -1 60
 Width: 793
 VWidth: 0
 Flags: HW
@@ -3097,7 +3073,7 @@ Colour: bdbdbd
 EndChar
 
 StartChar: P106
-Encoding: 90 -1 62
+Encoding: 90 -1 61
 Width: 1742
 VWidth: 0
 Flags: W
@@ -3125,7 +3101,7 @@ Validated: 37
 EndChar
 
 StartChar: uni0000
-Encoding: 0 0 63
+Encoding: 0 0 62
 Width: 0
 VWidth: 0
 Flags: W
@@ -3135,7 +3111,7 @@ Validated: 1
 EndChar
 
 StartChar: P107
-Encoding: 91 -1 64
+Encoding: 91 -1 63
 Width: 1526
 VWidth: 0
 Flags: W
@@ -3159,7 +3135,7 @@ Colour: bdbdbd
 EndChar
 
 StartChar: P9500
-Encoding: 92 -1 65
+Encoding: 92 -1 64
 Width: 602
 VWidth: 0
 Flags: HW
@@ -3183,7 +3159,7 @@ Colour: ff2938
 EndChar
 
 StartChar: P109
-Encoding: 93 -1 66
+Encoding: 93 -1 65
 Width: 1456
 VWidth: 0
 Flags: W
@@ -3213,7 +3189,7 @@ Colour: bdbdbd
 EndChar
 
 StartChar: P110
-Encoding: 94 -1 67
+Encoding: 94 -1 66
 Width: 602
 VWidth: 0
 Flags: W
@@ -3234,7 +3210,7 @@ Validated: 33
 EndChar
 
 StartChar: P002
-Encoding: 95 -1 68
+Encoding: 95 -1 67
 Width: 1237
 VWidth: 0
 Flags: W
@@ -3256,7 +3232,7 @@ Colour: 59cff
 EndChar
 
 StartChar: P111
-Encoding: 96 -1 69
+Encoding: 96 -1 68
 Width: 572
 VWidth: 0
 Flags: W
@@ -3281,7 +3257,7 @@ Colour: bdbdbd
 EndChar
 
 StartChar: P003
-Encoding: 97 -1 70
+Encoding: 97 -1 69
 Width: 929
 VWidth: 0
 Flags: W
@@ -3305,7 +3281,7 @@ Colour: 1f96ff
 EndChar
 
 StartChar: P112
-Encoding: 98 -1 71
+Encoding: 98 -1 70
 Width: 1494
 VWidth: 0
 Flags: W
@@ -3330,7 +3306,7 @@ Validated: 33
 EndChar
 
 StartChar: P113
-Encoding: 99 -1 72
+Encoding: 99 -1 71
 Width: 693
 VWidth: 0
 Flags: HW
@@ -3354,7 +3330,7 @@ Colour: bdbdbd
 EndChar
 
 StartChar: P114
-Encoding: 100 -1 73
+Encoding: 100 -1 72
 Width: 1950
 VWidth: 0
 Flags: W
@@ -3378,7 +3354,7 @@ Colour: bdbdbd
 EndChar
 
 StartChar: P115
-Encoding: 101 -1 74
+Encoding: 101 -1 73
 Width: 329
 VWidth: 0
 Flags: W
@@ -3405,7 +3381,7 @@ Colour: bdbdbd
 EndChar
 
 StartChar: P116
-Encoding: 102 -1 75
+Encoding: 102 -1 74
 Width: 2141
 VWidth: 0
 Flags: W
@@ -3430,7 +3406,7 @@ Colour: bdbdbd
 EndChar
 
 StartChar: P117
-Encoding: 103 -1 76
+Encoding: 103 -1 75
 Width: 843
 VWidth: 0
 Flags: HW
@@ -3457,7 +3433,7 @@ Colour: bdbdbd
 EndChar
 
 StartChar: P118
-Encoding: 104 -1 77
+Encoding: 104 -1 76
 Width: 1858
 VWidth: 0
 Flags: W
@@ -3479,7 +3455,7 @@ Comment: "It is for x."
 EndChar
 
 StartChar: P9400
-Encoding: 105 -1 78
+Encoding: 105 -1 77
 Width: 2505
 VWidth: 0
 Flags: HW
@@ -3503,7 +3479,7 @@ Colour: ff4036
 EndChar
 
 StartChar: P9300
-Encoding: 106 -1 79
+Encoding: 106 -1 78
 Width: 1427
 VWidth: 0
 Flags: W
@@ -3527,7 +3503,7 @@ Colour: ff3b2e
 EndChar
 
 StartChar: P004
-Encoding: 107 -1 80
+Encoding: 107 -1 79
 Width: 1237
 VWidth: 0
 Flags: W
@@ -3551,7 +3527,7 @@ Colour: 5b8ff
 EndChar
 
 StartChar: null1
-Encoding: 108 -1 81
+Encoding: 108 -1 80
 Width: 0
 VWidth: 0
 Flags: W
@@ -3563,7 +3539,7 @@ Validated: 1
 EndChar
 
 StartChar: null2
-Encoding: 109 -1 82
+Encoding: 109 -1 81
 Width: 0
 VWidth: 0
 Flags: W
@@ -3576,7 +3552,7 @@ Substitution2: "'aalt' [+AH4A-b] +- [+AH4A-n]" null3
 EndChar
 
 StartChar: P119
-Encoding: 110 -1 83
+Encoding: 110 -1 82
 Width: 942
 VWidth: 0
 Flags: HW
@@ -3597,7 +3573,7 @@ Comment: "It is for b."
 EndChar
 
 StartChar: P9000
-Encoding: 111 -1 84
+Encoding: 111 -1 83
 Width: 1313
 VWidth: 0
 Flags: HW
@@ -3621,7 +3597,7 @@ Colour: ff454c
 EndChar
 
 StartChar: P120
-Encoding: 112 -1 85
+Encoding: 112 -1 84
 Width: 343
 VWidth: 0
 Flags: W
@@ -3643,7 +3619,7 @@ Comment: "it is for glyph like m and n"
 EndChar
 
 StartChar: P9004
-Encoding: 113 -1 86
+Encoding: 113 -1 85
 Width: 977
 VWidth: 0
 Flags: W
@@ -3664,7 +3640,7 @@ Colour: ff030d
 EndChar
 
 StartChar: P9003
-Encoding: 114 -1 87
+Encoding: 114 -1 86
 Width: 1313
 VWidth: 0
 Flags: W
@@ -3688,7 +3664,7 @@ Colour: ff1214
 EndChar
 
 StartChar: P9002
-Encoding: 115 -1 88
+Encoding: 115 -1 87
 Width: 1144
 VWidth: 0
 Flags: HW
@@ -3710,7 +3686,7 @@ Colour: ff0d0d
 EndChar
 
 StartChar: glyph90
-Encoding: 1 32 89
+Encoding: 1 32 88
 Width: 1949
 VWidth: 0
 Flags: W
@@ -3720,7 +3696,7 @@ Validated: 1
 EndChar
 
 StartChar: P005
-Encoding: 116 -1 90
+Encoding: 116 -1 89
 Width: 556
 VWidth: 0
 Flags: W
@@ -3741,7 +3717,7 @@ Colour: 4aabff
 EndChar
 
 StartChar: P9001
-Encoding: 117 -1 91
+Encoding: 117 -1 90
 Width: 791
 VWidth: 0
 Flags: W
@@ -3761,7 +3737,7 @@ Colour: ff141c
 EndChar
 
 StartChar: P9501
-Encoding: 120 -1 92
+Encoding: 120 -1 91
 Width: 793
 VWidth: 0
 Flags: W
@@ -3782,7 +3758,7 @@ Colour: ff2638
 EndChar
 
 StartChar: P126
-Encoding: 121 -1 93
+Encoding: 121 -1 92
 Width: 793
 VWidth: 0
 Flags: W
@@ -3804,7 +3780,7 @@ Colour: bdbdbd
 EndChar
 
 StartChar: null3
-Encoding: 122 -1 94
+Encoding: 122 -1 93
 Width: 793
 VWidth: 0
 Flags: W
@@ -3816,7 +3792,7 @@ Validated: 1
 EndChar
 
 StartChar: glyph98
-Encoding: 9 44 95
+Encoding: 9 44 94
 Width: 0
 VWidth: 0
 Flags: H
@@ -3836,7 +3812,7 @@ Validated: 1
 EndChar
 
 StartChar: P9201
-Encoding: 123 -1 96
+Encoding: 123 -1 95
 Width: 2212
 VWidth: 0
 Flags: HW
@@ -3870,7 +3846,7 @@ Colour: ff171f
 EndChar
 
 StartChar: period
-Encoding: 11 46 97
+Encoding: 11 46 96
 Width: 5671
 VWidth: 0
 Flags: HW
@@ -3889,7 +3865,7 @@ Validated: 1
 EndChar
 
 StartChar: zero
-Encoding: 12 48 98
+Encoding: 12 48 97
 Width: 1153
 VWidth: 0
 Flags: HW
@@ -3911,7 +3887,7 @@ Validated: 33
 EndChar
 
 StartChar: one
-Encoding: 13 49 99
+Encoding: 13 49 98
 Width: 979
 VWidth: 0
 Flags: HW
@@ -3928,7 +3904,7 @@ Validated: 1
 EndChar
 
 StartChar: two
-Encoding: 14 50 100
+Encoding: 14 50 99
 Width: 1328
 VWidth: 0
 Flags: HW
@@ -3971,7 +3947,7 @@ EndSplineSet
 EndChar
 
 StartChar: three
-Encoding: 15 51 101
+Encoding: 15 51 100
 Width: 1051
 VWidth: 0
 Flags: HW
@@ -4017,7 +3993,7 @@ EndSplineSet
 EndChar
 
 StartChar: four
-Encoding: 16 52 102
+Encoding: 16 52 101
 Width: 1290
 VWidth: 0
 Flags: HW
@@ -4049,7 +4025,7 @@ EndSplineSet
 EndChar
 
 StartChar: five
-Encoding: 17 53 103
+Encoding: 17 53 102
 Width: 1051
 VWidth: 0
 Flags: HW
@@ -4093,7 +4069,7 @@ EndSplineSet
 EndChar
 
 StartChar: six
-Encoding: 18 54 104
+Encoding: 18 54 103
 Width: 921
 VWidth: 0
 Flags: HW
@@ -4129,7 +4105,7 @@ EndSplineSet
 EndChar
 
 StartChar: seven
-Encoding: 19 55 105
+Encoding: 19 55 104
 Width: 1188
 VWidth: 0
 Flags: HW
@@ -4159,7 +4135,7 @@ EndSplineSet
 EndChar
 
 StartChar: eight
-Encoding: 20 56 106
+Encoding: 20 56 105
 Width: 1224
 VWidth: 0
 Flags: HW
@@ -4189,7 +4165,7 @@ EndSplineSet
 EndChar
 
 StartChar: nine
-Encoding: 21 57 107
+Encoding: 21 57 106
 Width: 1342
 VWidth: 0
 Flags: HW
@@ -4202,11 +4178,11 @@ SplineSet
  311 -228 l 1
  1242 971.75 l 1
 EndSplineSet
-Refer: 54 -1 N 0.86 0 0 0.86 100.493 266.066 2
+Refer: 53 -1 N 0.86 0 0 0.86 100.493 266.066 2
 EndChar
 
 StartChar: exclam
-Encoding: 2 33 108
+Encoding: 2 33 107
 Width: 4096
 VWidth: 0
 Flags: H
@@ -4219,12 +4195,12 @@ SplineSet
  2048 1649 l 1
  2074 1630 l 1
 EndSplineSet
-Refer: 97 46 N 1 0 0 1 192 0 2
+Refer: 96 46 N 1 0 0 1 192 0 2
 Validated: 1
 EndChar
 
 StartChar: question
-Encoding: 24 63 109
+Encoding: 24 63 108
 Width: 1870
 VWidth: 0
 Flags: HW
@@ -4243,7 +4219,7 @@ SplineSet
  1045.234375 1498.58007812 927.173828125 1350.34863281 853.469726562 1089.62011719 c 1
  836.629882812 1094.37988281 l 1
 EndSplineSet
-Refer: 97 46 N 1 0 0 1 -482.95 0 2
+Refer: 96 46 N 1 0 0 1 -482.95 0 2
 Validated: 33
 Layer: 3
 SplineSet
@@ -4254,56 +4230,56 @@ EndSplineSet
 EndChar
 
 StartChar: colon
-Encoding: 22 58 110
+Encoding: 22 58 109
 Width: 2699
 VWidth: 0
 Flags: HW
 LayerCount: 6
 Fore
-Refer: 97 46 N 1 0 0 1 192 -2 2
-Refer: 97 46 S 1 0 0 1 742.402 708 2
+Refer: 96 46 N 1 0 0 1 192 -2 2
+Refer: 96 46 S 1 0 0 1 742.402 708 2
 Validated: 1
 EndChar
 
 StartChar: semicolon
-Encoding: 23 59 111
+Encoding: 23 59 110
 Width: 5671
 VWidth: 0
 Flags: HW
 LayerCount: 6
 Fore
-Refer: 95 44 N 1 0 0 1 357 0 2
-Refer: 97 46 S 1 0 0 1 744.027 703 2
+Refer: 94 44 N 1 0 0 1 357 0 2
+Refer: 96 46 S 1 0 0 1 744.027 703 2
 Validated: 1
 EndChar
 
 StartChar: quotedbl
-Encoding: 3 34 112
+Encoding: 3 34 111
 Width: 382
 VWidth: 0
 Flags: HW
 LayerCount: 6
 Fore
-Refer: 95 44 N -1 0 0 -1 661 1679 2
-Refer: 95 44 N -1 0 0 -1 509 1679 2
+Refer: 94 44 N -1 0 0 -1 661 1679 2
+Refer: 94 44 N -1 0 0 -1 509 1679 2
 Validated: 1
 Substitution2: "'aalt' [+ACIA]" Quotation_Mark2
 EndChar
 
 StartChar: Quotation_Mark2
-Encoding: 125 -1 113
+Encoding: 125 -1 112
 Width: 376
 VWidth: 0
 Flags: HW
 LayerCount: 6
 Fore
-Refer: 95 44 N 1 0 0 1 -136 1748 2
-Refer: 95 44 N 1 0 0 1 -288 1748 2
+Refer: 94 44 N 1 0 0 1 -136 1748 2
+Refer: 94 44 N 1 0 0 1 -288 1748 2
 Validated: 1
 EndChar
 
 StartChar: underscore
-Encoding: 52 95 114
+Encoding: 52 95 113
 Width: 1845
 VWidth: 0
 Flags: HW
@@ -4320,7 +4296,7 @@ Validated: 1
 EndChar
 
 StartChar: percent
-Encoding: 6 37 115
+Encoding: 6 37 114
 Width: 2411
 VWidth: 0
 Flags: HW
@@ -4340,13 +4316,13 @@ SplineSet
  2197.21875 1643.78613281 l 1
  2211 1633 l 1
 EndSplineSet
-Refer: 98 48 N 0.5 0 0 0.5 1273.03 -0.950344 2
-Refer: 98 48 N 0.5 0 0 0.5 733.033 487.05 2
+Refer: 97 48 N 0.5 0 0 0.5 1273.03 -0.950344 2
+Refer: 97 48 N 0.5 0 0 0.5 733.033 487.05 2
 Validated: 37
 EndChar
 
 StartChar: numbersign
-Encoding: 4 35 116
+Encoding: 4 35 115
 Width: 2250
 VWidth: 0
 Flags: HW
@@ -4389,7 +4365,7 @@ EndSplineSet
 EndChar
 
 StartChar: dollar
-Encoding: 5 36 117
+Encoding: 5 36 116
 Width: 2772
 VWidth: 0
 Flags: HW
@@ -4480,7 +4456,7 @@ EndSplineSet
 EndChar
 
 StartChar: ampersand
-Encoding: 7 38 118
+Encoding: 7 38 117
 Width: 3760
 VWidth: 0
 Flags: HW
@@ -4527,18 +4503,18 @@ EndSplineSet
 EndChar
 
 StartChar: quotesingle
-Encoding: 8 39 119
+Encoding: 8 39 118
 Width: 378
 VWidth: 0
 Flags: HW
 LayerCount: 6
 Fore
-Refer: 95 44 S 1 0 0 1 -206 1085 2
+Refer: 94 44 S 1 0 0 1 -206 1085 2
 Validated: 1
 EndChar
 
 StartChar: cent
-Encoding: 79 162 120
+Encoding: 79 162 119
 Width: 2768
 VWidth: 0
 Flags: HW
@@ -4583,7 +4559,7 @@ EndSplineSet
 EndChar
 
 StartChar: at
-Encoding: 25 64 121
+Encoding: 25 64 120
 Width: 3447
 VWidth: 0
 Flags: HW
@@ -4607,7 +4583,7 @@ SplineSet
  1480.11914062 71.7841796875 1544.82617188 176.186523438 1632.83886719 286.541992188 c 2
  1894 615 l 5
 EndSplineSet
-Refer: 54 -1 N 0.75 0 0 0.75 901.168 0.349718 2
+Refer: 53 -1 N 0.75 0 0 0.75 901.168 0.349718 2
 Layer: 3
 SplineSet
 1889 614 m 5
@@ -4617,11 +4593,11 @@ SplineSet
  379.07421875 975 -153.483398438 -528.517578125 1467 -492 c 4
  2106.36816406 -477.591796875 2445 -262 2817 0 c 1029
 EndSplineSet
-Refer: 54 -1 S 0.75 0 0 0.75 901.168 0.349718 2
+Refer: 53 -1 S 0.75 0 0 0.75 901.168 0.349718 2
 EndChar
 
 StartChar: hyphen
-Encoding: 10 45 122
+Encoding: 10 45 121
 Width: 1756
 VWidth: 0
 Flags: HW
@@ -4638,7 +4614,7 @@ Validated: 1
 EndChar
 
 StartChar: P127
-Encoding: 124 -1 123
+Encoding: 124 -1 122
 Width: 33
 VWidth: 0
 Flags: W
@@ -4648,12 +4624,12 @@ AnchorPoint: "Cursive 1" -602 814 exit 0
 AnchorPoint: "Cursive 1" -602 814 entry 0
 LayerCount: 6
 Fore
-Refer: 97 46 N 1 0 0 1 -579 1616 2
+Refer: 96 46 N 1 0 0 1 -579 1616 2
 Validated: 1
 EndChar
 
 StartChar: P9502
-Encoding: 127 -1 124
+Encoding: 127 -1 123
 Width: 942
 VWidth: 0
 Flags: HW
@@ -4674,7 +4650,7 @@ Colour: ff1c2e
 EndChar
 
 StartChar: P9503
-Encoding: 128 -1 125
+Encoding: 128 -1 124
 Width: 414
 VWidth: 0
 Flags: HW
@@ -4695,7 +4671,7 @@ Colour: ff3829
 EndChar
 
 StartChar: P9504
-Encoding: 129 -1 126
+Encoding: 129 -1 125
 Width: 602
 VWidth: 0
 Flags: HW
@@ -4713,7 +4689,7 @@ EndSplineSet
 EndChar
 
 StartChar: P9301
-Encoding: 130 -1 127
+Encoding: 130 -1 126
 Width: 1427
 VWidth: 0
 Flags: HW
@@ -4732,7 +4708,7 @@ EndSplineSet
 EndChar
 
 StartChar: P9302
-Encoding: 131 -1 128
+Encoding: 131 -1 127
 Width: 1427
 VWidth: 0
 Flags: HW
@@ -4751,7 +4727,7 @@ EndSplineSet
 EndChar
 
 StartChar: P9303
-Encoding: 132 -1 129
+Encoding: 132 -1 128
 Width: 1427
 VWidth: 0
 Flags: W
@@ -4770,7 +4746,7 @@ EndSplineSet
 EndChar
 
 StartChar: P9202
-Encoding: 126 -1 130
+Encoding: 126 -1 129
 Width: 2212
 VWidth: 0
 Flags: W
@@ -4807,7 +4783,7 @@ Colour: ff2b33
 EndChar
 
 StartChar: P9005
-Encoding: 133 -1 131
+Encoding: 133 -1 130
 Width: 1313
 VWidth: 0
 Flags: HW
@@ -4831,7 +4807,7 @@ Colour: ff3336
 EndChar
 
 StartChar: P9203
-Encoding: 134 -1 132
+Encoding: 134 -1 131
 Width: 2212
 VWidth: 0
 Flags: HW
@@ -4858,13 +4834,13 @@ SplineSet
  -477.819335938 -1037.0546875 -765.791992188 -1558.36816406 -659.930664062 -1628.16015625 c 5
  -648.733398438 -1613.18554688 l 21
 EndSplineSet
-Refer: 58 -1 S 1 0 0 1 0 0 2
-Refer: 78 -1 S 1 0 0 1 0 0 2
+Refer: 57 -1 S 1 0 0 1 0 0 2
+Refer: 77 -1 S 1 0 0 1 0 0 2
 Colour: ff171a
 EndChar
 
 StartChar: P9204
-Encoding: 135 -1 133
+Encoding: 135 -1 132
 Width: 2212
 VWidth: 0
 Flags: HW
@@ -4899,7 +4875,7 @@ Colour: ff3324
 EndChar
 
 StartChar: P9205
-Encoding: 136 -1 134
+Encoding: 136 -1 133
 Width: 2212
 VWidth: 0
 Flags: HW
@@ -4934,7 +4910,7 @@ Colour: ff262e
 EndChar
 
 StartChar: P9206
-Encoding: 137 -1 135
+Encoding: 137 -1 134
 Width: 2212
 VWidth: 0
 Flags: HW
@@ -4974,7 +4950,7 @@ Colour: ff3845
 EndChar
 
 StartChar: P9207
-Encoding: 138 -1 136
+Encoding: 138 -1 135
 Width: 2212
 VWidth: 0
 Flags: HW
@@ -5007,7 +4983,7 @@ Colour: ff292e
 EndChar
 
 StartChar: P129
-Encoding: 139 -1 137
+Encoding: 139 -1 136
 Width: 843
 VWidth: 0
 Flags: HW
