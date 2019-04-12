@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1555069145
+ModificationTime: 1555069257
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -3110,7 +3110,7 @@ StartChar: P105
 Encoding: 89 -1 60
 Width: 793
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: 409 21G<564.569 820.031>
 AnchorPoint: "Cursive 1" 583 415 exit 0
 AnchorPoint: "Cursive 1" 29 417 entry 0
@@ -3120,8 +3120,8 @@ SplineSet
 588 410 m 25
  575 420 l 25
  576 422 l 1
- 749 647 796 761 769 788.020507812 c 4
- 721.925414563 835.130848685 505 747 35 407 c 1
+ 749 647 796 761 769 788.020507812 c 0
+ 721.925414563 835.130848685 505 750 35 410 c 5
  33 410 l 25
  23 423 l 25
  23 425 l 1
@@ -3758,7 +3758,7 @@ StartChar: P005
 Encoding: 116 -1 89
 Width: 60
 VWidth: 0
-Flags: HWO
+Flags: HW
 AnchorPoint: "Cursive 1" 29 417 exit 0
 AnchorPoint: "Cursive 1" -498 7 entry 0
 LayerCount: 6
