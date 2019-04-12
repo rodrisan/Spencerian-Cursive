@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1555068720
+ModificationTime: 1555069145
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -227,10 +227,20 @@ WinInfo: 70 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
-27 417 m 29
- 31 417 l 1053
-29 419 m 29
- 29 415 l 1053
+-500 7 m 29
+ -496 7 l 1053
+-498 9 m 29
+ -498 5 l 1053
+-485 -9 m 5
+ -512 25 l 1053
+-492 2 m 29
+ -492 -2 l 1053
+-504 17 m 29
+ -504 13 l 1053
+27 417 m 25
+ 31 417 l 1049
+29 419 m 25
+ 29 415 l 1049
 42 401 m 1
  15 435 l 1049
 35 412 m 25
@@ -3650,7 +3660,7 @@ StartChar: P120
 Encoding: 112 -1 84
 Width: 343
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 0.599609 409.4
 VStem: -0.0996094 344.096
 AnchorPoint: "Cursive 1" 323 415 entry 0
@@ -3746,19 +3756,19 @@ EndChar
 
 StartChar: P005
 Encoding: 116 -1 89
-Width: 556
+Width: 60
 VWidth: 0
-Flags: W
-AnchorPoint: "Cursive 1" 536.198 409.6 exit 0
-AnchorPoint: "Cursive 1" 14.1982 0.599609 entry 0
+Flags: HWO
+AnchorPoint: "Cursive 1" 29 417 exit 0
+AnchorPoint: "Cursive 1" -498 7 entry 0
 LayerCount: 6
 Fore
 SplineSet
-520.629882812 409.599609375 m 1
- 361.321289062 293.352539062 185.450195312 155.444335938 0.1982421875 0 c 1
- 29.1982421875 0 l 1
- 198.14453125 141.299804688 382.07421875 284.331054688 556 409.599609375 c 1
- 520.629882812 409.599609375 l 1
+23 425 m 1
+ -136 309 -319 170 -504 15 c 5
+ -492 0 l 1
+ -323 141 -139 285 35 410 c 1
+ 23 425 l 1
 EndSplineSet
 Substitution2: "'aalt' * +- [+AH4A^b]" null2
 Comment: "It is for initial part of v, x, m, n."
