@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1555076459
+ModificationTime: 1555078479
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -227,6 +227,10 @@ WinInfo: 70 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
+725 812 m 29
+ 729 812 l 1053
+727 814 m 29
+ 727 810 l 1053
 1042 799 m 25
  1008 826 l 1049
 1032 809 m 25
@@ -3214,20 +3218,20 @@ EndChar
 
 StartChar: P9500
 Encoding: 92 -1 64
-Width: 602
+Width: 903
 VWidth: 0
-Flags: HW
-HStem: 799.487 20G<740.5 881>
-AnchorPoint: "Cursive 1" 444 819.006 exit 0
-AnchorPoint: "Cursive 1" -217 780.4 entry 0
+Flags: HWO
+HStem: 799.487 20G<1037.5 1178>
+AnchorPoint: "Cursive 1" 727 812 exit 0
+AnchorPoint: "Cursive 1" 79 781 entry 0
 LayerCount: 6
 Fore
 SplineSet
--222 775 m 1
- -210 788.200195312 l 1
- -110 625.857421875 71 688 427 819.200195312 c 1
- 464 819.200195312 l 1
- 47 650 -124 618 -222 775 c 1
+71 776 m 1
+ 88 787 l 1
+ 184 638 313 654 724 819 c 1
+ 731 801 l 1
+ 314 632 169 619 71 776 c 1
 EndSplineSet
 Substitution2: "'aalt' [+AH4A-b] +- *" P9504
 Substitution2: "'aalt' * +- [c]" P9503
@@ -3633,7 +3637,7 @@ StartChar: P119
 Encoding: 110 -1 82
 Width: 942
 VWidth: 0
-Flags: HWO
+Flags: HW
 AnchorPoint: "Cursive 1" 1008 781 exit 0
 AnchorPoint: "Cursive 1" 323 415 entry 0
 LayerCount: 6
