@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1555130523
+ModificationTime: 1555134414
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -3747,7 +3747,7 @@ StartChar: P9003
 Encoding: 114 -1 86
 Width: 1313
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 389.6 429.601G<223.887 322 1447.1 1837>
 AnchorPoint: "Cursive 1" 323 415 entry 0
 AnchorPoint: "Cursive 1" 1822 812 exit 0
@@ -3769,19 +3769,20 @@ StartChar: P9002
 Encoding: 115 -1 87
 Width: 1144
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: 605.857 20G<726.251 1147.35>
-AnchorPoint: "cursive 2" 1377.65 645.858 exit 0
-AnchorPoint: "Cursive 1" 318.707 409.6 entry 0
+AnchorPoint: "cursive 2" 1370 647 exit 0
+AnchorPoint: "Cursive 1" 323 415 entry 0
 LayerCount: 6
 Fore
 SplineSet
-1396 646.857421875 m 1
- 351 23.857421875 -260 -317 308.171875 409.799804688 c 1
- 332.171875 409.799804688 l 0
- 157.766962505 187.11379407 84.568359375 59.26953125 118 25.166015625 c 0
- 176 -34 679.965863446 241.373446237 1364.68847656 646.857421875 c 1
- 1396 646.857421875 l 1
+1373 640 m 1
+ 331 26 -266 -323 315 422 c 1
+ 330 410 l 1
+ 176.839098712 214.396921247 79.4962086056 57.5283558198 113.602539062 25 c 0
+ 132.559386242 6.920216511 224 28 373 99.5126953125 c 0
+ 590.366091031 203.837762689 932.998536743 402.424728204 1363 656 c 1
+ 1373 640 l 1
 EndSplineSet
 Comment: "It is final part of glyphs like 'a' that place before glyphs like 'a'."
 Colour: ff0d0d
