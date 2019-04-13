@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1555127146
+ModificationTime: 1555127441
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -3326,7 +3326,7 @@ StartChar: P111
 Encoding: 96 -1 68
 Width: 572
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 410 21G<0 61.1143 86.2471 170.247>
 AnchorPoint: "Cursive 1" 323 415 exit 0
 AnchorPoint: "Cursive 1" 422 417 entry 0
@@ -3355,23 +3355,21 @@ StartChar: P003
 Encoding: 97 -1 69
 Width: 929
 VWidth: 0
-Flags: W
+Flags: HWO
 HStem: 0 21G<0 169.5> 390 20G<878.5 929>
 VStem: 0 929
-AnchorPoint: "Cursive 1" 912 410 exit 0
+AnchorPoint: "Cursive 1" 422 417 exit 0
 LayerCount: 6
 Fore
 SplineSet
-899 410 m 1
- 929 410 l 1
- 879 379 828 348 778 319 c 0
- 545 185 298 78 41 0 c 1
- 0 0 l 1
- 269 83 528 196 772 336 c 0
- 815 361 858 385 899 410 c 1
+416 425 m 1
+ 428 410 l 1
+ 72 177 -145.284132337 95.5168781234 -460 0 c 1
+ -466 18 l 5
+ -150.265625 115.419921875 84 203 416 425 c 1
 EndSplineSet
-Validated: 1
 Substitution2: "'aalt' * +- [+AH4A^b]" null2
+Comment: "It is initial part of e."
 Colour: 1f96ff
 EndChar
 
