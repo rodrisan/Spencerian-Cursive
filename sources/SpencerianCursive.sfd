@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1555129211
+ModificationTime: 1555130523
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -3336,7 +3336,7 @@ StartChar: P111
 Encoding: 96 -1 68
 Width: 937
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 410 21G<0 61.1143 86.2471 170.247>
 AnchorPoint: "Cursive 1" 323 415 exit 0
 AnchorPoint: "Cursive 1" 422 417 entry 0
@@ -3747,22 +3747,20 @@ StartChar: P9003
 Encoding: 114 -1 86
 Width: 1313
 VWidth: 0
-Flags: W
+Flags: HWO
 HStem: 389.6 429.601G<223.887 322 1447.1 1837>
-AnchorPoint: "Cursive 1" 310 409.6 entry 0
-AnchorPoint: "Cursive 1" 1821 819.2 exit 0
+AnchorPoint: "Cursive 1" 323 415 entry 0
+AnchorPoint: "Cursive 1" 1822 812 exit 0
 LayerCount: 6
 Fore
 SplineSet
-322 409.599609375 m 1
- 172.1953125 216.704101562 137.494690916 107.462533415 179.083984375 57.8330078125 c 0
- 305.333984375 -92.82421875 1087.20507812 215.220703125 1807 819.200195312 c 1
- 1837 819.200195312 l 1
- 1123.38964844 220.41015625 309.080505869 -126.878389589 164.521484375 45.6298828125 c 0
- 110.784179687 109.756835938 149.774414062 218.737304688 298 409.599609375 c 1
- 322 409.599609375 l 1
+330 410 m 1
+ 121 145 123.4140625 60.2578125 154 34 c 0
+ 260 -57 899 224 1815 819 c 5
+ 1827 805 l 1
+ 766 110 -338 -400 315 422 c 1
+ 330 410 l 1
 EndSplineSet
-Validated: 33
 Comment: "It is final part of glyphs like 'a' before 'c'."
 Colour: ff1214
 EndChar
