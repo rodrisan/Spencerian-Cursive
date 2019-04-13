@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1555128009
+ModificationTime: 1555128684
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -227,16 +227,26 @@ WinInfo: 70 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
-420 417 m 29
- 424 417 l 1053
-422 419 m 29
- 422 415 l 1053
-435 401 m 5
- 408 435 l 1053
-428 412 m 29
- 428 408 l 1053
-416 427 m 29
- 416 423 l 1053
+1059 417 m 29
+ 1063 417 l 1053
+1061 419 m 29
+ 1061 415 l 1053
+1074 401 m 5
+ 1047 435 l 1053
+1067 412 m 29
+ 1067 408 l 1053
+1055 427 m 29
+ 1055 423 l 1053
+420 417 m 25
+ 424 417 l 1049
+422 419 m 25
+ 422 415 l 1049
+435 401 m 1
+ 408 435 l 1049
+428 412 m 25
+ 428 408 l 1049
+416 427 m 25
+ 416 423 l 1049
 725 812 m 25
  729 812 l 1049
 727 814 m 25
@@ -3670,7 +3680,7 @@ StartChar: P9000
 Encoding: 111 -1 83
 Width: 1313
 VWidth: 0
-Flags: HWO
+Flags: HW
 AnchorPoint: "Cursive 1" 1392 812 exit 0
 AnchorPoint: "Cursive 1" 323 415 entry 0
 LayerCount: 6
@@ -3716,19 +3726,19 @@ StartChar: P9004
 Encoding: 113 -1 85
 Width: 977
 VWidth: 0
-Flags: W
-AnchorPoint: "Cursive 1" 960.516 409.199 exit 0
-AnchorPoint: "Cursive 1" 194.763 409.799 entry 0
+Flags: HWO
+AnchorPoint: "Cursive 1" 1061 417 exit 0
+AnchorPoint: "Cursive 1" 323 415 entry 0
 LayerCount: 6
 Fore
 SplineSet
-183.842773438 409 m 1
- -345.484375 -269 376.877929688 19.765625 978.515625 409 c 1
- 943.6171875 409 l 1
- 345.853515625 29.6396484375 -311.698242188 -236 206.510742188 409 c 1
- 183.842773438 409 l 1
+315 422 m 1
+ -232 -280 464.852539062 21 1066.85253906 410 c 1
+ 1054.94140625 425 l 1
+ 670.488780509 183.306121296 226 -35 152 33.650390625 c 0
+ 118.699560221 64.5434743932 151 173 330 410 c 1
+ 315 422 l 1
 EndSplineSet
-Validated: 41
 Comment: "It is for final part 'e' before 'e'."
 Colour: ff030d
 EndChar
