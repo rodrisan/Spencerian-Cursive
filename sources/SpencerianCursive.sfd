@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1555869709
+ModificationTime: 1555877390
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -3736,7 +3736,7 @@ StartChar: P9004
 Encoding: 113 -1 85
 Width: 977
 VWidth: 0
-Flags: HW
+Flags: HWO
 AnchorPoint: "Cursive 1" 1061 417 exit 0
 AnchorPoint: "Cursive 1" 323 415 entry 0
 LayerCount: 6
@@ -3745,8 +3745,8 @@ SplineSet
 315 422 m 1
  -232 -280 464.852539062 21 1066.85253906 410 c 1
  1054.94140625 425 l 1
- 670.488780509 183.306121296 226 -35 152 33.650390625 c 0
- 118.699560221 64.5434743932 151 173 330 410 c 1
+ 576 117 215 -31 148 32.650390625 c 4
+ 115.067610062 63.9363530693 140 168 330 410 c 1
  315 422 l 1
 EndSplineSet
 Comment: "It is for final part 'e' before 'e'."
