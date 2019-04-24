@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1556107860
+ModificationTime: 1556113872
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -4755,16 +4755,16 @@ Width: 942
 VWidth: 0
 Flags: HW
 HStem: 799.487 20G<552.5 693>
-AnchorPoint: "Cursive 1" 307 408.006 exit 0
-AnchorPoint: "Cursive 1" -32 819.4 entry 0
+AnchorPoint: "Cursive 1" 1061 417 exit 0
+AnchorPoint: "Cursive 1" 508 779 entry 0
 LayerCount: 6
 Fore
 SplineSet
--41 819.200195312 m 1
- -23 819.200195312 l 5
- -86 482 -13 230 290.999023438 408 c 5
- 325.999023438 408 l 1
- -34 190 -101 482 -41 819.200195312 c 1
+430 708 m 1
+ 449 706 l 1
+ 392 376 665 201 1055 425 c 1
+ 1067 410 l 1
+ 662 176 369 360 430 708 c 1
 EndSplineSet
 Comment: "It is for final part of b and v before e."
 Colour: ff1c2e
