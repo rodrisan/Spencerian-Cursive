@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1556124823
+ModificationTime: 1556125258
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -4808,17 +4808,17 @@ StartChar: P9504
 Encoding: 129 -1 125
 Width: 602
 VWidth: 0
-Flags: HWO
-AnchorPoint: "Cursive 1" 662 818.761 exit 0
-AnchorPoint: "Cursive 1" -217 780.761 entry 0
+Flags: HW
+AnchorPoint: "Cursive 1" 693 819 exit 0
+AnchorPoint: "Cursive 1" -170 781 entry 0
 LayerCount: 6
 Fore
 SplineSet
--222 775 m 1
- -210 788.200195312 l 1
- -110 625.857421875 280 649.560546875 636 780.760742188 c 5
- 673 780.760742188 l 5
- 256 611.560546875 -124 618 -222 775 c 1
+-178 776 m 1
+ -162 786 l 1
+ -64 632 286 619 683 779 c 1
+ 690 761 l 1
+ 273 592 -80 619 -178 776 c 1
 EndSplineSet
 EndChar
 
