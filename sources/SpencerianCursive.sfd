@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1555950336
+ModificationTime: 1556100659
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -227,11 +227,6 @@ WinInfo: 70 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
-10 717 m 4
- 0 717 l 1028
-  Named: "final part of glyph like b"
-5 712 m 5
- 5 721 l 1029
 879 417 m 25
  883 417 l 1049
 881 419 m 25
@@ -443,7 +438,7 @@ Grid
  8192 -819 l 1024
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' [a,d,g,o,q]" "Cursive 1" "'curs' *"
-BeginChars: 147 137
+BeginChars: 148 137
 
 StartChar: O
 Encoding: 40 79 0
@@ -4770,17 +4765,19 @@ VWidth: 0
 Flags: HWO
 HStem: 799.487 20G<552.5 693>
 AnchorPoint: "Cursive 1" 900 812 exit 0
-AnchorPoint: "Cursive 1" 5 717 entry 0
+AnchorPoint: "Cursive 1" 5 781 entry 0
 LayerCount: 6
 Fore
 SplineSet
-5 708 m 1
- 5 708 665.965820312 708 725 708 c 0
- 793 708 848 773 906 805 c 1
+3 796 m 1
+ 3 796 -42 738 23 736.107421875 c 0
+ 165.954943903 731.94506188 693.41796875 735 744 735 c 0
+ 812 735 848 773 906 805 c 1
  894 819 l 1
- 840 781 783 729 724 727 c 0
- 665.710432361 725.024082453 5 727 5 727 c 1
- 5 708 l 1
+ 840 781 802 756 743 754 c 0
+ 693.172851562 752.311523438 169.714734336 754.610583116 24 754.922851562 c 0
+ -12 755 20 789 20 789 c 1
+ 3 796 l 1
 EndSplineSet
 Comment: "For final part of b and v before c"
 Colour: ff3829
