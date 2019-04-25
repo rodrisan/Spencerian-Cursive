@@ -3283,11 +3283,12 @@ SplineSet
  731 801 l 1
  314 632 169 619 71 776 c 1
 EndSplineSet
-Substitution2: "'aalt' [b] +- [c]-1" P9503
-Substitution2: "'aalt' * +- [+AH4A^a]" P9504
-Substitution2: "'aalt' [o] +- [c]-1" P9505
-Substitution2: "'aalt' * +- [e]" P9502
 Substitution2: "'aalt' [+AH4A-b] +- [+AH4A-n]" P9501
+Substitution2: "'aalt' * +- [e]" P9502
+Substitution2: "'aalt' [o] +- [c]-1" P9505
+Substitution2: "'aalt' * +- [+AH4A^a]" P9504
+Substitution2: "'aalt' [b] +- [c]-1" P9503
+Comment: "It is final part of glyph like b without any glyph after it."
 Colour: ff2938
 EndChar
 
