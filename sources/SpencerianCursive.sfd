@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1556125258
+ModificationTime: 1556182330
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -244,9 +244,9 @@ Grid
 2962 2609 m 25
  -4606 -1759 l 25
  2962 2609 l 25
-2924 4734 m 5
- -2794 -2573 l 5
- 2924 4734 l 5
+2924 4734 m 1
+ -2794 -2573 l 1
+ 2924 4734 l 1
 879 417 m 25
  883 417 l 1049
 881 419 m 25
@@ -3270,7 +3270,7 @@ StartChar: P9500
 Encoding: 92 -1 64
 Width: 903
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: 799.487 20G<1037.5 1178>
 AnchorPoint: "Cursive 1" 727 812 exit 0
 AnchorPoint: "Cursive 1" 79 781 entry 0
@@ -3278,8 +3278,8 @@ LayerCount: 6
 Fore
 SplineSet
 71 776 m 1
- 88 787 l 1
- 184 638 313 654 724 819 c 1
+ 87 787 l 5
+ 178 639 315 653 724 819 c 5
  731 801 l 1
  314 632 169 619 71 776 c 1
 EndSplineSet
