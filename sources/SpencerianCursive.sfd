@@ -4821,7 +4821,7 @@ SplineSet
  273 592 -80 619 -178 776 c 1
 EndSplineSet
 Comment: "It is for final part of glyph like b before glyph like a."
-Colour: ff5c5c
+Colour: ff212e
 EndChar
 
 StartChar: P9301
