@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1556471988
+ModificationTime: 1556475566
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -244,7 +244,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 14 6
+WinInfo: 70 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -404,9 +404,6 @@ Grid
 -4096 949 m 0
  8192 949 l 1024
   Named: "r and s"
--4096 -968 m 0
- 8192 -968 l 1024
-  Named: "p and q "
 5265 2590 m 25
  -2303 -1778 l 25
  5265 2590 l 25
@@ -437,7 +434,7 @@ Grid
  8192 -819 l 1024
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' [a,d,g,o,q]" "Cursive 1" "'curs' *"
-BeginChars: 178 140
+BeginChars: 178 141
 
 StartChar: O
 Encoding: 40 79 0
@@ -3126,6 +3123,8 @@ Flags: HW
 HStem: 811 16<1378.88 1416.32>
 AnchorPoint: "Cursive 1" 634 812 entry 0
 LayerCount: 6
+Back
+Refer: 140 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 626 819 m 25
@@ -3449,6 +3448,8 @@ HStem: -967 21G<-790 -749.363> 819 21G<413 515>
 AnchorPoint: "Cursive 1" -23 0.200195 exit 0
 AnchorPoint: "Cursive 1" 425 819.4 entry 0
 LayerCount: 6
+Back
+Refer: 140 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 413 819 m 1
@@ -5213,6 +5214,19 @@ SplineSet
  1600 648 l 1053
 -400 972 m 29
  1600 972 l 1053
+EndSplineSet
+EndChar
+
+StartChar: Guid.p_q
+Encoding: 177 -1 140
+Width: 4096
+VWidth: 0
+LayerCount: 6
+Back
+SplineSet
+-4096 -968 m 1
+ 8192 -968 l 1025
+  Named: "p and q "
 EndSplineSet
 EndChar
 EndChars
