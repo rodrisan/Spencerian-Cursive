@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1556470114
+ModificationTime: 1556471988
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -398,9 +398,6 @@ Grid
 -4096 781 m 0
  8192 781 l 1024
   Named: "final part of b, v, w, and o"
--4096 975 m 0
- 8192 975 l 1024
-  Named: "For numbers"
 -4096 647 m 0
  8192 647 l 1024
   Named: "a d g o and q"
