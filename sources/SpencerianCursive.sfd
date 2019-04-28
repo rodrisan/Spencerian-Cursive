@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1556183655
+ModificationTime: 1556469584
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -244,7 +244,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 70 14 6
+WinInfo: 0 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -468,7 +468,7 @@ Grid
  8192 -819 l 1024
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' [a,d,g,o,q]" "Cursive 1" "'curs' *"
-BeginChars: 148 139
+BeginChars: 178 140
 
 StartChar: O
 Encoding: 40 79 0
@@ -4012,6 +4012,23 @@ Width: 1153
 VWidth: 0
 Flags: HW
 LayerCount: 6
+Back
+SplineSet
+-400 810 m 29
+ 1600 810 l 1053
+-400 0 m 29
+ 1600 0 l 1053
+-400 162 m 29
+ 1600 162 l 1053
+-400 324 m 29
+ 1600 324 l 1053
+-400 486 m 29
+ 1600 486 l 1053
+-400 648 m 29
+ 1600 648 l 1053
+-400 972 m 29
+ 1600 972 l 1053
+EndSplineSet
 Fore
 SplineSet
 467.03125 627.80859375 m 0
@@ -5185,7 +5202,7 @@ StartChar: P9506
 Encoding: 141 -1 138
 Width: 903
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 799.487 20G<1037.5 1178>
 AnchorPoint: "Cursive 1" 727 812 exit 0
 AnchorPoint: "Cursive 1" -32 781 entry 0
@@ -5200,6 +5217,31 @@ SplineSet
 EndSplineSet
 Comment: "It is for final part glyph like b before glyp like b, l and etc."
 Colour: ff242b
+EndChar
+
+StartChar: Guid.Numbers
+Encoding: 176 -1 139
+Width: 1153
+VWidth: 0
+Flags: HW
+LayerCount: 6
+Back
+SplineSet
+-400 810 m 29
+ 1600 810 l 1053
+-400 0 m 29
+ 1600 0 l 1053
+-400 162 m 29
+ 1600 162 l 1053
+-400 324 m 29
+ 1600 324 l 1053
+-400 486 m 29
+ 1600 486 l 1053
+-400 648 m 29
+ 1600 648 l 1053
+-400 972 m 29
+ 1600 972 l 1053
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
