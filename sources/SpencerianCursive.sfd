@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1556476007
+ModificationTime: 1556476143
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -244,7 +244,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 70 14 6
+WinInfo: 56 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -412,9 +412,6 @@ Grid
  5244 4715 l 1
 -3056 -1763 m 25
  4512 2605 l 1049
--4096 314 m 0
- 8192 314 l 1024
-  Named: "e"
 -4096 410 m 0
  8192 410 l 1024
   Named: "Middle"
