@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1556469649
+ModificationTime: 1556469691
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -398,34 +398,6 @@ Grid
 -4096 781 m 0
  8192 781 l 1024
   Named: "final part of b, v, w, and o"
-6100 -3423 m 25
- -1468 -7791 l 25
- 6100 -3423 l 25
-5305 -1295 m 1
- -413 -8602 l 1
- 5305 -1295 l 1
-6079 -1298 m 1
- 361 -8605 l 1
- 6079 -1298 l 1
--2221 -7776 m 25
- 5347 -3408 l 1049
--1154 -8553 m 1
- 4564 -1245 l 1025
--4096 -6235 m 0
- 8192 -6235 l 1024
--4096 -4808 m 0
- 8192 -4808 l 1024
--4096 -5043 m 0
- 8192 -5043 l 1024
--4096 -5278 m 0
- 8192 -5278 l 1024
--4096 -5512 m 0
- 8192 -5512 l 1024
--4096 -5756 m 0
- 8192 -5756 l 1024
--4096 -6000 m 0
- 8192 -6000 l 1024
-  Named: "Baseline for number"
 -4096 975 m 0
  8192 975 l 1024
   Named: "For numbers"
@@ -4010,7 +3982,7 @@ StartChar: zero
 Encoding: 12 48 97
 Width: 1153
 VWidth: 0
-Flags: HW
+Flags: HWO
 LayerCount: 6
 Fore
 SplineSet
