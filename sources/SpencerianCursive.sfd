@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1556476883
+ModificationTime: 1556525651
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -244,7 +244,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 84 14 6
+WinInfo: 98 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -379,9 +379,6 @@ Grid
  -653 -1620 l 1049
 -630 -1586 m 25
  -709 -1694 l 1049
--4096 773 m 0
- 8192 773 l 1024
-  Named: "a d g o and q"
 -312 -960 m 25
  -312 -978 l 1049
 -468 -960 m 25
@@ -395,9 +392,6 @@ Grid
  156 -978 l 1049
 0 -960 m 25
  0 -978 l 1049
--4096 647 m 0
- 8192 647 l 1024
-  Named: "a d g o and q"
 5265 2590 m 25
  -2303 -1778 l 25
  5265 2590 l 25
@@ -425,7 +419,7 @@ Grid
  8192 -819 l 1024
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' [a,d,g,o,q]" "Cursive 1" "'curs' *"
-BeginChars: 183 143
+BeginChars: 183 144
 
 StartChar: O
 Encoding: 40 79 0
@@ -3780,6 +3774,8 @@ HStem: 605.857 20G<726.251 1147.35>
 AnchorPoint: "cursive 2" 1370 647 exit 0
 AnchorPoint: "Cursive 1" 323 415 entry 0
 LayerCount: 6
+Back
+Refer: 143 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 1373 640 m 1
@@ -5262,6 +5258,19 @@ SplineSet
 -4096 781 m 1
  8192 781 l 1029
   Named: "final part of b, v, w, and o"
+EndSplineSet
+EndChar
+
+StartChar: Guid.a_d_g_q
+Encoding: 180 -1 143
+Width: 4096
+VWidth: 0
+LayerCount: 6
+Back
+SplineSet
+-4096 647 m 4
+ 8192 647 l 1028
+  Named: "[+AH4A-a] +- [+AH4A-a]"
 EndSplineSet
 EndChar
 EndChars
