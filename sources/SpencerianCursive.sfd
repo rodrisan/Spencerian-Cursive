@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1556525651
+ModificationTime: 1556526969
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -244,7 +244,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 98 14 6
+WinInfo: 112 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -403,9 +403,6 @@ Grid
  5244 4715 l 1
 -3056 -1763 m 25
  4512 2605 l 1049
--4096 410 m 0
- 8192 410 l 1024
-  Named: "Middle"
 -4096 0 m 0
  8192 0 l 1024
   Named: "Base Line"
@@ -419,7 +416,7 @@ Grid
  8192 -819 l 1024
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' [a,d,g,o,q]" "Cursive 1" "'curs' *"
-BeginChars: 183 144
+BeginChars: 183 145
 
 StartChar: O
 Encoding: 40 79 0
@@ -3042,6 +3039,8 @@ VStem: -0 344
 AnchorPoint: "Cursive 1" 323 415 exit 0
 AnchorPoint: "Cursive 1" 634 813 entry 0
 LayerCount: 6
+Back
+Refer: 144 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 315 420 m 25
@@ -3152,6 +3151,8 @@ HStem: 409 21G<564.569 820.031>
 AnchorPoint: "Cursive 1" 583 415 exit 0
 AnchorPoint: "Cursive 1" 29 417 entry 0
 LayerCount: 6
+Back
+Refer: 144 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 588 410 m 25
@@ -3267,6 +3268,8 @@ HStem: 722 20G<766.65 767.078> 819 21G<293.917 361.453 858.3 887.3>
 AnchorPoint: "Cursive 1" 323 415 exit 0
 AnchorPoint: "Cursive 1" 904 812 entry 0
 LayerCount: 6
+Back
+Refer: 144 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 315 420 m 25
@@ -3294,6 +3297,8 @@ VStem: 0 17<793.416 819>
 AnchorPoint: "Cursive 1" 587 410.6 exit 0
 AnchorPoint: "Cursive 1" 9 819.2 entry 0
 LayerCount: 6
+Back
+Refer: 144 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 17 819 m 1
@@ -3335,6 +3340,8 @@ HStem: 410 21G<0 61.1143 86.2471 170.247>
 AnchorPoint: "Cursive 1" 323 415 exit 0
 AnchorPoint: "Cursive 1" 422 417 entry 0
 LayerCount: 6
+Back
+Refer: 144 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 428 410 m 1
@@ -3364,6 +3371,8 @@ HStem: 0 21G<0 169.5> 390 20G<878.5 929>
 VStem: 0 929
 AnchorPoint: "Cursive 1" 422 417 exit 0
 LayerCount: 6
+Back
+Refer: 144 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 416 425 m 1
@@ -3463,7 +3472,8 @@ AnchorPoint: "Cursive 1" 12.2803 410.2 exit 0
 AnchorPoint: "Cursive 1" 146.28 819.2 entry 0
 LayerCount: 6
 Back
-Refer: 141 -1 S 1 0 0 1 0 0 2
+Refer: 144 -1 S 1 0 0 1 0 0 2
+Refer: 141 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 0 410 m 1xa0
@@ -3545,6 +3555,8 @@ VStem: 231 913.734
 AnchorPoint: "Cursive 1" 687 410 exit 0
 AnchorPoint: "Cursive 1" 687 410 entry 0
 LayerCount: 6
+Back
+Refer: 144 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 231 0 m 1
@@ -3662,6 +3674,8 @@ Flags: HW
 AnchorPoint: "Cursive 1" 1007 781 exit 0
 AnchorPoint: "Cursive 1" 323 415 entry 0
 LayerCount: 6
+Back
+Refer: 144 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 315 422 m 1
@@ -3684,6 +3698,8 @@ Flags: HW
 AnchorPoint: "Cursive 1" 1392 812 exit 0
 AnchorPoint: "Cursive 1" 323 415 entry 0
 LayerCount: 6
+Back
+Refer: 144 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 315 422 m 1
@@ -3711,6 +3727,8 @@ VStem: -0.0996094 344.096
 AnchorPoint: "Cursive 1" 323 415 entry 0
 AnchorPoint: "Cursive 1" 3 5 exit 0
 LayerCount: 6
+Back
+Refer: 144 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 -5 12 m 1
@@ -3730,6 +3748,8 @@ Flags: HW
 AnchorPoint: "Cursive 1" 1061 417 exit 0
 AnchorPoint: "Cursive 1" 323 415 entry 0
 LayerCount: 6
+Back
+Refer: 144 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 315 422 m 1
@@ -3752,6 +3772,8 @@ HStem: 389.6 429.601G<223.887 322 1447.1 1837>
 AnchorPoint: "Cursive 1" 323 415 entry 0
 AnchorPoint: "Cursive 1" 1822 812 exit 0
 LayerCount: 6
+Back
+Refer: 144 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 330 410 m 1
@@ -3775,7 +3797,8 @@ AnchorPoint: "cursive 2" 1370 647 exit 0
 AnchorPoint: "Cursive 1" 323 415 entry 0
 LayerCount: 6
 Back
-Refer: 143 -1 S 1 0 0 1 0 0 2
+Refer: 144 -1 S 1 0 0 1 0 0 2
+Refer: 143 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 1373 640 m 1
@@ -3808,6 +3831,8 @@ Flags: HW
 AnchorPoint: "Cursive 1" 29 417 exit 0
 AnchorPoint: "Cursive 1" -498 7 entry 0
 LayerCount: 6
+Back
+Refer: 144 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 23 425 m 1
@@ -3829,6 +3854,8 @@ Flags: HW
 AnchorPoint: "Cursive 1" 881 417 exit 0
 AnchorPoint: "Cursive 1" 323 415 entry 0
 LayerCount: 6
+Back
+Refer: 144 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 875 425 m 1
@@ -3873,6 +3900,8 @@ HStem: 409.4 21G<564.569 746.961>
 AnchorPoint: "Cursive 1" 577.47 410 exit 0
 AnchorPoint: "Cursive 1" 576.569 762.6 entry 0
 LayerCount: 6
+Back
+Refer: 144 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 573.415447509 769.50281344 m 1
@@ -4855,6 +4884,8 @@ HStem: 0 19<0.0683594 99.6909> 798.953 20G<1192.78 1427>
 AnchorPoint: "Cursive 1" 979 409.6 exit 0
 AnchorPoint: "Cursive 1" 0.99707 9 entry 0
 LayerCount: 6
+Back
+Refer: 144 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 963 409 m 1
@@ -4874,6 +4905,8 @@ HStem: 0 19<0.0683594 110.746>
 AnchorPoint: "Cursive 1" 886 410 exit 0
 AnchorPoint: "Cursive 1" 0.99707 9 entry 0
 LayerCount: 6
+Back
+Refer: 144 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 869.483592083 409.599609375 m 1
@@ -4929,6 +4962,8 @@ Flags: HW
 AnchorPoint: "Cursive 1" 1723 812 exit 0
 AnchorPoint: "Cursive 1" 323 415 entry 0
 LayerCount: 6
+Back
+Refer: 144 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 315 422 m 1
@@ -5271,6 +5306,19 @@ SplineSet
 -4096 647 m 4
  8192 647 l 1028
   Named: "[+AH4A-a] +- [+AH4A-a]"
+EndSplineSet
+EndChar
+
+StartChar: Guid.Middle_lowercase
+Encoding: 181 -1 144
+Width: 4096
+VWidth: 0
+LayerCount: 6
+Back
+SplineSet
+-4096 410 m 4
+ 8192 410 l 1028
+  Named: "Middle"
 EndSplineSet
 EndChar
 EndChars
