@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1556737087
+ModificationTime: 1556737164
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -244,7 +244,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 112 14 6
+WinInfo: 56 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3385,7 +3385,7 @@ Flags: HW
 HStem: 819.2 21G<1393 1441.5>
 VStem: 562 19<186.301 214>
 AnchorPoint: "Cursive 1" 846 9 exit 0
-AnchorPoint: "Cursive 1" 1396 812 entry 0
+AnchorPoint: "Cursive 1" 1397 812 entry 0
 LayerCount: 6
 Back
 Refer: 148 -1 S 1 0 0 1 1232 0 2
