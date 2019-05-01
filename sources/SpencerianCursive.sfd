@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1556648775
+ModificationTime: 1556691680
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -244,7 +244,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 70 14 6
+WinInfo: 112 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -257,27 +257,6 @@ Grid
 2924 4734 m 1
  -2794 -2573 l 1
  2924 4734 l 1
--651 -1612 m 25
- -647 -1612 l 1049
--662 -1627 m 25
- -658 -1627 l 1049
--656 -1620 m 25
- -653 -1620 l 1049
--630 -1586 m 25
- -709 -1694 l 1049
--312 -960 m 25
- -312 -978 l 1049
--468 -960 m 25
- -468 -978 l 1049
--156 -978 m 25
- -156 -960 l 25
- -156 -978 l 25
--624 -960 m 25
- -624 -978 l 1049
-156 -960 m 25
- 156 -978 l 1049
-0 -960 m 25
- 0 -978 l 1049
 5265 2590 m 25
  -2303 -1778 l 25
  5265 2590 l 25
@@ -302,7 +281,7 @@ Grid
  8192 -819 l 1024
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' [a,d,g,o,q]" "Cursive 1" "'curs' *"
-BeginChars: 184 147
+BeginChars: 185 148
 
 StartChar: O
 Encoding: 40 79 0
@@ -2974,6 +2953,8 @@ Flags: HW
 AnchorPoint: "Cursive 1" -655 -1620 exit 0
 AnchorPoint: "Cursive 1" 1418 819 entry 0
 LayerCount: 6
+Back
+Refer: 147 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 -649 -1612 m 16
@@ -3480,6 +3461,8 @@ Flags: HW
 AnchorPoint: "Cursive 1" -655 -1620 exit 0
 AnchorPoint: "Cursive 1" 771 0 entry 0
 LayerCount: 6
+Back
+Refer: 147 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 -649 -1612 m 1
@@ -3869,6 +3852,8 @@ Flags: HW
 AnchorPoint: "Cursive 1" -655 -1620 entry 0
 AnchorPoint: "Cursive 1" 1404 410 exit 0
 LayerCount: 6
+Back
+Refer: 147 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 -660 -1627 m 1
@@ -4839,6 +4824,8 @@ Flags: W
 AnchorPoint: "Cursive 1" 2012 410 exit 0
 AnchorPoint: "Cursive 1" -655 -1620 entry 0
 LayerCount: 6
+Back
+Refer: 147 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 -660 -1627 m 1
@@ -4904,6 +4891,8 @@ Flags: HW
 AnchorPoint: "Cursive 1" 2084 819 exit 0
 AnchorPoint: "Cursive 1" -655 -1620 entry 0
 LayerCount: 6
+Back
+Refer: 147 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 -649 -1612 m 21
@@ -4938,6 +4927,8 @@ HStem: 800 20G<1424.26 2063.52>
 AnchorPoint: "Cursive 1" 2474 819 exit 0
 AnchorPoint: "Cursive 1" -655 -1620 entry 0
 LayerCount: 6
+Back
+Refer: 147 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 -649 -1612 m 1
@@ -4973,6 +4964,8 @@ HStem: 800 20G<1424.26 2063.52>
 AnchorPoint: "Cursive 1" 2193 819 exit 0
 AnchorPoint: "Cursive 1" -655 -1620 entry 0
 LayerCount: 6
+Back
+Refer: 147 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 -660 -1627 m 1
@@ -5008,6 +5001,8 @@ HStem: 800 20G<1424.26 2063.52>
 AnchorPoint: "Cursive 1" 2193 819 exit 0
 AnchorPoint: "Cursive 1" -655 -1620 entry 0
 LayerCount: 6
+Back
+Refer: 147 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 -649 -1612 m 1
@@ -5047,6 +5042,8 @@ Flags: HW
 AnchorPoint: "Cursive 1" 2210 819 exit 0
 AnchorPoint: "Cursive 1" -655 -1620 entry 0
 LayerCount: 6
+Back
+Refer: 147 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 -649 -1612 m 1
@@ -5274,6 +5271,37 @@ SplineSet
  428 408 l 1053
 416 427 m 29
  416 423 l 1053
+EndSplineSet
+EndChar
+
+StartChar: Guid.g_j
+Encoding: 184 -1 147
+Width: 4096
+VWidth: 0
+LayerCount: 6
+Back
+SplineSet
+-651 -1612 m 29
+ -647 -1612 l 1053
+-662 -1627 m 29
+ -658 -1627 l 1053
+-656 -1620 m 29
+ -653 -1620 l 1053
+-630 -1586 m 29
+ -709 -1694 l 1053
+-312 -960 m 29
+ -312 -978 l 1053
+-468 -960 m 29
+ -468 -978 l 1053
+-156 -978 m 29
+ -156 -960 l 29
+ -156 -978 l 29
+-624 -960 m 29
+ -624 -978 l 1053
+156 -960 m 29
+ 156 -978 l 1053
+0 -960 m 29
+ 0 -978 l 1053
 EndSplineSet
 EndChar
 EndChars
