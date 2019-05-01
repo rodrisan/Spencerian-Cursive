@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1556737934
+ModificationTime: 1556738394
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -4792,18 +4792,19 @@ Width: 1427
 VWidth: 0
 Flags: HW
 HStem: 0 19<0.0683594 99.6909> 798.953 20G<1192.78 1427>
-AnchorPoint: "Cursive 1" 979 409.6 exit 0
-AnchorPoint: "Cursive 1" 0.99707 9 entry 0
+AnchorPoint: "Cursive 1" 1164 417 exit 0
+AnchorPoint: "Cursive 1" 1 9 entry 0
 LayerCount: 6
 Back
-Refer: 144 -1 S 1 0 0 1 0 0 2
+Refer: 146 -1 S 1 0 0 1 742 0 2
+Refer: 144 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-963 409 m 1
- 636 202 254.438476562 13.8837890625 0.068359375 20 c 9
- 0.068359375 1 l 17
- 261.381835938 -6.59375 643 184 998 409 c 1
- 963 409 l 1
+1158 425 m 1
+ 831 218 254 14 0 20 c 9
+ 0 1 l 17
+ 261 -7 815 185 1170 410 c 1
+ 1158 425 l 1
 EndSplineSet
 Comment: "It is final part of s before e."
 Colour: ff4c4c
