@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1556691680
+ModificationTime: 1556729970
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -195,7 +195,7 @@ ChainSub2: coverage "'calt' [+AH4A-b] +- [+AH4A-n]" 0 0 0 1
 EndFPST
 ChainPos2: coverage "'kern' `applying 'curs' features`" 0 0 0 1
  1 0 0
-  Coverage: 635 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 hyphen period zero one two three four five six seven eight nine colon semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent P000 P100 P101 P001 P102 P103 P9200 P9100 P104 P105 P106 P107 P9500 P109 P110 P002 P111 P003 P112 P113 P114 P115 P116 P117 P118 P9400 P9300 P004 null1 null2 P119 P9000 P120 P9004 P9003 P9002 P005 P9001 P9401 P9402 P9501 P126 null3 P9201 P127 Quotation_Mark2 P9202 P9502 P9503 P9504 P9301 P9302 P9303 P9005 P9203 P9204 P9205 P9206 P9207
+  Coverage: 635 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 hyphen period zero one two three four five six seven eight nine colon semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent P000 P101 P001 P102 P103 P9200 P9100 P104 P105 P106 P107 P9500 P109 P110 P002 P111 P003 P112 P113 P114 P115 P116 P117 P118 P9400 P9300 P004 null1 null2 P119 P9000 P120 P9004 P9003 P9002 P005 P9001 P9501 P126 null3 P9201 P127 Quotation_Mark2 P9202 P9502 P9503 P9504 P9301 P9302 P9303 P9005 P9203 P9204 P9205 P9206 P9207 P129 P9505 P9506
  2
   SeqLookup: 0 "'curs' *"
   SeqLookup: 0 "'curs' [a,d,g,o,q]"
@@ -244,7 +244,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 112 14 6
+WinInfo: 56 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2833,17 +2833,17 @@ StartChar: P000
 Encoding: 80 -1 52
 Width: 1467
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: 0 21G<0 169.5> 799 20G<1339.5 1467>
-AnchorPoint: "Cursive 1" 1451 819 exit 0
+AnchorPoint: "Cursive 1" 1448 812 exit 0
 LayerCount: 6
 Fore
 SplineSet
-36 17 m 1
- 583 186 1054 471 1442 819 c 1
- 1455 806 l 1
- 1068 457 583 164 41 0 c 1
- 36 17 l 1
+38 19 m 1
+ 634 116 1180 588 1442 819 c 1
+ 1454 804 l 1
+ 1191 572 641 97 41 0 c 1
+ 38 19 l 1
 EndSplineSet
 Substitution2: "'aalt' * +- [+AH4A^b]" null1
 Comment: "It is for initial part of 'r' and 's'."
@@ -3379,26 +3379,29 @@ StartChar: P116
 Encoding: 102 -1 74
 Width: 2141
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 819.2 21G<1393 1441.5>
 VStem: 562 19<186.301 214>
 AnchorPoint: "Cursive 1" 790 9 exit 0
-AnchorPoint: "Cursive 1" 1406 819.2 entry 0
+AnchorPoint: "Cursive 1" 1396 812 entry 0
 LayerCount: 6
 Back
 Refer: 141 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
-562 214 m 1
- 581 214 l 1
- 657 -89 1058 -160 1503 905 c 1
- 1503 905 1465 862 1418 819.200195312 c 1
- 1393 819.200195312 l 1
- 1447 865.200195312 1519 949 1519 949 c 1
- 1519 949 1541.08886155 949.214763948 1541 949 c 0
- 1054 -228 640 -96 562 214 c 1
+1391 819 m 1
+ 1485 900 1525 949 1525 949 c 1
+ 1541 938 l 1
+ 1324 551 1288.5234375 344.513671875 1165 188.728515625 c 0
+ 921 -119 640 -2 616 202 c 1
+ 635 204 l 1
+ 661 12 916 -91 1149 200.1875 c 0
+ 1265.60737894 345.915444877 1300 529 1490 882 c 1
+ 1490 882 1450 847 1403 804 c 1
+ 1401 804 l 25
+ 1391 817 l 25
+ 1391 819 l 1
 EndSplineSet
-Validated: 33
 Colour: bdbdbd
 EndChar
 
