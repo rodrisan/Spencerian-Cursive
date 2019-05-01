@@ -244,7 +244,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 56 14 6
+WinInfo: 98 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -4779,6 +4779,8 @@ SplineSet
  341.009201037 -9.90798167235 793.119478433 313.546545688 1186.93538343 625.857788086 c 1
  1155.29232738 625.857788086 l 1
 EndSplineSet
+Comment: "It is final part of s before glyph like a."
+Colour: ff3330
 EndChar
 
 StartChar: P9302
@@ -4800,6 +4802,8 @@ SplineSet
  261.381835938 -6.59375 643 184 998 409 c 1
  963 409 l 1
 EndSplineSet
+Comment: "It is final part of s before e."
+Colour: ff4c4c
 EndChar
 
 StartChar: P9303
@@ -4821,6 +4825,8 @@ SplineSet
  261.381494422 -7.59394427539 588.000139269 180.642992995 903.624459465 409.599609375 c 1
  869.483592083 409.599609375 l 1
 EndSplineSet
+Comment: "It is final part of s before glyph like v."
+Colour: ff4763
 EndChar
 
 StartChar: P9202
