@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1556731810
+ModificationTime: 1556734708
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -244,7 +244,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 70 14 6
+WinInfo: 56 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -281,7 +281,7 @@ Grid
  8192 -819 l 1024
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' [a,d,g,o,q]" "Cursive 1" "'curs' *"
-BeginChars: 185 148
+BeginChars: 186 149
 
 StartChar: O
 Encoding: 40 79 0
@@ -2837,6 +2837,8 @@ Flags: HW
 HStem: 0 21G<0 169.5> 799 20G<1339.5 1467>
 AnchorPoint: "Cursive 1" 1448 812 exit 0
 LayerCount: 6
+Back
+Refer: 148 -1 S 1 0 0 1 1283 0 2
 Fore
 SplineSet
 38 19 m 1
@@ -3349,14 +3351,15 @@ StartChar: P115
 Encoding: 101 -1 73
 Width: 329
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 410 539 819 21G<133.281 179.281>
 VStem: 0 329.281
 AnchorPoint: "Cursive 1" 12.2803 410.2 exit 0
 AnchorPoint: "Cursive 1" 146.28 819.2 entry 0
 LayerCount: 6
 Back
-Refer: 144 -1 S 1 0 0 1 0 0 2
+Refer: 148 -1 S 1 0 0 1 -26 0 2
+Refer: 144 -1 N 1 0 0 1 0 0 2
 Refer: 141 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
@@ -3371,7 +3374,6 @@ SplineSet
  24 410 l 1
  0 410 l 1xa0
 EndSplineSet
-Validated: 33
 Colour: bdbdbd
 EndChar
 
@@ -3386,7 +3388,8 @@ AnchorPoint: "Cursive 1" 846 9 exit 0
 AnchorPoint: "Cursive 1" 1396 812 entry 0
 LayerCount: 6
 Back
-Refer: 141 -1 S 1 0 0 1 0 0 2
+Refer: 148 -1 S 1 0 0 1 1232 0 2
+Refer: 141 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 1391 819 m 1
@@ -3491,6 +3494,8 @@ HStem: 0 19<0.0683594 99.6909> 798.953 20G<1192.78 1427>
 AnchorPoint: "Cursive 1" 1405 812 exit 0
 AnchorPoint: "Cursive 1" 1 9 entry 0
 LayerCount: 6
+Back
+Refer: 148 -1 S 1 0 0 1 1240 0 2
 Fore
 SplineSet
 0 0 m 1
@@ -5304,6 +5309,21 @@ SplineSet
  156 -978 l 1053
 0 -960 m 29
  0 -978 l 1053
+EndSplineSet
+EndChar
+
+StartChar: Guid.r_s_thickness_degree
+Encoding: 185 -1 148
+Width: 361
+VWidth: 0
+Flags: HW
+LayerCount: 6
+Back
+SplineSet
+163 812 m 25
+ 166 812 l 1049
+159 819 m 25
+ 171 804 l 1049
 EndSplineSet
 EndChar
 EndChars
