@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1556729970
+ModificationTime: 1556731435
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -244,7 +244,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 56 14 6
+WinInfo: 84 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2833,7 +2833,7 @@ StartChar: P000
 Encoding: 80 -1 52
 Width: 1467
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 0 21G<0 169.5> 799 20G<1339.5 1467>
 AnchorPoint: "Cursive 1" 1448 812 exit 0
 LayerCount: 6
@@ -3382,7 +3382,7 @@ VWidth: 0
 Flags: HW
 HStem: 819.2 21G<1393 1441.5>
 VStem: 562 19<186.301 214>
-AnchorPoint: "Cursive 1" 790 9 exit 0
+AnchorPoint: "Cursive 1" 846 9 exit 0
 AnchorPoint: "Cursive 1" 1396 812 entry 0
 LayerCount: 6
 Back
@@ -3486,20 +3486,19 @@ StartChar: P9300
 Encoding: 106 -1 78
 Width: 1427
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 19<0.0683594 99.6909> 798.953 20G<1192.78 1427>
-AnchorPoint: "Cursive 1" 1412 819.252 exit 0
-AnchorPoint: "Cursive 1" 0.99707 9 entry 0
+AnchorPoint: "Cursive 1" 1412 819 exit 0
+AnchorPoint: "Cursive 1" 1 9 entry 0
 LayerCount: 6
 Fore
 SplineSet
-0.068359375 0 m 9
- 0.068359375 19 l 17
- 413.703125 9.0546875 986.5546875 493.4921875 1399 818.953125 c 9
- 1427 818.953125 l 17
- 988.997070312 465 412.997070312 -12 0.068359375 0 c 9
+0 0 m 1
+ 0 19 l 17
+ 404 19 1104 560 1399 819 c 1
+ 1411 804 l 17
+ 1115 545 413 -1 0 0 c 1
 EndSplineSet
-Validated: 33
 Substitution2: "'aalt' * +- [m,n,x,z]" P9303
 Substitution2: "'aalt' * +- [e]" P9302
 Substitution2: "'aalt' * +- [+AH4A^a]" P9301
