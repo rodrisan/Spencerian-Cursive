@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1556738394
+ModificationTime: 1556738956
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -244,7 +244,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 70 14 6
+WinInfo: 98 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -4814,20 +4814,21 @@ StartChar: P9303
 Encoding: 132 -1 128
 Width: 1427
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 19<0.0683594 110.746>
-AnchorPoint: "Cursive 1" 886 410 exit 0
-AnchorPoint: "Cursive 1" 0.99707 9 entry 0
+AnchorPoint: "Cursive 1" 809 417 exit 0
+AnchorPoint: "Cursive 1" 1 9 entry 0
 LayerCount: 6
 Back
-Refer: 144 -1 S 1 0 0 1 0 0 2
+Refer: 146 -1 S 1 0 0 1 387 0 2
+Refer: 144 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-869.483592083 409.599609375 m 1
- 569.021738383 193.733843998 254.438718353 12.8839939942 0.068359375 19 c 9
- 0.068359375 0 l 17
- 261.381494422 -7.59394427539 588.000139269 180.642992995 903.624459465 409.599609375 c 1
- 869.483592083 409.599609375 l 1
+803 425 m 1
+ 492 201 256 19 0 19 c 9
+ 0 0 l 17
+ 261 0 499 181 815 410 c 1
+ 803 425 l 1
 EndSplineSet
 Comment: "It is final part of s before glyph like v."
 Colour: ff4763
