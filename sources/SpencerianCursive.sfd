@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1556986346
+ModificationTime: 1556986670
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -3098,7 +3098,7 @@ StartChar: P107
 Encoding: 91 -1 63
 Width: 1526
 VWidth: 0
-Flags: HWO
+Flags: HW
 AnchorPoint: "Cursive 1" 634 812 exit 0
 AnchorPoint: "Cursive 1" 632 811 entry 0
 LayerCount: 6
@@ -3113,7 +3113,7 @@ SplineSet
  1337.43212442 1394.52211292 1049 1187 700 882 c 1
  1498 1901 l 2
 626 817 m 1
- 636 804 l 5
+ 636 804 l 1
  638 804 l 1
  1033 1147 1334.13582907 1360.87544989 1722 1784 c 0
  2536 2672 2056.21015622 2644.26820636 1484 1914 c 2
@@ -3211,14 +3211,16 @@ VWidth: 0
 Flags: HW
 HStem: 0 21G<0 276> 799 20G<1002 1237>
 VStem: 0 1237
-AnchorPoint: "Cursive 1" 1214 812 exit 0
+AnchorPoint: "Cursive 1" 1213 811 exit 0
 LayerCount: 6
+Back
+Refer: 146 -1 S 1 0 0 1 791 394 2
 Fore
 SplineSet
 1219 804 m 17
  801 472 522 270 30 0 c 1
- 20 16 l 17
- 544 311 797 491 1207 819 c 1
+ 21 17 l 21
+ 545 312 797 491 1207 819 c 1
  1219 804 l 17
 EndSplineSet
 Substitution2: "'aalt' * +- [+AH4A^b]" null1
