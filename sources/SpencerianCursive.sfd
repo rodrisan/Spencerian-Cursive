@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1557235773
+ModificationTime: 1557239190
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -263,7 +263,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 98 14 6
+WinInfo: 84 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3845,7 +3845,7 @@ StartChar: P126
 Encoding: 121 -1 92
 Width: 793
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: 409.4 21G<564.569 746.961>
 AnchorPoint: "Cursive 1" 324 415 exit 0
 AnchorPoint: "Cursive 1" 378 781 entry 0
@@ -3858,14 +3858,14 @@ Refer: 144 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 382 772 m 1
- 454 798 523.604862303 814.719017158 542 777 c 0
- 560.52227866 739.020281767 489 642 316 422 c 9
+ 541.4800261 829.590009425 618.630296109 809.135621032 491.104492188 646 c 6
+ 316 422 l 9
  316 420 l 25
  329 410 l 25
  331 410 l 1
- 501 630 587.101337915 729.03845031 560 784 c 0
- 534.035806579 836.655419128 461 821 375 789 c 9
- 374 787 l 29
+ 332 411 505.979492188 634 505.979492188 634 c 2
+ 643.029740161 809.444877353 557.676588996 856.972684278 375 789 c 9
+ 374 787 l 25
  380 773 l 25
  382 772 l 1
 EndSplineSet
