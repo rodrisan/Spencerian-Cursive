@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1557042518
+ModificationTime: 1557235224
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -300,7 +300,7 @@ Grid
  8192 -819 l 1024
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' [a,d,g,o,q]" "Cursive 1" "'curs' *"
-BeginChars: 187 151
+BeginChars: 187 152
 
 StartChar: O
 Encoding: 40 79 0
@@ -514,6 +514,23 @@ Flags: W
 HStem: 16.3838 32.7686<700.563 975.319> 2437.6 20G<3278.81 3432.45>
 VStem: 140.574 25.6934<574.053 818.98>
 LayerCount: 6
+Back
+SplineSet
+575 781 m 29
+ 579 781 l 1053
+  Spiro
+    575 781 {
+    579 781 v
+    0 0 z
+  EndSpiro
+574 789 m 29
+ 581 772 l 1053
+  Spiro
+    574 789 {
+    581 772 v
+    0 0 z
+  EndSpiro
+EndSplineSet
 Fore
 SplineSet
 2236.41601562 0 m 1
@@ -3801,23 +3818,25 @@ EndChar
 
 StartChar: P9501
 Encoding: 120 -1 91
-Width: 793
+Width: 794
 VWidth: 0
-Flags: W
-AnchorPoint: "Cursive 1" 577 763 exit 0
-AnchorPoint: "Cursive 1" 19 819.2 entry 0
+Flags: HW
+AnchorPoint: "Cursive 1" 577 781 exit 0
+AnchorPoint: "Cursive 1" 20 781 entry 0
 LayerCount: 6
 Back
-Refer: 142 -1 S 1 0 0 1 0 0 2
+Refer: 151 -1 S 1 0 0 1 199 0 2
+Refer: 142 -1 N 1 0 0 1 1 0 2
 Fore
 SplineSet
-573.415039062 769.502929688 m 1
- 380.275390625 692.375976562 199.091796875 704.431640625 32 819.200195312 c 1
- 6 819 l 1
- 190.602539062 688.916992188 375.694335938 673.80078125 579.474609375 755.520507812 c 1
- 573.415039062 769.502929688 l 1
+574 789 m 1
+ 468 747 363 715 262 715 c 4
+ 180 715 100 736 25 788 c 1
+ 15 774 l 1
+ 98 716 179 696 262 696 c 0
+ 364 696 469 727 581 772 c 1
+ 574 789 l 1
 EndSplineSet
-Validated: 41
 Comment: "It is for final part of b and v."
 Colour: ff2638
 EndChar
@@ -3826,22 +3845,30 @@ StartChar: P126
 Encoding: 121 -1 92
 Width: 793
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 409.4 21G<564.569 746.961>
-AnchorPoint: "Cursive 1" 577.47 410 exit 0
-AnchorPoint: "Cursive 1" 576.569 762.6 entry 0
+AnchorPoint: "Cursive 1" 324 415 exit 0
+AnchorPoint: "Cursive 1" 378 781 entry 0
 LayerCount: 6
 Back
-Refer: 144 -1 S 1 0 0 1 0 0 2
+Refer: 151 -1 N 1 0 0 1 0 0 2
+Refer: 142 -1 N 1 0 0 1 0 0 2
+Refer: 145 -1 N 1 0 0 1 1 0 2
+Refer: 144 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-573.415447509 769.50281344 m 1
- 813 881 905.35244124 817.305568026 588.569335938 409.400390625 c 1
- 588.569335938 409.400390625 564.569335938 409.400390625 564.569335938 409.400390625 c 1
- 882.132460261 813.584799637 804 858 579.474587121 755.520183567 c 1
- 573.415447509 769.50281344 l 1
+382 772 m 1
+ 454 798 523.604862303 814.719017158 542 777 c 0
+ 560.52227866 739.020281767 489 642 316 422 c 9
+ 316 420 l 25
+ 329 410 l 25
+ 331 410 l 1
+ 501 630 587.101337915 729.03845031 560 784 c 0
+ 534.035806579 836.655419128 461 821 375 789 c 9
+ 374 787 l 29
+ 380 773 l 25
+ 382 772 l 1
 EndSplineSet
-Validated: 33
 Comment: "It is for m, n and v."
 Colour: bdbdbd
 EndChar
@@ -5421,6 +5448,21 @@ SplineSet
  847 0 l 1
 EndSplineSet
 MultipleSubs2: "'ccmp' [s] +- *-1" P116 P9300
+EndChar
+
+StartChar: Guid.r_u_v_w_y_z
+Encoding: 186 -1 151
+Width: 4096
+VWidth: 0
+Flags: H
+LayerCount: 6
+Back
+SplineSet
+374 781 m 29
+ 381 781 l 1053
+375 789 m 29
+ 382 772 l 1053
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
