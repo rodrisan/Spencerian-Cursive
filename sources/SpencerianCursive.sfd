@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1557239190
+ModificationTime: 1557239813
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -3060,25 +3060,28 @@ Width: 793
 VWidth: 0
 Flags: HW
 HStem: 409 21G<564.569 820.031>
-AnchorPoint: "Cursive 1" 583 415 exit 0
-AnchorPoint: "Cursive 1" 29 417 entry 0
+AnchorPoint: "Cursive 1" 1103 415 exit 0
+AnchorPoint: "Cursive 1" 549 417 entry 0
 LayerCount: 6
 Back
-Refer: 146 -1 S 1 0 0 1 -393 0 2
-Refer: 145 -1 N 1 0 0 1 261 0 2
+Refer: 146 -1 S 1 0 0 1 126 0 2
+Refer: 145 -1 S 1 0 0 1 780 0 2
 Refer: 144 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-588 410 m 25
- 575 420 l 25
- 576 422 l 1
- 749 647 796 761 769 788.020507812 c 0
- 721.925414563 835.130848685 505 750 35 410 c 5
- 33 410 l 25
- 23 423 l 25
- 23 425 l 1
- 697 917 1042 985 590 410 c 1
- 588 410 l 25
+1108 410 m 25
+ 1095 420 l 25
+ 1095 422 l 5
+ 1275 650 l 2
+ 1408 819 1344 834 1143 756 c 0
+ 990 697 773 567 555 410 c 1
+ 553 410 l 25
+ 543 423 l 25
+ 543 425 l 1
+ 772 592 984 713 1135 774 c 0
+ 1346 859 1439 828 1293 643 c 2
+ 1110 410 l 1
+ 1108 410 l 25
 EndSplineSet
 Substitution2: "'aalt' [+AH4A-b] +- [+AH4A-n]" P126
 Colour: bdbdbd
@@ -3845,7 +3848,7 @@ StartChar: P126
 Encoding: 121 -1 92
 Width: 793
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 409.4 21G<564.569 746.961>
 AnchorPoint: "Cursive 1" 324 415 exit 0
 AnchorPoint: "Cursive 1" 378 781 entry 0
