@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1557298977
+ModificationTime: 1557302010
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -317,7 +317,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 84 14 6
+WinInfo: 112 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -354,7 +354,7 @@ Grid
  8192 -819 l 1024
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' [a,d,g,o,q]" "Cursive 1" "'curs' *"
-BeginChars: 188 156
+BeginChars: 189 157
 
 StartChar: O
 Encoding: 40 79 0
@@ -2746,7 +2746,7 @@ HStem: 0 21G<0 83.5> 745 17<1429.83 1553.89> 799 20G<1093 1217>
 LayerCount: 6
 Fore
 Refer: 62 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' [Lowercase]" P113 P9500
+MultipleSubs2: "'ccmp' [Lowercase]" P113 P9511
 EndChar
 
 StartChar: a
@@ -5577,7 +5577,7 @@ StartChar: P9510
 Encoding: 146 -1 154
 Width: 942
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 799.487 20G<552.5 693>
 AnchorPoint: "Cursive 1" 1348 417 exit 0
 AnchorPoint: "Cursive 1" 624 781 entry 0
@@ -5613,6 +5613,27 @@ SplineSet
  634 773 l 1053
 607 774 m 29
  607 788 l 1053
+EndSplineSet
+EndChar
+
+StartChar: P9511
+Encoding: 147 -1 156
+Width: 794
+VWidth: 0
+Flags: HW
+AnchorPoint: "Cursive 1" 1493 812 exit 0
+AnchorPoint: "Cursive 1" 624 781 entry 0
+LayerCount: 6
+Back
+Refer: 155 -1 S 1 0 0 1 0 0 2
+Refer: 142 -1 N 1 0 0 1 0 0 2
+Fore
+SplineSet
+614 775 m 1
+ 630 786 l 1
+ 723 639 1081 653 1490 819 c 1
+ 1497 801 l 1
+ 1080 632 712 618 614 775 c 1
 EndSplineSet
 EndChar
 EndChars
