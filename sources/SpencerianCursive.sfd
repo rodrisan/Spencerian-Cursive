@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1557292095
+ModificationTime: 1557294488
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -64,6 +64,8 @@ Lookup: 1 0 0 "'aalt' [o] +- [c]" { "'aalt' [o] +- [c]-1"  } ['aalt' ('DFLT' <'d
 Lookup: 1 0 0 "'aalt' [b] +- [c]" { "'aalt' [b] +- [c]-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'aalt' [+AH4A-b] +- [+AH4A-l]" { "'aalt' [+AH4A-b] +- [+AH4A-l]-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'aalt' [+AH4A-b] +- [+AH4A-s]" { "'aalt' [+AH4A-b] +- [+AH4A-s]-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'aalt' [o] +- [+AH4A-a]" { "'aalt' [o] +- [+AH4A-a]-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'aalt' [+AH4A-b] +- [+AH4A-a]" { "'aalt' [+AH4A-b] +- [+AH4A-a]-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' [s] +- *" { "'calt' [s] +- *-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' * +- [+AH4A^b]" { "'calt' * +- [+AH4A^b]"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' * +- [e]" { "'calt' * +- [e]"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -81,6 +83,8 @@ Lookup: 6 0 0 "'calt' [o] +- [c]" { "'calt' [o] +- [c]-1"  } ['calt' ('DFLT' <'d
 Lookup: 6 0 0 "'calt' [b] +- [c]" { "'calt' [b] +- [c]-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' [+AH4A-b] +- [+AH4A-l]" { "'calt' [+AH4A-b] +- [+AH4A-l]-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' [+AH4A-b] +- [+AH4A-s]" { "'calt' [+AH4A-b] +- [+AH4A-s]-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' [o] +- [+AH4A-a]" { "'calt' [o] +- [+AH4A-a]-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' [+AH4A-b] +- [+AH4A-a]" { "'calt' [+AH4A-b] +- [+AH4A-a]-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 259 0 0 "'curs' [a,d,g,o,q]" { "'curs' [a,d,g,o,q]"  } ['curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) 'curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 259 0 0 "'curs' *" { "'curs' *"  } [' RQD' ('DFLT' <'dflt' > 'latn' <'dflt' > ) 'curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 264 0 0 "'kern' `applying 'curs' features`" { "'kern' `applying 'curs' features`"  } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -117,6 +121,22 @@ KernClass2: 20 10 "'kern' *"
  7 glyph90
  3 A F
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -1099 {} -819 {} -1163 {} -1366 {} 0 {} -978 {} -800 {} 0 {} -532 {} 0 {} -1533 {} 0 {} -1189 {} 0 {} -1397 {} -1186 {} 0 {} -556 {} -757 {} 0 {} -1445 {} 0 {} -1135 {} 0 {} -1357 {} -1072 {} 0 {} -70 {} -400 {} 0 {} -1906 {} 0 {} -1555 {} 0 {} -1772 {} -1548 {} 0 {} -811 {} -1080 {} 0 {} -3118 {} 0 {} -2756 {} 0 {} -2992 {} -2734 {} 0 {} 0 {} -2498 {} 0 {} -3103 {} 0 {} -2754 {} 0 {} -2989 {} -2721 {} 0 {} -1347 {} -2183 {} 0 {} -2627 {} 0 {} -2280 {} 0 {} -2504 {} -2253 {} 0 {} -216 {} -1961 {} 0 {} -2487 {} 0 {} -2152 {} 0 {} -2359 {} -2130 {} 0 {} -444 {} -1615 {} 0 {} -1284 {} 0 {} -800 {} 0 {} -1016 {} -938 {} 0 {} 0 {} -1158 {} 0 {} -1043 {} 0 {} -696 {} 0 {} -901 {} -701 {} 0 {} -120 {} -395 {} 0 {} -917 {} 0 {} -593 {} 0 {} -821 {} -539 {} 0 {} 0 {} 0 {} 0 {} -1712 {} 0 {} -1337 {} 0 {} -1547 {} -1358 {} 0 {} 0 {} -924 {} 0 {} -2571 {} 0 {} -2224 {} 0 {} -2461 {} -2186 {} 0 {} 0 {} -1850 {} 0 {} -2125 {} 0 {} -1744 {} 0 {} -1951 {} -1777 {} 0 {} -307 {} -1405 {} 0 {} -2224 {} 0 {} -1869 {} 0 {} -2088 {} -1860 {} 0 {} -745 {} -1630 {} 0 {} -1065 {} 0 {} -760 {} 0 {} -977 {} -695 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
+ChainSub2: coverage "'calt' [+AH4A-b] +- [+AH4A-a]-1" 0 0 0 1
+ 3 0 0
+  Coverage: 4 P119
+  Coverage: 5 P9500
+  Coverage: 4 P101
+ 1
+  SeqLookup: 1 "'aalt' [+AH4A-b] +- [+AH4A-a]"
+EndFPST
+ChainSub2: coverage "'calt' [o] +- [+AH4A-a]-1" 0 0 0 1
+ 3 0 0
+  Coverage: 4 P113
+  Coverage: 5 P9500
+  Coverage: 4 P101
+ 1
+  SeqLookup: 1 "'aalt' [o] +- [+AH4A-a]"
+EndFPST
 ChainSub2: coverage "'calt' [s] +- *-1" 0 0 0 1
  1 0 1
   Coverage: 6 P116.1
@@ -229,7 +249,7 @@ ChainSub2: coverage "'calt' * +- [m,n,x,z]" 0 0 0 1
 EndFPST
 ChainSub2: coverage "'calt' * +- [+AH4A^a]" 0 0 0 1
  1 0 1
-  Coverage: 35 P9000 P9005 P9100 P9500 P9400 P9300
+  Coverage: 29 P9000 P9005 P9100 P9400 P9300
   FCoverage: 4 P101
  1
   SeqLookup: 0 "'aalt' * +- [+AH4A^a]"
@@ -300,7 +320,7 @@ Grid
  8192 -819 l 1024
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' [a,d,g,o,q]" "Cursive 1" "'curs' *"
-BeginChars: 187 152
+BeginChars: 187 153
 
 StartChar: O
 Encoding: 40 79 0
@@ -2653,7 +2673,6 @@ Encoding: 65 109 34
 Width: 0
 VWidth: 0
 Flags: W
-HStem: 0 21G<0 416 606 1022 1212 1628> 799 20G<2654 3070>
 LayerCount: 6
 Fore
 Refer: 62 0 N 1 0 0 1 0 0 2
@@ -2714,7 +2733,6 @@ Encoding: 72 116 39
 Width: 0
 VWidth: 0
 Flags: W
-HStem: 0 21G<0 185.5> 799 20G<2237 2261> 1221 16<1344 2187>
 LayerCount: 6
 Fore
 Refer: 62 0 N 1 0 0 1 0 0 2
@@ -2763,7 +2781,6 @@ Encoding: 64 108 43
 Width: 0
 VWidth: 0
 Flags: W
-HStem: 0 21G<573 1073> 799 20G<2515 2679>
 LayerCount: 6
 Fore
 Refer: 62 0 N 1 0 0 1 0 0 2
@@ -2846,7 +2863,6 @@ Encoding: 58 102 50
 Width: 0
 VWidth: 0
 Flags: W
-HStem: 0 21G<553.995 976.495> 410 21G<1414 1488> 799 20G<1295.5 1414 2246 2315>
 LayerCount: 6
 Fore
 Refer: 62 0 N 1 0 0 1 0 0 2
@@ -3170,12 +3186,13 @@ SplineSet
  731 801 l 1
  314 632 169 619 71 776 c 1
 EndSplineSet
+Substitution2: "'aalt' [o] +- [+AH4A-a]-1" P9508
+Substitution2: "'aalt' [+AH4A-b] +- [+AH4A-a]-1" P9504
 Substitution2: "'aalt' [+AH4A-b] +- [+AH4A-s]-1" P9507
 Substitution2: "'aalt' [+AH4A-b] +- [+AH4A-l]-1" P9506
 Substitution2: "'aalt' [+AH4A-b] +- [+AH4A-n]" P9501
 Substitution2: "'aalt' * +- [e]" P9502
 Substitution2: "'aalt' [o] +- [c]-1" P9505
-Substitution2: "'aalt' * +- [+AH4A^a]" P9504
 Substitution2: "'aalt' [b] +- [c]-1" P9503
 Comment: "It is final part of glyph like b without any glyph after it."
 Colour: ff2938
@@ -3536,8 +3553,8 @@ StartChar: P9300
 Encoding: 106 -1 78
 Width: 1427
 VWidth: 0
-Flags: HW
-HStem: 0 19<0.0683594 99.6909> 798.953 20G<1192.78 1427>
+Flags: W
+HStem: 0 19<0 79.0476>
 AnchorPoint: "Cursive 1" 1405 812 exit 0
 AnchorPoint: "Cursive 1" 1 9 entry 0
 LayerCount: 6
@@ -4823,8 +4840,8 @@ StartChar: P9301
 Encoding: 130 -1 126
 Width: 1427
 VWidth: 0
-Flags: HW
-HStem: 0 19<0.0683594 99.6909> 798.953 20G<1192.78 1427>
+Flags: W
+HStem: 0 19<0 100.695>
 AnchorPoint: "cursive 2" 1360 654 exit 0
 AnchorPoint: "Cursive 1" 1 9 entry 0
 LayerCount: 6
@@ -5468,6 +5485,28 @@ SplineSet
 375 789 m 29
  382 772 l 1053
 EndSplineSet
+EndChar
+
+StartChar: P9508
+Encoding: 144 -1 152
+Width: 1840
+VWidth: 0
+Flags: HW
+AnchorPoint: "Cursive 1" 1712 819 exit 0
+AnchorPoint: "Cursive 1" 622 781 entry 0
+LayerCount: 6
+Back
+Refer: 142 -1 S 1 0 0 1 0 0 2
+Fore
+SplineSet
+614 776 m 1
+ 630 786 l 1
+ 684 702 1338 678 1702 780 c 5
+ 1707 761 l 5
+ 1338 660 675 679 614 776 c 1
+EndSplineSet
+Comment: "It is final part of o before glyph like a."
+Colour: ff4552
 EndChar
 EndChars
 EndSplineFont
