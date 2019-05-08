@@ -5635,6 +5635,8 @@ SplineSet
  1497 801 l 1
  1080 632 712 618 614 775 c 1
 EndSplineSet
+Comment: "It is final part of o before glyphs like j and u."
+Colour: ff3d40
 EndChar
 EndChars
 EndSplineFont
