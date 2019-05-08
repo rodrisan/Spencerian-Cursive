@@ -326,7 +326,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 98 14 6
+WinInfo: 84 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3879,6 +3879,7 @@ SplineSet
  -163 -192 213 -82 887 410 c 1
  875 425 l 1
 EndSplineSet
+Comment: "It is final part of glyphs like a and m before glyphs like m and v."
 Colour: ff141c
 EndChar
 
@@ -5687,7 +5688,7 @@ StartChar: P9513
 Encoding: 149 -1 158
 Width: 1957
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 799.487 20G<1037.5 1178>
 AnchorPoint: "Cursive 1" 624 781 entry 0
 AnchorPoint: "Cursive 1" 1397 812 exit 0
