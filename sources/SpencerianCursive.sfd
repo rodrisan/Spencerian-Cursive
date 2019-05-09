@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1557439351
+ModificationTime: 1557439792
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -326,7 +326,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 70 14 6
+WinInfo: 112 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -5582,13 +5582,12 @@ Refer: 155 -1 S 1 0 0 1 6 0 2
 Refer: 142 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-623 771 m 5
+623 771 m 1
  639 782 l 1
  693 698 1344 678 1708 780 c 1
  1713 761 l 1
- 1344 660 685 674 623 771 c 5
+ 1344 660 685 674 623 771 c 1
 EndSplineSet
-Refer: 71 -1 N 1 0 0 1 0 0 2
 Comment: "It is final part of o before glyph like a."
 Colour: ff4552
 EndChar
@@ -5609,13 +5608,12 @@ Fore
 SplineSet
 628 765 m 1
  645 774 l 1
- 701 657 860 624 985 624 c 4
+ 701 657 860 624 985 624 c 0
  1130 624 1323 688 1490 819 c 1
  1502 804 l 1
  1334 672 1138 605 985 605 c 0
  850 605 691 639 628 765 c 1
 EndSplineSet
-Refer: 71 -1 N 1 0 0 1 0 0 2
 Comment: "It is final part of o before glyphs like h."
 Colour: ff1442
 EndChar
@@ -5634,13 +5632,12 @@ Refer: 155 -1 S 1 0 0 1 0 0 2
 Refer: 142 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-638 706 m 5
- 657 706 l 5
- 642 375 954 201 1344 425 c 5
- 1356 410 l 5
- 951 176 623 357.243164062 638 706 c 5
+638 706 m 1
+ 657 706 l 1
+ 642 375 954 201 1344 425 c 1
+ 1356 410 l 1
+ 951 176 623 357.243164062 638 706 c 1
 EndSplineSet
-Refer: 71 -1 N 1 0 0 1 -6 0 2
 Comment: "It is final part of o before e."
 Colour: ff3045
 EndChar
@@ -5678,14 +5675,13 @@ Refer: 142 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 642 778 m 1
- 688.564342921 716.516984105 784 684 916 684 c 4
+ 688.564342921 716.516984105 784 684 916 684 c 0
  1073 684 1278.17258235 730.184960075 1497 819 c 1
  1504 801 l 1
  1281.9306033 711.000652179 1076 665 916 665 c 0
  782 665 681.375317572 696.088877408 627 766 c 1
  642 778 l 1
 EndSplineSet
-Refer: 71 -1 N 1 0 0 1 0 0 2
 Substitution2: "'aalt' * +- [o]-1" P9515
 Substitution2: "'aalt' [o] +- [r, s]-1" P9513
 Substitution2: "'aalt' [+AH4A-b, o] +- [+AH4A-n]" P9512
@@ -5701,13 +5697,13 @@ StartChar: P9512
 Encoding: 148 -1 157
 Width: 794
 VWidth: 0
-Flags: HWO
+Flags: HW
 AnchorPoint: "Cursive 1" 1301 781 exit 0
-AnchorPoint: "Cursive 1" 624 777 entry 0
+AnchorPoint: "Cursive 1" 630 781 entry 0
 LayerCount: 6
 Back
-Refer: 151 -1 S 1 0 0 1 923 0 2
-Refer: 155 -1 N 1 0 0 1 0 0 2
+Refer: 155 -1 S 1 0 0 1 6 0 2
+Refer: 151 -1 N 1 0 0 1 923 0 2
 Refer: 142 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
@@ -5719,8 +5715,6 @@ SplineSet
  1037 676 1193 731 1305 772 c 1
  1298 789 l 1
 EndSplineSet
-Refer: 92 -1 N 1 0 0 1 923 0 2
-Refer: 71 -1 N 1 0 0 1 0 0 2
 Comment: "It is final part of o before glyphs like m and v."
 Colour: ff3333
 EndChar
@@ -5740,15 +5734,14 @@ Refer: 155 -1 N 1 0 0 1 0 0 2
 Refer: 142 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-641 730 m 5
- 671 644 790 600 909 600 c 4
- 1064 600 1256 666 1411 804 c 5
- 1399 819 l 5
- 1252 686 1057 620 909 619 c 4
- 807 618 687 657 659 738 c 5
- 641 730 l 5
+641 730 m 1
+ 671 644 790 600 909 600 c 0
+ 1064 600 1256 666 1411 804 c 1
+ 1399 819 l 1
+ 1252 686 1057 620 909 619 c 0
+ 807 618 687 657 659 738 c 1
+ 641 730 l 1
 EndSplineSet
-Refer: 71 -1 N 1 0 0 1 0 0 2
 Comment: "It is final part of o before s and r."
 Colour: ff1a29
 EndChar
@@ -5792,7 +5785,6 @@ SplineSet
  433 105 974 532 1425 789 c 1
  1434 772 l 1
 EndSplineSet
-Refer: 71 -1 N 1 0 0 1 963 0 2
 Comment: "It is final part of glyphs like a and m before o."
 Colour: ff2b59
 EndChar
@@ -5816,7 +5808,6 @@ SplineSet
  1782 790 l 1
  1365 623 1089 619 991 776 c 1
 EndSplineSet
-Refer: 71 -1 N 1 0 0 1 1271 0 2
 Comment: "It is final part of glyphs like b before o."
 Colour: ff4259
 EndChar
@@ -5840,8 +5831,6 @@ SplineSet
  1214.87011719 653.830078125 739 651 640.022460938 780.741210938 c 1
  624.818359375 769.20703125 l 1
 EndSplineSet
-Refer: 71 -1 N 1 0 0 1 1117 0 2
-Refer: 71 -1 N 1 0 0 1 0 0 2
 Comment: "It is final part of o before o."
 Colour: ff3b3b
 EndChar
@@ -5863,7 +5852,6 @@ SplineSet
  1464 781 l 17
  1037 570 538 0 0 0 c 1
 EndSplineSet
-Refer: 71 -1 N 1 0 0 1 975 0 2
 Comment: "It final part of glyphs like s before o."
 Colour: ff4040
 EndChar
