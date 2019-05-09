@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1557414114
+ModificationTime: 1557433138
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -277,7 +277,7 @@ ChainSub2: coverage "'calt' [+AH4A-b, o] +- [+AH4A-n]" 0 0 0 1
 EndFPST
 ChainPos2: coverage "'kern' `applying 'curs' features`" 0 0 0 1
  1 0 0
-  Coverage: 635 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 hyphen period zero one two three four five six seven eight nine colon semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent P000 P101 P001 P102 P103 P9200 P9100 P104 P105 P106 P107 P9500 P109 P110 P002 P111 P003 P112 P113 P114 P115 P116 P117 P118 P9400 P9300 P004 null1 null2 P119 P9000 P120 P9004 P9003 P9002 P005 P9001 P9501 P126 null3 P9201 P127 Quotation_Mark2 P9202 P9502 P9503 P9504 P9301 P9302 P9303 P9005 P9203 P9204 P9205 P9206 P9207 P129 P9505 P9506
+  Coverage: 708 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 hyphen period zero one two three four five six seven eight nine colon semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent P000 P101 P001 P102 P103 P9200 P9100 P104 P105 P106 P107 P9500 P109 P110 P002 P111 P003 P112 P113 P114 P115 P116 P117 P118 P9400 P9300 P004 null1 null2 P119 P9000 P120 P9004 P9003 P9002 P005 P9001 P9501 P126 null3 P9201 P127 Quotation_Mark2 P9202 P9502 P9503 P9504 P9301 P9302 P9303 P9005 P9203 P9204 P9205 P9206 P9207 P129 P9505 P9506 P9507 P116.1 P9508 P9509 P9510 P9511 P9512 P9513 P9006 P9514 P9515 P9304
  2
   SeqLookup: 0 "'curs' *"
   SeqLookup: 0 "'curs' [a,d,g,o,q]"
@@ -326,7 +326,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 84 14 6
+WinInfo: 112 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -363,7 +363,7 @@ Grid
  8192 -819 l 1024
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' [a,d,g,o,q]" "Cursive 1" "'curs' *"
-BeginChars: 191 162
+BeginChars: 191 164
 
 StartChar: O
 Encoding: 40 79 0
@@ -3403,24 +3403,49 @@ Encoding: 99 -1 71
 Width: 693
 VWidth: 0
 Flags: HW
-AnchorPoint: "Cursive 1" 624 781 exit 0
-AnchorPoint: "Cursive 1" 545 819 entry 0
+AnchorPoint: "Cursive 1" 630 781 exit 0
+AnchorPoint: "Cursive 1" 560 819 entry 0
 LayerCount: 6
 Back
-Refer: 155 -1 S 1 0 0 1 0 0 2
+SplineSet
+319 432 m 25
+ 319 387 l 1049
+190 530 m 25
+ 190 485 l 1049
+448 332 m 25
+ 448 287 l 1049
+91 585 m 25
+ 527 250 l 1049
+EndSplineSet
+Refer: 155 -1 S 1 0 0 1 6 0 2
 Refer: 142 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-159 513 m 4
- -1.78885307764 306.835151575 -56 91 26 34 c 0
- 108 -23 281 78 442 284 c 0
- 603 490 688.547108405 731.870743201 603 785 c 0
- 508 844 322 722 159 513 c 4
-143 524 m 0
- 316 745 505 868 614 800 c 0
- 716 736 618 475 457 272 c 0
- 292 64 113 -51 15 18 c 0
- -83 87 -18 318 143 524 c 0
+190 511 m 0
+ 51 334 -64.197258172 108.032392613 28 36 c 0
+ 118.148430213 -34.4316727773 309 135 448 312 c 0
+ 587 489 700.045215158 713.430253288 611 783 c 0
+ 521.954784842 852.569746712 329 688 190 511 c 0
+174 521 m 0
+ 327 716 521 878 623 798 c 0
+ 725 718 616 494 463 299 c 0
+ 310 104 117 -59 15 21 c 0
+ -87 101 21 326 174 521 c 0
+  Spiro
+    174 521 o
+    335.575 697.109 o
+    495.408 805.132 o
+    623 798 o
+    660.872 676.564 o
+    595.043 497.064 o
+    463 299 o
+    301.684 122.632 o
+    142.333 14.1267 o
+    15 21 o
+    -23.1307 142.695 o
+    42.2158 322.677 o
+    0 0 z
+  EndSpiro
 EndSplineSet
 Colour: bdbdbd
 EndChar
@@ -3613,6 +3638,7 @@ SplineSet
  1411 804 l 17
  1115 545 413 -1 0 0 c 1
 EndSplineSet
+Substitution2: "'aalt' * +- [o]-1" P9304
 Substitution2: "'aalt' * +- [m,n,x,z]" P9303
 Substitution2: "'aalt' * +- [e]" P9302
 Substitution2: "'aalt' * +- [+AH4A^a]" P9301
@@ -5548,19 +5574,21 @@ Encoding: 144 -1 152
 Width: 1840
 VWidth: 0
 Flags: HW
-AnchorPoint: "Cursive 1" 1712 819 exit 0
-AnchorPoint: "Cursive 1" 622 781 entry 0
+AnchorPoint: "Cursive 1" 1718 819 exit 0
+AnchorPoint: "Cursive 1" 630 781 entry 0
 LayerCount: 6
 Back
-Refer: 142 -1 S 1 0 0 1 0 0 2
+Refer: 155 -1 S 1 0 0 1 6 0 2
+Refer: 142 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-614 776 m 1
- 630 786 l 1
- 684 702 1338 678 1702 780 c 5
- 1707 761 l 5
- 1338 660 675 679 614 776 c 1
+623 771 m 5
+ 639 782 l 1
+ 693 698 1344 678 1708 780 c 1
+ 1713 761 l 1
+ 1344 660 685 674 623 771 c 5
 EndSplineSet
+Refer: 71 -1 N 1 0 0 1 0 0 2
 Comment: "It is final part of o before glyph like a."
 Colour: ff4552
 EndChar
@@ -5569,13 +5597,14 @@ StartChar: P9509
 Encoding: 145 -1 153
 Width: 1968
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: 799.487 20G<1037.5 1178>
 AnchorPoint: "Cursive 1" 1427 811 exit 0
 AnchorPoint: "Cursive 1" 562 781 entry 0
 LayerCount: 6
 Back
-Refer: 142 -1 S 1 0 0 1 0 0 2
+Refer: 155 -1 S 1 0 0 1 0 0 2
+Refer: 142 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 551 776 m 1
@@ -5586,6 +5615,7 @@ SplineSet
  1264.79003906 672.400390625 1069 608 916 605 c 0
  760 602 623 662 551 776 c 1
 EndSplineSet
+Refer: 71 -1 S 1 0 0 1 0 0 2
 Comment: "It is final part of o before glyphs like h."
 Colour: ff1442
 EndChar
@@ -5610,6 +5640,7 @@ SplineSet
  1354 410 l 1
  949 176 621 357.243164062 636 706 c 1
 EndSplineSet
+Refer: 71 -1 S 1 0 0 1 0 0 2
 Comment: "It is final part of o before e."
 Colour: ff3045
 EndChar
@@ -5652,6 +5683,8 @@ SplineSet
  1497 801 l 1
  1080 632 712 618 614 775 c 1
 EndSplineSet
+Refer: 71 -1 S 1 0 0 1 0 0 2
+Substitution2: "'aalt' * +- [o]-1" P9515
 Substitution2: "'aalt' [o] +- [r, s]-1" P9513
 Substitution2: "'aalt' [+AH4A-b, o] +- [+AH4A-n]" P9512
 Substitution2: "'aalt' [o] +- [e]-1" P9510
@@ -5684,6 +5717,7 @@ SplineSet
  1059 696 1187 727 1299 772 c 1
  1292 789 l 1
 EndSplineSet
+Refer: 71 -1 S 1 0 0 1 0 0 2
 Comment: "It is final part of o before glyphs like m and v."
 Colour: ff3333
 EndChar
@@ -5711,6 +5745,7 @@ SplineSet
  800 618 680 657 652 738 c 1
  634 730 l 1
 EndSplineSet
+Refer: 71 -1 S 1 0 0 1 0 0 2
 Comment: "It is final part of o before s and r."
 Colour: ff1a29
 EndChar
@@ -5722,14 +5757,14 @@ VWidth: 0
 LayerCount: 6
 Back
 SplineSet
-999 787 m 25
- 999 776 l 1049
-1011 787 m 29
- 1011 776 l 1053
-986 787 m 25
- 986 776 l 1049
-986 781 m 25
- 1011 781 l 1053
+1039 787 m 29
+ 1039 776 l 1053
+1051 787 m 29
+ 1051 776 l 1053
+1024 787 m 29
+ 1024 776 l 1053
+1024 781 m 29
+ 1051 781 l 1053
 EndSplineSet
 EndChar
 
@@ -5754,6 +5789,7 @@ SplineSet
  433 105 974 532 1425 789 c 1
  1434 772 l 1
 EndSplineSet
+Refer: 71 -1 S 1 0 0 1 0 0 2
 Comment: "It is final part of glyphs like a and m before o."
 Colour: ff2b59
 EndChar
@@ -5762,8 +5798,8 @@ StartChar: P9514
 Encoding: 151 -1 161
 Width: 903
 VWidth: 0
-Flags: HWO
-AnchorPoint: "Cursive 1" 1837 819 exit 0
+Flags: HW
+AnchorPoint: "Cursive 1" 1831 819 exit 0
 AnchorPoint: "Cursive 1" 999 781 entry 0
 LayerCount: 6
 Back
@@ -5777,8 +5813,56 @@ SplineSet
  1781 790 l 1
  1364 621 1089 619 991 776 c 1
 EndSplineSet
+Refer: 71 -1 N 1 0 0 1 1271 0 2
 Comment: "It is final part of glyphs like b before o."
 Colour: ff4259
+EndChar
+
+StartChar: P9515
+Encoding: 152 -1 162
+Width: 903
+VWidth: 0
+Flags: HW
+AnchorPoint: "Cursive 1" 1677 819 exit 0
+AnchorPoint: "Cursive 1" 628 781 entry 0
+LayerCount: 6
+Back
+Refer: 159 -1 S 1 0 0 1 -371 0 2
+Refer: 142 -1 N 1 0 0 1 0 0 2
+Fore
+SplineSet
+624.818359375 769.20703125 m 1
+ 734.073242188 627.526367188 1214.80273438 634.639648438 1614.38085938 784.755859375 c 1
+ 1608.19433594 803.296875 l 1
+ 1214.87011719 653.830078125 739 651 640.022460938 780.741210938 c 1
+ 624.818359375 769.20703125 l 1
+EndSplineSet
+Refer: 71 -1 N 1 0 0 1 1117 0 2
+Refer: 71 -1 N 1 0 0 1 0 0 2
+Comment: "It is final part of o before o."
+Colour: ff3b3b
+EndChar
+
+StartChar: P9304
+Encoding: 153 -1 163
+Width: 1721
+VWidth: 0
+Flags: HW
+HStem: 0 19<0 79.0476>
+AnchorPoint: "Cursive 1" 1535 819 exit 0
+AnchorPoint: "Cursive 1" 1 9 entry 0
+LayerCount: 6
+Fore
+SplineSet
+0 0 m 1
+ 7 19 l 17
+ 525 19 1045 598 1456 799 c 1
+ 1464 781 l 17
+ 1037 570 538 0 0 0 c 1
+EndSplineSet
+Refer: 71 -1 N 1 0 0 1 975 0 2
+Comment: "It final part of glyphs like s before o."
+Colour: ff4040
 EndChar
 EndChars
 EndSplineFont
