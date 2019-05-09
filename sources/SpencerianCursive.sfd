@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1557433138
+ModificationTime: 1557439351
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -326,7 +326,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 112 14 6
+WinInfo: 70 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -5597,25 +5597,25 @@ StartChar: P9509
 Encoding: 145 -1 153
 Width: 1968
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 799.487 20G<1037.5 1178>
-AnchorPoint: "Cursive 1" 1427 811 exit 0
-AnchorPoint: "Cursive 1" 562 781 entry 0
+AnchorPoint: "Cursive 1" 1496 811 exit 0
+AnchorPoint: "Cursive 1" 628 781 entry 0
 LayerCount: 6
 Back
-Refer: 155 -1 S 1 0 0 1 0 0 2
+Refer: 159 -1 S 1 0 0 1 0 0 2
 Refer: 142 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-551 776 m 1
- 568 785 l 1
- 633 680 768.000976562 620.9375 916 624 c 0
- 1061 627 1253.57128906 687.947265625 1421 819 c 1
- 1433 804 l 1
- 1264.79003906 672.400390625 1069 608 916 605 c 0
- 760 602 623 662 551 776 c 1
+628 765 m 1
+ 645 774 l 1
+ 701 657 860 624 985 624 c 4
+ 1130 624 1323 688 1490 819 c 1
+ 1502 804 l 1
+ 1334 672 1138 605 985 605 c 0
+ 850 605 691 639 628 765 c 1
 EndSplineSet
-Refer: 71 -1 S 1 0 0 1 0 0 2
+Refer: 71 -1 N 1 0 0 1 0 0 2
 Comment: "It is final part of o before glyphs like h."
 Colour: ff1442
 EndChar
@@ -5626,7 +5626,7 @@ Width: 942
 VWidth: 0
 Flags: HW
 HStem: 799.487 20G<552.5 693>
-AnchorPoint: "Cursive 1" 1348 417 exit 0
+AnchorPoint: "Cursive 1" 1350 417 exit 0
 AnchorPoint: "Cursive 1" 624 781 entry 0
 LayerCount: 6
 Back
@@ -5634,13 +5634,13 @@ Refer: 155 -1 S 1 0 0 1 0 0 2
 Refer: 142 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-636 706 m 1
- 655 706 l 1
- 640 375 952 201 1342 425 c 1
- 1354 410 l 1
- 949 176 621 357.243164062 636 706 c 1
+638 706 m 5
+ 657 706 l 5
+ 642 375 954 201 1344 425 c 5
+ 1356 410 l 5
+ 951 176 623 357.243164062 638 706 c 5
 EndSplineSet
-Refer: 71 -1 S 1 0 0 1 0 0 2
+Refer: 71 -1 N 1 0 0 1 -6 0 2
 Comment: "It is final part of o before e."
 Colour: ff3045
 EndChar
@@ -5669,7 +5669,7 @@ Encoding: 147 -1 156
 Width: 794
 VWidth: 0
 Flags: HW
-AnchorPoint: "Cursive 1" 1493 812 exit 0
+AnchorPoint: "Cursive 1" 1500 812 exit 0
 AnchorPoint: "Cursive 1" 624 781 entry 0
 LayerCount: 6
 Back
@@ -5677,13 +5677,15 @@ Refer: 155 -1 S 1 0 0 1 0 0 2
 Refer: 142 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-614 775 m 1
- 630 786 l 1
- 723 639 1081 653 1490 819 c 1
- 1497 801 l 1
- 1080 632 712 618 614 775 c 1
+642 778 m 1
+ 688.564342921 716.516984105 784 684 916 684 c 4
+ 1073 684 1278.17258235 730.184960075 1497 819 c 1
+ 1504 801 l 1
+ 1281.9306033 711.000652179 1076 665 916 665 c 0
+ 782 665 681.375317572 696.088877408 627 766 c 1
+ 642 778 l 1
 EndSplineSet
-Refer: 71 -1 S 1 0 0 1 0 0 2
+Refer: 71 -1 N 1 0 0 1 0 0 2
 Substitution2: "'aalt' * +- [o]-1" P9515
 Substitution2: "'aalt' [o] +- [r, s]-1" P9513
 Substitution2: "'aalt' [+AH4A-b, o] +- [+AH4A-n]" P9512
@@ -5699,25 +5701,26 @@ StartChar: P9512
 Encoding: 148 -1 157
 Width: 794
 VWidth: 0
-Flags: HW
-AnchorPoint: "Cursive 1" 1295 781 exit 0
-AnchorPoint: "Cursive 1" 624 781 entry 0
+Flags: HWO
+AnchorPoint: "Cursive 1" 1301 781 exit 0
+AnchorPoint: "Cursive 1" 624 777 entry 0
 LayerCount: 6
 Back
-Refer: 151 -1 S 1 0 0 1 917 0 2
+Refer: 151 -1 S 1 0 0 1 923 0 2
 Refer: 155 -1 N 1 0 0 1 0 0 2
 Refer: 142 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-1292 789 m 1
- 1186 747 1058 715 957 715 c 0
- 875 715 702 737 627 789 c 1
- 616 773 l 1
- 699 715 874 696 957 696 c 0
- 1059 696 1187 727 1299 772 c 1
- 1292 789 l 1
+1298 789 m 1
+ 1192 749 1023.92890266 694.684651056 934 685 c 0
+ 869 678 740 666 646 772 c 1
+ 631 760 l 1
+ 732 645 868.96309953 659.362683122 936 666 c 0
+ 1037 676 1193 731 1305 772 c 1
+ 1298 789 l 1
 EndSplineSet
-Refer: 71 -1 S 1 0 0 1 0 0 2
+Refer: 92 -1 N 1 0 0 1 923 0 2
+Refer: 71 -1 N 1 0 0 1 0 0 2
 Comment: "It is final part of o before glyphs like m and v."
 Colour: ff3333
 EndChar
@@ -5729,7 +5732,7 @@ VWidth: 0
 Flags: HW
 HStem: 799.487 20G<1037.5 1178>
 AnchorPoint: "Cursive 1" 624 781 entry 0
-AnchorPoint: "Cursive 1" 1397 812 exit 0
+AnchorPoint: "Cursive 1" 1404 812 exit 0
 LayerCount: 6
 Back
 Refer: 148 -1 S 1 0 0 1 1232 0 2
@@ -5737,15 +5740,15 @@ Refer: 155 -1 N 1 0 0 1 0 0 2
 Refer: 142 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-634 730 m 1
- 664 644 783 600 902 600 c 0
- 1057 600 1249 666 1404 804 c 1
- 1392 819 l 1
- 1245 686 1050 620 902 619 c 0
- 800 618 680 657 652 738 c 1
- 634 730 l 1
+641 730 m 5
+ 671 644 790 600 909 600 c 4
+ 1064 600 1256 666 1411 804 c 5
+ 1399 819 l 5
+ 1252 686 1057 620 909 619 c 4
+ 807 618 687 657 659 738 c 5
+ 641 730 l 5
 EndSplineSet
-Refer: 71 -1 S 1 0 0 1 0 0 2
+Refer: 71 -1 N 1 0 0 1 0 0 2
 Comment: "It is final part of o before s and r."
 Colour: ff1a29
 EndChar
@@ -5757,14 +5760,14 @@ VWidth: 0
 LayerCount: 6
 Back
 SplineSet
-1039 787 m 29
- 1039 776 l 1053
-1051 787 m 29
- 1051 776 l 1053
-1024 787 m 29
- 1024 776 l 1053
-1024 781 m 29
- 1051 781 l 1053
+628 787 m 29
+ 628 776 l 1053
+640 787 m 29
+ 640 776 l 1053
+613 787 m 29
+ 613 776 l 1053
+613 781 m 29
+ 640 781 l 1053
 EndSplineSet
 EndChar
 
@@ -5773,7 +5776,7 @@ Encoding: 150 -1 160
 Width: 1313
 VWidth: 0
 Flags: HW
-AnchorPoint: "Cursive 1" 1533 819 exit 0
+AnchorPoint: "Cursive 1" 1523 819 exit 0
 AnchorPoint: "Cursive 1" 323 415 entry 0
 LayerCount: 6
 Back
@@ -5789,7 +5792,7 @@ SplineSet
  433 105 974 532 1425 789 c 1
  1434 772 l 1
 EndSplineSet
-Refer: 71 -1 S 1 0 0 1 0 0 2
+Refer: 71 -1 N 1 0 0 1 963 0 2
 Comment: "It is final part of glyphs like a and m before o."
 Colour: ff2b59
 EndChar
@@ -5809,9 +5812,9 @@ Fore
 SplineSet
 991 776 m 1
  1007 787 l 1
- 1101 637 1367 645 1775 808 c 1
- 1781 790 l 1
- 1364 621 1089 619 991 776 c 1
+ 1100 636 1377 648 1775 809 c 1
+ 1782 790 l 1
+ 1365 623 1089 619 991 776 c 1
 EndSplineSet
 Refer: 71 -1 N 1 0 0 1 1271 0 2
 Comment: "It is final part of glyphs like b before o."
