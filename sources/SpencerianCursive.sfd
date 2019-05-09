@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1557410137
+ModificationTime: 1557414114
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -326,7 +326,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 98 14 6
+WinInfo: 84 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -363,7 +363,7 @@ Grid
  8192 -819 l 1024
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' [a,d,g,o,q]" "Cursive 1" "'curs' *"
-BeginChars: 191 161
+BeginChars: 191 162
 
 StartChar: O
 Encoding: 40 79 0
@@ -3229,6 +3229,7 @@ SplineSet
  731 801 l 1
  314 632 169 619 71 776 c 1
 EndSplineSet
+Substitution2: "'aalt' * +- [o]-1" P9514
 Substitution2: "'aalt' [+AH4A-b] +- [e]-1" P9502
 Substitution2: "'aalt' [+AH4A-b] +- [+AH4A-a]-1" P9504
 Substitution2: "'aalt' [+AH4A-b] +- [r, s]-1" P9507
@@ -3410,11 +3411,11 @@ Refer: 155 -1 S 1 0 0 1 0 0 2
 Refer: 142 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-159 513 m 0
- -2 307 -56 91 26 34 c 0
+159 513 m 4
+ -1.78885307764 306.835151575 -56 91 26 34 c 0
  108 -23 281 78 442 284 c 0
- 603 490 688 730 603 784 c 0
- 505 846 320 719 159 513 c 0
+ 603 490 688.547108405 731.870743201 603 785 c 0
+ 508 844 322 722 159 513 c 4
 143 524 m 0
  316 745 505 868 614 800 c 0
  716 736 618 475 457 272 c 0
@@ -5755,6 +5756,29 @@ SplineSet
 EndSplineSet
 Comment: "It is final part of glyphs like a and m before o."
 Colour: ff2b59
+EndChar
+
+StartChar: P9514
+Encoding: 151 -1 161
+Width: 903
+VWidth: 0
+Flags: HWO
+AnchorPoint: "Cursive 1" 1837 819 exit 0
+AnchorPoint: "Cursive 1" 999 781 entry 0
+LayerCount: 6
+Back
+Refer: 159 -1 S 1 0 0 1 0 0 2
+Refer: 142 -1 N 1 0 0 1 0 0 2
+Fore
+SplineSet
+991 776 m 1
+ 1007 787 l 1
+ 1101 637 1367 645 1775 808 c 1
+ 1781 790 l 1
+ 1364 621 1089 619 991 776 c 1
+EndSplineSet
+Comment: "It is final part of glyphs like b before o."
+Colour: ff4259
 EndChar
 EndChars
 EndSplineFont
