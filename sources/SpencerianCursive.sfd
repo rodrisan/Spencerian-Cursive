@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1557439792
+ModificationTime: 1557501746
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -326,7 +326,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 112 14 6
+WinInfo: 98 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3454,25 +3454,27 @@ StartChar: P114
 Encoding: 100 -1 72
 Width: 1950
 VWidth: 0
-Flags: W
+Flags: HWO
 HStem: -967 21G<-790 -749.363> 819 21G<413 515>
-AnchorPoint: "Cursive 1" -23 0.200195 exit 0
-AnchorPoint: "Cursive 1" 425 819.4 entry 0
+AnchorPoint: "Cursive 1" 0 0 exit 0
+AnchorPoint: "Cursive 1" 442 812 entry 0
 LayerCount: 6
 Back
-Refer: 140 -1 S 1 0 0 1 0 0 2
+Refer: 148 -1 S 1 0 0 1 277 0 2
+Refer: 140 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-413 819 m 1
- 610 987 902 1239 1243 1638 c 1
- 1272 1638.40039062 l 1
- -765 -967 l 1
- -790 -958 l 1
- 1068 1412 l 1
- 827 1138 592 951 438 819 c 1
- 413 819 l 1
+448 804 m 1
+ 602 936 827 1126 1090 1412 c 5
+ -762 -952 l 1
+ -742 -967 l 1
+ 1285 1625 l 1
+ 1266 1638 l 1
+ 925 1239 633 987 436 819 c 9
+ 436 814 l 25
+ 444 804 l 25
+ 448 804 l 1
 EndSplineSet
-Validated: 1
 Colour: bdbdbd
 EndChar
 
