@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1557506858
+ModificationTime: 1557507603
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -2886,7 +2886,7 @@ HStem: 417.4 21G<400.569 656.031> 800 20G<1383.26 2022.52>
 LayerCount: 6
 Fore
 Refer: 62 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' [Lowercase]" P005 P105 P9000 P9200
+MultipleSubs2: "'ccmp' [Lowercase]" P005 P105 P9000 P9200 P9206
 EndChar
 
 StartChar: g
