@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1557577953
+ModificationTime: 1557586077
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -326,7 +326,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 28 14 6
+WinInfo: 112 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -363,7 +363,7 @@ Grid
  8192 -819 l 1024
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' [a,d,g,o,q]" "Cursive 1" "'curs' *"
-BeginChars: 192 164
+BeginChars: 192 166
 
 StartChar: O
 Encoding: 40 79 0
@@ -2957,16 +2957,18 @@ AnchorPoint: "Cursive 1" 912 819 entry 0
 AnchorPoint: "cursive 2" 610 647 entry 0
 AnchorPoint: "Cursive 1" 1401 819 exit 0
 LayerCount: 6
+Back
+Refer: 165 -1 N 1 0 0 1 -2 0 2
 Fore
 SplineSet
 1371 798 m 1
- 1165 526 790.321422127 236.383856705 569 127 c 4
+ 1165 526 790 236 569 127 c 0
  49 -130 101 126 314 374 c 0
  662 779 1083 806 1371 798 c 1
 1413 819 m 1
  969 819 663 803 296 384 c 0
  73 129 27 -162 578 108 c 0
- 808.530139997 220.963952449 1182 516 1413 819 c 1
+ 809 221 1182 516 1413 819 c 1
 EndSplineSet
 Colour: bdbdbd
 EndChar
@@ -3071,7 +3073,7 @@ StartChar: P9100
 Encoding: 87 -1 58
 Width: 2225
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 811 16<1378.88 1416.32>
 AnchorPoint: "Cursive 1" 1413 812 exit 0
 AnchorPoint: "Cursive 1" 634 812 entry 0
@@ -5912,6 +5914,63 @@ SplineSet
 EndSplineSet
 Comment: "It final part of glyphs like s before o."
 Colour: ff4040
+EndChar
+
+StartChar: P9101
+Encoding: 154 -1 164
+Width: 2225
+VWidth: 0
+Flags: HW
+HStem: 811 16<1378.88 1416.32>
+AnchorPoint: "Cursive 1" 1620 819 exit 0
+AnchorPoint: "Cursive 1" 634 812 entry 0
+LayerCount: 6
+Back
+Refer: 165 -1 S 1 0 0 1 708 0 2
+Fore
+SplineSet
+626 819 m 25
+ -590 -737 l 2
+ -784 -984 -656.480543348 -1081.33628792 -439 -782 c 0
+ 33.5793428431 -131.550336523 923.585173577 697.509676245 1756 785 c 5
+ 1754 804 l 1
+ 916.791578041 716.005849052 24.2338369702 -111.767593037 -454 -770 c 0
+ -557.723037115 -912.762513022 -642.403343532 -959.988564113 -660 -947.817382812 c 0
+ -678.569261205 -934.97347436 -659.745224838 -856.909058135 -577 -751 c 10
+ 641 807 l 1
+ 626 819 l 25
+EndSplineSet
+Comment: "It is final part of q before glyphs like a."
+Colour: ff2e3d
+EndChar
+
+StartChar: Guid.a_anchors
+Encoding: 188 -1 165
+Width: 4096
+VWidth: 0
+LayerCount: 6
+Back
+SplineSet
+142 272 m 29
+ 142 0 l 1053
+1415 794 m 25
+ 1415 845 l 1049
+1387 819 m 25
+ 1415 819 l 1049
+  Named: "Cursive 1 entery"
+1401 833 m 25
+ 1401 806 l 1049
+596 647 m 25
+ 624 647 l 1049
+  Named: "Cursive 2 entery"
+610 661 m 25
+ 610 634 l 1049
+898 819 m 25
+ 926 819 l 1049
+  Named: "Cursive 1 entery"
+912 833 m 25
+ 912 806 l 1049
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
