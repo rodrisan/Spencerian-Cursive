@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1557571831
+ModificationTime: 1557572419
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -326,7 +326,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 84 14 6
+WinInfo: 98 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -5110,7 +5110,7 @@ StartChar: P9204
 Encoding: 135 -1 132
 Width: 2212
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 800 20G<1424.26 2063.52>
 AnchorPoint: "Cursive 1" 2474 819 exit 0
 AnchorPoint: "Cursive 1" -655 -1620 entry 0
@@ -5149,19 +5149,20 @@ Width: 2212
 VWidth: 0
 Flags: HW
 HStem: 800 20G<1424.26 2063.52>
-AnchorPoint: "Cursive 1" 2193 819 exit 0
+AnchorPoint: "Cursive 1" 2190 812 exit 0
 AnchorPoint: "Cursive 1" -655 -1620 entry 0
 LayerCount: 6
 Back
-Refer: 147 -1 S 1 0 0 1 0 0 2
+Refer: 145 -1 S 1 0 0 1 1867 397 2
+Refer: 147 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 -660 -1627 m 1
- -727 -1585 -681 -1419 -469 -1153 c 0
- 700 315 1696 210 2181 819 c 1
- 2212 819 l 1
- 1738 198 691 280 -454 -1164 c 0
- -655 -1418 -705 -1573 -649 -1612 c 5
+ -727 -1585 -680.283417462 -1419.57332951 -469 -1153 c 0
+ 696.639712992 317.671305083 1697 200 2182 819 c 1
+ 2197 807 l 5
+ 1714.78611792 187.568993405 705.68290578 299.155684827 -454 -1164 c 0
+ -655.19597751 -1417.84614776 -705 -1573 -649 -1612 c 1
  -660 -1627 l 1
 EndSplineSet
 Layer: 5
