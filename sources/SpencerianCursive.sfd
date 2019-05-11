@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1557572941
+ModificationTime: 1557573877
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -326,7 +326,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 70 14 6
+WinInfo: 56 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -5197,15 +5197,15 @@ AnchorPoint: "Cursive 1" 2193 819 exit 0
 AnchorPoint: "Cursive 1" -655 -1620 entry 0
 LayerCount: 6
 Back
-Refer: 147 -1 S 1 0 0 1 0 0 2
+Refer: 147 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 -649 -1612 m 1
- -701 -1578 -656 -1418 -454 -1164 c 0
- -73 -685 900 143 2185 802 c 1
+ -701 -1578 -656.024675028 -1417.97982514 -454 -1164 c 0
+ -44.3853690924 -649.043832791 939.372879185 166.321281364 2185 801 c 1
  2177 819 l 1
- 931 177 -57 -632 -469 -1153 c 0
- -679 -1418 -725 -1584 -660 -1627 c 1
+ 928.102885241 182.65513623 -56.513671875 -633.17578125 -470 -1153 c 4
+ -680.484375 -1417.61523438 -725 -1584 -660 -1627 c 1
  -649 -1612 l 1
 EndSplineSet
 Layer: 5
