@@ -345,7 +345,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 112 14 6
+WinInfo: 98 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -5488,7 +5488,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Guid.52_degree
+StartChar: Guid.General1
 Encoding: 182 -1 145
 Width: 4096
 VWidth: 0
@@ -5508,7 +5508,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Guid.30_degree
+StartChar: Guid.General2
 Encoding: 183 -1 146
 Width: 4096
 VWidth: 0
