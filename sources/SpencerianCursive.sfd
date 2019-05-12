@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1557593161
+ModificationTime: 1557669392
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -345,7 +345,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 98 14 6
+WinInfo: 42 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3169,17 +3169,16 @@ VWidth: 0
 Flags: HW
 HStem: 409 21G<564.569 820.031>
 AnchorPoint: "Cursive 1" 1103 415 exit 0
-AnchorPoint: "Cursive 1" 549 417 entry 0
+AnchorPoint: "Cursive 1" 549 418 entry 0
 LayerCount: 6
 Back
-Refer: 146 -1 S 1 0 0 1 126 0 2
-Refer: 145 -1 S 1 0 0 1 780 0 2
+Refer: 148 -1 S 1 0 0 1 384 -394 2
 Refer: 144 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 1108 410 m 25
  1095 420 l 25
- 1095 422 l 5
+ 1095 422 l 1
  1275 650 l 2
  1408 819 1344 834 1143 756 c 0
  990 697 773 567 555 410 c 1
@@ -3237,10 +3236,10 @@ Width: 1526
 VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 634 812 exit 0
-AnchorPoint: "Cursive 1" 632 811 entry 0
+AnchorPoint: "Cursive 1" 632 812 entry 0
 LayerCount: 6
 Back
-Refer: 146 -1 S 1 0 0 1 210 394 2
+Refer: 148 -1 S 1 0 0 1 467 0 2
 Refer: 145 -1 N 1 0 0 1 311 397 2
 Fore
 SplineSet
@@ -3348,15 +3347,15 @@ VWidth: 0
 Flags: HW
 HStem: 0 21G<0 276> 799 20G<1002 1237>
 VStem: 0 1237
-AnchorPoint: "Cursive 1" 1213 811 exit 0
+AnchorPoint: "Cursive 1" 1213 812 exit 0
 LayerCount: 6
 Back
-Refer: 146 -1 S 1 0 0 1 791 394 2
+Refer: 148 -1 S 1 0 0 1 1048 0 2
 Fore
 SplineSet
 1219 804 m 17
  801 472 522 270 30 0 c 1
- 21 17 l 21
+ 21 17 l 17
  545 312 797 491 1207 819 c 1
  1219 804 l 17
 EndSplineSet
@@ -3949,18 +3948,18 @@ Encoding: 117 -1 90
 Width: 791
 VWidth: 0
 Flags: HW
-AnchorPoint: "Cursive 1" 881 417 exit 0
+AnchorPoint: "Cursive 1" 881 418 exit 0
 AnchorPoint: "Cursive 1" 323 415 entry 0
 LayerCount: 6
 Back
-Refer: 146 -1 S 1 0 0 1 459 0 2
+Refer: 148 -1 S 1 0 0 1 716 -394 2
 Refer: 145 -1 N 1 0 0 1 0 0 2
 Refer: 144 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 875 425 m 1
  412 86 181 -5 130 23.74609375 c 0
- 99.0933196159 41.1666100603 126 150 330 410 c 5
+ 99.0933196159 41.1666100603 126 150 330 410 c 1
  315 422 l 1
  -163 -192 213 -82 887 410 c 1
  875 425 l 1
@@ -4976,16 +4975,16 @@ Width: 1427
 VWidth: 0
 Flags: W
 HStem: 0 19<0 100.695>
-AnchorPoint: "cursive 2" 1360 654 exit 0
+AnchorPoint: "cursive 2" 1360 655 exit 0
 AnchorPoint: "Cursive 1" 1 9 entry 0
 LayerCount: 6
 Back
-Refer: 146 -1 S 1 0 0 1 938 237 2
+Refer: 148 -1 S 1 0 0 1 1195 -157 2
 Refer: 143 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 1354 662 m 1
- 958 349 332 19 0 19 c 13
+ 958 349 332 19 0 19 c 9
  0 0 l 17
  341 0 972 335 1366 647 c 1
  1354 662 l 1
@@ -5024,11 +5023,11 @@ Width: 1427
 VWidth: 0
 Flags: HW
 HStem: 0 19<0.0683594 110.746>
-AnchorPoint: "Cursive 1" 809 417 exit 0
+AnchorPoint: "Cursive 1" 809 418 exit 0
 AnchorPoint: "Cursive 1" 1 9 entry 0
 LayerCount: 6
 Back
-Refer: 146 -1 S 1 0 0 1 387 0 2
+Refer: 148 -1 S 1 0 0 1 644 -394 2
 Refer: 144 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
@@ -5096,8 +5095,8 @@ Fore
 SplineSet
 315 422 m 1
  -354 -432 842 171 1730 807 c 1
- 1715 820 l 5
- 855 211 213 -68 146 41.2294921875 c 4
+ 1715 820 l 1
+ 855 211 213 -68 146 41.2294921875 c 0
  116.424523989 89.4461224247 175.561382186 211.960021318 330 410 c 1
  315 422 l 1
 EndSplineSet
@@ -5114,11 +5113,11 @@ Encoding: 134 -1 131
 Width: 2212
 VWidth: 0
 Flags: HW
-AnchorPoint: "Cursive 1" 2076 811 exit 0
+AnchorPoint: "Cursive 1" 2076 812 exit 0
 AnchorPoint: "Cursive 1" -655 -1620 entry 0
 LayerCount: 6
 Back
-Refer: 146 -1 S 1 0 0 1 1654 394 2
+Refer: 148 -1 S 1 0 0 1 1911 0 2
 Refer: 147 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
@@ -5378,17 +5377,17 @@ Width: 903
 VWidth: 0
 Flags: HW
 HStem: 799.487 20G<1037.5 1178>
-AnchorPoint: "Cursive 1" 730 811 exit 0
+AnchorPoint: "Cursive 1" 730 812 exit 0
 AnchorPoint: "Cursive 1" -32 781 entry 0
 LayerCount: 6
 Back
-Refer: 146 -1 S 1 0 0 1 308 394 2
+Refer: 148 -1 S 1 0 0 1 565 0 2
 Refer: 142 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 -43 781 m 1
  -26 781 l 1
- -32.0203876065 678.151711721 71.0012706316 620.937957323 219 624 c 4
+ -32.0203876065 678.151711721 71.0012706316 620.937957323 219 624 c 0
  364 627 556.570852983 687.946828377 724 819 c 1
  736 804 l 1
  567.789917701 672.400347378 372 608 219 605 c 0
@@ -5998,13 +5997,13 @@ StartChar: P9102
 Encoding: 155 -1 166
 Width: 2225
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: 811 16<1378.88 1416.32>
-AnchorPoint: "Cursive 1" 1415 812 exit 0
+AnchorPoint: "Cursive 1" 1413 812 exit 0
 AnchorPoint: "Cursive 1" 634 812 entry 0
 LayerCount: 6
 Back
-Refer: 146 -1 S 1 0 0 1 991 394 2
+Refer: 148 -1 S 1 0 0 1 1248 0 2
 Fore
 SplineSet
 626 819 m 25
