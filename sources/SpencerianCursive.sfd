@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1557669392
+ModificationTime: 1557669834
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -345,7 +345,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 42 14 6
+WinInfo: 112 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -5507,7 +5507,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Guid.General2
+StartChar: Guid.e
 Encoding: 183 -1 146
 Width: 4096
 VWidth: 0
@@ -5558,7 +5558,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Guid.r_s_thickness_degree
+StartChar: Guid.General2
 Encoding: 185 -1 148
 Width: 361
 VWidth: 0
@@ -5997,7 +5997,7 @@ StartChar: P9102
 Encoding: 155 -1 166
 Width: 2225
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 811 16<1378.88 1416.32>
 AnchorPoint: "Cursive 1" 1413 812 exit 0
 AnchorPoint: "Cursive 1" 634 812 entry 0
