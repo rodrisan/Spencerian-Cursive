@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1558186804
+ModificationTime: 1558187366
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -345,7 +345,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 98 14 6
+WinInfo: 112 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -382,7 +382,7 @@ Grid
  8192 -819 l 1024
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' [a,d,g,o,q]" "Cursive 1" "'curs' *"
-BeginChars: 192 168
+BeginChars: 192 169
 
 StartChar: O
 Encoding: 40 79 0
@@ -3797,7 +3797,7 @@ SplineSet
  441 95 878 367 1398 804 c 1
  1386 819 l 1
  867 383 432 114 151 32 c 0
- 29 -4 45 44 117 136 c 2
+ 29 -4 45 44 117 136 c 6
  331 410 l 1
  316 422 l 1
 EndSplineSet
@@ -6033,6 +6033,20 @@ SplineSet
 EndSplineSet
 Comment: "It is final part of 'q' before glyphs like h."
 Colour: ff4c40
+EndChar
+
+StartChar: Guid.General3
+Encoding: 189 -1 168
+Width: 1313
+VWidth: 0
+Flags: HW
+LayerCount: 6
+Back
+SplineSet
+-4096 136 m 1
+ 8192 136 l 1029
+  Named: "For final part of glyphs like u"
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
