@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1558164584
+ModificationTime: 1558186804
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -345,7 +345,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 70 14 6
+WinInfo: 98 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3782,24 +3782,24 @@ StartChar: P9000
 Encoding: 111 -1 83
 Width: 1313
 VWidth: 0
-Flags: HWO
+Flags: HW
 AnchorPoint: "Cursive 1" 1392 812 exit 0
-AnchorPoint: "Cursive 1" 323 415 entry 0
+AnchorPoint: "Cursive 1" 324 415 entry 0
 LayerCount: 6
 Back
-Refer: 145 -1 N 1 0 0 1 0 0 2
+Refer: 145 -1 S 1 0 0 1 0 0 2
 Refer: 144 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-315 422 m 1
- 100.778320312 147.711914062 l 2
- 4.3271484375 23.9306640625 18.5615234375 -26.4658203125 158 13.6279296875 c 0
- 441 95 877.564766127 367.302987205 1398 804 c 1
+316 422 m 1
+ 102 148 l 2
+ 6 24 19 -26 158 14 c 0
+ 441 95 878 367 1398 804 c 1
  1386 819 l 1
- 866.676907438 383.23618457 432.059783649 113.798960498 151 31.611328125 c 0
- 29.1047279192 -4.03334390794 48.835528493 50.0043682573 116 136 c 2
- 330 410 l 1
- 315 422 l 1
+ 867 383 432 114 151 32 c 0
+ 29 -4 45 44 117 136 c 2
+ 331 410 l 1
+ 316 422 l 1
 EndSplineSet
 Substitution2: "'aalt' * +- [o]-1" P9006
 Substitution2: "'aalt' * +- [e]" P9004
@@ -5489,16 +5489,12 @@ VWidth: 0
 LayerCount: 6
 Back
 SplineSet
-321 415 m 29
- 325 415 l 1053
-323 417 m 29
- 323 413 l 1053
-340 402 m 29
- 306 429 l 1053
-330 412 m 29
- 330 408 l 1053
-315 424 m 29
- 315 420 l 1053
+109 143 m 29
+ 111 143 l 1053
+110 144 m 29
+ 110 142 l 1053
+102 148 m 29
+ 117 136 l 1053
 EndSplineSet
 EndChar
 
