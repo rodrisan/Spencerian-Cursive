@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1558258888
+ModificationTime: 1558262812
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -345,7 +345,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 42 14 6
+WinInfo: 56 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -382,7 +382,7 @@ Grid
  8192 -819 l 1024
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' [a,d,g,o,q]" "Cursive 1" "'curs' *"
-BeginChars: 192 169
+BeginChars: 194 169
 
 StartChar: O
 Encoding: 40 79 0
@@ -3042,7 +3042,7 @@ StartChar: P103
 Encoding: 85 -1 56
 Width: 1214
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 819 807
 AnchorPoint: "Cursive 1" 110 143 exit 0
 AnchorPoint: "Cursive 1" 635 814 entry 0
@@ -3145,18 +3145,18 @@ Encoding: 88 -1 59
 Width: 665
 VWidth: 0
 Flags: HW
-AnchorPoint: "Cursive 1" 634 812 entry 0
-AnchorPoint: "Cursive 1" 3 5 exit 0
+AnchorPoint: "Cursive 1" 634 814 entry 0
+AnchorPoint: "Cursive 1" 3 7 exit 0
 LayerCount: 6
 Back
-Refer: 144 -1 S 1 0 0 1 -320 -410 2
-Refer: 144 -1 N 1 0 0 1 311 397 2
+Refer: 144 -1 S 1 0 0 1 -107 -136 2
+Refer: 144 -1 S 1 0 0 1 524 671 2
 Fore
 SplineSet
 -5 12 m 25
  10 0 l 1
- 641 807.200195312 l 25
- 626 819.200195312 l 1
+ 641 807 l 25
+ 626 819 l 1
  -5 12 l 25
 EndSplineSet
 EndChar
@@ -3167,27 +3167,29 @@ Width: 793
 VWidth: 0
 Flags: HW
 HStem: 409 21G<564.569 820.031>
-AnchorPoint: "Cursive 1" 1103 415 exit 0
+AnchorPoint: "Cursive 1" 890 143 exit 0
 AnchorPoint: "Cursive 1" 549 418 entry 0
 LayerCount: 6
 Back
-Refer: 147 -1 S 1 0 0 1 384 -394 2
+Refer: 167 -1 N 1 0 0 1 0 0 2
+Refer: 144 -1 S 1 0 0 1 780 0 2
+Refer: 147 -1 N 1 0 0 1 384 -394 2
 Refer: 143 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-1108 410 m 25
- 1095 420 l 25
- 1095 422 l 1
+895 136 m 25
+ 882 146 l 25
+ 882 148 l 1
  1275 650 l 2
- 1408 819 1344 834 1143 756 c 0
+ 1409.55 817.37 1344 834 1143 756 c 0
  990 697 773 567 555 410 c 1
  553 410 l 25
  543 423 l 25
  543 425 l 1
  772 592 984 713 1135 774 c 0
- 1346 859 1439 828 1293 643 c 2
- 1110 410 l 1
- 1108 410 l 25
+ 1346 859 1440.22 826.59 1293 643 c 2
+ 897 136 l 1
+ 895 136 l 25
 EndSplineSet
 Substitution2: "'aalt' [+AH4A-b, o] +- [+AH4A-n]" P126
 Colour: bdbdbd
@@ -3293,25 +3295,27 @@ Width: 1456
 VWidth: 0
 Flags: HW
 HStem: 722 20G<766.65 767.078> 819 21G<293.917 361.453 858.3 887.3>
-AnchorPoint: "Cursive 1" 323 415 exit 0
-AnchorPoint: "Cursive 1" 904 812 entry 0
+AnchorPoint: "Cursive 1" 110 143 exit 0
+AnchorPoint: "Cursive 1" 903 811 entry 0
 LayerCount: 6
 Back
-Refer: 144 -1 S 1 0 0 1 0 0 2
+Refer: 168 -1 S 1 0 0 1 -779 0 2
+Refer: 144 -1 N 1 0 0 1 0 0 2
 Refer: 143 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-315 420 m 25
- 327 410 l 25
- 330 410 l 1
- 418 522 579 670 661 721 c 0
- 899 870 1026 797 890 679 c 0
- 778 582 660 647 909 805 c 1
- 897 819 l 1
- 621 644 767 546 904 666 c 0
- 1059 802 902 900 648 735 c 0
- 567 682 401 537 315 422 c 1
- 315 420 l 25
+619 711 m 0
+ 867 917.977610319 1059 802 904 666 c 0
+ 767 546 621 644 897 819 c 1
+ 908 803 l 1
+ 773 717 750 658 764 640 c 0
+ 778 622 839 635 890 679 c 0
+ 1026 797 855.684977391 883.693982028 632 696 c 0
+ 457.341866969 549.444424991 265.374415553 325.910591619 117 136 c 9
+ 112 137 l 25
+ 102 145 l 25
+ 102 148 l 17
+ 254.21614316 342.827778722 442.686750613 563.851229735 619 711 c 0
 EndSplineSet
 Colour: bdbdbd
 EndChar
