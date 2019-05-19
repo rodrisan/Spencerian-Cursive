@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1558297170
+ModificationTime: 1558305025
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -273,9 +273,9 @@ ChainSub2: coverage "'calt' * +- [t]-1" 0 0 0 1
   SeqLookup: 1 "'aalt' * +- [t]"
 EndFPST
 ChainSub2: coverage "'calt' * +- [o]-1" 0 0 0 1
- 2 0 0
-  Coverage: 29 P9000 P9500 P9511 P9206 P9300
-  Coverage: 4 P113
+ 1 0 1
+  Coverage: 35 P9000 P9011 P9500 P9511 P9206 P9300
+  FCoverage: 4 P113
  1
   SeqLookup: 0 "'aalt' * +- [o]"
 EndFPST
@@ -330,7 +330,7 @@ ChainPos2: coverage "'kern' `applying 'curs' features`" 0 0 0 1
 EndFPST
 ChainSub2: coverage "'calt' * +- [m,n,x,z]" 0 0 0 1
  1 0 2
-  Coverage: 41 P9000 P9100 P9206 P9500 P9400 P9300 P9005
+  Coverage: 41 P9000 P9100 P9206 P9500 P9400 P9300 P9011
   FCoverage: 5 null2
   FCoverage: 4 P105
  1
@@ -372,7 +372,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 98 14 6
+WinInfo: 70 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -409,7 +409,7 @@ Grid
  8192 -819 l 1024
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' [a,d,g,o,q]" "Cursive 1" "'curs' *"
-BeginChars: 194 174
+BeginChars: 194 175
 
 StartChar: O
 Encoding: 40 79 0
@@ -3409,22 +3409,18 @@ Refer: 144 -1 N 1 0 0 1 0 0 2
 Refer: 143 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-628 749 m 0
- 831 895 988 810 717 607 c 0
- 622 536 526 471 428 410 c 9
+717 607 m 0
+ 622.033259405 535.955801216 526 471 428 410 c 9
  426 410 l 25
  417 425 l 25
  418 427 l 1
- 518 489 599 543 705 622 c 0
- 824 711 850 771 840 789 c 0
- 823 819 736 801 639 732 c 0
- 511 642 417 522 322 398 c 4
- 255 311 184 222 117 136 c 9
+ 518 489 599.143312761 542.809080276 705 622 c 0
+ 814.70019782 704.066232997 843.329340777 780.853649644 830 797.081054688 c 4
+ 814.13173717 816.399394025 611.376164687 768.772635146 117 136 c 9
  113 136 l 25
  102 144 l 25
  102 148 l 17
- 169 234 241 323 307 410 c 0
- 402 535 496 654 628 749 c 0
+ 846.950385144 1101.49301186 1006.06402491 823.247519064 717 607 c 0
 EndSplineSet
 Colour: bdbdbd
 EndChar
@@ -6080,7 +6076,7 @@ EndChar
 
 StartChar: P9007
 Encoding: 118 -1 169
-Width: 977
+Width: 973
 VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 1404 418 exit 0
@@ -6092,17 +6088,12 @@ Refer: 145 -1 N 1 0 0 1 981 0 2
 Fore
 SplineSet
 117 136 m 1
- 59 62 125 21 248.999990464 20.2615744221 c 0
- 443.996532956 19.1003611507 881.270950376 115.917002754 1399 427 c 1
+ 25.2664401765 18.5863977126 119.385932457 6.85475686035 280 28 c 0
+ 576.005777812 66.9698999492 1139.18545765 270.887673252 1399 427 c 1
  1409 410 l 1
- 934.016105328 124.600883019 485.606300324 -0.213239362975 248 -0.08984375 c 0
- 75 0 39 68 102 148 c 1
+ 1004.86276106 167.169848441 -178.741632749 -211.332903645 102 148 c 1
  117 136 l 1
 EndSplineSet
-Refer: 86 -1 N 1 0 0 1 980.88 0 2
-Refer: 69 -1 N 1 0 0 1 0 0 2
-Refer: 68 -1 N 1 0 0 1 0 0 2
-Refer: 68 -1 N 1 0 0 1 981 0 2
 EndChar
 
 StartChar: P9008
@@ -6175,10 +6166,12 @@ SplineSet
  46.7900390625 -12.3740234375 8.99923160894 28.3652087364 102 148 c 1
  117 136 l 5
 EndSplineSet
+Substitution2: "'aalt' * +- [m,n,x,z]" P9001
+Substitution2: "'aalt' * +- [o]-1" P9013
 Substitution2: "'aalt' * +- [+AH4A^a]" P9002
 Substitution2: "'aalt' [c] +- [+AH4A-a]-1" P9009
 Substitution2: "'aalt' [c] +- [c]-1" P9008
-Substitution2: "'aalt' * +- [e]" P9004
+Substitution2: "'aalt' * +- [e]" P9007
 Comment: "It is same as P9003."
 EndChar
 
@@ -6205,6 +6198,27 @@ SplineSet
  102 148 l 1
 EndSplineSet
 Comment: "It is same as P9000, it because of preventing of confilict in parts of 'u' in patters like 'uu'."
+EndChar
+
+StartChar: P9013
+Encoding: 163 -1 174
+Width: 1313
+VWidth: 0
+Flags: HW
+AnchorPoint: "Cursive 1" 1732 819 exit 0
+AnchorPoint: "Cursive 1" 110 143 entry 0
+LayerCount: 6
+Fore
+SplineSet
+117 136 m 1
+ 75.1350196779 82.4152687547 55.3099351301 40.6873073808 67 27 c 0
+ 89.0812336432 1.1461971696 256.204892687 34.3610685841 544 181 c 0
+ 920.984860384 373.08338044 1183 532 1634 789 c 1
+ 1643 772 l 1
+ 1192 515 926.492114809 354.303737681 553 164 c 0
+ 256.294827445 12.8211635867 -95.8797547844 -105.274536317 102 148 c 1
+ 117 136 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
