@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1558264675
+ModificationTime: 1558271429
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -345,7 +345,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 84 14 6
+WinInfo: 112 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2858,7 +2858,7 @@ HStem: 0 21G<0 219> 799 20G<1565.5 2310>
 LayerCount: 6
 Fore
 Refer: 62 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' [Lowercase]" P002 P107 P102 P119 P9500
+MultipleSubs2: "'ccmp' [Lowercase]" P002 P107 P119 P9500
 EndChar
 
 StartChar: h
@@ -3541,17 +3541,17 @@ VWidth: 0
 Flags: HW
 HStem: 410 539 819 21G<133.281 179.281>
 VStem: 0 329.281
-AnchorPoint: "Cursive 1" 324 415 exit 0
+AnchorPoint: "Cursive 1" 111 143 exit 0
 AnchorPoint: "Cursive 1" 446 812 entry 0
 LayerCount: 6
 Back
-Refer: 144 -1 S 1 0 0 1 1 0 2
-Refer: 147 -1 S 1 0 0 1 281 0 2
-Refer: 143 -1 N 1 0 0 1 0 0 2
+Refer: 167 -1 S 1 0 0 1 0 0 2
+Refer: 144 -1 N 1 0 0 1 1 0 2
+Refer: 147 -1 N 1 0 0 1 281 0 2
 Refer: 140 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-331 410 m 1
+118 136 m 1
  635 798 l 1
  593 826 554 889 602 935 c 1
  584 949 l 1
@@ -3561,10 +3561,10 @@ SplineSet
  452 804 l 17
  494 840 563 903 563 903 c 1
  553 843 595 807 608 795 c 1
- 316 422 l 9xa0
- 317 419 l 25
- 329 410 l 25
- 331 410 l 1
+ 103 148 l 9xa0
+ 104 145 l 25
+ 116 136 l 25
+ 118 136 l 1
 EndSplineSet
 Colour: bdbdbd
 EndChar
@@ -3763,24 +3763,26 @@ Width: 942
 VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 999 781 exit 0
-AnchorPoint: "Cursive 1" 323 415 entry 0
+AnchorPoint: "Cursive 1" 635 814 entry 0
 LayerCount: 6
 Back
-Refer: 158 -1 S 1 0 0 1 0 0 2
+Refer: 144 -1 S 1 0 0 1 915 671 2
+Refer: 144 -1 N 1 0 0 1 525 671 2
+Refer: 158 -1 N 1 0 0 1 0 0 2
 Refer: 141 -1 N 1 0 0 1 0 0 2
 Refer: 144 -1 N 1 0 0 1 702 397 2
 Refer: 144 -1 N 1 0 0 1 0 0 2
 Refer: 143 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-315 422 m 1
- -101 -110 184 -89 499 210 c 0
- 709.760408509 410.055117918 1032 807 1032 807 c 1
+627 819 m 1
+ 525 688 102 148 102 148 c 2
+ -40.4906450156 -34.1166148675 149.124790219 -245.169703068 1032 807 c 1
  1017 819 l 1
- 1017 819 692.048206111 421.638075249 486 224 c 0
- 290 36 159.866933703 1.65379321658 134.000001208 24.1002585672 c 0
- 113.305090161 42.0586153936 117 138 330 410 c 1
- 315 422 l 1
+ 370.998452265 49.1253346654 126.41417618 -8.26036778675 88 23.7451171875 c 4
+ 68.0246283866 40.3879693741 79.5177371573 88.0940983477 117 136 c 2
+ 117 136 531 665 642 807 c 1
+ 627 819 l 1
 EndSplineSet
 Comment: "It is for b."
 EndChar
