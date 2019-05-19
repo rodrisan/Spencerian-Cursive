@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1558193239
+ModificationTime: 1558258888
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -345,7 +345,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 84 14 6
+WinInfo: 42 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2677,7 +2677,7 @@ HStem: 0 844 799 20G<1319 1335 1839.5 2015>
 LayerCount: 6
 Fore
 Refer: 62 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' [Lowercase]" P109 P9005
+MultipleSubs2: "'ccmp' [Lowercase]" P109 P9003
 EndChar
 
 StartChar: e
@@ -2689,7 +2689,7 @@ HStem: 0 21G<0 168.5> 799 20G<1814.5 1990>
 LayerCount: 6
 Fore
 Refer: 62 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' [Lowercase]" P003 P111 P9005
+MultipleSubs2: "'ccmp' [Lowercase]" P003 P111 P9003
 EndChar
 
 StartChar: r
@@ -2811,7 +2811,7 @@ VStem: 688.071 665.929
 LayerCount: 6
 Fore
 Refer: 62 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' [Lowercase]" P101 P103 P102 P9000
+MultipleSubs2: "'ccmp' [Lowercase]" P101 P103 P9000
 EndChar
 
 StartChar: q
@@ -2952,7 +2952,7 @@ HStem: 0 21G<0 169.5> 799 20G<1339.5 1467>
 AnchorPoint: "Cursive 1" 1448 812 exit 0
 LayerCount: 6
 Back
-Refer: 148 -1 S 1 0 0 1 1283 0 2
+Refer: 147 -1 S 1 0 0 1 1283 0 2
 Fore
 SplineSet
 38 19 m 1
@@ -2970,14 +2970,14 @@ StartChar: P101
 Encoding: 82 -1 53
 Width: 1433
 VWidth: 0
-Flags: HW
-HStem: 800 19<1068.13 1277.35>
+Flags: W
+HStem: 798 21<1102.77 1371>
 AnchorPoint: "Cursive 1" 912 819 entry 0
 AnchorPoint: "cursive 2" 610 647 entry 0
 AnchorPoint: "Cursive 1" 1401 819 exit 0
 LayerCount: 6
 Back
-Refer: 165 -1 N 1 0 0 1 -2 0 2
+Refer: 164 -1 N 1 0 0 1 -2 0 2
 Fore
 SplineSet
 1371 798 m 1
@@ -3016,25 +3016,24 @@ StartChar: P102
 Encoding: 84 -1 55
 Width: 344
 VWidth: 0
-Flags: HW
-HStem: 410 409
-VStem: -0 344
-AnchorPoint: "Cursive 1" 323 415 exit 0
-AnchorPoint: "Cursive 1" 634 813 entry 0
+Flags: W
+HStem: 148 659
+AnchorPoint: "Cursive 1" 110 143 exit 0
+AnchorPoint: "Cursive 1" 635 814 entry 0
 LayerCount: 6
 Back
-Refer: 145 -1 S 1 0 0 1 311 397 2
-Refer: 145 -1 N 1 0 0 1 0 0 2
+Refer: 144 -1 S 1 0 0 1 525 671 2
 Refer: 144 -1 N 1 0 0 1 0 0 2
+Refer: 143 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-315 420 m 25
- 328 410 l 25
- 330 410 l 1
- 641 807 l 1
- 626 819 l 1
- 315 422 l 1
- 315 420 l 25
+102 146 m 25
+ 115 136 l 25
+ 117 136 l 1
+ 642 807 l 1
+ 627 819 l 1
+ 102 148 l 1
+ 102 146 l 25
 EndSplineSet
 Colour: bdbdbd
 EndChar
@@ -3043,23 +3042,24 @@ StartChar: P103
 Encoding: 85 -1 56
 Width: 1214
 VWidth: 0
-Flags: HW
-HStem: 819.2 819.2
-VStem: 614.071 665.929
-AnchorPoint: "Cursive 1" 634 812 exit 0
-AnchorPoint: "Cursive 1" 634 812 entry 0
+Flags: HWO
+HStem: 819 807
+AnchorPoint: "Cursive 1" 110 143 exit 0
+AnchorPoint: "Cursive 1" 635 814 entry 0
 LayerCount: 6
 Back
-Refer: 145 -1 S 1 0 0 1 311 397 2
+Refer: 144 -1 S 1 0 0 1 525 671 2
+Refer: 144 -1 N 1 0 0 1 0 0 2
+Refer: 144 -1 N 1 0 0 1 1166 1490 2
 Fore
 SplineSet
-626 817 m 25
- 639 807 l 25
- 641 807 l 1
+102 146 m 25
+ 115 136 l 25
+ 117 136 l 1
  1283 1626 l 1
- 1267 1638 l 1
- 626 819 l 1
- 626 817 l 25
+ 1268 1638 l 1
+ 102 148 l 1
+ 102 146 l 25
 EndSplineSet
 EndChar
 
@@ -3072,7 +3072,7 @@ AnchorPoint: "Cursive 1" -655 -1620 exit 0
 AnchorPoint: "Cursive 1" 1418 819 entry 0
 LayerCount: 6
 Back
-Refer: 147 -1 S 1 0 0 1 0 0 2
+Refer: 146 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 -659.999995874 -1626.87842168 m 1
@@ -3097,9 +3097,9 @@ AnchorPoint: "Cursive 1" 1413 812 exit 0
 AnchorPoint: "Cursive 1" 634 812 entry 0
 LayerCount: 6
 Back
-Refer: 145 -1 N 1 0 0 1 1090 397 2
-Refer: 145 -1 N 1 0 0 1 311 397 2
-Refer: 140 -1 N 1 0 0 1 0 0 2
+Refer: 144 -1 N 1 0 0 1 1090 397 2
+Refer: 144 -1 N 1 0 0 1 311 397 2
+Refer: 139 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 626 819 m 25
@@ -3149,8 +3149,8 @@ AnchorPoint: "Cursive 1" 634 812 entry 0
 AnchorPoint: "Cursive 1" 3 5 exit 0
 LayerCount: 6
 Back
-Refer: 145 -1 S 1 0 0 1 -320 -410 2
-Refer: 145 -1 N 1 0 0 1 311 397 2
+Refer: 144 -1 S 1 0 0 1 -320 -410 2
+Refer: 144 -1 N 1 0 0 1 311 397 2
 Fore
 SplineSet
 -5 12 m 25
@@ -3171,8 +3171,8 @@ AnchorPoint: "Cursive 1" 1103 415 exit 0
 AnchorPoint: "Cursive 1" 549 418 entry 0
 LayerCount: 6
 Back
-Refer: 148 -1 S 1 0 0 1 384 -394 2
-Refer: 144 -1 N 1 0 0 1 0 0 2
+Refer: 147 -1 S 1 0 0 1 384 -394 2
+Refer: 143 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 1108 410 m 25
@@ -3197,12 +3197,12 @@ StartChar: P106
 Encoding: 90 -1 61
 Width: 1742
 VWidth: 0
-Flags: HW
+Flags: W
 AnchorPoint: "Cursive 1" 1724 812 entry 0
 AnchorPoint: "Cursive 1" 1095 10 exit 0
 LayerCount: 6
 Back
-Refer: 145 -1 S 1 0 0 1 1401 397 2
+Refer: 144 -1 S 1 0 0 1 1401 397 2
 Fore
 SplineSet
 1716 819 m 1
@@ -3233,13 +3233,13 @@ StartChar: P107
 Encoding: 91 -1 63
 Width: 1526
 VWidth: 0
-Flags: HW
+Flags: W
 AnchorPoint: "Cursive 1" 634 812 exit 0
 AnchorPoint: "Cursive 1" 632 812 entry 0
 LayerCount: 6
 Back
-Refer: 148 -1 S 1 0 0 1 467 0 2
-Refer: 145 -1 N 1 0 0 1 311 397 2
+Refer: 147 -1 S 1 0 0 1 467 0 2
+Refer: 144 -1 N 1 0 0 1 311 397 2
 Fore
 SplineSet
 1498 1901 m 2
@@ -3267,7 +3267,7 @@ AnchorPoint: "Cursive 1" 727 812 exit 0
 AnchorPoint: "Cursive 1" 79 781 entry 0
 LayerCount: 6
 Back
-Refer: 142 -1 N 1 0 0 1 0 0 2
+Refer: 141 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 71 776 m 1
@@ -3297,8 +3297,8 @@ AnchorPoint: "Cursive 1" 323 415 exit 0
 AnchorPoint: "Cursive 1" 904 812 entry 0
 LayerCount: 6
 Back
-Refer: 145 -1 S 1 0 0 1 0 0 2
-Refer: 144 -1 N 1 0 0 1 0 0 2
+Refer: 144 -1 S 1 0 0 1 0 0 2
+Refer: 143 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 315 420 m 25
@@ -3327,7 +3327,7 @@ AnchorPoint: "Cursive 1" 587 410.6 exit 0
 AnchorPoint: "Cursive 1" 9 819.2 entry 0
 LayerCount: 6
 Back
-Refer: 144 -1 S 1 0 0 1 0 0 2
+Refer: 143 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 17 819 m 1
@@ -3343,13 +3343,13 @@ StartChar: P002
 Encoding: 95 -1 67
 Width: 1237
 VWidth: 0
-Flags: HW
-HStem: 0 21G<0 276> 799 20G<1002 1237>
-VStem: 0 1237
+Flags: W
+HStem: 0 819
+VStem: 30 1189
 AnchorPoint: "Cursive 1" 1213 812 exit 0
 LayerCount: 6
 Back
-Refer: 148 -1 S 1 0 0 1 1048 0 2
+Refer: 147 -1 S 1 0 0 1 1048 0 2
 Fore
 SplineSet
 1219 804 m 17
@@ -3372,9 +3372,9 @@ AnchorPoint: "Cursive 1" 323 415 exit 0
 AnchorPoint: "Cursive 1" 423 418 entry 0
 LayerCount: 6
 Back
-Refer: 146 -1 S 1 0 0 1 0 0 2
-Refer: 145 -1 N 1 0 0 1 0 0 2
+Refer: 145 -1 S 1 0 0 1 0 0 2
 Refer: 144 -1 N 1 0 0 1 0 0 2
+Refer: 143 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 418 427 m 1
@@ -3405,8 +3405,8 @@ VStem: 0 929
 AnchorPoint: "Cursive 1" 423 418 exit 0
 LayerCount: 6
 Back
-Refer: 146 -1 N 1 0 0 1 0 0 2
-Refer: 144 -1 N 1 0 0 1 0 0 2
+Refer: 145 -1 N 1 0 0 1 0 0 2
+Refer: 143 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 418 427 m 5
@@ -3431,8 +3431,8 @@ AnchorPoint: "Cursive 1" 1023 812 exit 0
 AnchorPoint: "Cursive 1" 2 5 entry 0
 LayerCount: 6
 Back
-Refer: 145 -1 S 1 0 0 1 700 397 2
-Refer: 145 -1 N 1 0 0 1 -321 -410 2
+Refer: 144 -1 S 1 0 0 1 700 397 2
+Refer: 144 -1 N 1 0 0 1 -321 -410 2
 Fore
 SplineSet
 1030 807 m 1
@@ -3466,8 +3466,8 @@ SplineSet
 91 585 m 25
  527 250 l 1049
 EndSplineSet
-Refer: 155 -1 S 1 0 0 1 6 0 2
-Refer: 142 -1 N 1 0 0 1 0 0 2
+Refer: 154 -1 S 1 0 0 1 6 0 2
+Refer: 141 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 190 511 m 0
@@ -3509,8 +3509,8 @@ AnchorPoint: "Cursive 1" 0 0 exit 0
 AnchorPoint: "Cursive 1" 442 812 entry 0
 LayerCount: 6
 Back
-Refer: 148 -1 S 1 0 0 1 277 0 2
-Refer: 140 -1 N 1 0 0 1 0 0 2
+Refer: 147 -1 S 1 0 0 1 277 0 2
+Refer: 139 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 448 804 m 1
@@ -3538,10 +3538,10 @@ AnchorPoint: "Cursive 1" 324 415 exit 0
 AnchorPoint: "Cursive 1" 446 812 entry 0
 LayerCount: 6
 Back
-Refer: 145 -1 S 1 0 0 1 1 0 2
-Refer: 148 -1 S 1 0 0 1 281 0 2
-Refer: 144 -1 N 1 0 0 1 0 0 2
-Refer: 141 -1 N 1 0 0 1 0 0 2
+Refer: 144 -1 S 1 0 0 1 1 0 2
+Refer: 147 -1 S 1 0 0 1 281 0 2
+Refer: 143 -1 N 1 0 0 1 0 0 2
+Refer: 140 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 331 410 m 1
@@ -3573,8 +3573,8 @@ AnchorPoint: "Cursive 1" 846 9 exit 0
 AnchorPoint: "Cursive 1" 1397 812 entry 0
 LayerCount: 6
 Back
-Refer: 148 -1 S 1 0 0 1 1232 0 2
-Refer: 141 -1 N 1 0 0 1 0 0 2
+Refer: 147 -1 S 1 0 0 1 1232 0 2
+Refer: 140 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 1391 819 m 1
@@ -3604,8 +3604,8 @@ AnchorPoint: "Cursive 1" 634 812 exit 0
 AnchorPoint: "Cursive 1" 634 812 entry 0
 LayerCount: 6
 Back
-Refer: 145 -1 N 1 0 0 1 952 1216 2
-Refer: 145 -1 N 1 0 0 1 311 397 2
+Refer: 144 -1 N 1 0 0 1 952 1216 2
+Refer: 144 -1 N 1 0 0 1 311 397 2
 Fore
 SplineSet
 558 1240 m 1
@@ -3636,7 +3636,7 @@ AnchorPoint: "Cursive 1" 687 410 exit 0
 AnchorPoint: "Cursive 1" 687 410 entry 0
 LayerCount: 6
 Back
-Refer: 144 -1 S 1 0 0 1 0 0 2
+Refer: 143 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 231 0 m 1
@@ -3658,7 +3658,7 @@ AnchorPoint: "Cursive 1" -655 -1620 exit 0
 AnchorPoint: "Cursive 1" 771 0 entry 0
 LayerCount: 6
 Back
-Refer: 147 -1 S 1 0 0 1 0 0 2
+Refer: 146 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 -649 -1612 m 1
@@ -3685,7 +3685,7 @@ AnchorPoint: "Cursive 1" 1405 812 exit 0
 AnchorPoint: "Cursive 1" 1 9 entry 0
 LayerCount: 6
 Back
-Refer: 148 -1 S 1 0 0 1 1240 0 2
+Refer: 147 -1 S 1 0 0 1 1240 0 2
 Fore
 SplineSet
 0 0 m 1
@@ -3759,11 +3759,11 @@ AnchorPoint: "Cursive 1" 999 781 exit 0
 AnchorPoint: "Cursive 1" 323 415 entry 0
 LayerCount: 6
 Back
-Refer: 159 -1 S 1 0 0 1 0 0 2
-Refer: 142 -1 N 1 0 0 1 0 0 2
-Refer: 145 -1 N 1 0 0 1 702 397 2
-Refer: 145 -1 N 1 0 0 1 0 0 2
+Refer: 158 -1 S 1 0 0 1 0 0 2
+Refer: 141 -1 N 1 0 0 1 0 0 2
+Refer: 144 -1 N 1 0 0 1 702 397 2
 Refer: 144 -1 N 1 0 0 1 0 0 2
+Refer: 143 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 315 422 m 1
@@ -3782,22 +3782,23 @@ StartChar: P9000
 Encoding: 111 -1 83
 Width: 1313
 VWidth: 0
-Flags: HW
+Flags: W
+AnchorPoint: "Cursive 1" 110 143 entry 0
 AnchorPoint: "Cursive 1" 1392 812 exit 0
 LayerCount: 6
 Back
-Refer: 168 -1 S 1 0 0 1 0 0 2
-Refer: 145 -1 N 1 0 0 1 0 0 2
+Refer: 167 -1 S 1 0 0 1 0 0 2
 Refer: 144 -1 N 1 0 0 1 0 0 2
+Refer: 143 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-102 148 m 5
+102 148 m 1
  6 24 19 -26 158 14 c 0
  441 95 878 367 1398 804 c 1
  1386 819 l 1
  867 383 432 114 151 32 c 0
  29 -4 45 44 117 136 c 1
- 102 148 l 5
+ 102 148 l 1
 EndSplineSet
 Substitution2: "'aalt' * +- [o]-1" P9006
 Substitution2: "'aalt' * +- [e]" P9004
@@ -3819,9 +3820,9 @@ AnchorPoint: "Cursive 1" 323 415 entry 0
 AnchorPoint: "Cursive 1" 3 5 exit 0
 LayerCount: 6
 Back
-Refer: 145 -1 S 1 0 0 1 -320 -410 2
-Refer: 145 -1 N 1 0 0 1 0 0 2
+Refer: 144 -1 S 1 0 0 1 -320 -410 2
 Refer: 144 -1 N 1 0 0 1 0 0 2
+Refer: 143 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 -5 12 m 1
@@ -3839,20 +3840,21 @@ Width: 977
 VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 1062 418 exit 0
-AnchorPoint: "Cursive 1" 323 415 entry 0
+AnchorPoint: "Cursive 1" 110 143 entry 0
 LayerCount: 6
 Back
-Refer: 146 -1 S 1 0 0 1 639 0 2
-Refer: 145 -1 N 1 0 0 1 0 0 2
+Refer: 145 -1 S 1 0 0 1 639 0 2
 Refer: 144 -1 N 1 0 0 1 0 0 2
+Refer: 143 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-315 422 m 1
- -232 -280 464.852539062 21 1066.85253906 410 c 1
- 1056.94140625 427 l 1
- 579 119 215 -31 148 32.650390625 c 0
- 115.067610062 63.9363530693 140 168 330 410 c 1
- 315 422 l 1
+117 136 m 1
+ 40.2143499876 37.3644893957 73.8192928736 2.25538402217 181 27 c 0
+ 312.169698121 57.2829109358 651.846897115 165.896642644 1057 427 c 1
+ 1067 410 l 1
+ 664 150 318.586135882 38.8407895505 185 8 c 0
+ 77.9362172814 -16.7176218513 1.07147660758 18.1670638051 102 148 c 1
+ 117 136 l 1
 EndSplineSet
 Comment: "It is for final part 'e' before 'e'."
 Colour: ff030d
@@ -3862,22 +3864,24 @@ StartChar: P9003
 Encoding: 114 -1 86
 Width: 1313
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 389.6 429.601G<223.887 322 1447.1 1837>
-AnchorPoint: "Cursive 1" 323 415 entry 0
-AnchorPoint: "Cursive 1" 1822 812 exit 0
+AnchorPoint: "Cursive 1" 110 143 entry 0
+AnchorPoint: "Cursive 1" 1684 811 exit 0
 LayerCount: 6
 Back
-Refer: 145 -1 N 1 0 0 1 0 0 2
+Refer: 168 -1 S 1 0 0 1 2 0 2
 Refer: 144 -1 N 1 0 0 1 0 0 2
+Refer: 143 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-330 410 m 1
- 121 145 123.4140625 60.2578125 154 34 c 0
- 260 -57 899 224 1815 819 c 5
- 1827 805 l 1
- 766 110 -338 -400 315 422 c 1
- 330 410 l 1
+117 136 m 5
+ 42.2320395201 39.8196189132 49.9019156514 7.25380944798 170 22 c 0
+ 448.905468611 56.2452854968 1042.2877095 406.163611459 1678 819 c 1
+ 1689 803 l 1
+ 1048.28084621 386.91211642 456.533203125 37.9365234375 172 3 c 0
+ 46.7900390625 -12.3740234375 8.99923160894 28.3652087364 102 148 c 1
+ 117 136 l 5
 EndSplineSet
 Comment: "It is final part of glyphs like 'a' before 'c'."
 Colour: ff1214
@@ -3893,10 +3897,10 @@ AnchorPoint: "cursive 2" 1370 647 exit 0
 AnchorPoint: "Cursive 1" 110 143 entry 0
 LayerCount: 6
 Back
-Refer: 168 -1 S 1 0 0 1 0 0 2
-Refer: 145 -1 N 1 0 0 1 0 0 2
+Refer: 167 -1 S 1 0 0 1 0 0 2
 Refer: 144 -1 N 1 0 0 1 0 0 2
 Refer: 143 -1 N 1 0 0 1 0 0 2
+Refer: 142 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 117 136 m 1
@@ -3930,7 +3934,7 @@ AnchorPoint: "Cursive 1" 29 417 exit 0
 AnchorPoint: "Cursive 1" -498 7 entry 0
 LayerCount: 6
 Back
-Refer: 144 -1 S 1 0 0 1 0 0 2
+Refer: 143 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 23 425 m 1
@@ -3953,15 +3957,15 @@ AnchorPoint: "Cursive 1" 881 418 exit 0
 AnchorPoint: "Cursive 1" 323 415 entry 0
 LayerCount: 6
 Back
-Refer: 168 -1 S 1 0 0 1 0 0 2
-Refer: 148 -1 N 1 0 0 1 716 -394 2
-Refer: 145 -1 N 1 0 0 1 0 0 2
+Refer: 167 -1 S 1 0 0 1 0 0 2
+Refer: 147 -1 N 1 0 0 1 716 -394 2
 Refer: 144 -1 N 1 0 0 1 0 0 2
+Refer: 143 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 875 425 m 1
- 473.458036734 145.921065402 248.836139394 61.4338584431 182 41 c 4
- 85.4132196477 11.470457823 2.18390136577 -11.6977043464 117 136 c 6
+ 473.458036734 145.921065402 248.836139394 61.4338584431 182 41 c 0
+ 85.4132196477 11.470457823 2.18390136577 -11.6977043464 117 136 c 2
  330 410 l 1
  315 422 l 1
  102 148 l 2
@@ -3969,7 +3973,6 @@ SplineSet
  258.84765625 43.9658203125 482.297338734 130.966305393 887 410 c 1
  875 425 l 1
 EndSplineSet
-Refer: 60 -1 N 1 0 0 1 332 0 2
 Comment: "It is final part of glyphs like a and m before glyphs like m and v."
 Colour: ff141c
 EndChar
@@ -3983,9 +3986,9 @@ AnchorPoint: "Cursive 1" 1181 781 exit 0
 AnchorPoint: "Cursive 1" 624 781 entry 0
 LayerCount: 6
 Back
-Refer: 155 -1 N 1 0 0 1 0 0 2
-Refer: 151 -1 N 1 0 0 1 803 0 2
-Refer: 142 -1 N 1 0 0 1 1 0 2
+Refer: 154 -1 N 1 0 0 1 0 0 2
+Refer: 150 -1 N 1 0 0 1 803 0 2
+Refer: 141 -1 N 1 0 0 1 1 0 2
 Fore
 SplineSet
 1178 789 m 1
@@ -4010,10 +4013,10 @@ AnchorPoint: "Cursive 1" 324 415 exit 0
 AnchorPoint: "Cursive 1" 378 781 entry 0
 LayerCount: 6
 Back
-Refer: 151 -1 N 1 0 0 1 0 0 2
-Refer: 142 -1 N 1 0 0 1 0 0 2
-Refer: 145 -1 N 1 0 0 1 1 0 2
-Refer: 144 -1 N 1 0 0 1 0 0 2
+Refer: 150 -1 N 1 0 0 1 0 0 2
+Refer: 141 -1 N 1 0 0 1 0 0 2
+Refer: 144 -1 N 1 0 0 1 1 0 2
+Refer: 143 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 382 772 m 1
@@ -4073,7 +4076,7 @@ AnchorPoint: "Cursive 1" -655 -1620 entry 0
 AnchorPoint: "Cursive 1" 1404 410 exit 0
 LayerCount: 6
 Back
-Refer: 147 -1 S 1 0 0 1 0 0 2
+Refer: 146 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 -660 -1627 m 1
@@ -4126,7 +4129,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 6
 Back
-Refer: 139 -1 S 1 0 0 1 0 0 2
+Refer: 138 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 467.03125 627.80859375 m 0
@@ -4150,7 +4153,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 6
 Back
-Refer: 139 -1 S 1 0 0 1 0 0 2
+Refer: 138 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 883 975 m 5
@@ -4169,7 +4172,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 6
 Back
-Refer: 139 -1 S 1 0 0 1 0 0 2
+Refer: 138 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 1110.78515625 937.04296875 m 1
@@ -4214,7 +4217,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 6
 Back
-Refer: 139 -1 S 1 0 0 1 0 0 2
+Refer: 138 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 728.833007812 506.525390625 m 1
@@ -4262,7 +4265,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 6
 Back
-Refer: 139 -1 S 1 0 0 1 0 0 2
+Refer: 138 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 1190 961.72265625 m 1
@@ -4296,7 +4299,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 6
 Back
-Refer: 139 -1 S 1 0 0 1 0 0 2
+Refer: 138 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 1400.39941406 956.948242188 m 1
@@ -4342,7 +4345,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 6
 Back
-Refer: 139 -1 S 1 0 0 1 0 0 2
+Refer: 138 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 270.274414062 17.1005859375 m 1
@@ -4380,7 +4383,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 6
 Back
-Refer: 139 -1 S 1 0 0 1 0 0 2
+Refer: 138 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 372 964 m 1
@@ -4412,7 +4415,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 6
 Back
-Refer: 139 -1 S 1 0 0 1 0 0 2
+Refer: 138 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 459.802140713 527.549444119 m 1
@@ -4444,7 +4447,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 6
 Back
-Refer: 139 -1 S 1 0 0 1 0 0 2
+Refer: 138 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 1242 971.75 m 1
@@ -4913,8 +4916,8 @@ AnchorPoint: "Cursive 1" 1062 418 exit 0
 AnchorPoint: "Cursive 1" 508 779 entry 0
 LayerCount: 6
 Back
-Refer: 146 -1 S 1 0 0 1 639 0 2
-Refer: 142 -1 N 1 0 0 1 0 0 2
+Refer: 145 -1 S 1 0 0 1 639 0 2
+Refer: 141 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 430 708 m 1
@@ -4937,7 +4940,7 @@ AnchorPoint: "Cursive 1" 900 812 exit 0
 AnchorPoint: "Cursive 1" 5 781 entry 0
 LayerCount: 6
 Back
-Refer: 142 -1 S 1 0 0 1 0 0 2
+Refer: 141 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 3 796 m 1
@@ -4963,7 +4966,7 @@ AnchorPoint: "Cursive 1" 693 819 exit 0
 AnchorPoint: "Cursive 1" -170 781 entry 0
 LayerCount: 6
 Back
-Refer: 142 -1 S 1 0 0 1 0 0 2
+Refer: 141 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 -178 776 m 1
@@ -4986,8 +4989,8 @@ AnchorPoint: "cursive 2" 1360 655 exit 0
 AnchorPoint: "Cursive 1" 1 9 entry 0
 LayerCount: 6
 Back
-Refer: 148 -1 S 1 0 0 1 1195 -157 2
-Refer: 143 -1 N 1 0 0 1 0 0 2
+Refer: 147 -1 S 1 0 0 1 1195 -157 2
+Refer: 142 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 1354 662 m 1
@@ -5010,8 +5013,8 @@ AnchorPoint: "Cursive 1" 1165 418 exit 0
 AnchorPoint: "Cursive 1" 1 9 entry 0
 LayerCount: 6
 Back
-Refer: 146 -1 S 1 0 0 1 742 0 2
-Refer: 144 -1 N 1 0 0 1 0 0 2
+Refer: 145 -1 S 1 0 0 1 742 0 2
+Refer: 143 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 1160 427 m 1
@@ -5034,8 +5037,8 @@ AnchorPoint: "Cursive 1" 809 418 exit 0
 AnchorPoint: "Cursive 1" 1 9 entry 0
 LayerCount: 6
 Back
-Refer: 148 -1 S 1 0 0 1 644 -394 2
-Refer: 144 -1 N 1 0 0 1 0 0 2
+Refer: 147 -1 S 1 0 0 1 644 -394 2
+Refer: 143 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 803 425 m 1
@@ -5057,8 +5060,8 @@ AnchorPoint: "Cursive 1" 2012 410 exit 0
 AnchorPoint: "Cursive 1" -655 -1620 entry 0
 LayerCount: 6
 Back
-Refer: 147 -1 S 1 0 0 1 0 0 2
-Refer: 146 -1 N 1 0 0 1 1601 0 2
+Refer: 146 -1 S 1 0 0 1 0 0 2
+Refer: 145 -1 N 1 0 0 1 1601 0 2
 Fore
 Refer: 68 -1 N 1 0 0 1 1602 0 2
 Layer: 5
@@ -5079,36 +5082,8 @@ EndSplineSet
 Colour: ff2b33
 EndChar
 
-StartChar: P9005
-Encoding: 133 -1 130
-Width: 1313
-VWidth: 0
-Flags: HW
-AnchorPoint: "Cursive 1" 1723 812 exit 0
-AnchorPoint: "Cursive 1" 323 415 entry 0
-LayerCount: 6
-Back
-Refer: 145 -1 S 1 0 0 1 0 0 2
-Refer: 144 -1 N 1 0 0 1 0 0 2
-Fore
-SplineSet
-315 422 m 1
- -354 -432 842 171 1730 807 c 1
- 1715 820 l 1
- 855 211 213 -68 146 41.2294921875 c 0
- 116.424523989 89.4461224247 175.561382186 211.960021318 330 410 c 1
- 315 422 l 1
-EndSplineSet
-Substitution2: "'aalt' * +- [+AH4A^a]" P9002
-Substitution2: "'aalt' * +- [m,n,x,z]" P9001
-Substitution2: "'aalt' * +- [c]" P9003
-Substitution2: "'aalt' * +- [e]" P9004
-Comment: "it is for final part of +ACIA-c+ACIA and +ACIA-e+ACIA."
-Colour: ff3336
-EndChar
-
 StartChar: P9203
-Encoding: 134 -1 131
+Encoding: 134 -1 130
 Width: 2212
 VWidth: 0
 Flags: HW
@@ -5116,8 +5091,8 @@ AnchorPoint: "Cursive 1" 2076 812 exit 0
 AnchorPoint: "Cursive 1" -655 -1620 entry 0
 LayerCount: 6
 Back
-Refer: 148 -1 S 1 0 0 1 1911 0 2
-Refer: 147 -1 N 1 0 0 1 0 0 2
+Refer: 147 -1 S 1 0 0 1 1911 0 2
+Refer: 146 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 -649 -1612 m 17
@@ -5162,7 +5137,7 @@ Colour: ff171a
 EndChar
 
 StartChar: P9204
-Encoding: 135 -1 132
+Encoding: 135 -1 131
 Width: 2212
 VWidth: 0
 Flags: HW
@@ -5171,7 +5146,7 @@ AnchorPoint: "Cursive 1" 2474 819 exit 0
 AnchorPoint: "Cursive 1" -655 -1620 entry 0
 LayerCount: 6
 Back
-Refer: 147 -1 S 1 0 0 1 0 0 2
+Refer: 146 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 -649 -1612 m 1
@@ -5199,7 +5174,7 @@ Colour: ff3324
 EndChar
 
 StartChar: P9205
-Encoding: 136 -1 133
+Encoding: 136 -1 132
 Width: 2212
 VWidth: 0
 Flags: HW
@@ -5208,8 +5183,8 @@ AnchorPoint: "Cursive 1" 2190 812 exit 0
 AnchorPoint: "Cursive 1" -655 -1620 entry 0
 LayerCount: 6
 Back
-Refer: 145 -1 S 1 0 0 1 1867 397 2
-Refer: 147 -1 N 1 0 0 1 0 0 2
+Refer: 144 -1 S 1 0 0 1 1867 397 2
+Refer: 146 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 -660 -1627 m 1
@@ -5237,7 +5212,7 @@ Colour: ff262e
 EndChar
 
 StartChar: P9206
-Encoding: 137 -1 134
+Encoding: 137 -1 133
 Width: 2212
 VWidth: 0
 Flags: HW
@@ -5246,7 +5221,7 @@ AnchorPoint: "Cursive 1" 2193 819 exit 0
 AnchorPoint: "Cursive 1" -655 -1620 entry 0
 LayerCount: 6
 Back
-Refer: 147 -1 N 1 0 0 1 0 0 2
+Refer: 146 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 -649 -1612 m 1
@@ -5280,7 +5255,7 @@ Colour: ff3845
 EndChar
 
 StartChar: P9207
-Encoding: 138 -1 135
+Encoding: 138 -1 134
 Width: 2211
 VWidth: 0
 Flags: HW
@@ -5288,8 +5263,8 @@ AnchorPoint: "Cursive 1" 2299 819 exit 0
 AnchorPoint: "Cursive 1" -655 -1620 entry 0
 LayerCount: 6
 Back
-Refer: 142 -1 S 1 0 0 1 0 0 2
-Refer: 147 -1 N 1 0 0 1 0 0 2
+Refer: 141 -1 S 1 0 0 1 0 0 2
+Refer: 146 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 -649 -1612 m 1
@@ -5317,7 +5292,7 @@ Colour: ff292e
 EndChar
 
 StartChar: P129
-Encoding: 139 -1 136
+Encoding: 139 -1 135
 Width: 2370
 VWidth: 0
 Flags: W
@@ -5344,7 +5319,7 @@ EndSplineSet
 EndChar
 
 StartChar: P9505
-Encoding: 140 -1 137
+Encoding: 140 -1 136
 Width: 414
 VWidth: 0
 Flags: HW
@@ -5353,7 +5328,7 @@ AnchorPoint: "Cursive 1" 1682 812 exit 0
 AnchorPoint: "Cursive 1" 463 781 entry 0
 LayerCount: 6
 Back
-Refer: 142 -1 S 1 0 0 1 0 0 2
+Refer: 141 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 458 772 m 1
@@ -5371,7 +5346,7 @@ Colour: ff1414
 EndChar
 
 StartChar: P9506
-Encoding: 141 -1 138
+Encoding: 141 -1 137
 Width: 903
 VWidth: 0
 Flags: HW
@@ -5380,8 +5355,8 @@ AnchorPoint: "Cursive 1" 730 812 exit 0
 AnchorPoint: "Cursive 1" -32 781 entry 0
 LayerCount: 6
 Back
-Refer: 148 -1 S 1 0 0 1 565 0 2
-Refer: 142 -1 N 1 0 0 1 0 0 2
+Refer: 147 -1 S 1 0 0 1 565 0 2
+Refer: 141 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 -43 781 m 1
@@ -5397,7 +5372,7 @@ Colour: ff242b
 EndChar
 
 StartChar: Guid.Numbers
-Encoding: 176 -1 139
+Encoding: 176 -1 138
 Width: 1153
 VWidth: 0
 Flags: HW
@@ -5422,7 +5397,7 @@ EndSplineSet
 EndChar
 
 StartChar: Guid.p_q
-Encoding: 177 -1 140
+Encoding: 177 -1 139
 Width: 4096
 VWidth: 0
 LayerCount: 6
@@ -5435,7 +5410,7 @@ EndSplineSet
 EndChar
 
 StartChar: Guid.r_s
-Encoding: 178 -1 141
+Encoding: 178 -1 140
 Width: 4096
 VWidth: 0
 LayerCount: 6
@@ -5448,7 +5423,7 @@ EndSplineSet
 EndChar
 
 StartChar: Guid.b_v_w_o
-Encoding: 179 -1 142
+Encoding: 179 -1 141
 Width: 4096
 VWidth: 0
 LayerCount: 6
@@ -5461,7 +5436,7 @@ EndSplineSet
 EndChar
 
 StartChar: Guid.a_d_g_q
-Encoding: 180 -1 143
+Encoding: 180 -1 142
 Width: 4096
 VWidth: 0
 LayerCount: 6
@@ -5474,7 +5449,7 @@ EndSplineSet
 EndChar
 
 StartChar: Guid.Middle_lowercase
-Encoding: 181 -1 144
+Encoding: 181 -1 143
 Width: 4096
 VWidth: 0
 LayerCount: 6
@@ -5487,7 +5462,7 @@ EndSplineSet
 EndChar
 
 StartChar: Guid.General1
-Encoding: 182 -1 145
+Encoding: 182 -1 144
 Width: 4096
 VWidth: 0
 LayerCount: 6
@@ -5503,7 +5478,7 @@ EndSplineSet
 EndChar
 
 StartChar: Guid.e
-Encoding: 183 -1 146
+Encoding: 183 -1 145
 Width: 4096
 VWidth: 0
 LayerCount: 6
@@ -5519,7 +5494,7 @@ EndSplineSet
 EndChar
 
 StartChar: Guid.g_j
-Encoding: 184 -1 147
+Encoding: 184 -1 146
 Width: 4096
 VWidth: 0
 LayerCount: 6
@@ -5550,7 +5525,7 @@ EndSplineSet
 EndChar
 
 StartChar: Guid.General2
-Encoding: 185 -1 148
+Encoding: 185 -1 147
 Width: 361
 VWidth: 0
 Flags: HW
@@ -5567,7 +5542,7 @@ EndSplineSet
 EndChar
 
 StartChar: P9507
-Encoding: 142 -1 149
+Encoding: 142 -1 148
 Width: 903
 VWidth: 0
 Flags: HW
@@ -5576,9 +5551,9 @@ AnchorPoint: "Cursive 1" 1398 812 exit 0
 AnchorPoint: "Cursive 1" 689 781 entry 0
 LayerCount: 6
 Back
-Refer: 159 -1 N 1 0 0 1 -310 0 2
-Refer: 148 -1 N 1 0 0 1 1232 0 2
-Refer: 142 -1 N 1 0 0 1 0 0 2
+Refer: 158 -1 N 1 0 0 1 -310 0 2
+Refer: 147 -1 N 1 0 0 1 1232 0 2
+Refer: 141 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 634 730 m 1
@@ -5594,7 +5569,7 @@ Colour: ff2b3d
 EndChar
 
 StartChar: P116.1
-Encoding: 143 -1 150
+Encoding: 143 -1 149
 Width: 2141
 VWidth: 0
 Flags: HW
@@ -5604,7 +5579,7 @@ AnchorPoint: "Cursive 1" 846 9 exit 0
 AnchorPoint: "Cursive 1" 1397 812 entry 0
 LayerCount: 6
 Back
-Refer: 148 -1 S 1 0 0 1 1232 0 2
+Refer: 147 -1 S 1 0 0 1 1232 0 2
 Fore
 SplineSet
 847 0 m 1
@@ -5624,7 +5599,7 @@ MultipleSubs2: "'ccmp' [s] +- *-1" P116 P9300
 EndChar
 
 StartChar: Guid.r_u_v_w_y_z
-Encoding: 186 -1 151
+Encoding: 186 -1 150
 Width: 4096
 VWidth: 0
 Flags: H
@@ -5641,7 +5616,7 @@ EndSplineSet
 EndChar
 
 StartChar: P9508
-Encoding: 144 -1 152
+Encoding: 144 -1 151
 Width: 1840
 VWidth: 0
 Flags: HW
@@ -5649,8 +5624,8 @@ AnchorPoint: "Cursive 1" 1718 819 exit 0
 AnchorPoint: "Cursive 1" 630 781 entry 0
 LayerCount: 6
 Back
-Refer: 155 -1 S 1 0 0 1 6 0 2
-Refer: 142 -1 N 1 0 0 1 0 0 2
+Refer: 154 -1 S 1 0 0 1 6 0 2
+Refer: 141 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 623 771 m 1
@@ -5664,7 +5639,7 @@ Colour: ff4552
 EndChar
 
 StartChar: P9509
-Encoding: 145 -1 153
+Encoding: 145 -1 152
 Width: 1968
 VWidth: 0
 Flags: HW
@@ -5673,8 +5648,8 @@ AnchorPoint: "Cursive 1" 1496 811 exit 0
 AnchorPoint: "Cursive 1" 628 781 entry 0
 LayerCount: 6
 Back
-Refer: 159 -1 S 1 0 0 1 0 0 2
-Refer: 142 -1 N 1 0 0 1 0 0 2
+Refer: 158 -1 S 1 0 0 1 0 0 2
+Refer: 141 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 628 765 m 1
@@ -5690,7 +5665,7 @@ Colour: ff1442
 EndChar
 
 StartChar: P9510
-Encoding: 146 -1 154
+Encoding: 146 -1 153
 Width: 942
 VWidth: 0
 Flags: HW
@@ -5699,9 +5674,9 @@ AnchorPoint: "Cursive 1" 1351 418 exit 0
 AnchorPoint: "Cursive 1" 624 781 entry 0
 LayerCount: 6
 Back
-Refer: 146 -1 S 1 0 0 1 928 0 2
-Refer: 155 -1 N 1 0 0 1 0 0 2
-Refer: 142 -1 N 1 0 0 1 0 0 2
+Refer: 145 -1 S 1 0 0 1 928 0 2
+Refer: 154 -1 N 1 0 0 1 0 0 2
+Refer: 141 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 638 706 m 1
@@ -5715,7 +5690,7 @@ Colour: ff3045
 EndChar
 
 StartChar: Guid.o
-Encoding: 187 -1 155
+Encoding: 187 -1 154
 Width: 4096
 VWidth: 0
 AnchorPoint: "Cursive 1" 624 781 exit 0
@@ -5734,7 +5709,7 @@ EndSplineSet
 EndChar
 
 StartChar: P9511
-Encoding: 147 -1 156
+Encoding: 147 -1 155
 Width: 794
 VWidth: 0
 Flags: HW
@@ -5742,8 +5717,8 @@ AnchorPoint: "Cursive 1" 1500 812 exit 0
 AnchorPoint: "Cursive 1" 624 781 entry 0
 LayerCount: 6
 Back
-Refer: 155 -1 S 1 0 0 1 0 0 2
-Refer: 142 -1 N 1 0 0 1 0 0 2
+Refer: 154 -1 S 1 0 0 1 0 0 2
+Refer: 141 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 642 778 m 1
@@ -5766,7 +5741,7 @@ Colour: ff3d40
 EndChar
 
 StartChar: P9512
-Encoding: 148 -1 157
+Encoding: 148 -1 156
 Width: 794
 VWidth: 0
 Flags: HW
@@ -5774,9 +5749,9 @@ AnchorPoint: "Cursive 1" 1301 781 exit 0
 AnchorPoint: "Cursive 1" 630 781 entry 0
 LayerCount: 6
 Back
-Refer: 155 -1 S 1 0 0 1 6 0 2
-Refer: 151 -1 N 1 0 0 1 923 0 2
-Refer: 142 -1 N 1 0 0 1 0 0 2
+Refer: 154 -1 S 1 0 0 1 6 0 2
+Refer: 150 -1 N 1 0 0 1 923 0 2
+Refer: 141 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 1298 789 m 1
@@ -5792,7 +5767,7 @@ Colour: ff3333
 EndChar
 
 StartChar: P9513
-Encoding: 149 -1 158
+Encoding: 149 -1 157
 Width: 1957
 VWidth: 0
 Flags: HW
@@ -5801,9 +5776,9 @@ AnchorPoint: "Cursive 1" 624 781 entry 0
 AnchorPoint: "Cursive 1" 1404 812 exit 0
 LayerCount: 6
 Back
-Refer: 148 -1 S 1 0 0 1 1232 0 2
-Refer: 155 -1 N 1 0 0 1 0 0 2
-Refer: 142 -1 N 1 0 0 1 0 0 2
+Refer: 147 -1 S 1 0 0 1 1232 0 2
+Refer: 154 -1 N 1 0 0 1 0 0 2
+Refer: 141 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 641 730 m 1
@@ -5819,7 +5794,7 @@ Colour: ff1a29
 EndChar
 
 StartChar: Guid.b
-Encoding: 190 -1 159
+Encoding: 190 -1 158
 Width: 4096
 VWidth: 0
 LayerCount: 6
@@ -5837,32 +5812,33 @@ EndSplineSet
 EndChar
 
 StartChar: P9006
-Encoding: 150 -1 160
+Encoding: 150 -1 159
 Width: 1313
 VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 1523 819 exit 0
-AnchorPoint: "Cursive 1" 323 415 entry 0
+AnchorPoint: "Cursive 1" 110 143 entry 0
 LayerCount: 6
 Back
-Refer: 142 -1 S 1 0 0 1 0 0 2
+Refer: 144 -1 S 1 0 0 1 0 0 2
+Refer: 141 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-1434 772 m 1
- 983 515 447 90 252 21 c 0
- 51 -50 37 64 315 422 c 1
- 330 410 l 1
- 142 168 106 56 129 30 c 0
- 142 15 180 17 246 40 c 0
- 433 105 974 532 1425 789 c 1
+117 136 m 5
+ 73 79 57 38 68 25 c 0
+ 83 7 172 27 304 91 c 0
+ 490 182 974 532 1425 789 c 1
  1434 772 l 1
+ 983 515 499 165 313 74 c 0
+ 44 -57 -14 -2 102 148 c 1
+ 117 136 l 5
 EndSplineSet
 Comment: "It is final part of glyphs like a and m before o."
 Colour: ff2b59
 EndChar
 
 StartChar: P9514
-Encoding: 151 -1 161
+Encoding: 151 -1 160
 Width: 903
 VWidth: 0
 Flags: HW
@@ -5870,8 +5846,8 @@ AnchorPoint: "Cursive 1" 1831 819 exit 0
 AnchorPoint: "Cursive 1" 999 781 entry 0
 LayerCount: 6
 Back
-Refer: 159 -1 S 1 0 0 1 0 0 2
-Refer: 142 -1 N 1 0 0 1 0 0 2
+Refer: 158 -1 S 1 0 0 1 0 0 2
+Refer: 141 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 991 776 m 1
@@ -5885,7 +5861,7 @@ Colour: ff4259
 EndChar
 
 StartChar: P9515
-Encoding: 152 -1 162
+Encoding: 152 -1 161
 Width: 903
 VWidth: 0
 Flags: HW
@@ -5893,8 +5869,8 @@ AnchorPoint: "Cursive 1" 1677 819 exit 0
 AnchorPoint: "Cursive 1" 628 781 entry 0
 LayerCount: 6
 Back
-Refer: 159 -1 S 1 0 0 1 -371 0 2
-Refer: 142 -1 N 1 0 0 1 0 0 2
+Refer: 158 -1 S 1 0 0 1 -371 0 2
+Refer: 141 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 624.818359375 769.20703125 m 1
@@ -5908,7 +5884,7 @@ Colour: ff3b3b
 EndChar
 
 StartChar: P9304
-Encoding: 153 -1 163
+Encoding: 153 -1 162
 Width: 1721
 VWidth: 0
 Flags: HW
@@ -5929,7 +5905,7 @@ Colour: ff4040
 EndChar
 
 StartChar: P9101
-Encoding: 154 -1 164
+Encoding: 154 -1 163
 Width: 2225
 VWidth: 0
 Flags: HW
@@ -5938,7 +5914,7 @@ AnchorPoint: "Cursive 1" 1620 819 exit 0
 AnchorPoint: "Cursive 1" 634 812 entry 0
 LayerCount: 6
 Back
-Refer: 165 -1 S 1 0 0 1 708 0 2
+Refer: 164 -1 S 1 0 0 1 708 0 2
 Fore
 SplineSet
 626 819 m 25
@@ -5957,7 +5933,7 @@ Colour: ff2e3d
 EndChar
 
 StartChar: Guid.a_anchors
-Encoding: 188 -1 165
+Encoding: 188 -1 164
 Width: 4096
 VWidth: 0
 LayerCount: 6
@@ -5986,7 +5962,7 @@ EndSplineSet
 EndChar
 
 StartChar: P9102
-Encoding: 155 -1 166
+Encoding: 155 -1 165
 Width: 2225
 VWidth: 0
 Flags: HW
@@ -5995,7 +5971,7 @@ AnchorPoint: "Cursive 1" 1413 812 exit 0
 AnchorPoint: "Cursive 1" 634 812 entry 0
 LayerCount: 6
 Back
-Refer: 148 -1 S 1 0 0 1 1248 0 2
+Refer: 147 -1 S 1 0 0 1 1248 0 2
 Fore
 SplineSet
 626 819 m 25
@@ -6014,7 +5990,7 @@ Colour: ff1a1f
 EndChar
 
 StartChar: P9103
-Encoding: 156 -1 167
+Encoding: 156 -1 166
 Width: 2225
 VWidth: 0
 Flags: HW
@@ -6040,7 +6016,7 @@ Colour: ff4c40
 EndChar
 
 StartChar: Guid.General3
-Encoding: 189 -1 168
+Encoding: 189 -1 167
 Width: 1313
 VWidth: 0
 Flags: HW
@@ -6050,6 +6026,22 @@ SplineSet
 -4096 136 m 1
  8192 136 l 1029
   Named: "For final part of glyphs like u"
+EndSplineSet
+EndChar
+
+StartChar: Guid.General4
+Encoding: 191 -1 168
+Width: 4096
+VWidth: 0
+LayerCount: 6
+Back
+SplineSet
+1682 812 m 29
+ 1682 810 l 1053
+1681 811 m 29
+ 1683 811 l 1053
+1676 819 m 25
+ 1687 803 l 1049
 EndSplineSet
 EndChar
 EndChars
