@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1558262812
+ModificationTime: 1558264675
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -311,7 +311,7 @@ ChainSub2: coverage "'calt' * +- [m,n,x,z]" 0 0 0 1
 EndFPST
 ChainSub2: coverage "'calt' * +- [+AH4A^a]" 0 0 0 1
  1 0 1
-  Coverage: 29 P9000 P9005 P9100 P9400 P9300
+  Coverage: 29 P9000 P9003 P9100 P9400 P9300
   FCoverage: 4 P101
  1
   SeqLookup: 0 "'aalt' * +- [+AH4A^a]"
@@ -325,7 +325,7 @@ ChainSub2: coverage "'calt' * +- [c]" 0 0 0 1
 EndFPST
 ChainSub2: coverage "'calt' * +- [e]" 0 0 0 1
  1 0 2
-  Coverage: 35 P9000 P9100 P9206 P9400 P9300 P9005
+  Coverage: 35 P9000 P9003 P9100 P9206 P9400 P9300
   FCoverage: 5 null2
   FCoverage: 4 P111
  1
@@ -333,7 +333,7 @@ ChainSub2: coverage "'calt' * +- [e]" 0 0 0 1
 EndFPST
 ChainSub2: coverage "'calt' * +- [+AH4A^b]" 0 0 0 1
  2 0 0
-  Coverage: 47 P9000 P9100 P9500 P9511 P9206 P9400 P9300 P9005
+  Coverage: 47 P9000 P9003 P9100 P9500 P9511 P9206 P9400 P9300
   Coverage: 29 P001 P000 P005 P002 P003 P004
  1
   SeqLookup: 1 "'aalt' * +- [+AH4A^b]"
@@ -345,7 +345,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 56 14 6
+WinInfo: 84 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3372,29 +3372,32 @@ Width: 937
 VWidth: 0
 Flags: HW
 HStem: 410 21G<0 61.1143 86.2471 170.247>
-AnchorPoint: "Cursive 1" 323 415 exit 0
+AnchorPoint: "Cursive 1" 110 143 exit 0
 AnchorPoint: "Cursive 1" 423 418 entry 0
 LayerCount: 6
 Back
-Refer: 145 -1 S 1 0 0 1 0 0 2
+Refer: 144 -1 S 1 0 0 1 205 262 2
+Refer: 145 -1 N 1 0 0 1 0 0 2
 Refer: 144 -1 N 1 0 0 1 0 0 2
 Refer: 143 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-418 427 m 1
- 518 489 599.193363634 542.741210577 705 622 c 0
- 823.768206464 710.968183751 850 771 840 788.500976562 c 0
- 822.905634739 818.417785141 736.445154892 801.271481482 638.999996356 732.201701185 c 0
- 513.314923026 643.115280351 409 517 330 410 c 1
- 327 410 l 25
- 315 420 l 25
- 315 422 l 1
- 388 522 499.831809642 657.0451132 628.000004305 749.322390742 c 0
- 831.11170244 895.556755595 987.695490538 809.579305011 717 607 c 0
+628 749 m 0
+ 831 895 988 810 717 607 c 0
  622 536 526 471 428 410 c 9
  426 410 l 25
- 417 425 l 29
+ 417 425 l 25
  418 427 l 1
+ 518 489 599 543 705 622 c 0
+ 824 711 850 771 840 789 c 0
+ 823 819 736 801 639 732 c 0
+ 511 642 417 522 322 398 c 4
+ 255 311 184 222 117 136 c 9
+ 113 136 l 25
+ 102 144 l 25
+ 102 148 l 17
+ 169 234 241 323 307 410 c 0
+ 402 535 496 654 628 749 c 0
 EndSplineSet
 Colour: bdbdbd
 EndChar
@@ -3887,6 +3890,8 @@ SplineSet
  46.7900390625 -12.3740234375 8.99923160894 28.3652087364 102 148 c 1
  117 136 l 5
 EndSplineSet
+Substitution2: "'aalt' * +- [e]" P9004
+Substitution2: "'aalt' * +- [+AH4A^a]" P9002
 Comment: "It is final part of glyphs like 'a' before 'c'."
 Colour: ff1214
 EndChar
