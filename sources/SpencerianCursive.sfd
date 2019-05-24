@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1558709745
+ModificationTime: 1558729028
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -150,7 +150,7 @@ EndFPST
 ChainSub2: coverage "'calt' [+AH4A-i] +- *-1" 0 0 0 1
  2 0 0
   Coverage: 5 P9000
-  Coverage: 4 P102
+  Coverage: 9 P102 P117
  1
   SeqLookup: 0 "'aalt' [+AH4A-i] +- *"
 EndFPST
@@ -374,7 +374,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 98 14 6
+WinInfo: 84 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -411,7 +411,7 @@ Grid
  8192 -819 l 1024
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' [a,d,g,o,q]" "Cursive 1" "'curs' *"
-BeginChars: 194 174
+BeginChars: 194 177
 
 StartChar: O
 Encoding: 40 79 0
@@ -3039,6 +3039,7 @@ SplineSet
  19 0 l 1
 EndSplineSet
 Substitution2: "'aalt' * +- [+AH4A^b]" null1
+Comment: "It was for initial part of glyphs like 'a'."
 Colour: 129eff
 EndChar
 
@@ -3169,6 +3170,9 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
+Substitution2: "'aalt' * +- [m,n,x,z]" P9106
+Substitution2: "'aalt' * +- [c]" P9105
+Substitution2: "'aalt' * +- [e]" P9104
 Substitution2: "'aalt' [q] +- [+AH4A-a]-1" P9101
 Substitution2: "'aalt' [q] +- [+AH4A-h]-1" P9103
 Comment: "It is one of parts of 'q'."
@@ -3222,7 +3226,7 @@ SplineSet
  990 697 773 567 555 410 c 1
  553 410 l 25
  543 423 l 25
- 543 425 l 1
+ 543 425 l 5
  772 592 984 713 1135 774 c 0
  1346 859 1440.22 826.59 1293 643 c 2
  897 136 l 1
@@ -3347,7 +3351,7 @@ Fore
 SplineSet
 619 711 m 0
  867 917.977610319 1059 802 904 666 c 0
- 767 546 621 644 897 819 c 1
+ 767 546 621 644 897 819 c 5
  908 803 l 1
  773 717 750 658 764 640 c 0
  778 622 839 635 890 679 c 0
@@ -3403,11 +3407,11 @@ Refer: 141 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 717 607 m 0
- 622.033259405 535.955801216 526 471 428 410 c 9
+ 622.033259405 535.955801216 525.890191739 471.16858067 428 410 c 13
  426 410 l 25
  417 425 l 25
- 418 427 l 5
- 518 489 599.143312761 542.809080276 705 622 c 0
+ 418 427 l 1
+ 517.781338994 489.35030063 599.143312761 542.809080276 705 622 c 0
  814.70019782 704.066232997 843.329340777 780.853649644 830 797.081054688 c 0
  814.13173717 816.399394025 611.376164687 768.772635146 117 136 c 9
  113 136 l 25
@@ -3758,6 +3762,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Substitution2: "'aalt' * +- [+AH4A^b]" null1
+Comment: "It was for intial part of 'o'."
 Colour: 5b8ff
 EndChar
 
@@ -4066,7 +4071,7 @@ SplineSet
  116 136 l 25
  118 136 l 1
  506 634 l 2
- 643 810 558 857 375 789 c 9
+ 643 810 558 857 375 789 c 13
  374 787 l 25
  380 773 l 25
  382 772 l 1
@@ -5439,7 +5444,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Guid.b_v_w_o
+StartChar: Guid.b_v_w_o_m_n
 Encoding: 179 -1 139
 Width: 4096
 VWidth: 0
@@ -5617,7 +5622,7 @@ Comment: "It is final part 's' when there are not any glyphs after it."
 Colour: d1d1d1
 EndChar
 
-StartChar: Guid.r_u_v_w_y_z
+StartChar: Guid.r_u_v_w_y_z_m_n
 Encoding: 186 -1 148
 Width: 4096
 VWidth: 0
@@ -5999,7 +6004,7 @@ SplineSet
  -590 -737 l 2
  -784 -984 -657.068328601 -1082.14530491 -439 -782 c 0
  275.746866788 201.76466516 784.323667205 216.283271814 1419 804 c 1
- 1407 819 l 1
+ 1407 819 l 5
  771 233 261.33465204 214.573682154 -454 -770 c 0
  -557.72058562 -912.759138827 -642.403343532 -959.988564113 -660 -947.817382812 c 0
  -678.569261205 -934.97347436 -659.745224838 -856.909058135 -577 -751 c 10
@@ -6070,7 +6075,7 @@ StartChar: P9007
 Encoding: 118 -1 167
 Width: 2857
 VWidth: 0
-Flags: HWO
+Flags: HW
 AnchorPoint: "Cursive 1" 1404 418 exit 0
 AnchorPoint: "Cursive 1" 110 143 entry 0
 LayerCount: 6
@@ -6080,17 +6085,14 @@ Refer: 143 -1 N 1 0 0 1 981 0 2
 Fore
 SplineSet
 117 136 m 1
- 75.1350196779 82.4152687547 60.2094939525 56.8760909494 65.4970703125 45 c 0
- 74.0385398171 25.8155453895 153.95 19 222 19 c 0
+ 83.3417871439 92.9194521003 71.6203158058 69.1475059432 78.7890625 53 c 0
+ 89 30 148.188226921 19 222 19 c 0
  422 19 942.763211038 130.716364952 1399 427 c 1
  1409 410 l 1
- 957 116 433 0 222 -0 c 0
- 0 -0 21 47 102 148 c 1
+ 957 116 433 -0 222 -0 c 0
+ -7 0 55 89 102 148 c 1
  117 136 l 1
 EndSplineSet
-Refer: 170 -1 N 1 0 0 1 981 0 2
-Refer: 67 -1 N 1 0 0 1 981 0 2
-Refer: 67 -1 N 1 0 0 1 0 0 2
 Comment: "It is final part of 'c' and 'e' before 'e'."
 Colour: ff292e
 EndChar
@@ -6247,6 +6249,95 @@ SplineSet
 EndSplineSet
 Comment: "It is for final part of 's' and 'e' before glyphs like 'l'."
 Colour: ff1a21
+EndChar
+
+StartChar: P9104
+Encoding: 157 -1 174
+Width: 2225
+VWidth: 0
+Flags: HW
+HStem: 811 16<1378.88 1416.32>
+AnchorPoint: "Cursive 1" 1203 418 exit 0
+AnchorPoint: "Cursive 1" 634 812 entry 0
+LayerCount: 6
+Back
+Refer: 143 -1 S 1 0 0 1 780 0 2
+Refer: 141 -1 N 1 0 0 1 0 0 2
+Fore
+SplineSet
+626 819 m 25
+ -590 -737 l 2
+ -784 -984 -657.068328601 -1082.14530491 -439 -782 c 4
+ 28.2892755725 -138.831489472 453.983476745 -61.161816215 1208 410 c 1
+ 1198 427 l 1
+ 443.559570312 -44.4267578125 16.228201834 -122.7864045 -454 -770 c 0
+ -557.72058562 -912.759138827 -642.403343532 -959.988564113 -660 -947.817382812 c 0
+ -678.569261205 -934.97347436 -659.745224838 -856.909058135 -577 -751 c 10
+ 641 807 l 1
+ 626 819 l 25
+EndSplineSet
+Refer: 67 -1 N 1 0 0 1 780 0 2
+Comment: "It is for final part of 'q' before 'e'."
+Colour: ff333d
+EndChar
+
+StartChar: P9105
+Encoding: 158 -1 175
+Width: 2225
+VWidth: 0
+Flags: HW
+HStem: 811 16<1378.88 1416.32>
+AnchorPoint: "Cursive 1" 1682 811 exit 0
+AnchorPoint: "Cursive 1" 634 812 entry 0
+LayerCount: 6
+Back
+Refer: 166 -1 S 1 0 0 1 0 0 2
+Fore
+SplineSet
+626 819 m 25
+ -590 -737 l 2
+ -784 -984 -657.068328601 -1082.14530491 -439 -782 c 0
+ 90.0067270632 -53.8847050625 953.438396825 344.619836438 1687 803 c 1
+ 1676 819 l 1
+ 942.599525963 360.720521098 77.9456533247 -37.8396200907 -454 -770 c 4
+ -557.72058562 -912.759138827 -642.403343532 -959.988564113 -660 -947.817382812 c 0
+ -678.569261205 -934.97347436 -659.745224838 -856.909058135 -577 -751 c 10
+ 641 807 l 1
+ 626 819 l 25
+EndSplineSet
+Refer: 65 -1 N 1 0 0 1 779 0 2
+Comment: "It is final part of 'q' before 'c'."
+Colour: ff172e
+EndChar
+
+StartChar: P9106
+Encoding: 159 -1 176
+Width: 2225
+VWidth: 0
+Flags: HW
+HStem: 811 16<1378.88 1416.32>
+AnchorPoint: "Cursive 1" 729 417 exit 0
+AnchorPoint: "Cursive 1" 634 812 entry 0
+LayerCount: 6
+Back
+Refer: 145 -1 S 1 0 0 1 567 -394 2
+Refer: 141 -1 N 1 0 0 1 0 0 2
+Fore
+SplineSet
+626 819 m 25
+ -590 -737 l 2
+ -784 -984 -656.480543348 -1081.33628792 -439 -782 c 4
+ -86.9166338768 -297.398820369 213.756987645 29.1151565145 738 410 c 1
+ 726 425 l 1
+ 200.138953656 42.9395860099 -101.328848625 -284.589803375 -454 -770 c 0
+ -557.72058562 -912.759138827 -642.403343532 -959.988564113 -660 -947.817382812 c 0
+ -678.569261205 -934.97347436 -659.745224838 -856.909058135 -577 -751 c 10
+ 641 807 l 1
+ 626 819 l 25
+EndSplineSet
+Refer: 60 -1 N 1 0 0 1 183 0 2
+Comment: "It is final part of 'q' before glyphs like 'm'."
+Colour: ff1a2e
 EndChar
 EndChars
 EndSplineFont
