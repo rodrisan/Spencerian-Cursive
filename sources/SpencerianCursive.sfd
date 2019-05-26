@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1558894013
+ModificationTime: 1558900260
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -260,7 +260,7 @@ EndFPST
 ChainSub2: coverage "'calt' [s] +- *-1" 0 0 0 1
  1 0 1
   Coverage: 6 P116.1
-  FCoverage: 135 P000 P101 P001 P102 P103 P9200 P104 P105 P106 P107 P109 P110 P002 P111 P003 P112 P113 P114 P115 P116 P117 P118 P119 P120 P005 P126 P127
+  FCoverage: 137 P000 P101 P001 P102 P103 P9200 P104 P105 P106 P107 P109 P110 P002 P111 P003 P112 P113 P114 P115 P116 P117 P118 P119 P120 P005 P105.1 P127
  1
   SeqLookup: 0 "'ccmp' [s] +- *"
 EndFPST
@@ -347,7 +347,7 @@ ChainSub2: coverage "'calt' [+AH4A-b, o] +- [+AH4A-n]" 0 0 0 1
 EndFPST
 ChainPos2: coverage "'kern' `applying 'curs' features`" 0 0 0 1
  1 0 0
-  Coverage: 776 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 hyphen period zero one two three four five six seven eight nine colon semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent P000 P101 P001 P102 P103 P9200 P9100 P104 P105 P106 P107 P9500 P109 P002 P111 P003 P112 P113 P114 P115 P116 P117 P118 P9400 P9300 P004 null1 null2 P119 P9000 P120 P9004 P9003 P9002 P005 P9001 P9007 P9008 P9501 P126 null3 P9201 P127 Quotation_Mark2 P9202 P9502 P9503 P9504 P9301 P9302 P9303 P9009 P9203 P9204 P9205 P9206 P9207 P9505 P9506 P9507 P116.1 P9508 P9509 P9510 P9511 P9512 P9513 P9006 P9514 P9515 P9304 P9101 P9102 P9103 P9104 P9105 P9106 P9107 P9011 P9012 P9013 P9305
+  Coverage: 778 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 hyphen period zero one two three four five six seven eight nine colon semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent P000 P101 P001 P102 P103 P9200 P9100 P104 P105 P106 P107 P9500 P109 P002 P111 P003 P112 P113 P114 P115 P116 P117 P118 P9400 P9300 P004 null1 null2 P119 P9000 P120 P9004 P9003 P9002 P005 P9001 P9007 P9008 P9501 P105.1 null3 P9201 P127 Quotation_Mark2 P9202 P9502 P9503 P9504 P9301 P9302 P9303 P9009 P9203 P9204 P9205 P9206 P9207 P9505 P9506 P9507 P116.1 P9508 P9509 P9510 P9511 P9512 P9513 P9006 P9514 P9515 P9304 P9101 P9102 P9103 P9104 P9105 P9106 P9107 P9011 P9012 P9013 P9305
  2
   SeqLookup: 0 "'curs' *"
   SeqLookup: 0 "'curs' [a,d,g,o,q]"
@@ -396,7 +396,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 84 14 6
+WinInfo: 98 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3258,7 +3258,7 @@ SplineSet
  897 136 l 1
  895 136 l 25
 EndSplineSet
-Substitution2: "'aalt' [+AH4A-b, o] +- [+AH4A-n]" P126
+Substitution2: "'aalt' [+AH4A-b, o] +- [+AH4A-n]" P105.1
 Comment: "It is one parts of glyphs like 'm'."
 Colour: bdbdbd
 EndChar
@@ -4074,7 +4074,7 @@ Comment: "It is for final part of b and v."
 Colour: ff2638
 EndChar
 
-StartChar: P126
+StartChar: P105.1
 Encoding: 121 -1 91
 Width: 793
 VWidth: 0
@@ -4143,7 +4143,7 @@ StartChar: P9201
 Encoding: 123 -1 94
 Width: 793
 VWidth: 0
-Flags: HW
+Flags: HWO
 AnchorPoint: "Cursive 1" -654 -1620 entry 0
 AnchorPoint: "Cursive 1" 1404 410 exit 0
 LayerCount: 6
@@ -4151,32 +4151,27 @@ Back
 Refer: 145 -1 S 1 0 0 1 1252 -394 2
 Refer: 141 -1 N 1 0 0 1 0 0 2
 Refer: 144 -1 N 1 0 0 1 0 0 2
-Fore
-SplineSet
--660 -1627 m 1
- -725 -1585 -677.647673988 -1420.0568444 -469 -1153 c 0
- -38.036967272 -601.392472475 893.2291236 48.8174385328 1411 425 c 1
- 1423 410 l 1
- 902.988146526 32.189273384 -26.1152746487 -617.332526243 -454 -1165 c 0
- -650.396010629 -1416.3754304 -701.133661086 -1578.15012467 -648 -1612 c 1
- -660 -1627 l 1
-EndSplineSet
-Refer: 60 -1 N 1 0 0 1 868 0 2
 Layer: 5
 SplineSet
--469 -1153 m 4
- -38.036967272 -601.392472475 893.2291236 48.8174385328 1411 425 c 5
- 1423 410 l 5
- 902.988146526 32.189273384 -26.1152746487 -617.332526243 -454 -1165 c 4
- -650.396010629 -1416.3754304 -701.133661086 -1578.15012467 -648 -1612 c 4
- -605.889465111 -1638.82736944 -460 -1593 -232 -1387 c 4
- -79 -1249 108 -1039 321 -735 c 6
- 1407 819 l 5
- 1422 807 l 5
- 337 -746 l 6
- 132 -1039 -57 -1256 -219 -1401 c 4
- -437 -1597 -598 -1667 -660 -1627 c 4
+-454 -1165 m 0
+ -650.396010629 -1416.3754304 -701.133661086 -1578.15012467 -648 -1612 c 0
+ -605.889465111 -1638.82736944 -460 -1593 -232 -1387 c 0
+ -79 -1249 108 -1039 321 -735 c 2
+ 1407 819 l 1
+ 1422 807 l 1
+ 337 -746 l 2
+ 132 -1039 -57 -1256 -219 -1401 c 0
+ -437 -1597 -598 -1667 -660 -1627 c 0
  -725 -1585 -677.647673988 -1420.0568444 -469 -1153 c 4
+ -99.6031148046 -680.193547836 988 236 2154 774 c 4
+ 2360.55296912 869.304886268 2459.21972656 826.58984375 2312 643 c 2
+ 1916 136 l 1
+ 1914 136 l 25
+ 1901 146 l 25
+ 1901 148 l 1
+ 2294 650 l 2
+ 2428.54980469 817.370117188 2358.38597804 844.971386573 2162 756 c 4
+ 1012 235 -84.6031148046 -692.193547836 -454 -1165 c 0
 EndSplineSet
 Comment: "It will be placed before glyphs like m."
 Colour: ff171f
