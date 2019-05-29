@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1559111678
+ModificationTime: 1559121167
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -49,36 +49,27 @@ OS2Vendor: 'PfEd'
 Lookup: 2 0 0 "'ccmp' [s] +- *" { "'ccmp' [s] +- *-1"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 2 0 0 "'ccmp' [Lowercase]" { "'ccmp' [Lowercase]"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "* +- [a, d, g, q]" { "* +- [a, d, g, q]"  } []
-Lookup: 1 0 0 "* +- [b, h, k, l]" { "* +- [b, h, k, l]"  } []
 Lookup: 1 0 0 "* +- [e]" { "* +- [e]"  } []
 Lookup: 1 0 0 "* +- [c]" { "* +- [c]"  } []
 Lookup: 1 0 0 "* +- [m, n, v, x, y, z]" { "* +- [m, n, v, x, y, z]"  } []
-Lookup: 1 0 0 "'aalt' [+AH4A-j] +- [+AH4A-t]" { "'aalt' [+AH4A-j] +- [+AH4A-t]"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "* +- [t]" { "* +- [t]"  } []
 Lookup: 1 0 0 "* +- [o]" { "* +- [o]-1"  } []
-Lookup: 1 0 0 "'aalt' [+ACIA]" { "'aalt' [+ACIA]"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'aalt' [+AH4A-b] +- [+AH4A-l]" { "'aalt' [+AH4A-b] +- [+AH4A-l]-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'aalt' [o] +- [+AH4A-h]" { "'aalt' [o] +- [+AH4A-h]-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'aalt' [o] +- [r, s]" { "'aalt' [o] +- [r, s]-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'aalt' [q] +- [+AH4A-h]" { "'aalt' [q] +- [+AH4A-h]-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'aalt' [+AH4A-i] +- *" { "'aalt' [+AH4A-i] +- *-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'aalt' [+AH4A-l, f] +- [+AH4A-l, f]" { "'aalt' [+AH4A-l, f] +- [+AH4A-l, f]-1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "* +- [b, f, h, k, l]" { "* +- [b, f, h, k, l]"  } []
 Lookup: 1 0 0 "* +- [p, r, s]" { "* +- [p, r, s]"  } []
+Lookup: 1 0 0 "[+AH4A-i] +- *" { "'aalt' [+AH4A-i] +- *-1"  } []
+Lookup: 1 0 0 "[+ACIA]" { "[+ACIA]"  } []
 Lookup: 6 0 0 "'calt' [s] +- *" { "'calt' [s] +- *-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' * +- [a, d, g, q]" { "'calt' * +- [a, d, g, q]"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' * +- [+AH4A^b]" { "'calt' * +- [+AH4A^b]"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' * +- [e]" { "'calt' * +- [e]"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' * +- [c]" { "'calt' * +- [c]"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' * +- [m, n, v, x, y, z]" { "'calt' * +- [m, n, v, x, y, z]"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' [+AH4A-j] +- [+AH4A-t]" { "'calt' [+AH4A-j] +- [+AH4A-t]"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' * +- [t]" { "'calt' * +- [t]"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' * +- [o]" { "'calt' * +- [o]-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' [+ACIA]" { "'calt' [+ACIA]"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' [+AH4A-b] +- [+AH4A-l]" { "'calt' [+AH4A-b] +- [+AH4A-l]-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' [o] +- [+AH4A-h]" { "'calt' [o] +- [+AH4A-h]-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' [o] +- [r, s]" { "'calt' [o] +- [r, s]-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' [q] +- [+AH4A-h]" { "'calt' [q] +- [+AH4A-h]-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' [+AH4A-i] +- *" { "'calt' [+AH4A-i] +- *-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' [+AH4A-l, f] +- [+AH4A-l, f]" { "'calt' [+AH4A-l, f] +- [+AH4A-l, f]-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' * +- [b, f, h, k, l]" { "'calt' * +- [b, f, h, k, l]"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' * +- [p, r, s]" { "'calt' * +- [p, r, s]-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' [+AH4A-i] +- *" { "'calt' [+AH4A-i] +- *-1"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' [+ACIA]" { "'calt' [+ACIA]"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "Substitute with nulls" { "Substitute with nulls"  } []
 Lookup: 259 0 0 "'curs' [a,d,g,o,q]" { "'curs' [a,d,g,o,q]"  } ['curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) 'curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 259 0 0 "'curs' *" { "'curs' *"  } [' RQD' ('DFLT' <'dflt' > 'latn' <'dflt' > ) 'curs' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 264 0 0 "'kern' `applying 'curs' features`" { "'kern' `applying 'curs' features`"  } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -116,65 +107,32 @@ KernClass2: 20 10 "'kern' *"
  3 A F
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -1099 {} -819 {} -1163 {} -1366 {} 0 {} -978 {} -800 {} 0 {} -532 {} 0 {} -1533 {} 0 {} -1189 {} 0 {} -1397 {} -1186 {} 0 {} -556 {} -757 {} 0 {} -1445 {} 0 {} -1135 {} 0 {} -1357 {} -1072 {} 0 {} -70 {} -400 {} 0 {} -1906 {} 0 {} -1555 {} 0 {} -1772 {} -1548 {} 0 {} -811 {} -1080 {} 0 {} -3118 {} 0 {} -2756 {} 0 {} -2992 {} -2734 {} 0 {} 0 {} -2498 {} 0 {} -3103 {} 0 {} -2754 {} 0 {} -2989 {} -2721 {} 0 {} -1347 {} -2183 {} 0 {} -2627 {} 0 {} -2280 {} 0 {} -2504 {} -2253 {} 0 {} -216 {} -1961 {} 0 {} -2487 {} 0 {} -2152 {} 0 {} -2359 {} -2130 {} 0 {} -444 {} -1615 {} 0 {} -1284 {} 0 {} -800 {} 0 {} -1016 {} -938 {} 0 {} 0 {} -1158 {} 0 {} -1043 {} 0 {} -696 {} 0 {} -901 {} -701 {} 0 {} -120 {} -395 {} 0 {} -917 {} 0 {} -593 {} 0 {} -821 {} -539 {} 0 {} 0 {} 0 {} 0 {} -1712 {} 0 {} -1337 {} 0 {} -1547 {} -1358 {} 0 {} 0 {} -924 {} 0 {} -2571 {} 0 {} -2224 {} 0 {} -2461 {} -2186 {} 0 {} 0 {} -1850 {} 0 {} -2125 {} 0 {} -1744 {} 0 {} -1951 {} -1777 {} 0 {} -307 {} -1405 {} 0 {} -2224 {} 0 {} -1869 {} 0 {} -2088 {} -1860 {} 0 {} -745 {} -1630 {} 0 {} -1065 {} 0 {} -760 {} 0 {} -977 {} -695 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
 ChainSub2: class "'calt' * +- [p, r, s]-1" 4 4 4 1
-  Class: 17 P9100 P9206 P9500
-  Class: 5 null1
+  Class: 35 P9100 P9206 P9500 P9511 P9000 P9300
+  Class: 9 P000 P002
   Class: 21 P114 P115 P116 P116.1
-  BClass: 17 P9100 P9206 P9500
-  BClass: 5 null1
+  BClass: 35 P9100 P9206 P9500 P9511 P9000 P9300
+  BClass: 9 P000 P002
   BClass: 21 P114 P115 P116 P116.1
-  FClass: 17 P9100 P9206 P9500
-  FClass: 5 null1
+  FClass: 35 P9100 P9206 P9500 P9511 P9000 P9300
+  FClass: 9 P000 P002
   FClass: 21 P114 P115 P116 P116.1
- 1 0 2
-  ClsList: 1
+ 2 0 1
+  ClsList: 1 2
   BClsList:
-  FClsList: 2 3
- 1
+  FClsList: 3
+ 2
   SeqLookup: 0 "* +- [p, r, s]"
+  SeqLookup: 1 "Substitute with nulls"
   ClassNames: "All_Others" "Class1" "Class2" "Class3"
   BClassNames: "All_Others" "Class1" "Class2" "Class3"
   FClassNames: "All_Others" "Class1" "Class2" "Class3"
-EndFPST
-ChainSub2: coverage "'calt' [+AH4A-l, f] +- [+AH4A-l, f]-1" 0 0 0 1
- 3 0 0
-  Coverage: 11 P9000 P9300
-  Coverage: 5 null1
-  Coverage: 4 P107
- 1
-  SeqLookup: 0 "'aalt' [+AH4A-l, f] +- [+AH4A-l, f]"
 EndFPST
 ChainSub2: coverage "'calt' [+AH4A-i] +- *-1" 0 0 0 1
  2 0 0
   Coverage: 5 P9000
   Coverage: 9 P102 P117
  1
-  SeqLookup: 0 "'aalt' [+AH4A-i] +- *"
-EndFPST
-ChainSub2: coverage "'calt' [q] +- [+AH4A-h]-1" 0 0 0 1
- 3 0 0
-  Coverage: 5 P9100
-  Coverage: 5 null1
-  Coverage: 4 P107
- 1
-  SeqLookup: 0 "'aalt' [q] +- [+AH4A-h]"
-EndFPST
-ChainSub2: coverage "'calt' [o] +- [r, s]-1" 0 0 0 1
- 4 0 0
-  Coverage: 4 P113
-  Coverage: 5 P9511
-  Coverage: 5 null1
-  Coverage: 16 P115 P116 P116.1
- 1
-  SeqLookup: 1 "'aalt' [o] +- [r, s]"
-EndFPST
-ChainSub2: coverage "'calt' [o] +- [+AH4A-h]-1" 0 0 0 1
- 4 0 0
-  Coverage: 4 P113
-  Coverage: 5 P9511
-  Coverage: 5 null1
-  Coverage: 14 P107 P114 P117
- 1
-  SeqLookup: 1 "'aalt' [o] +- [+AH4A-h]"
+  SeqLookup: 0 "[+AH4A-i] +- *"
 EndFPST
 ChainSub2: coverage "'calt' [s] +- *-1" 0 0 0 1
  1 0 1
@@ -183,14 +141,14 @@ ChainSub2: coverage "'calt' [s] +- *-1" 0 0 0 1
  1
   SeqLookup: 0 "'ccmp' [s] +- *"
 EndFPST
-ChainSub2: coverage "'calt' [+AH4A-b] +- [+AH4A-l]-1" 0 0 0 1
- 2 0 2
-  Coverage: 4 P119
-  Coverage: 5 P9500
-  FCoverage: 5 null1
-  FCoverage: 9 P107 P117
- 1
-  SeqLookup: 1 "'aalt' [+AH4A-b] +- [+AH4A-l]"
+ChainSub2: coverage "'calt' * +- [b, f, h, k, l]" 0 0 0 1
+ 3 0 0
+  Coverage: 29 P9500 P9511 P9100 P9000 P9300
+  Coverage: 4 P002
+  Coverage: 4 P107
+ 2
+  SeqLookup: 0 "* +- [b, f, h, k, l]"
+  SeqLookup: 1 "Substitute with nulls"
 EndFPST
 ChainSub2: coverage "'calt' * +- [o]-1" 0 0 0 1
  1 0 1
@@ -199,19 +157,19 @@ ChainSub2: coverage "'calt' * +- [o]-1" 0 0 0 1
  1
   SeqLookup: 0 "* +- [o]"
 EndFPST
-ChainSub2: coverage "'calt' [+AH4A-j] +- [+AH4A-t]" 0 0 0 1
+ChainSub2: coverage "'calt' * +- [t]" 0 0 0 1
  1 0 1
   Coverage: 5 P9206
   FCoverage: 4 P117
  1
-  SeqLookup: 0 "'aalt' [+AH4A-j] +- [+AH4A-t]"
+  SeqLookup: 0 "* +- [t]"
 EndFPST
 ChainSub2: coverage "'calt' [+ACIA]" 1 1 1 1
  2 0 0
   Coverage: 8 quotedbl
   Coverage: 14 glyph90 period
  1
-  SeqLookup: 0 "'aalt' [+ACIA]"
+  SeqLookup: 0 "[+ACIA]"
   ClassNames: "All_Others"
   BClassNames: "All_Others"
   FClassNames: "All_Others"
@@ -226,22 +184,23 @@ EndFPST
 ChainSub2: class "'calt' * +- [m, n, v, x, y, z]" 5 5 5 2
   Class: 35 P9000 P9100 P9206 P9400 P9300 P9011
   Class: 11 P9500 P9511
-  Class: 5 null2
+  Class: 4 P005
   Class: 4 P105
   BClass: 35 P9000 P9100 P9206 P9400 P9300 P9011
   BClass: 11 P9500 P9511
-  BClass: 5 null2
+  BClass: 4 P005
   BClass: 4 P105
   FClass: 35 P9000 P9100 P9206 P9400 P9300 P9011
   FClass: 11 P9500 P9511
-  FClass: 5 null2
+  FClass: 4 P005
   FClass: 4 P105
- 1 0 2
-  ClsList: 1
+ 2 0 1
+  ClsList: 1 3
   BClsList:
-  FClsList: 3 4
- 1
+  FClsList: 4
+ 2
   SeqLookup: 0 "* +- [m, n, v, x, y, z]"
+  SeqLookup: 1 "Substitute with nulls"
  3 0 0
   ClsList: 2 3 4
   BClsList:
@@ -269,19 +228,13 @@ ChainSub2: coverage "'calt' * +- [c]" 0 0 0 1
   SeqLookup: 0 "* +- [c]"
 EndFPST
 ChainSub2: coverage "'calt' * +- [e]" 0 0 0 1
- 1 0 2
+ 3 0 0
   Coverage: 47 P9000 P9011 P9100 P9206 P9400 P9300 P9500 P9511
-  FCoverage: 5 null2
-  FCoverage: 4 P111
- 1
+  Coverage: 4 P003
+  Coverage: 4 P111
+ 2
   SeqLookup: 0 "* +- [e]"
-EndFPST
-ChainSub2: coverage "'calt' * +- [+AH4A^b]" 0 0 0 1
- 2 0 0
-  Coverage: 47 P9000 P9011 P9100 P9500 P9511 P9206 P9400 P9300
-  Coverage: 29 P001 P000 P005 P002 P003 P004
- 1
-  SeqLookup: 1 "* +- [b, h, k, l]"
+  SeqLookup: 1 "Substitute with nulls"
 EndFPST
 LangName: 1033
 Encoding: Custom
@@ -2906,7 +2859,7 @@ SplineSet
  1191 572 641 97 41 0 c 1
  38 19 l 1
 EndSplineSet
-Substitution2: "* +- [b, h, k, l]" null1
+Substitution2: "Substitute with nulls" null1
 Comment: "It is for initial part of 'r' and 's'."
 Colour: 5bfff
 EndChar
@@ -2954,7 +2907,7 @@ SplineSet
  502 718 150 254 3 8 c 1
  19 0 l 1
 EndSplineSet
-Substitution2: "* +- [b, h, k, l]" null1
+Substitution2: "Substitute with nulls" null1
 Comment: "It was for initial part of glyphs like 'a'."
 Colour: 129eff
 EndChar
@@ -3088,13 +3041,13 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
+Substitution2: "* +- [b, f, h, k, l]" P9103
 Substitution2: "* +- [a, d, g, q]" P9101
 Substitution2: "* +- [o]-1" P9107
 Substitution2: "* +- [p, r, s]" P9102
 Substitution2: "* +- [m, n, v, x, y, z]" P9106
 Substitution2: "* +- [c]" P9105
 Substitution2: "* +- [e]" P9104
-Substitution2: "'aalt' [q] +- [+AH4A-h]-1" P9103
 Comment: "It is one of parts of 'q'."
 Colour: ff1c3b
 EndChar
@@ -3103,7 +3056,8 @@ StartChar: P104
 Encoding: 88 -1 59
 Width: 665
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 12 795
 AnchorPoint: "Cursive 1" 634 814 entry 0
 AnchorPoint: "Cursive 1" 3 7 exit 0
 LayerCount: 6
@@ -3126,8 +3080,7 @@ StartChar: P105
 Encoding: 89 -1 60
 Width: 793
 VWidth: 0
-Flags: HW
-HStem: 409 21G<564.569 820.031>
+Flags: W
 AnchorPoint: "Cursive 1" 890 143 exit 0
 AnchorPoint: "Cursive 1" 549 418 entry 0
 LayerCount: 6
@@ -3249,7 +3202,7 @@ Substitution2: "* +- [e]" P9502
 Substitution2: "* +- [p, r, s]" P9507
 Substitution2: "* +- [m, n, v, x, y, z]" P9501
 Substitution2: "* +- [o]-1" P9514
-Substitution2: "'aalt' [+AH4A-b] +- [+AH4A-l]-1" P9506
+Substitution2: "* +- [b, f, h, k, l]" P9506
 Comment: "It is final part of glyph like b without any glyph after it."
 Colour: ff2938
 EndChar
@@ -3305,7 +3258,7 @@ SplineSet
  545 312 797 491 1207 819 c 1
  1219 804 l 17
 EndSplineSet
-Substitution2: "* +- [b, h, k, l]" null1
+Substitution2: "Substitute with nulls" null1
 Comment: "It is initial part of glyphs like 'h'."
 Colour: 59cff
 EndChar
@@ -3363,7 +3316,7 @@ SplineSet
  -466 18 l 1
  -150.265625 115.419921875 62 193 418 427 c 5
 EndSplineSet
-Substitution2: "* +- [b, h, k, l]" null2
+Substitution2: "Substitute with nulls" null2
 Comment: "It is initial part of e."
 Colour: 1f96ff
 EndChar
@@ -3652,11 +3605,11 @@ SplineSet
  1411 804 l 17
  1115 545 413 -1 0 0 c 1
 EndSplineSet
+Substitution2: "* +- [b, f, h, k, l]" P9305
 Substitution2: "* +- [a, d, g, q]" P9301
 Substitution2: "* +- [e]" P9302
 Substitution2: "* +- [m, n, v, x, y, z]" P9303
 Substitution2: "* +- [o]-1" P9304
-Substitution2: "'aalt' [+AH4A-l, f] +- [+AH4A-l, f]-1" P9305
 Comment: "It is final part of 's' and 'f'."
 Colour: ff3b2e
 EndChar
@@ -3681,7 +3634,7 @@ SplineSet
  117 164 258 311 418 434 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "* +- [b, h, k, l]" null1
+Substitution2: "Substitute with nulls" null1
 Comment: "It was for intial part of 'o'."
 Colour: 5b8ff
 EndChar
@@ -3709,7 +3662,6 @@ AnchorPoint: "Cursive 1" 507 0 entry 0
 LayerCount: 6
 Fore
 Validated: 1
-Substitution2: "* +- [m, n, v, x, y, z]" null3
 Comment: "It was for attaching all glyphs to each other because of problem of space."
 EndChar
 
@@ -3764,7 +3716,7 @@ SplineSet
  29 -4 45 44 117 136 c 1
  102 148 l 1
 EndSplineSet
-Substitution2: "'aalt' [+AH4A-l, f] +- [+AH4A-l, f]-1" P9003
+Substitution2: "* +- [b, f, h, k, l]" P9003
 Substitution2: "'aalt' [+AH4A-i] +- *-1" P9003
 Substitution2: "* +- [o]-1" P9006
 Substitution2: "* +- [e]" P9004
@@ -3896,7 +3848,8 @@ StartChar: P005
 Encoding: 116 -1 88
 Width: 60
 VWidth: 0
-Flags: HW
+Flags: W
+VStem: -492 515
 AnchorPoint: "Cursive 1" 29 417 exit 0
 AnchorPoint: "Cursive 1" -498 7 entry 0
 LayerCount: 6
@@ -3910,7 +3863,8 @@ SplineSet
  -323 141 -139 285 35 410 c 1
  23 425 l 1
 EndSplineSet
-Substitution2: "* +- [b, h, k, l]" null2
+Substitution2: "* +- [m, n, v, x, y, z]" null3
+Substitution2: "Substitute with nulls" null2
 Comment: "It is for initial part of v, x, m, n."
 Colour: 4aabff
 EndChar
@@ -4509,7 +4463,7 @@ Fore
 Refer: 93 44 N -1 0 0 -1 661 1679 2
 Refer: 93 44 N -1 0 0 -1 509 1679 2
 Validated: 1
-Substitution2: "'aalt' [+ACIA]" Quotation_Mark2
+Substitution2: "[+ACIA]" Quotation_Mark2
 EndChar
 
 StartChar: Quotation_Mark2
@@ -5233,7 +5187,7 @@ EndSplineSet
 Substitution2: "* +- [p, r, s]" P9203
 Substitution2: "* +- [a, d, g, q]" P9204
 Substitution2: "* +- [m, n, v, x, y, z]" P9201
-Substitution2: "'aalt' [+AH4A-j] +- [+AH4A-t]" P9205
+Substitution2: "* +- [t]" P9205
 Substitution2: "* +- [e]" P9202
 Substitution2: "* +- [o]-1" P9207
 Comment: "It is default final part of glyphs like g. "
@@ -5690,13 +5644,13 @@ SplineSet
  782 665 681.375317572 696.088877408 627 766 c 1
  642 778 l 1
 EndSplineSet
+Substitution2: "* +- [b, f, h, k, l]" P9509
+Substitution2: "* +- [p, r, s]" P9513
 Substitution2: "* +- [a, d, g, q]" P9508
 Substitution2: "* +- [c]" P9505
 Substitution2: "* +- [e]" P9510
 Substitution2: "* +- [m, n, v, x, y, z]" P9512
 Substitution2: "* +- [o]-1" P9515
-Substitution2: "'aalt' [o] +- [r, s]-1" P9513
-Substitution2: "'aalt' [o] +- [+AH4A-h]-1" P9509
 Comment: "It is final part of o before glyphs like j and u."
 Colour: ff3d40
 EndChar
