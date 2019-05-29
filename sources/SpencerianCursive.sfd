@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1558900260
+ModificationTime: 1559102394
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -396,7 +396,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 98 14 6
+WinInfo: 70 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -4110,12 +4110,12 @@ StartChar: null3
 Encoding: 122 -1 92
 Width: 793
 VWidth: 0
-Flags: W
-AnchorPoint: "Cursive 1" 577 763 entry 0
-AnchorPoint: "Cursive 1" 577 763 exit 0
+Flags: HW
+AnchorPoint: "Cursive 1" 577 781 entry 0
+AnchorPoint: "Cursive 1" 577 781 exit 0
 LayerCount: 6
-Fore
-Validated: 1
+Back
+Refer: 139 -1 S 1 0 0 1 0 0 2
 Comment: "It is for glyphs like 'm'."
 EndChar
 
@@ -4143,7 +4143,7 @@ StartChar: P9201
 Encoding: 123 -1 94
 Width: 793
 VWidth: 0
-Flags: HWO
+Flags: HW
 AnchorPoint: "Cursive 1" -654 -1620 entry 0
 AnchorPoint: "Cursive 1" 1404 410 exit 0
 LayerCount: 6
