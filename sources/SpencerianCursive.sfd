@@ -251,7 +251,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 84 14 6
+WinInfo: 98 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3114,8 +3114,8 @@ EndSplineSet
 Substitution2: "* +- [m, n, v, x, y, z] - 3" P105.3
 Substitution2: "* +- [m, n, v, x, y, z] - 2" P105.2
 Substitution2: "* +- [m, n, v, x, y, z] - 1" P105.1
-Comment: "It is one parts of glyphs like 'm'."
-Colour: bdbdbd
+Comment: "It is default initial part of glyphs like 'm'."
+Colour: 3d8fbd
 EndChar
 
 StartChar: P106
@@ -3872,7 +3872,7 @@ SplineSet
  23 425 l 1
 EndSplineSet
 Substitution2: "Substitute with nulls" null2
-Comment: "It is for initial part of v, x, m, n."
+Comment: "It was for initial part of v, x, m, n."
 Colour: 4aabff
 EndChar
 
@@ -3957,8 +3957,8 @@ SplineSet
  380 773 l 25
  382 772 l 1
 EndSplineSet
-Comment: "It is for m, n and v."
-Colour: bdbdbd
+Comment: "It is default initial part of glyphs like 'm' after glyphs like 'b' and 'o'."
+Colour: 549ebd
 EndChar
 
 StartChar: null3
@@ -3971,7 +3971,7 @@ AnchorPoint: "Cursive 1" 577 781 exit 0
 LayerCount: 6
 Back
 Refer: 139 -1 S 1 0 0 1 0 0 2
-Comment: "It is for glyphs like 'm'."
+Comment: "It was for glyphs like 'm'."
 EndChar
 
 StartChar: glyph98
@@ -6302,7 +6302,8 @@ SplineSet
  915 650 694 533 483 410 c 1
  472 426 l 1
 EndSplineSet
-Comment: "It is final part glyphs like 'j' before glyphs like 'm'."
+Comment: "It is default initial part of glyphs like 'm' after glyphs like 'j'."
+Colour: 6badff
 EndChar
 
 StartChar: P105.1
@@ -6334,6 +6335,8 @@ SplineSet
  897 136 l 1
  895 136 l 25
 EndSplineSet
+Comment: "It is intial part of glyphs like 'm' after glyphs like 'm'."
+Colour: 87baff
 EndChar
 EndChars
 EndSplineFont
