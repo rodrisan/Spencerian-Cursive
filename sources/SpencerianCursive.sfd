@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1559237389
+ModificationTime: 1559237613
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -251,7 +251,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 84 14 6
+WinInfo: 98 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -5163,7 +5163,7 @@ SplineSet
  -998.97891038 -1851.64811651 -425.484105619 -1802.3281902 321 -735 c 6
  1408 819.200195312 l 5
 EndSplineSet
-Comment: "it will be placed before t"
+Comment: "it was final part of 'j' before 't'."
 Colour: ff262e
 EndChar
 
@@ -5203,7 +5203,7 @@ Substitution2: "* +- [b, f, h, k, l]" P9208
 Substitution2: "* +- [p, r, s]" P9203
 Substitution2: "* +- [a, d, g, q]" P9204
 Substitution2: "* +- [m, n, v, x, y, z] - 1" P9201
-Substitution2: "* +- [t]" P9205
+Substitution2: "* +- [t]" P9208
 Substitution2: "* +- [e]" P9202
 Substitution2: "* +- [o]-1" P9207
 Comment: "It is default final part of glyphs like g. "
