@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1559341615
+ModificationTime: 1559341916
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -170,7 +170,7 @@ ChainSub2: coverage "'calt' * +- [o]-1" 0 0 0 1
 EndFPST
 ChainSub2: coverage "'calt' * +- [t]" 0 0 0 1
  1 0 1
-  Coverage: 11 P9206 P9300
+  Coverage: 17 P9206 P9300 P9516
   FCoverage: 9 P117 P107
  1
   SeqLookup: 0 "* +- [t]"
@@ -260,7 +260,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 84 14 6
+WinInfo: 70 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -6466,6 +6466,7 @@ AnchorPoint: "Cursive 1" 624 781 entry 0
 LayerCount: 6
 Back
 Refer: 152 -1 S 1 0 0 1 0 0 2
+Substitution2: "* +- [t]" P9509
 Substitution2: "* +- [i, j, u, w]" P9511
 Substitution2: "* +- [p, r, s]" P9513
 Substitution2: "* +- [b, f, h, k, l]" P9509
