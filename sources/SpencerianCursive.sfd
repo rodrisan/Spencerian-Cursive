@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1559340150
+ModificationTime: 1559340340
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -260,7 +260,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 42 14 6
+WinInfo: 98 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -6167,7 +6167,7 @@ SplineSet
  1605 804 l 21
  1309 545 413 -1 0 0 c 1
 EndSplineSet
-Comment: "It is for final part of 's' and 'e' before glyphs like 'l'."
+Comment: "It is for final part of 's' and 'f' before glyphs like 'l'."
 Colour: ff1a21
 EndChar
 
