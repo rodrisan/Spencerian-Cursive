@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1559342425
+ModificationTime: 1559343424
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -260,7 +260,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 70 14 6
+WinInfo: 112 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2823,7 +2823,7 @@ HStem: 417.4 21G<400.569 656.031> 800 20G<1383.26 2022.52>
 LayerCount: 6
 Fore
 Refer: 62 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' [Lowercase]" P105 P9000 P9200 P9206
+MultipleSubs2: "'ccmp' [Lowercase]" P105 P9012 P9200 P9206
 EndChar
 
 StartChar: g
@@ -6124,7 +6124,7 @@ SplineSet
  29 -4 45 44 117 136 c 1
  102 148 l 1
 EndSplineSet
-Comment: "It is same as P9000, it because of preventing of confilict in parts of 'u' in patters like 'uu'."
+Comment: "It is same as P9000, it because of preventing of confilict in parts of 'u' in patters like 'uu' and conflilct in parts of 'y'."
 Colour: ff2929
 EndChar
 
