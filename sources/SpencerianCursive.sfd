@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1559334052
+ModificationTime: 1559334430
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -245,12 +245,13 @@ ChainSub2: coverage "'calt' * +- [c]" 0 0 0 1
   SeqLookup: 0 "* +- [c]"
 EndFPST
 ChainSub2: coverage "'calt' * +- [e]" 0 0 0 1
- 1 0 2
+ 2 0 1
   Coverage: 47 P9000 P9011 P9100 P9206 P9400 P9300 P9500 P9516
-  FCoverage: 4 P003
+  Coverage: 4 P003
   FCoverage: 4 P111
- 1
+ 2
   SeqLookup: 0 "* +- [e]"
+  SeqLookup: 1 "Substitute with nulls"
 EndFPST
 LangName: 1033
 Encoding: Custom
