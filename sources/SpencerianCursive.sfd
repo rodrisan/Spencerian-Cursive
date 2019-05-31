@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1559334430
+ModificationTime: 1559334888
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -3584,23 +3584,23 @@ StartChar: P9400
 Encoding: 105 -1 76
 Width: 2505
 VWidth: 0
-Flags: W
-AnchorPoint: "Cursive 1" -655 -1620 exit 0
+Flags: HW
+AnchorPoint: "Cursive 1" -654 -1620 exit 0
 AnchorPoint: "Cursive 1" 771 0 entry 0
 LayerCount: 6
 Back
 Refer: 144 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
--649 -1612 m 1
- -594 -1645 -402 -1596 52 -1092 c 0
- 756 -310 946 101 785 0 c 1
+-648 -1612 m 1
+ -602.570133063 -1639.29701797 -420.075338696 -1614.40339161 53 -1089 c 0
+ 757.065915317 -307.055583184 946 101 785 0 c 1
  757 0 l 1
- 1018 166 784 -310 67 -1102 c 0
- -491 -1718 -636 -1642 -660 -1627 c 9
+ 1018 166 781.858991997 -308.068657149 67 -1102 c 0
+ -487.040142065 -1717.3239155 -636 -1642 -660 -1627 c 9
  -660 -1625 l 25
- -651 -1613 l 25
- -649 -1612 l 1
+ -651 -1614 l 25
+ -648 -1612 l 1
 EndSplineSet
 Comment: "It is one of part of glyphs like 'z'."
 Colour: ff4036
