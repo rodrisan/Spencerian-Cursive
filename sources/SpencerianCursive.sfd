@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1559325115
+ModificationTime: 1559328809
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -260,7 +260,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 98 14 6
+WinInfo: 56 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3779,24 +3779,24 @@ Encoding: 113 -1 84
 Width: 977
 VWidth: 0
 Flags: HW
-AnchorPoint: "Cursive 1" 1062 418 exit 0
+AnchorPoint: "Cursive 1" 1261 418 exit 0
 AnchorPoint: "Cursive 1" 110 143 entry 0
 LayerCount: 6
 Back
-Refer: 143 -1 S 1 0 0 1 639 0 2
+Refer: 143 -1 S 1 0 0 1 838 0 2
 Refer: 142 -1 N 1 0 0 1 0 0 2
 Refer: 141 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 117 136 m 1
- 40.2143499876 37.3644893957 73.8192928736 2.25538402217 181 27 c 0
- 312.169698121 57.2829109358 651.846897115 165.896642644 1057 427 c 1
- 1067 410 l 1
- 664 150 318.586135882 38.8407895505 185 8 c 0
- 77.9362172814 -16.7176218513 1.07147660758 18.1670638051 102 148 c 1
+ 37.7572091872 34.2081530563 50.4946892481 10.6697534428 180 22 c 0
+ 310.50150545 33.4174022999 831.975951922 162.040367883 1256 427 c 1
+ 1266 410 l 1
+ 841.975951922 145.040367883 315.854492188 14.7978515625 181 3 c 0
+ 45.0791015625 -8.8916015625 1.07147660758 18.1670638051 102 148 c 1
  117 136 l 1
 EndSplineSet
-Comment: "It is for final part 'e' before 'e'."
+Comment: "It is for final part of glyphs like 'i' before 'e'."
 Colour: ff030d
 EndChar
 
@@ -6402,7 +6402,7 @@ StartChar: P9209
 Encoding: 168 -1 181
 Width: 2212
 VWidth: 0
-Flags: HWO
+Flags: HW
 AnchorPoint: "Cursive 1" -654 -1620 entry 0
 AnchorPoint: "Cursive 1" 2402 814 exit 0
 LayerCount: 6
