@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1559331403
+ModificationTime: 1559332943
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -259,7 +259,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 98 14 6
+WinInfo: 112 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -299,7 +299,7 @@ Grid
  8192 -819 l 1024
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' [a,d,g,o,q]" "Cursive 1" "'curs' *"
-BeginChars: 194 184
+BeginChars: 194 185
 
 StartChar: O
 Encoding: 40 79 0
@@ -3803,24 +3803,25 @@ StartChar: P9003
 Encoding: 114 -1 85
 Width: 1313
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 3 816
 AnchorPoint: "Cursive 1" 110 143 entry 0
-AnchorPoint: "Cursive 1" 1684 811 exit 0
+AnchorPoint: "Cursive 1" 1614 811 exit 0
 LayerCount: 6
 Back
-Refer: 166 -1 S 1 0 0 1 2 0 2
-Refer: 142 -1 S 1 0 0 1 0 0 2
-Refer: 141 -1 S 1 0 0 1 0 0 2
+Refer: 184 -1 N 1 0 0 1 0 0 2
+Refer: 166 -1 S 1 0 0 1 -68 0 2
+Refer: 142 -1 N 1 0 0 1 0 0 2
+Refer: 141 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-117 136 m 5
- 42.2320395201 39.8196189132 49.9019156514 7.25380944798 170 22 c 0
- 448.905468611 56.2452854968 1042.2877095 406.163611459 1678 819 c 1
- 1689 803 l 1
- 1048.28084621 386.91211642 456.533203125 37.9365234375 172 3 c 0
- 46.7900390625 -12.3740234375 8.99923160894 28.3652087364 102 148 c 1
- 117 136 l 5
+117 136 m 1
+ 42.2320395201 39.8196189132 57.7319161566 4.20410774597 170 24 c 4
+ 449.685401855 73.3160824574 972.288085938 406.1640625 1608 819 c 1
+ 1619 803 l 1
+ 978.28125 386.912109375 458.401790731 55.5003630291 172 5 c 0
+ 47.7665019575 -16.9057176127 8.99923160894 28.3652087364 102 148 c 1
+ 117 136 l 1
 EndSplineSet
 Comment: "It is final part of glyphs like 'a' before glyph like 'i'."
 Colour: ff1214
@@ -6477,6 +6478,26 @@ Substitution2: "* +- [a, d, g, q]" P9508
 Substitution2: "* +- [o]-1" P9515
 Comment: "It is default final part of 'o', in fact it is empty."
 Colour: ff4c5c
+EndChar
+
+StartChar: Guid.ruller_with_four_part
+Encoding: 192 -1 184
+Width: 4096
+VWidth: 0
+LayerCount: 6
+Back
+SplineSet
+2196 816 m 29
+ 2196 824 l 1053
+2002 815 m 29
+ 2002 822 l 1053
+1808 816 m 29
+ 1808 823 l 1053
+1614 816 m 29
+ 1614 823 l 1053
+1420 823 m 29
+ 1420 816 l 1053
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
