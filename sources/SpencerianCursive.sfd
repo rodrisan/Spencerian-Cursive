@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1559341916
+ModificationTime: 1559342425
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -170,7 +170,7 @@ ChainSub2: coverage "'calt' * +- [o]-1" 0 0 0 1
 EndFPST
 ChainSub2: coverage "'calt' * +- [t]" 0 0 0 1
  1 0 1
-  Coverage: 17 P9206 P9300 P9516
+  Coverage: 23 P9206 P9300 P9516 P9100
   FCoverage: 9 P117 P107
  1
   SeqLookup: 0 "* +- [t]"
@@ -3061,6 +3061,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
+Substitution2: "* +- [t]" P9103
 Substitution2: "* +- [b, f, h, k, l]" P9103
 Substitution2: "* +- [a, d, g, q]" P9101
 Substitution2: "* +- [o]-1" P9107
