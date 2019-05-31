@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1559336441
+ModificationTime: 1559336766
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -260,7 +260,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 112 14 6
+WinInfo: 70 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3527,26 +3527,26 @@ VWidth: 0
 Flags: HW
 HStem: 818.2 21G<1386.54 1432.57> 1221 16<1344 2187>
 VStem: 1344 843<1221 1237>
-AnchorPoint: "Cursive 1" 634 812 exit 0
-AnchorPoint: "Cursive 1" 634 812 entry 0
+AnchorPoint: "Cursive 1" 635 814 exit 0
+AnchorPoint: "Cursive 1" 635 814 entry 0
 LayerCount: 6
 Back
-Refer: 142 -1 N 1 0 0 1 952 1216 2
-Refer: 142 -1 N 1 0 0 1 311 397 2
+Refer: 142 -1 S 1 0 0 1 1166 1490 2
+Refer: 142 -1 S 1 0 0 1 525 671 2
 Fore
 SplineSet
 558 1240 m 1
- 1401 1240 l 5
+ 1401 1240 l 1
  1401 1221 l 1
  558 1221 l 1
  558 1240 l 1
-626 819 m 1
- 1267 1638 l 1
- 1282 1626 l 1
- 641 807 l 9
- 637 806 l 25
- 626 815 l 25
- 626 819 l 1
+627 819 m 1
+ 1268 1638 l 1
+ 1283 1626 l 1
+ 642 807 l 9
+ 638 806 l 25
+ 627 815 l 25
+ 627 819 l 1
 EndSplineSet
 Comment: "It is one of pars of 't'."
 Colour: bdbdbd
