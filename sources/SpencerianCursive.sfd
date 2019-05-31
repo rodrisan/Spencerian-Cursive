@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1559330453
+ModificationTime: 1559331003
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -118,13 +118,13 @@ ChainSub2: coverage "'calt' * +- [i, j, u, w]" 0 0 0 1
   SeqLookup: 0 "* +- [i, j, u, w]"
 EndFPST
 ChainSub2: class "'calt' * +- [p, r, s]-1" 4 4 4 1
-  Class: 35 P9100 P9206 P9500 P9511 P9000 P9300
+  Class: 35 P9100 P9206 P9500 P9516 P9000 P9300
   Class: 9 P000 P002
   Class: 21 P114 P115 P116 P116.1
-  BClass: 35 P9100 P9206 P9500 P9511 P9000 P9300
+  BClass: 35 P9100 P9206 P9500 P9516 P9000 P9300
   BClass: 9 P000 P002
   BClass: 21 P114 P115 P116 P116.1
-  FClass: 35 P9100 P9206 P9500 P9511 P9000 P9300
+  FClass: 35 P9100 P9206 P9500 P9516 P9000 P9300
   FClass: 9 P000 P002
   FClass: 21 P114 P115 P116 P116.1
  2 0 1
@@ -153,17 +153,16 @@ ChainSub2: coverage "'calt' [s] +- *-1" 0 0 0 1
   SeqLookup: 0 "'ccmp' [s] +- *"
 EndFPST
 ChainSub2: coverage "'calt' * +- [b, f, h, k, l]" 0 0 0 1
- 3 0 0
-  Coverage: 35 P9500 P9511 P9100 P9000 P9300 P9206
-  Coverage: 4 P002
-  Coverage: 4 P107
- 2
+ 1 0 2
+  Coverage: 35 P9500 P9516 P9100 P9000 P9300 P9206
+  FCoverage: 4 P002
+  FCoverage: 4 P107
+ 1
   SeqLookup: 0 "* +- [b, f, h, k, l]"
-  SeqLookup: 1 "Substitute with nulls"
 EndFPST
 ChainSub2: coverage "'calt' * +- [o]-1" 0 0 0 1
  1 0 1
-  Coverage: 41 P9000 P9011 P9500 P9511 P9206 P9300 P9100
+  Coverage: 41 P9000 P9011 P9500 P9516 P9206 P9300 P9100
   FCoverage: 4 P113
  1
   SeqLookup: 0 "* +- [o]"
@@ -194,15 +193,15 @@ ChainPos2: coverage "'kern' `applying 'curs' features`" 0 0 0 1
 EndFPST
 ChainSub2: class "'calt' * +- [m, n, v, x, y, z]" 5 5 5 3
   Class: 29 P9000 P9100 P9400 P9300 P9011
-  Class: 11 P9500 P9511
+  Class: 11 P9500 P9516
   Class: 4 P105
   Class: 5 P9206
   BClass: 29 P9000 P9100 P9400 P9300 P9011
-  BClass: 11 P9500 P9511
+  BClass: 11 P9500 P9516
   BClass: 4 P105
   BClass: 5 P9206
   FClass: 29 P9000 P9100 P9400 P9300 P9011
-  FClass: 11 P9500 P9511
+  FClass: 11 P9500 P9516
   FClass: 4 P105
   FClass: 5 P9206
  2 0 0
@@ -232,26 +231,25 @@ ChainSub2: class "'calt' * +- [m, n, v, x, y, z]" 5 5 5 3
 EndFPST
 ChainSub2: coverage "'calt' * +- [a, d, g, q]" 0 0 0 1
  1 0 1
-  Coverage: 47 P9000 P9011 P9100 P9400 P9300 P9206 P9511 P9500
+  Coverage: 47 P9000 P9011 P9100 P9400 P9300 P9206 P9516 P9500
   FCoverage: 4 P101
  1
   SeqLookup: 0 "* +- [a, d, g, q]"
 EndFPST
 ChainSub2: coverage "'calt' * +- [c]" 0 0 0 1
  1 0 1
-  Coverage: 47 P9000 P9011 P9100 P9200 P9400 P9300 P9511 P9500
+  Coverage: 47 P9000 P9011 P9100 P9200 P9400 P9300 P9516 P9500
   FCoverage: 4 P109
  1
   SeqLookup: 0 "* +- [c]"
 EndFPST
 ChainSub2: coverage "'calt' * +- [e]" 0 0 0 1
- 3 0 0
-  Coverage: 47 P9000 P9011 P9100 P9206 P9400 P9300 P9500 P9511
-  Coverage: 4 P003
-  Coverage: 4 P111
- 2
+ 1 0 2
+  Coverage: 47 P9000 P9011 P9100 P9206 P9400 P9300 P9500 P9516
+  FCoverage: 4 P003
+  FCoverage: 4 P111
+ 1
   SeqLookup: 0 "* +- [e]"
-  SeqLookup: 1 "Substitute with nulls"
 EndFPST
 LangName: 1033
 Encoding: Custom
@@ -260,7 +258,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 98 14 6
+WinInfo: 112 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -300,7 +298,7 @@ Grid
  8192 -819 l 1024
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' [a,d,g,o,q]" "Cursive 1" "'curs' *"
-BeginChars: 194 183
+BeginChars: 194 184
 
 StartChar: O
 Encoding: 40 79 0
@@ -2692,7 +2690,7 @@ HStem: 0 21G<0 83.5> 745 17<1429.83 1553.89> 799 20G<1093 1217>
 LayerCount: 6
 Fore
 Refer: 62 0 N 1 0 0 1 0 0 2
-MultipleSubs2: "'ccmp' [Lowercase]" P113 P9511
+MultipleSubs2: "'ccmp' [Lowercase]" P113 P9516
 EndChar
 
 StartChar: a
@@ -5678,13 +5676,6 @@ SplineSet
  782 665 681.375317572 696.088877408 627 766 c 1
  642 778 l 1
 EndSplineSet
-Substitution2: "* +- [b, f, h, k, l]" P9509
-Substitution2: "* +- [p, r, s]" P9513
-Substitution2: "* +- [a, d, g, q]" P9508
-Substitution2: "* +- [c]" P9505
-Substitution2: "* +- [e]" P9510
-Substitution2: "* +- [m, n, v, x, y, z] - 1" P9512
-Substitution2: "* +- [o]-1" P9515
 Comment: "It is final part of o before glyphs like j and u."
 Colour: ff3d40
 EndChar
@@ -6464,6 +6455,26 @@ SplineSet
 EndSplineSet
 Comment: "It is final part of glyphs like 'i' before 'c'."
 Colour: ff3045
+EndChar
+
+StartChar: P9516
+Encoding: 170 -1 183
+Width: 4096
+VWidth: 0
+AnchorPoint: "Cursive 1" 624 781 exit 0
+AnchorPoint: "Cursive 1" 624 781 entry 0
+LayerCount: 6
+Back
+Refer: 152 -1 S 1 0 0 1 0 0 2
+Substitution2: "* +- [p, r, s]" P9513
+Substitution2: "* +- [b, f, h, k, l]" P9509
+Substitution2: "* +- [m, n, v, x, y, z] - 1" P9512
+Substitution2: "* +- [c]" P9505
+Substitution2: "* +- [e]" P9510
+Substitution2: "* +- [a, d, g, q]" P9508
+Substitution2: "* +- [o]-1" P9515
+Comment: "It is default final part of 'o', in fact it is empty."
+Colour: ff4c5c
 EndChar
 EndChars
 EndSplineFont
