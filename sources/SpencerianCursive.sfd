@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1559336766
+ModificationTime: 1559340150
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -154,7 +154,7 @@ ChainSub2: coverage "'calt' [s] +- *-1" 0 0 0 1
 EndFPST
 ChainSub2: coverage "'calt' * +- [b, f, h, k, l]" 0 0 0 1
  2 0 1
-  Coverage: 35 P9500 P9516 P9100 P9000 P9300 P9206
+  Coverage: 41 P9500 P9516 P9100 P9000 P9011 P9300 P9206
   Coverage: 4 P002
   FCoverage: 4 P107
  2
@@ -260,7 +260,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 70 14 6
+WinInfo: 42 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -6091,6 +6091,7 @@ SplineSet
  46.7900390625 -12.3740234375 8.99923160894 28.3652087364 102 148 c 1
  117 136 l 5
 EndSplineSet
+Substitution2: "* +- [b, f, h, k, l]" P9015
 Substitution2: "* +- [c]" P9008
 Substitution2: "* +- [m, n, v, x, y, z] - 1" P9001
 Substitution2: "* +- [o]-1" P9013
