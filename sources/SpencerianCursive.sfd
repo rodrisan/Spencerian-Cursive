@@ -259,7 +259,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 112 14 6
+WinInfo: 98 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3822,7 +3822,7 @@ SplineSet
  46.7900390625 -12.3740234375 8.99923160894 28.3652087364 102 148 c 1
  117 136 l 5
 EndSplineSet
-Comment: "It is final part of glyphs like 'a' before 'c'."
+Comment: "It is final part of glyphs like 'a' before glyph like 'i'."
 Colour: ff1214
 EndChar
 
