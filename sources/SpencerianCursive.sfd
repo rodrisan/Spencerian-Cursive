@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1559340340
+ModificationTime: 1559340724
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -260,7 +260,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 98 14 6
+WinInfo: 112 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -300,7 +300,7 @@ Grid
  8192 -819 l 1024
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' [a,d,g,o,q]" "Cursive 1" "'curs' *"
-BeginChars: 194 187
+BeginChars: 194 186
 
 StartChar: O
 Encoding: 40 79 0
@@ -3736,7 +3736,7 @@ SplineSet
  29 -4 45 44 117 136 c 1
  102 148 l 1
 EndSplineSet
-Substitution2: "* +- [b, f, h, k, l]" P9015
+Substitution2: "* +- [b, f, h, k, l]" P9003
 Substitution2: "'aalt' [+AH4A-i] +- *-1" P9003
 Substitution2: "* +- [o]-1" P9006
 Substitution2: "* +- [e]" P9004
@@ -3805,22 +3805,20 @@ Encoding: 114 -1 85
 Width: 1313
 VWidth: 0
 Flags: HW
-HStem: 3 816
 AnchorPoint: "Cursive 1" 110 143 entry 0
 AnchorPoint: "Cursive 1" 1614 811 exit 0
 LayerCount: 6
 Back
-Refer: 184 -1 S 1 0 0 1 0 0 2
-Refer: 166 -1 S 1 0 0 1 -68 0 2
-Refer: 142 -1 S 1 0 0 1 0 0 2
-Refer: 141 -1 S 1 0 0 1 0 0 2
+Refer: 184 -1 N 1 0 0 1 0 0 2
+Refer: 166 -1 N 1 0 0 1 -68 0 2
+Refer: 142 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 117 136 m 5
- 42.2320395201 39.8196189132 57.7319161566 4.20410774597 170 24 c 4
- 449.685401855 73.3160824574 972.288085938 406.1640625 1608 819 c 5
+ 41.4429203878 38.9426575653 53.7926851446 3.5095150353 170 24 c 4
+ 451.655017361 73.6633788127 1018.92336122 341.975143584 1608 819 c 5
  1619 803 l 5
- 978.28125 386.912109375 458.401790731 55.5003630291 172 5 c 4
+ 1025.28379983 322.21810085 458.401790731 55.5003630291 172 5 c 4
  47.7665019575 -16.9057176127 8.99923160894 28.3652087364 102 148 c 5
  117 136 l 5
 EndSplineSet
@@ -6498,34 +6496,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: P9015
-Encoding: 171 -1 185
-Width: 1313
-VWidth: 0
-Flags: HW
-AnchorPoint: "Cursive 1" 1614 811 exit 0
-AnchorPoint: "Cursive 1" 110 143 entry 0
-LayerCount: 6
-Back
-Refer: 184 -1 N 1 0 0 1 0 0 2
-Refer: 166 -1 N 1 0 0 1 -68 0 2
-Refer: 142 -1 N 1 0 0 1 0 0 2
-Fore
-SplineSet
-117 136 m 1
- 41.4429203878 38.9426575653 53.7926851446 3.5095150353 170 24 c 0
- 451.655017361 73.6633788127 1018.92336122 341.975143584 1608 819 c 1
- 1619 803 l 1
- 1025.28379983 322.21810085 458.401790731 55.5003630291 172 5 c 0
- 47.7665019575 -16.9057176127 8.99923160894 28.3652087364 102 148 c 1
- 117 136 l 1
-EndSplineSet
-Comment: "It is final part glyphs like 'i' before 'l'."
-Colour: ff1438
-EndChar
-
 StartChar: P9210
-Encoding: 172 -1 186
+Encoding: 172 -1 185
 Width: 2238
 VWidth: 0
 Flags: HW
