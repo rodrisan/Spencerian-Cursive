@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1559481897
+ModificationTime: 1559489371
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -3946,17 +3946,17 @@ Refer: 139 -1 N 1 0 0 1 0 0 2
 Refer: 142 -1 N 1 0 0 1 1 0 2
 Fore
 SplineSet
-382 772 m 1
+382 772 m 5
  541 830 618 809 491 646 c 2
  103 148 l 9
  103 146 l 25
  116 136 l 25
  118 136 l 1
  506 634 l 2
- 643 810 558 857 375 789 c 13
+ 643 810 558 857 375 789 c 9
  374 787 l 25
  380 773 l 25
- 382 772 l 1
+ 382 772 l 5
 EndSplineSet
 Comment: "It is default initial part of glyphs like 'm' after glyphs like 'b' and 'o'."
 Colour: 549ebd
@@ -6715,13 +6715,15 @@ Refer: 184 -1 N 1 0 0 1 0 0 2
 Refer: 186 -1 N 1 0 0 1 -885 0 2
 Fore
 SplineSet
-1131 693 m 3
- 1131 837 1294.78970771 922.535186731 1433 861 c 1
+2142 789 m 1
+ 2149 772 l 1
+ 1491.21516545 532.585899672 1131 456.250190573 1131 693 c 3
+ 1131 804.543713404 1294.78970771 922.535186731 1433 861 c 1
  1424 844 l 1
- 1294.78813047 901.528830797 1150 818 1150 693 c 1027
+ 1294.78813047 901.528830797 1150 785 1150 693 c 3
+ 1150 486.52734375 1484.21516545 549.585899672 2142 789 c 1
 EndSplineSet
-Refer: 91 -1 S 1 0 0 1 243 0 2
-Refer: 154 -1 N 1 0 0 1 827 0 2
+Refer: 91 -1 N 1 0 0 1 1767 0 2
 Refer: 1 65 N 1 0 0 1 -1289 0 2
 Comment: "It is final part of 'A' and 'H' before glyphs like 'm'."
 Colour: ff5970
@@ -6729,18 +6731,53 @@ EndChar
 
 StartChar: A_H.P07
 Encoding: 211 -1 194
-Width: 4096
+Width: 2655
 VWidth: 0
+Flags: HW
+AnchorPoint: "Cursive 1" 1429 853 entry 0
 LayerCount: 6
-Comment: "It is final part of 'A' and 'H' before glyphs like 'm'."
+Back
+Refer: 184 -1 S 1 0 0 1 776 0 2
+Refer: 184 -1 S 1 0 0 1 0 0 2
+Refer: 186 -1 S 1 0 0 1 -885 0 2
+Fore
+SplineSet
+2195 819 m 5
+ 2207 804 l 1
+ 1835.42758726 469.434696821 1131 382.993421124 1131 693 c 3
+ 1131 837 1294.78970771 922.535186731 1433 861 c 1
+ 1424 844 l 1
+ 1294.78813047 901.528830797 1150 818 1150 693 c 3
+ 1150 411 1830.11589069 490.456872278 2195 819 c 5
+EndSplineSet
+Refer: 72 -1 N 1 0 0 1 1755 0 2
+Refer: 73 -1 N 1 0 0 1 804 0 2
+Refer: 1 65 N 1 0 0 1 -1289 0 2
+Comment: "It is final part of 'A' and 'H' before glyphs like 's'."
 Colour: ff5763
 EndChar
 
 StartChar: A_H.P08
 Encoding: 212 -1 195
-Width: 4096
+Width: 2655
 VWidth: 0
+Flags: HW
+AnchorPoint: "Cursive 1" 1429 853 entry 0
 LayerCount: 6
+Back
+Refer: 184 -1 S 1 0 0 1 776 0 2
+Refer: 184 -1 S 1 0 0 1 0 0 2
+Refer: 186 -1 S 1 0 0 1 -885 0 2
+Fore
+SplineSet
+1131 693 m 3
+ 1131 837 1294.78970771 922.535186731 1433 861 c 1
+ 1424 844 l 1
+ 1294.78813047 901.528830797 1150 818 1150 693 c 1027
+EndSplineSet
+Refer: 159 -1 S 1 0 0 1 210 0 2
+Refer: 70 -1 N 1 0 0 1 0 0 2
+Refer: 1 65 N 1 0 0 1 -1289 0 2
 Comment: "It is final part of 'A' and 'H' before glyphs like 'm'."
 Colour: ff363b
 EndChar
