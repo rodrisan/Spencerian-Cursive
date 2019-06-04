@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1559489371
+ModificationTime: 1559669414
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -6578,6 +6578,7 @@ Encoding: 205 -1 188
 Width: 2655
 VWidth: 0
 Flags: HW
+AnchorPoint: "Cursive 1" 2487 819 exit 0
 AnchorPoint: "Cursive 1" 1429 853 entry 0
 LayerCount: 6
 Back
@@ -6587,16 +6588,18 @@ Refer: 184 -1 S 1 0 0 1 0 0 2
 Refer: 186 -1 S 1 0 0 1 -885 0 2
 Fore
 SplineSet
-1433 861 m 5
- 1424 844 l 5
- 1294.78813047 901.528830797 1150 818 1150 693 c 7
+1433 861 m 1
+ 1424 844 l 1
+ 1294.78813047 901.528830797 1150 818 1150 693 c 3
  1150 410.954216293 1648.0831024 307.322089783 2185 656 c 1
  2194 639 l 1
- 1653.18328426 287.789518271 1131 385.993485411 1131 693 c 7
- 1131 837 1294.78970771 922.535186731 1433 861 c 5
+ 1653.18328426 287.789518271 1131 385.993485411 1131 693 c 3
+ 1131 837 1294.78970771 922.535186731 1433 861 c 1
 EndSplineSet
-Refer: 1 65 S 1 0 0 1 -1289 0 2
+Refer: 1 65 N 1 0 0 1 -1289 0 2
 Refer: 53 -1 N 1 0 0 1 1580 0 2
+Comment: "It is final part of 'A' and 'H' before glyphs like glyphs like 'a'."
+Colour: ff334c
 EndChar
 
 StartChar: A_H.P02
@@ -6622,6 +6625,8 @@ SplineSet
 EndSplineSet
 Refer: 63 -1 N 1 0 0 1 1646 0 2
 Refer: 1 65 N 1 0 0 1 -1289 0 2
+Comment: "It is final part of 'A' and 'H' before glyphs like glyphs like 'l'."
+Colour: ff1424
 EndChar
 
 StartChar: A_H.P03
@@ -6649,6 +6654,8 @@ SplineSet
 EndSplineSet
 Refer: 65 -1 N 1 0 0 1 1785 0 2
 Refer: 1 65 N 1 0 0 1 -1289 0 2
+Comment: "It is final part of 'A' and 'H' before 'c'."
+Colour: ff1a24
 EndChar
 
 StartChar: A_H.P04
@@ -6674,6 +6681,8 @@ SplineSet
 EndSplineSet
 Refer: 67 -1 N 1 0 0 1 1684 0 2
 Refer: 1 65 N 1 0 0 1 -1289 0 2
+Comment: "It is final part of 'A' and 'H' before 'e'."
+Colour: ff1a21
 EndChar
 
 StartChar: A_H.P05
@@ -6700,6 +6709,8 @@ SplineSet
  1863.08015742 378.322150038 1131 361.084894834 1131 693 c 7
 EndSplineSet
 Refer: 1 65 N 1 0 0 1 -1289 0 2
+Comment: "It is final part of 'A' and 'H' before 'i'."
+Colour: ff2e1f
 EndChar
 
 StartChar: A_H.P06
@@ -6762,6 +6773,7 @@ Encoding: 212 -1 195
 Width: 2655
 VWidth: 0
 Flags: HW
+AnchorPoint: "Cursive 1" 2455 819 exit 0
 AnchorPoint: "Cursive 1" 1429 853 entry 0
 LayerCount: 6
 Back
@@ -6770,15 +6782,17 @@ Refer: 184 -1 S 1 0 0 1 0 0 2
 Refer: 186 -1 S 1 0 0 1 -885 0 2
 Fore
 SplineSet
-1131 693 m 3
- 1131 837 1294.78970771 922.535186731 1433 861 c 1
+2386.19433594 803.296875 m 1
+ 2394.38085938 785.755859375 l 1
+ 1894.7421875 552.770507812 1131 378.974523327 1131 693 c 3
+ 1131 829.528385327 1294.78970771 922.535186731 1433 861 c 1
  1424 844 l 1
- 1294.78813047 901.528830797 1150 818 1150 693 c 1027
+ 1294.78813047 901.528830797 1150 799.569226327 1150 693 c 3
+ 1150 410.700513638 1885.00612971 569.588976257 2386.19433594 803.296875 c 1
 EndSplineSet
-Refer: 159 -1 S 1 0 0 1 210 0 2
-Refer: 70 -1 N 1 0 0 1 0 0 2
+Refer: 70 -1 N 1 0 0 1 1895 0 2
 Refer: 1 65 N 1 0 0 1 -1289 0 2
-Comment: "It is final part of 'A' and 'H' before glyphs like 'm'."
+Comment: "It is final part of 'A' and 'H' before 'o'."
 Colour: ff363b
 EndChar
 EndChars
