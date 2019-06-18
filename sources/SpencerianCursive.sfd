@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1560886628
+ModificationTime: 1560886649
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -2250,7 +2250,7 @@ EndChar
 
 StartChar: I
 Encoding: 34 73 21
-Width: 3215
+Width: 2267
 VWidth: 0
 Flags: HW
 HStem: 0 21G<1654.57 1664.57>
