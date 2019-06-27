@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1560969866
+ModificationTime: 1561643700
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -121,13 +121,13 @@ ChainSub2: coverage "'calt' * +- [i, j, u, w]" 0 0 0 1
   SeqLookup: 0 "* +- [i, j, u, w]"
 EndFPST
 ChainSub2: class "'calt' * +- [p, r, s]-1" 4 4 4 1
-  Class: 49 P9100 P9206 P9500 P9516 P9000 P9300 A_H.P00 D.P00
+  Class: 55 P9100 P9206 P9500 P9516 P9000 P9011 P9300 A_H.P00 D.P00
   Class: 9 P000 P002
   Class: 21 P114 P115 P116 P116.1
-  BClass: 49 P9100 P9206 P9500 P9516 P9000 P9300 A_H.P00 D.P00
+  BClass: 55 P9100 P9206 P9500 P9516 P9000 P9011 P9300 A_H.P00 D.P00
   BClass: 9 P000 P002
   BClass: 21 P114 P115 P116 P116.1
-  FClass: 49 P9100 P9206 P9500 P9516 P9000 P9300 A_H.P00 D.P00
+  FClass: 55 P9100 P9206 P9500 P9516 P9000 P9011 P9300 A_H.P00 D.P00
   FClass: 9 P000 P002
   FClass: 21 P114 P115 P116 P116.1
  2 0 1
@@ -329,7 +329,7 @@ Grid
  8192 -819 l 1024
 EndSplineSet
 AnchorClass2: "cursive 2" "'curs' [a,d,g,o,q]" "Cursive 1" "'curs' *"
-BeginChars: 246 227
+BeginChars: 246 228
 
 StartChar: O
 Encoding: 40 79 0
@@ -1722,9 +1722,8 @@ StartChar: I
 Encoding: 34 73 21
 Width: 2267
 VWidth: 0
-Flags: HW
-HStem: 0 21G<1654.57 1664.57>
-VStem: 1654.57 16<0 180.295>
+Flags: W
+VStem: 828 19<0 262.489>
 LayerCount: 6
 Fore
 SplineSet
@@ -2822,16 +2821,18 @@ Refer: 145 -1 S 1 0 0 1 277 0 2
 Refer: 137 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-448 804 m 1
- 602 936 827 1126 1090 1412 c 5
+448 804 m 5
+NamedP: "41 degree"
+ 601.077744157 937.06845285 827 1126 1090 1412 c 1
  -762 -952 l 1
  -742 -967 l 1
  1285 1625 l 1
  1266 1638 l 1
- 925 1239 633 987 436 819 c 9
+ 925 1239 631.401857415 988.860243196 436 819 c 9
  436 814 l 25
  444 804 l 25
- 448 804 l 1
+ 448 804 l 5
+NamedP: "41 degree"
 EndSplineSet
 Comment: "It is one of parts of 'p'."
 Colour: bdbdbd
@@ -2858,12 +2859,12 @@ SplineSet
  635 798 l 1
  593 826 554 889 602 935 c 1
  584 949 l 1
- 584 949 494 865 440 819 c 1x60
+ 584 949 494 865 440 819 c 5x60
  440 816 l 25
  450 804 l 25
- 452 804 l 21
+ 452 804 l 17
 NamedP: "41 degree"
- 494 840 563 903 563 903 c 1
+ 494.002888722 840.000829699 563 903 563 903 c 1
  553 843 595 807 608 795 c 1
  103 148 l 9xa0
  104 145 l 25
@@ -2890,14 +2891,15 @@ Refer: 138 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 1391 819 m 1
- 1485 900 1525 949 1525 949 c 1
+ 1484.64436471 900.403804317 1525 949 1525 949 c 1
  1541 938 l 1
  1324 551 1288.5234375 344.513671875 1165 188.728515625 c 0
  921 -119 640 -2 616 202 c 1
  635 204 l 1
  661 12 916 -91 1149 200.1875 c 0
  1265.60737894 345.915444877 1300 529 1490 882 c 1
- 1490 882 1450 847 1403 804 c 1
+ 1490 882 1451.07500026 845.790960147 1403 804 c 5
+NamedP: "41 degree"
  1401 804 l 25
  1391 817 l 25
  1391 819 l 1
@@ -3197,9 +3199,9 @@ AnchorPoint: "Cursive 1" 110 143 entry 0
 AnchorPoint: "Cursive 1" 1614 811 exit 0
 LayerCount: 6
 Back
-Refer: 184 -1 N 1 0 0 1 0 0 2
-Refer: 166 -1 N 1 0 0 1 -68 0 2
-Refer: 142 -1 N 1 0 0 1 0 0 2
+Refer: 184 -1 S 1 0 0 1 0 0 2
+Refer: 166 -1 S 1 0 0 1 -68 0 2
+Refer: 142 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 117 136 m 5
@@ -4922,11 +4924,12 @@ SplineSet
  944 0 1057.66412272 53.3583918972 1165 188.728515625 c 0
  1288.5234375 344.513671875 1324 551 1541 938 c 1
  1525 949 l 1
- 1525 949 1485 900 1391 819 c 1
+ 1525 949 1484.64436471 900.403804317 1391 819 c 5
  1391 817 l 25
  1401 804 l 25
  1403 804 l 1
- 1450 847 1490 882 1490 882 c 1
+NamedP: "41 degree"
+ 1451.07500026 845.790960147 1490 882 1490 882 c 1
  1300 529 1265.60737894 345.915444877 1149 200.1875 c 0
  1045.20366364 70.4699219134 937 19 847 19 c 1
  847 0 l 1
@@ -5481,6 +5484,7 @@ SplineSet
  47.7665019575 -16.9057176127 8.99923160894 28.3652087364 102 148 c 5
  117 136 l 5
 EndSplineSet
+Substitution2: "* +- [p, r, s]" P9015
 Substitution2: "* +- [b, f, h, k, l]" P9015
 Substitution2: "* +- [c]" P9008
 Substitution2: "* +- [m, n, v, x, y, z] - 1" P9001
@@ -6957,6 +6961,33 @@ SplineSet
 EndSplineSet
 Comment: "It is for glyphs like 'W'."
 Colour: c4c4c4
+EndChar
+
+StartChar: P9015
+Encoding: 173 -1 227
+Width: 1313
+VWidth: 0
+Flags: HW
+AnchorPoint: "Cursive 1" 110 143 entry 0
+AnchorPoint: "Cursive 1" 1614 812 exit 0
+LayerCount: 6
+Back
+Refer: 184 -1 N 1 0 0 1 -776 1 2
+Refer: 145 -1 S 1 0 0 1 1449 0 2
+Refer: 184 -1 N 1 0 0 1 0 0 2
+Refer: 142 -1 N 1 0 0 1 0 0 2
+Fore
+SplineSet
+117 136 m 1
+ 41.4429203878 38.9426575653 53.7926851446 3.5095150353 170 24 c 0
+ 451.655017361 73.6633788127 1044.69622229 311.79900038 1608 819 c 1
+ 1620 804 l 5
+ 1052.25964768 292.80429066 458.401790731 55.5003630291 172 5 c 0
+ 47.7665019575 -16.9057176127 8.99923160894 28.3652087364 102 148 c 1
+ 117 136 l 1
+EndSplineSet
+Comment: "It is final part of 'e' and 'c' before glyphs like 's'."
+Colour: ff5252
 EndChar
 EndChars
 EndSplineFont
