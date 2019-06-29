@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1561821807
+ModificationTime: 1561824628
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -283,7 +283,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 168 14 6
+WinInfo: 0 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1643,53 +1643,26 @@ EndChar
 
 StartChar: D
 Encoding: 29 68 19
-Width: 3332
+Width: 4430
 VWidth: 0
 Flags: HW
 HStem: 1636 2<2144 2570>
-AnchorPoint: "Cursive 1" 163 848 exit 0
 LayerCount: 6
-Back
-Refer: 205 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
-132 848 m 1
- 132 2680 2415 2980 2415 1578 c 3
- 2415 872 1918 0 905 0 c 3
- 647 0 596 84 438 84 c 3
- 290.997070312 84 295.930664062 19 411 19 c 3
- 879 19 1177 615 1496 962 c 0
- 1777 1267 2128 1558 2545 1638 c 1
- 2549 1619 l 1
- 2123 1537 1833 1241 1546 930 c 0
- 1229 585 927 0 411 0 c 3
- 257 0 265 103 438 103 c 3
- 623.010742188 103 657.926757812 19 905 19 c 3
- 1893.00097656 19 2396 883 2396 1578 c 3
- 2396 2932 194 2664.01367188 194 848 c 1
- 132 848 l 1
+1699 819 m 17
+ 1936 1804 2981.96739227 2438 3534 2438 c 3
+ 4658.21605059 2438 3998.08789062 19 2354 19 c 3
+ 1631.74292456 19 1765 819 1379 819 c 3
+ 690 819 328.354953324 -1191.65363235 1541 1089 c 1
+ 1524 1098 l 1
+ 995.821750682 104.641188088 815.451889402 -0.981304212726 780.831054688 19 c 0
+ 689 72 974.749023438 800 1379 800 c 3
+ 1743 800 1616 0 2354 0 c 3
+ 4027 0 4698.20788522 2458 3534 2458 c 3
+ 2833.51730928 2458 1924 1858 1680 819 c 1
+ 1699 819 l 17
 EndSplineSet
-Layer: 2
-SplineSet
-2153 249 m 21
- 1545.88964844 -449.400390625 132 -486.594726562 132 848 c 7
- 132 2680 2415 2980 2415 1578 c 7
- 2415 872 1918 0 905 0 c 7
- 647 0 596 84 438 84 c 7
- 290.997070312 84 295.930664062 19 411 19 c 7
- 879 19 1177 615 1496 962 c 4
- 1777 1267 2128 1558 2545 1638 c 5
- 2549 1619 l 5
- 2123 1537 1833 1241 1546 930 c 4
- 1229 585 927 0 411 0 c 7
- 257 0 265 103 438 103 c 7
- 623.010742188 103 657.926757812 19 905 19 c 7
- 1893.00097656 19 2396 883 2396 1578 c 7
- 2396 2932 194 2664.01367188 194 848 c 7
- 194 -504.002929688 1560 -381 2139 262 c 5
- 2153 249 l 21
-EndSplineSet
-MultipleSubs2: "'ccmp' [Uppercase]" D D.P00
 EndChar
 
 StartChar: E
@@ -6755,7 +6728,7 @@ EndChar
 
 StartChar: L_Q.P01
 Encoding: 223 -1 208
-Width: 3332
+Width: 4430
 VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 3264 819 exit 0
@@ -6782,7 +6755,7 @@ EndChar
 
 StartChar: L_Q.P02
 Encoding: 224 -1 209
-Width: 3332
+Width: 4430
 VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 163 848 entry 0
@@ -6808,7 +6781,7 @@ EndChar
 
 StartChar: L_Q.P03
 Encoding: 225 -1 210
-Width: 3332
+Width: 4430
 VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 163 848 entry 0
@@ -6835,7 +6808,7 @@ EndChar
 
 StartChar: L_Q.P04
 Encoding: 226 -1 211
-Width: 3332
+Width: 4430
 VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 163 848 entry 0
@@ -6864,7 +6837,7 @@ EndChar
 
 StartChar: L_Q.P05
 Encoding: 227 -1 212
-Width: 3332
+Width: 4430
 VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 163 848 entry 0
@@ -6891,7 +6864,7 @@ EndChar
 
 StartChar: L_Q.P06
 Encoding: 228 -1 213
-Width: 3332
+Width: 4430
 VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 163 848 entry 0
@@ -6919,7 +6892,7 @@ EndChar
 
 StartChar: L_Q.P07
 Encoding: 229 -1 214
-Width: 3332
+Width: 4430
 VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 163 848 entry 0
@@ -6946,7 +6919,7 @@ EndChar
 
 StartChar: L_Q.P08
 Encoding: 230 -1 215
-Width: 3332
+Width: 4430
 VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 163 848 entry 0
@@ -6991,7 +6964,7 @@ EndChar
 
 StartChar: K_M_R_X.P01
 Encoding: 232 -1 217
-Width: 3332
+Width: 4430
 VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 3264 819 exit 0
@@ -7013,7 +6986,7 @@ EndChar
 
 StartChar: K_M_R_X.P02
 Encoding: 233 -1 218
-Width: 3332
+Width: 4430
 VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 163 848 entry 0
@@ -7035,7 +7008,7 @@ EndChar
 
 StartChar: K_M_R_X.P03
 Encoding: 234 -1 219
-Width: 3332
+Width: 4430
 VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 163 848 entry 0
@@ -7056,7 +7029,7 @@ EndChar
 
 StartChar: K_M_R_X.P04
 Encoding: 235 -1 220
-Width: 3332
+Width: 4430
 VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 163 848 entry 0
@@ -7077,7 +7050,7 @@ EndChar
 
 StartChar: K_M_R_X.P05
 Encoding: 236 -1 221
-Width: 3332
+Width: 4430
 VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 163 848 entry 0
@@ -7098,7 +7071,7 @@ EndChar
 
 StartChar: K_M_R_X.P06
 Encoding: 237 -1 222
-Width: 3332
+Width: 4430
 VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 163 848 entry 0
@@ -7120,7 +7093,7 @@ EndChar
 
 StartChar: K_M_R_X.P07
 Encoding: 238 -1 223
-Width: 3332
+Width: 4430
 VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 163 848 entry 0
@@ -7142,7 +7115,7 @@ EndChar
 
 StartChar: K_M_R_X.P08
 Encoding: 239 -1 224
-Width: 3332
+Width: 4430
 VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 163 848 entry 0
