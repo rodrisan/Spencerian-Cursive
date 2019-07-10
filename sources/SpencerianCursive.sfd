@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1562684552
+ModificationTime: 1562753975
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -56,7 +56,6 @@ Lookup: 1 0 0 "* +- [m, n, v, x, y, z] - 1" { "* +- [m, n, v, x, y, z] - 1"  } [
 Lookup: 1 0 0 "* +- [m, n, v, x, y, z] - 2" { "* +- [m, n, v, x, y, z] - 2"  } []
 Lookup: 1 0 0 "* +- [m, n, v, x, y, z] - 3" { "* +- [m, n, v, x, y, z] - 3"  } []
 Lookup: 1 0 0 "* +- [m, n, v, x, y, z] - 4" { "* +- [m, n, v, x, y, z] - 4"  } []
-Lookup: 1 0 0 "* +- [m, n, v, x, y, z] - 5" { "* +- [m, n, v, x, y, z] - 5"  } []
 Lookup: 1 0 0 "* +- [t]" { "* +- [t]"  } []
 Lookup: 1 0 0 "* +- [o]" { "* +- [o]"  } []
 Lookup: 1 0 0 "* +- [b, f, h, k, l]" { "* +- [b, f, h, k, l]"  } []
@@ -115,19 +114,19 @@ KernClass2: 20 10 "'kern' *"
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -1099 {} -819 {} -1163 {} -1366 {} 0 {} -978 {} -800 {} 0 {} -532 {} 0 {} -1533 {} 0 {} -1189 {} 0 {} -1397 {} -1186 {} 0 {} -556 {} -757 {} 0 {} -1445 {} 0 {} -1135 {} 0 {} -1357 {} -1072 {} 0 {} -70 {} -400 {} 0 {} -1906 {} 0 {} -1555 {} 0 {} -1772 {} -1548 {} 0 {} -811 {} -1080 {} 0 {} -3118 {} 0 {} -2756 {} 0 {} -2992 {} -2734 {} 0 {} 0 {} -2498 {} 0 {} -3103 {} 0 {} -2754 {} 0 {} -2989 {} -2721 {} 0 {} -1347 {} -2183 {} 0 {} -2627 {} 0 {} -2280 {} 0 {} -2504 {} -2253 {} 0 {} -216 {} -1961 {} 0 {} -2487 {} 0 {} -2152 {} 0 {} -2359 {} -2130 {} 0 {} -444 {} -1615 {} 0 {} -1284 {} 0 {} -800 {} 0 {} -1016 {} -938 {} 0 {} 0 {} -1158 {} 0 {} -1043 {} 0 {} -696 {} 0 {} -901 {} -701 {} 0 {} -120 {} -395 {} 0 {} -917 {} 0 {} -593 {} 0 {} -821 {} -539 {} 0 {} 0 {} 0 {} 0 {} -1712 {} 0 {} -1337 {} 0 {} -1547 {} -1358 {} 0 {} 0 {} -924 {} 0 {} -2571 {} 0 {} -2224 {} 0 {} -2461 {} -2186 {} 0 {} 0 {} -1850 {} 0 {} -2125 {} 0 {} -1744 {} 0 {} -1951 {} -1777 {} 0 {} -307 {} -1405 {} 0 {} -2224 {} 0 {} -1869 {} 0 {} -2088 {} -1860 {} 0 {} -745 {} -1630 {} 0 {} -1065 {} 0 {} -760 {} 0 {} -977 {} -695 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
 ChainSub2: coverage "'calt' * +- [i, j, u, w]" 0 0 0 1
  1 0 1
-  Coverage: 31 P9206 P9516 P9300 A_H.P00 M.P00
+  Coverage: 49 P9206 P9516 P9300 A_H.P00 M.P00 L_Q.P00 K_R_X.P00
   FCoverage: 15 P102 P9200 P107
  1
   SeqLookup: 0 "* +- [i, j, u, w]"
 EndFPST
 ChainSub2: class "'calt' * +- [p, r, s]-1" 4 4 4 1
-  Class: 55 P9100 P9206 P9500 P9516 P9000 P9011 P9300 A_H.P00 M.P00
+  Class: 73 P9100 P9206 P9500 P9516 P9000 P9011 P9300 A_H.P00 M.P00 L_Q.P00 K_R_X.P00
   Class: 9 P000 P002
   Class: 21 P114 P115 P116 P116.1
-  BClass: 55 P9100 P9206 P9500 P9516 P9000 P9011 P9300 A_H.P00 M.P00
+  BClass: 73 P9100 P9206 P9500 P9516 P9000 P9011 P9300 A_H.P00 M.P00 L_Q.P00 K_R_X.P00
   BClass: 9 P000 P002
   BClass: 21 P114 P115 P116 P116.1
-  FClass: 55 P9100 P9206 P9500 P9516 P9000 P9011 P9300 A_H.P00 M.P00
+  FClass: 73 P9100 P9206 P9500 P9516 P9000 P9011 P9300 A_H.P00 M.P00 L_Q.P00 K_R_X.P00
   FClass: 9 P000 P002
   FClass: 21 P114 P115 P116 P116.1
  2 0 1
@@ -157,7 +156,7 @@ ChainSub2: coverage "'calt' [s] +- *-1" 0 0 0 1
 EndFPST
 ChainSub2: coverage "'calt' * +- [b, f, h, k, l]" 0 0 0 1
  2 0 1
-  Coverage: 55 P9500 P9516 P9100 P9000 P9011 P9300 P9206 A_H.P00 M.P00
+  Coverage: 73 P9500 P9516 P9100 P9000 P9011 P9300 P9206 A_H.P00 M.P00 L_Q.P00 K_R_X.P00
   Coverage: 4 P002
   FCoverage: 4 P107
  2
@@ -166,14 +165,14 @@ ChainSub2: coverage "'calt' * +- [b, f, h, k, l]" 0 0 0 1
 EndFPST
 ChainSub2: coverage "'calt' * +- [o]-1" 0 0 0 1
  1 0 1
-  Coverage: 55 P9000 P9011 P9500 P9516 P9206 P9300 P9100 A_H.P00 M.P00
+  Coverage: 73 P9000 P9011 P9500 P9516 P9206 P9300 P9100 A_H.P00 M.P00 L_Q.P00 K_R_X.P00
   FCoverage: 4 P113
  1
   SeqLookup: 0 "* +- [o]"
 EndFPST
 ChainSub2: coverage "'calt' * +- [t]" 0 0 0 1
  1 0 1
-  Coverage: 37 P9206 P9300 P9516 P9100 A_H.P00 M.P00
+  Coverage: 55 P9206 P9300 P9516 P9100 A_H.P00 M.P00 L_Q.P00 K_R_X.P00
   FCoverage: 9 P117 P107
  1
   SeqLookup: 0 "* +- [t]"
@@ -195,25 +194,22 @@ ChainPos2: coverage "'kern' `applying 'curs' features`" 0 0 0 1
   SeqLookup: 0 "'curs' *"
   SeqLookup: 0 "'curs' [a,d,g,o,q]"
 EndFPST
-ChainSub2: class "'calt' * +- [m, n, v, x, y, z]" 7 7 7 5
+ChainSub2: class "'calt' * +- [m, n, v, x, y, z]" 6 6 6 4
   Class: 29 P9000 P9100 P9400 P9300 P9011
   Class: 19 P9500 P9516 A_H.P00
   Class: 4 P105
   Class: 5 P9206
-  Class: 5 M.P00
-  Class: 7 L_Q.P00
+  Class: 23 M.P00 K_R_X.P00 L_Q.P00
   BClass: 29 P9000 P9100 P9400 P9300 P9011
   BClass: 19 P9500 P9516 A_H.P00
   BClass: 4 P105
   BClass: 5 P9206
-  BClass: 5 M.P00
-  BClass: 7 L_Q.P00
+  BClass: 23 M.P00 K_R_X.P00 L_Q.P00
   FClass: 29 P9000 P9100 P9400 P9300 P9011
   FClass: 19 P9500 P9516 A_H.P00
   FClass: 4 P105
   FClass: 5 P9206
-  FClass: 5 M.P00
-  FClass: 7 L_Q.P00
+  FClass: 23 M.P00 K_R_X.P00 L_Q.P00
  2 0 0
   ClsList: 1 3
   BClsList:
@@ -242,34 +238,27 @@ ChainSub2: class "'calt' * +- [m, n, v, x, y, z]" 7 7 7 5
  2
   SeqLookup: 0 "* +- [m, n, v, x, y, z] - 1"
   SeqLookup: 1 "* +- [m, n, v, x, y, z] - 4"
- 2 0 0
-  ClsList: 6 3
-  BClsList:
-  FClsList:
- 2
-  SeqLookup: 0 "* +- [m, n, v, x, y, z] - 1"
-  SeqLookup: 1 "* +- [m, n, v, x, y, z] - 5"
-  ClassNames: "All_Others" "Class1" "Class2" "Class3" "Class4" "Class5" "Class6"
-  BClassNames: "All_Others" "Class1" "Class2" "Class3" "Class4" "Class5" "Class6"
-  FClassNames: "All_Others" "Class1" "Class2" "Class3" "Class4" "Class5" "Class6"
+  ClassNames: "All_Others" "Class1" "Class2" "Class3" "Class4" "Class5"
+  BClassNames: "All_Others" "Class1" "Class2" "Class3" "Class4" "Class5"
+  FClassNames: "All_Others" "Class1" "Class2" "Class3" "Class4" "Class5"
 EndFPST
 ChainSub2: coverage "'calt' * +- [a, d, g, q]" 0 0 0 1
  1 0 1
-  Coverage: 67 P9000 P9011 P9100 P9400 P9300 P9206 P9516 P9500 A_H.P00 D.P00 M.P00
+  Coverage: 85 P9000 P9011 P9100 P9400 P9300 P9206 P9516 P9500 A_H.P00 D.P00 M.P00 L_Q.P00 K_R_X.P00
   FCoverage: 4 P101
  1
   SeqLookup: 0 "* +- [a, d, g, q]"
 EndFPST
 ChainSub2: coverage "'calt' * +- [c]" 0 0 0 1
  1 0 1
-  Coverage: 67 P9000 P9011 P9100 P9200 P9400 P9300 P9516 P9500 P9206 A_H.P00 M.P00
+  Coverage: 85 P9000 P9011 P9100 P9200 P9400 P9300 P9516 P9500 P9206 A_H.P00 M.P00 L_Q.P00 K_R_X.P00
   FCoverage: 4 P109
  1
   SeqLookup: 0 "* +- [c]"
 EndFPST
 ChainSub2: coverage "'calt' * +- [e]" 0 0 0 1
  2 0 1
-  Coverage: 61 P9000 P9011 P9100 P9206 P9400 P9300 P9500 P9516 A_H.P00 M.P00
+  Coverage: 79 P9000 P9011 P9100 P9206 P9400 P9300 P9500 P9516 A_H.P00 M.P00 L_Q.P00 K_R_X.P00
   Coverage: 4 P003
   FCoverage: 4 P111
  2
@@ -775,23 +764,22 @@ VWidth: 0
 Flags: HW
 HStem: 0 8.19238<2241.85 2346.5> 1129.84 6.13574<2131.04 2203.48> 1302.53 8.19141<2076.64 2119.43> 2449.41 8.19141<3466.16 3596>
 VStem: 25.9824 25.9688<569.36 818.968>
-AnchorPoint: "Cursive 1" 2042 143 exit 0
+AnchorPoint: "Cursive 1" 2299 277 exit 0
 LayerCount: 6
 Back
+Refer: 229 -1 S 1 0 0 1 358 0 2
 Refer: 145 -1 N 1 0 0 1 1227 0 2
-Refer: 165 -1 N 1 0 0 1 0 0 2
-Refer: 142 -1 S 1 0 0 1 1932 0 2
 Fore
 SplineSet
-2315 1281 m 3
- 2528.03710938 1281 2616.4921875 862.356445312 2049 136 c 9
- 2034 148 l 17
- 2593.13183594 863.655273438 2508.0234375 1260 2314 1260 c 3
- 2229.99414062 1260 2224 1178 2383 1178 c 3
- 3087 1178 2875 2458 3811 2458 c 3
- 3811 2439 l 0
- 2892 2439 3111 1159 2383 1159 c 3
- 2182 1159 2209.92382812 1281 2315 1281 c 3
+3811 2439 m 0
+ 3811 2458 l 3
+ 2875 2458 3045.0336438 1215 2515 1215 c 3
+ 2257 1215 2239 1358 2322 1358 c 3
+ 2677 1358 2361 579 2289 277 c 1
+ 2308 273 l 1
+ 2381.8125 569.046875 2707 1377 2322 1377 c 3
+ 2219 1377 2220 1196 2515 1196 c 3
+ 3065.93012261 1196 2890 2439 3811 2439 c 0
 2884 2114 m 1
  2167 1261 1267 525 238 0 c 1
  229 17 l 1
@@ -811,11 +799,6 @@ SplineSet
 EndSplineSet
 Layer: 2
 SplineSet
-2212 264 m 5
- 2049.80859375 -112.146484375 2118.01660156 -163.704101562 3274 810 c 5
- 3286 795 l 5
- 2102.52246094 -198.055664062 2023.38378906 -132.271484375 2194 272 c 5
- 2212 264 l 5
 2315 1281 m 3
  2209.92382812 1281 2182 1159 2383 1159 c 3
  3111 1159 2892 2439 3811 2439 c 0
@@ -842,7 +825,7 @@ SplineSet
  2867 2123 l 1
  2884 2114 l 1
 EndSplineSet
-MultipleSubs2: "'ccmp' [Uppercase]" K P9000
+MultipleSubs2: "'ccmp' [Uppercase]" K K_R_X.P00
 EndChar
 
 StartChar: H
@@ -1101,22 +1084,15 @@ VWidth: 0
 Flags: HW
 HStem: 8.61914 13.4951<2750.37 2875.73> 16.3838 32.7686<752.336 1036.27> 799.2 20G<3516.78 3563.52> 1219.66 14.1182<2346.94 2528.94>
 VStem: 2242.94 13.9756<1287.15 1340.11> 2532.15 12.252<250.19 281.866 300.984 466.128>
+AnchorPoint: "Cursive 1" 1941 276 exit 0
 LayerCount: 6
 Back
-SplineSet
-1943 276 m 29
- 1939 276 l 1053
-1941 278 m 29
- 1941 274 l 1053
-1931 278 m 25
- 1950 273 l 1049
-2000 273 m 25
- 1842 273 l 1049
-EndSplineSet
+Refer: 229 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
-1964 1358 m 3
- 1881 1358 1899 1215 2157 1215 c 3
+1931 277 m 5
+ 2003 579 2319 1358 1964 1358 c 7
+ 1881 1358 1899 1215 2157 1215 c 7
  3040 1215 3332 2439 2288 2439 c 3
  781 2439 -390 19 524 19 c 3
  810 19 1192 259 1584 730 c 0
@@ -1125,14 +1101,12 @@ SplineSet
  2184 1667 1978 1112 1632 694 c 0
  1235 215 825 0 524 0 c 3
  -426 0 758 2458 2288 2458 c 3
- 3366 2458 3058 1196 2157 1196 c 3
- 1862 1196 1861 1377 1964 1377 c 3
- 2349 1377 2024 569 1950 273 c 4
- 1854 -108 2170 -131 3171 756 c 261
- 3183 741 l 261
- 2162 -169 1834 -128 1931 278 c 4
- 2003 580 2319 1358 1964 1358 c 3
+ 3366 2458 3058 1196 2157 1196 c 7
+ 1862 1196 1861 1377 1964 1377 c 7
+ 2349 1377 2023.81278957 569.046929044 1950 273 c 5
+ 1931 277 l 5
 EndSplineSet
+MultipleSubs2: "'ccmp' [Uppercase]" R K_R_X.P00
 EndChar
 
 StartChar: G
@@ -1387,22 +1361,21 @@ Width: 5593
 VWidth: 0
 Flags: HW
 HStem: 0 21G<909.081 964.001 1504.67 1599.07> 799.2 20G<3556.47 3593.63> 2437.6 20G<3899.29 4011.42>
-AnchorPoint: "Cursive 1" 1945 282 exit 0
+AnchorPoint: "Cursive 1" 1941 276 exit 0
 LayerCount: 6
 Back
-Refer: 229 -1 S 1 0 0 1 96 0 2
+Refer: 229 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
-1967.6559117 273.061544248 m 5
- 1872.1390077 -108.299430292 2187.7868603 -130.861385169 3189 756 c 261
- 3201 741 l 261
- 2180.26237789 -169.131255574 1851.69746655 -129.109916394 1948.27317802 276.528374662 c 1029
-1948.27317802 276.528374662 m 1
- 2075.97335094 812.895947002 2947.00024059 1988.51753046 3944 2452 c 257
- 3951 2436 l 257
- 2989.43972801 1975.9729634 2097.66737134 792.145547968 1967.6559117 273.061544248 c 1025
+1931 277 m 1
+ 2054.96386719 813.946289062 2929 1989 3926 2452 c 261
+ 3933 2436 l 261
+ 2971 1976 2070.35546875 794.317382812 1950 273 c 1
+NamedP: "77 degree"
+ 1931 277 l 1
 EndSplineSet
-Refer: 225 -1 N 1 0 0 1 0 0 2
+Refer: 225 -1 N 1 0 0 1 -18 0 2
+MultipleSubs2: "'ccmp' [Uppercase]" X K_R_X.P00
 EndChar
 
 StartChar: W
@@ -2332,8 +2305,8 @@ StartChar: P9100
 Encoding: 87 -1 58
 Width: 2225
 VWidth: 0
-Flags: HW
-HStem: 811 16<1378.88 1416.32>
+Flags: W
+HStem: 800 19<1369.43 1408>
 AnchorPoint: "Cursive 1" 1413 812 exit 0
 AnchorPoint: "Cursive 1" 634 812 entry 0
 LayerCount: 6
@@ -5268,8 +5241,7 @@ StartChar: P9103
 Encoding: 156 -1 164
 Width: 2225
 VWidth: 0
-Flags: HW
-HStem: 811 16<1378.88 1416.32>
+Flags: W
 AnchorPoint: "Cursive 1" 1415 812 exit 0
 AnchorPoint: "Cursive 1" 634 812 entry 0
 LayerCount: 6
@@ -6287,7 +6259,7 @@ AnchorPoint: "Cursive 1" 163 848 entry 0
 AnchorPoint: "Cursive 1" 3495 811 exit 0
 LayerCount: 6
 Back
-Refer: 205 -1 S 1 0 0 1 0 0 2
+Refer: 205 -1 N 1 0 0 1 0 0 2
 Refer: 166 -1 S 1 0 0 1 1813 0 2
 Refer: 184 -1 S 1 0 0 1 1551 0 2
 Refer: 184 -1 S 1 0 0 1 775 0 2
@@ -6661,6 +6633,15 @@ Width: 4096
 VWidth: 0
 Flags: H
 LayerCount: 6
+Substitution2: "* +- [b, f, h, k, l]" L_Q.P02
+Substitution2: "* +- [t]" L_Q.P05
+Substitution2: "* +- [m, n, v, x, y, z] - 1" L_Q.P06
+Substitution2: "* +- [c]" L_Q.P03
+Substitution2: "* +- [e]" L_Q.P04
+Substitution2: "* +- [a, d, g, q]" L_Q.P01
+Substitution2: "* +- [o]" L_Q.P08
+Substitution2: "* +- [i, j, u, w]" L_Q.P05
+Substitution2: "* +- [p, r, s]" L_Q.P07
 Comment: "It is default final part of 'L' and 'Q."
 Colour: ff384a
 EndChar
@@ -6882,197 +6863,263 @@ Comment: "It is final part of 'L' and 'Q' before 'o'."
 Colour: ff3030
 EndChar
 
-StartChar: K_M_R_X.P00
+StartChar: K_R_X.P00
 Encoding: 231 -1 216
 Width: 5062
 VWidth: 0
 Flags: HW
+AnchorPoint: "Cursive 1" 1941 276 entry 0
 LayerCount: 6
 Back
+Refer: 184 -1 N 1 0 0 1 1551 0 2
+Refer: 184 -1 N 1 0 0 1 775 0 2
 Refer: 229 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
-2892 273 m 1
- 2729.80859375 -103.146484375 2798.01660156 -154.704101562 3954 819 c 1
- 3966 804 l 1
- 2782.52246094 -189.055664062 2703.38378906 -123.271484375 2874 281 c 1
- 2892 273 l 1
+1931 277 m 5
+ 1836.12402344 -133.952148438 2171.65625 -170.618164062 3183 740 c 261
+ 3171 755 l 261
+ 2584.00390625 226.465820312 2226 19 2053 19 c 7
+ 1941 19 1913.51171875 114.950195312 1950 273 c 5
+ 1931 277 l 5
 EndSplineSet
-Refer: 3 77 N 1 0 0 1 0 0 2
-Comment: "It is default final part of 'K', 'M', 'R' and 'X'."
+Refer: 10 82 N 1 0 0 1 0 0 2
+Substitution2: "* +- [t]" K_R_X.P05
+Substitution2: "* +- [o]" K_R_X.P08
+Substitution2: "* +- [p, r, s]" K_R_X.P07
+Substitution2: "* +- [i, j, u, w]" K_R_X.P05
+Substitution2: "* +- [m, n, v, x, y, z] - 1" K_R_X.P06
+Substitution2: "* +- [e]" K_R_X.P04
+Substitution2: "* +- [c]" K_R_X.P03
+Substitution2: "* +- [b, f, h, k, l]" K_R_X.P02
+Substitution2: "* +- [a, d, g, q]" K_R_X.P01
+Comment: "It is default final part of 'K', 'R' and 'X'."
 Colour: ff3d30
 EndChar
 
-StartChar: K_M_R_X.P01
+StartChar: K_R_X.P01
 Encoding: 232 -1 217
 Width: 4430
 VWidth: 0
 Flags: HW
-AnchorPoint: "Cursive 1" 3264 819 exit 0
-AnchorPoint: "Cursive 1" 163 848 entry 0
+AnchorPoint: "Cursive 1" 3390 819 exit 0
+AnchorPoint: "Cursive 1" 1941 276 entry 0
 LayerCount: 6
+Back
+Refer: 229 -1 N 1 0 0 1 0 0 2
+Refer: 162 -1 S 1 0 0 1 2478 0 2
+Refer: 184 -1 N 1 0 0 1 1551 0 2
+Refer: 184 -1 N 1 0 0 1 775 0 2
 Fore
 SplineSet
-194 848 m 7
- 194 -608.005494495 1972 -584 2615 341 c 4
- 2629 328 l 21
- 1996 -608 132 -632.001351351 132 848 c 7
- 194 848 l 7
+1931 277 m 1
+ 1836.12402344 -133.952148438 2226.99066287 -119.100242388 2949 531 c 257
+ 2937 546 l 257
+ 2350.00390625 17.4658203125 2110.23105626 19 2071 19 c 3
+ 1948 19 1913.51171875 114.950195312 1950 273 c 1
+ 1931 277 l 1
 EndSplineSet
-Refer: 53 -1 N 1 0 0 1 2354 0 2
-Refer: 19 68 N 1 0 0 1 0 0 2
-Comment: "It is final part of 'K', 'M', 'R' and 'X' before glyphs like 'a'."
+Refer: 10 82 N 1 0 0 1 0 0 2
+Refer: 53 -1 N 1 0 0 1 2480 0 2
+Comment: "It is final part of 'K', 'R' and 'X' before glyphs like 'a'."
 Colour: ff3d30
 EndChar
 
-StartChar: K_M_R_X.P02
+StartChar: K_R_X.P02
 Encoding: 233 -1 218
 Width: 4430
 VWidth: 0
 Flags: HW
-AnchorPoint: "Cursive 1" 163 848 entry 0
-AnchorPoint: "Cursive 1" 3199 812 exit 0
+AnchorPoint: "Cursive 1" 1941 276 entry 0
+AnchorPoint: "Cursive 1" 3326 812 exit 0
 LayerCount: 6
+Back
+Refer: 229 -1 N 1 0 0 1 0 0 2
+Refer: 145 -1 S 1 0 0 1 3161 0 2
+Refer: 184 -1 N 1 0 0 1 1551 0 2
+Refer: 184 -1 N 1 0 0 1 775 0 2
 Fore
 SplineSet
-194 848 m 7
- 194 -572.000352113 1786.80606174 -403.385741327 3193 819 c 5
- 3205 804 l 21
- 1767.51570267 -445.585877071 132 -608.041551605 132 848 c 7
- 194 848 l 7
+1931 277 m 1
+ 1836.12402344 -133.952148438 2194.6526626 -184.680956689 3332 804 c 257
+ 3320 819 l 257
+ 2702.20902144 281.962495596 2274.00240383 19 2066 19 c 7
+ 1944 19 1913.51171875 114.950195312 1950 273 c 1
+ 1931 277 l 1
 EndSplineSet
-Refer: 63 -1 N 1 0 0 1 2567 0 2
-Refer: 19 68 N 1 0 0 1 0 0 2
-Comment: "It is final part of 'K', 'M', 'R' and 'X' before  glyphs like 'l'."
+Refer: 10 82 N 1 0 0 1 0 0 2
+Refer: 63 -1 N 1 0 0 1 2694 0 2
+Comment: "It is final part of 'K', 'R' and 'X' before  glyphs like 'l'."
 Colour: ff3d30
 EndChar
 
-StartChar: K_M_R_X.P03
+StartChar: K_R_X.P03
 Encoding: 234 -1 219
 Width: 4430
 VWidth: 0
 Flags: HW
-AnchorPoint: "Cursive 1" 163 848 entry 0
-AnchorPoint: "Cursive 1" 3495 811 exit 0
+AnchorPoint: "Cursive 1" 1941 276 entry 0
+AnchorPoint: "Cursive 1" 3563 811 exit 0
 LayerCount: 6
+Back
+Refer: 229 -1 N 1 0 0 1 0 0 2
+Refer: 166 -1 S 1 0 0 1 1881 0 2
+Refer: 184 -1 N 1 0 0 1 1551 0 2
+Refer: 184 -1 N 1 0 0 1 775 0 2
 Fore
 SplineSet
-194 848 m 7
- 194 -572.000352113 2082.80566406 -403.385742188 3489 819 c 5
- 3500 803 l 21
- 2062.515625 -446.5859375 132 -608.041551605 132 848 c 7
- 194 848 l 7
+1931 277 m 1
+ 1836.12402344 -133.952148438 2017.60637154 -184.709673236 3568 803 c 257
+ 3557 819 l 261
+ 2619.70678579 221.878367573 2203 19 2030 19 c 3
+ 1914 19 1914.76123997 120.362524359 1950 273 c 1
+ 1931 277 l 1
 EndSplineSet
-Refer: 65 -1 N 1 0 0 1 2592 0 2
-Refer: 19 68 N 1 0 0 1 0 0 2
-Comment: "It is final part of 'K', 'M', 'R' and 'X' before 'c'."
+Refer: 10 82 N 1 0 0 1 0 0 2
+Refer: 65 -1 N 1 0 0 1 2660 0 2
+Comment: "It is final part of 'K', 'R' and 'X' before 'c'."
+Colour: ff594c
 EndChar
 
-StartChar: K_M_R_X.P04
+StartChar: K_R_X.P04
 Encoding: 235 -1 220
 Width: 4430
 VWidth: 0
 Flags: HW
-AnchorPoint: "Cursive 1" 163 848 entry 0
-AnchorPoint: "Cursive 1" 3047 418 exit 0
+AnchorPoint: "Cursive 1" 1941 276 entry 0
+AnchorPoint: "Cursive 1" 3082 418 exit 0
 LayerCount: 6
+Back
+Refer: 229 -1 N 1 0 0 1 0 0 2
+Refer: 143 -1 S 1 0 0 1 2659 0 2
+Refer: 184 -1 N 1 0 0 1 1551 0 2
+Refer: 184 -1 N 1 0 0 1 775 0 2
 Fore
 SplineSet
-194 848 m 7
- 194 -792.390271572 2308.20898438 -31.5234375 3042 427 c 1
- 3052 410 l 17
- 2267.22460938 -80.3818359375 132 -827.544687557 132 848 c 7
- 132 872 194 848 194 848 c 7
+1931 277 m 1
+ 1836.12402344 -133.952148438 2294.50410239 -85.2063979308 3087 410 c 257
+ 3077 427 l 261
+ 2425.36677788 19.814370811 2174.00877125 20 2119 20 c 3
+ 1953.98780533 20 1914.52528083 119.340462096 1950 273 c 1
+ 1931 277 l 1
 EndSplineSet
-Refer: 67 -1 N 1 0 0 1 2624 0 2
-Refer: 19 68 N 1 0 0 1 0 0 2
-Comment: "It is final part of 'K', 'M', 'R' and 'X' before 'e'."
+Refer: 10 82 N 1 0 0 1 0 0 2
+Refer: 67 -1 N 1 0 0 1 2659 0 2
+Comment: "It is final part of 'K', 'R' and 'X' before 'e'."
+Colour: ff6645
 EndChar
 
-StartChar: K_M_R_X.P05
+StartChar: K_R_X.P05
 Encoding: 236 -1 221
 Width: 4430
 VWidth: 0
 Flags: HW
-AnchorPoint: "Cursive 1" 163 848 entry 0
-AnchorPoint: "Cursive 1" 3221 814 exit 0
+AnchorPoint: "Cursive 1" 1941 276 entry 0
+AnchorPoint: "Cursive 1" 3295 814 exit 0
 LayerCount: 6
+Back
+Refer: 229 -1 S 1 0 0 1 0 0 2
+Refer: 142 -1 N 1 0 0 1 3425 671 2
+Refer: 184 -1 N 1 0 0 1 1791 0 2
+Refer: 184 -1 N 1 0 0 1 1015 0 2
 Fore
 SplineSet
-194 848 m 3
- 194 -572.000352113 1888 -492 3213 819 c 1
- 3228 807 l 17
- 1892 -536 132 -608.041551605 132 848 c 3
- 194 848 l 3
+1931 277 m 1
+ 1835.62075296 -136.132907469 2203.86138242 -181.967644379 3300 805 c 257
+ 3287 819 l 257
+ 2602.27431922 202.469617851 2232 19 2066 19 c 7
+ 1946 19 1913.51171875 114.950195312 1950 273 c 1
+ 1931 277 l 1
 EndSplineSet
-Refer: 55 -1 N 1 0 0 1 2586 0 2
-Refer: 19 68 N 1 0 0 1 0 0 2
-Comment: "It is final part of 'K', 'M', 'R' and 'X' before glyphs like 'i'."
+Refer: 10 82 N 1 0 0 1 0 0 2
+Refer: 55 -1 N 1 0 0 1 2660 0 2
+Comment: "It is final part of 'K', 'R' and 'X' before glyphs like 'i'."
+Colour: ff4c45
 EndChar
 
-StartChar: K_M_R_X.P06
+StartChar: K_R_X.P06
 Encoding: 237 -1 222
 Width: 4430
 VWidth: 0
 Flags: HW
-AnchorPoint: "Cursive 1" 163 848 entry 0
-AnchorPoint: "Cursive 1" 2560 418 exit 0
+AnchorPoint: "Cursive 1" 1941 276 entry 0
+AnchorPoint: "Cursive 1" 2699 418 exit 0
 LayerCount: 6
+Back
+Refer: 229 -1 N 1 0 0 1 0 0 2
+Refer: 166 -1 S 1 0 0 1 1017 -393 2
+Refer: 141 -1 N 1 0 0 1 0 0 2
+Refer: 184 -1 N 1 0 0 1 2330 0 2
+Refer: 184 -1 N 1 0 0 1 1554 0 2
+Refer: 184 -1 N 1 0 0 1 1551 0 2
+Refer: 184 -1 N 1 0 0 1 775 0 2
 Fore
 SplineSet
-194 848 m 3
- 194 -608.005494495 1560.32631981 -350.342963771 2554 426 c 5
- 2565 410 l 21
- 1563.77717679 -372.241000705 132 -632.001351351 132 848 c 3
- 194 848 l 3
+1931 277 m 1
+ 1836.74550823 -131.261057145 2064.92327882 -89.3014564891 2704 410 c 257
+ 2693 426 l 257
+ 2275.90121393 100.126440293 2096.14355972 19 2009 19 c 7
+ 1921.94829123 19 1913.51171875 114.950195312 1950 273 c 1
+ 1931 277 l 1
 EndSplineSet
-Refer: 206 -1 N 1 0 0 1 1816 0 2
-Refer: 19 68 N 1 0 0 1 0 0 2
-Comment: "It is final part of 'K', 'M', 'R' and 'X' before glyphs like 'm'."
+Refer: 10 82 N 1 0 0 1 0 0 2
+Refer: 206 -1 N 1 0 0 1 1880 0 2
+Comment: "It is final part of 'K', 'R' and 'X' before glyphs like 'm'."
 Colour: ff3d30
 EndChar
 
-StartChar: K_M_R_X.P07
+StartChar: K_R_X.P07
 Encoding: 238 -1 223
 Width: 4430
 VWidth: 0
 Flags: HW
-AnchorPoint: "Cursive 1" 163 848 entry 0
-AnchorPoint: "Cursive 1" 3090 812 exit 0
+AnchorPoint: "Cursive 1" 1941 276 entry 0
+AnchorPoint: "Cursive 1" 3104 812 exit 0
 LayerCount: 6
+Back
+Refer: 229 -1 N 1 0 0 1 0 0 2
+Refer: 145 -1 S 1 0 0 1 2939 0 2
+Refer: 184 -1 N 1 0 0 1 1551 0 2
+Refer: 184 -1 N 1 0 0 1 775 0 2
 Fore
 SplineSet
-194 848 m 3
- 194 -608.005494495 1805.90687299 -292.029405005 3084 819 c 1
- 3096 804 l 1
- 1828.96036691 -336.847609924 132 -632.001351351 132 848 c 3
- 194 848 l 3
+1931 277 m 1
+ 1836.12402344 -133.952148438 1972.6526626 -184.680956689 3110 804 c 257
+ 3098 819 l 257
+ 2501.86999677 300.792094181 2124.01470509 19 1985 19 c 7
+ 1911.9338557 19 1913.51171875 114.950195312 1950 273 c 1
+ 1931 277 l 1
 EndSplineSet
-Refer: 72 -1 N 1 0 0 1 2644 0 2
-Refer: 19 68 N 1 0 0 1 0 0 2
-Comment: "It is final part of 'K', 'M', 'R' and 'X' before glyphs like 'r'."
+Refer: 10 82 N 1 0 0 1 0 0 2
+Refer: 72 -1 N 1 0 0 1 2658 0 2
+Comment: "It is final part of 'K', 'R' and 'X' before glyphs like 'r'."
 Colour: ff3d30
 EndChar
 
-StartChar: K_M_R_X.P08
+StartChar: K_R_X.P08
 Encoding: 239 -1 224
 Width: 4430
 VWidth: 0
 Flags: HW
-AnchorPoint: "Cursive 1" 163 848 entry 0
-AnchorPoint: "Cursive 1" 3304 819 exit 0
+AnchorPoint: "Cursive 1" 1941 276 entry 0
+AnchorPoint: "Cursive 1" 3339 819 exit 0
 LayerCount: 6
+Back
+Refer: 229 -1 S 1 0 0 1 0 0 2
+Refer: 184 -1 N 1 0 0 1 1551 0 2
+Refer: 184 -1 N 1 0 0 1 775 0 2
 Fore
 SplineSet
-194 848 m 1
- 194 -504.002929688 1975.66610519 -568.369721014 2887 480 c 1
- 2901 467 l 17
- 1945.980583 -631.623886365 132 -486.594726562 132 848 c 1
- 194 848 l 1
+1931 277 m 1
+ 1836.12402344 -133.952148438 2200.68016623 -151.755400993 3110 667 c 257
+ 3098 682 l 257
+ 2511.00390625 153.465820312 2201 19 2063 19 c 3
+ 1946 19 1913.51171875 114.950195312 1950 273 c 1
+ 1931 277 l 1
 EndSplineSet
-Refer: 70 -1 N 1 0 0 1 2744 0 2
-Refer: 19 68 N 1 0 0 1 0 0 2
-Comment: "It is final part of 'K', 'M', 'R' and 'X' before 'o'."
+Refer: 10 82 N 1 0 0 1 0 0 2
+Refer: 70 -1 N 1 0 0 1 2779 0 2
+Comment: "It is final part of 'K', 'R' and 'X' before 'o'."
 Colour: ff3d30
 EndChar
 
@@ -7090,12 +7137,12 @@ Refer: 226 -1 S 1 0 0 1 0 0 2
 Fore
 SplineSet
 778 0 m 1
- 677 483 786.801287294 1176.9296642 1215 1724.99902344 c 4
+ 677 483 786.801287294 1176.9296642 1215 1724.99902344 c 0
  2308.40637385 3124.49536222 3425 2296 2381.87304688 1023 c 0
  2043.92111964 610.573878637 1422 138 912 0 c 1
  907 19 l 1
  1411 162 2004.93066323 653.216854609 2342 1056 c 0
- 3373 2288 2298.48207046 3080.87365029 1229 1711.99902344 c 4
+ 3373 2288 2298.48207046 3080.87365029 1229 1711.99902344 c 0
  810.891978875 1176.84516045 707 489 793 13 c 1
  778 0 l 1
 EndSplineSet
@@ -7179,14 +7226,14 @@ VWidth: 0
 LayerCount: 6
 Back
 SplineSet
-1866 279 m 29
- 1862 279 l 1053
-1864 281 m 29
- 1864 277 l 1053
-1854 281 m 29
- 1872 273 l 1053
-1923 273 m 29
- 1765 273 l 1053
+1943 276 m 29
+ 1939 276 l 1053
+1941 278 m 29
+ 1941 274 l 1053
+1931 277 m 25
+ 1950 273 l 1049
+2000 273 m 25
+ 1842 273 l 1049
 EndSplineSet
 EndChar
 
@@ -7231,9 +7278,9 @@ AnchorPoint: "Cursive 1" 4455 819 exit 0
 AnchorPoint: "Cursive 1" 2884 279 entry 0
 LayerCount: 6
 Back
-Refer: 162 -1 N 1 0 0 1 3543 0 2
-Refer: 184 -1 S 1 0 0 1 2330 0 2
-Refer: 184 -1 S 1 0 0 1 1554 0 2
+Refer: 162 -1 S 1 0 0 1 3543 0 2
+Refer: 184 -1 N 1 0 0 1 2330 0 2
+Refer: 184 -1 N 1 0 0 1 1554 0 2
 Refer: 239 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
@@ -7287,7 +7334,7 @@ AnchorPoint: "Cursive 1" 2884 279 entry 0
 AnchorPoint: "Cursive 1" 4521 811 exit 0
 LayerCount: 6
 Back
-Refer: 166 -1 S 1 0 0 1 2995 0 2
+Refer: 166 -1 S 1 0 0 1 2839 0 2
 Refer: 184 -1 N 1 0 0 1 2330 0 2
 Refer: 184 -1 N 1 0 0 1 1554 0 2
 Refer: 239 -1 N 1 0 0 1 0 0 2
@@ -7372,9 +7419,9 @@ AnchorPoint: "Cursive 1" 3660 418 exit 0
 LayerCount: 6
 Back
 Refer: 166 -1 S 1 0 0 1 1978 -393 2
-Refer: 141 -1 N 1 0 0 1 0 0 2
-Refer: 184 -1 N 1 0 0 1 2330 0 2
-Refer: 184 -1 N 1 0 0 1 1554 0 2
+Refer: 141 -1 S 1 0 0 1 0 0 2
+Refer: 184 -1 S 1 0 0 1 2330 0 2
+Refer: 184 -1 S 1 0 0 1 1554 0 2
 Refer: 239 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
@@ -7392,7 +7439,7 @@ EndChar
 
 StartChar: M.P07
 Encoding: 249 -1 237
-Width: 4430
+Width: 4701
 VWidth: 0
 Flags: HW
 AnchorPoint: "Cursive 1" 2884 279 entry 0
