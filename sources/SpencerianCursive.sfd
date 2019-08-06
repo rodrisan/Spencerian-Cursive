@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1564779649
+ModificationTime: 1565127742
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -46,7 +46,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 2 0 0 "'ccmp' [s] +- *" { "'ccmp' [s] +- *-1"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 2 0 0 "'ccmp' [s] +- *" { "'ccmp' [s] +- *"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 2 0 0 "'ccmp' [Lowercase]" { "'ccmp' [Lowercase]"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 2 0 0 "'ccmp' [Uppercase]" { "'ccmp' [Uppercase]"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "* +- [a, d, g, q]" { "* +- [a, d, g, q]"  } []
@@ -272,7 +272,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 168 14 6
+WinInfo: 14 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -4615,7 +4615,7 @@ NamedP: "41 degree"
  1045.20366364 70.4699219134 937 19 847 19 c 1
  847 0 l 1
 EndSplineSet
-MultipleSubs2: "'ccmp' [s] +- *-1" s.0 f_
+MultipleSubs2: "'ccmp' [s] +- *" s.0 f_
 Comment: "It is final part 's' when there are not any glyphs after it."
 Colour: d1408c
 EndChar
