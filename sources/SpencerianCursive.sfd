@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1565705903
+ModificationTime: 1565706115
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -273,7 +273,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 42 14 6
+WinInfo: 126 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1951,7 +1951,6 @@ VWidth: 0
 Flags: HW
 HStem: 798 21<1102.77 1371>
 AnchorPoint: "Cursive 1" 912 819 entry 0
-AnchorPoint: "cursive 2" 610 647 entry 0
 AnchorPoint: "Cursive 1" 1396 814 exit 0
 LayerCount: 6
 Back
@@ -4938,16 +4937,11 @@ SplineSet
  142 0 l 1049
 1415 794 m 25
  1415 845 l 1049
-1395 814 m 29
- 1401 814 l 1053
+1395 814 m 25
+ 1401 814 l 1049
   Named: "Cursive 1 Exit"
 1398 817 m 25
  1398 811 l 1049
-596 647 m 25
- 624 647 l 1049
-  Named: "Cursive 2 entery"
-610 661 m 25
- 610 634 l 1049
 898 819 m 25
  926 819 l 1049
   Named: "Cursive 1 entery"
