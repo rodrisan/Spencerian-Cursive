@@ -21,6 +21,16 @@ initial_forms = {'a': ['a', 'd', 'g', 'q'],
                  'm': ['m', 'n', 'v', 'x', 'y', 'z'],
                  'o': ['o'],
                  'p': ['p', 'r', 's']}
+changable_inital_forms = {'a': False,
+                          'b': True,
+                          'c': False,
+                          'e': True,
+                          'i': False,
+                          'm': True,
+                          'o': False,
+                          'p': True}
+
+
 pairs = set()
 pairs_2 = set()
 
@@ -28,7 +38,7 @@ my_type = fontforge.open('../sources/SpencerianCursive.sfd')
 my_type.selection.all()
 
 
-ccmp_lookups={glyph:glyph for glyph in my_type}
+ccmp_lookups = dict()
 
 for glyph in my_type:
 
@@ -46,7 +56,7 @@ for glyph in my_type:
     elif len(ccmp_lookup_s):
         ccmp_lookup = ccmp_lookup_s
 
-    if len(ccmp_lookup):
+    if len(ccmp_lookup)>0:
         # becaue it like (((x,x),(x,x)),)
         ccmp_lookup_refined = ccmp_lookup[0][2:]
 
@@ -54,22 +64,61 @@ for glyph in my_type:
                           ccmp_lookup_refined[x+1])
                          for x in range(len(ccmp_lookup_refined)-1)}
 
-        ccmp_lookups[glyph]= ccmp_lookup_refined
+        ccmp_lookups[glyph] = ccmp_lookup_refined
     # .......................part2
 
-    if len(glyph) > 1 and glyph.find('.') or glyph.find('_'):
-        if len(glyph) == 3 and glyph.find('_') == 1:
-            print(glyph)
-            pairs_2 = pairs_2 | {(glyph,ccmp_lookups[x][len(ccmp_lookups[glyph])-1])
-                                 for x in initial_forms[glyph[2:3]]} | {(ccmp_lookups[glyph][len(ccmp_lookups[glyph])-1], glyph)
-                                 for x in final_forms[glyph[0:1]]}
+    # if len(glyph) > 1 and glyph.find('.') or glyph.find('_'):
+    #     if len(glyph) == 3 and glyph.find('_') == 1:
+    #         pairs_2 = pairs_2 | {(glyph, ccmp_lookups[x][len(ccmp_lookups[glyph])-1])
+    #                              for x in initial_forms[glyph[2:3]]} | {(ccmp_lookups[glyph][len(ccmp_lookups[glyph])-1], glyph)
+    #                                                                     for x in final_forms[glyph[0:1]]}
 
-            
         # elif glyph_name.find('_')== len(glyph_name)-1:
-            # ...
+        # ...
         # elif glyph_name.find('__')== len(glyph_name)-1:
-            # ...
+        # ...
         # elif glyph_name.find('.')== len(glyph_name)-1:
+
+
+# -----------------------------------------------------------------------------------------------------
+# The follow codes are for finding final parts with their * and * parts
+for glyph in my_type:
+
+    left_part = set()
+    right_part = set()
+
+    # Check whether pattern is "letter name + '_'" or "letter name + '_' _ letter name".
+    if (len(glyph) == 2 or len(glyph) == 3 or len(glyph) == 4) and glyph.find('_', 1) == 1 and glyph.find('__') == -1:
+
+        # common situation
+        left_part = {(ccmp_lookups[x][-2], glyph) for x in final_forms[glyph[0]] }
+
+        # pattern like 'a_'
+        # if(len(glyph) == 2):
+        #     # i don't do any thing here
+        #     print('no')
+
+        # pattern like 'a_c'
+        if(len(glyph) == 3):
+            if(changable_inital_forms[glyph[2]]):
+                right_part = {(glyph, 'null1'),('null1', ccmp_lookups[glyph[2]][1])}
+            else:
+                right_part = {(glyph, ccmp_lookups[glyph[2]][0])}
+
+        # pattern like 'a_bi'
+        elif(len(glyph) == 4):
+            if(changable_inital_forms[glyph[2]]):
+                right_part = {(glyph, 'null1'),('null1', ccmp_lookups[glyph[2]][1])}
+
+            else:
+                right_part = {(glyph, ccmp_lookups[glyph[2]][0])}
+
+            if(changable_inital_forms[glyph[3]]):
+                right_part = {(glyph, 'null1'),('null1', ccmp_lookups[glyph[3]][1])} | right_part
+            else:
+                right_part = {(glyph, ccmp_lookups[glyph[3]][0])} | right_part
+            
+    pairs = pairs | left_part | right_part
 
 
 row_set = {x[0] for x in pairs}
@@ -81,9 +130,6 @@ cloumn = [x for x in cloumn_set]
 
 
 kerning_matrix = np.zeros((len(row), len(cloumn)))
-
-print(ccmp_lookups)
-print(pairs_2)
 
 
 for pair in pairs:
@@ -110,13 +156,16 @@ for pair in pairs:
     kerning_matrix[row_index][cloumn_index] = distance
 
 
+
 distances = []
 for x in kerning_matrix:
     for y in x:
         distances[len(distances):] = [y]
-#my_type.addKerningClass("'kern' cursive feature",
- #                       'test', row, cloumn, distances)
+my_type.addKerningClass("'kern' cursive feature",
+                       'test', row, cloumn, distances)
 
-print(pairs_2)
+my_type.save('../sources/SpencerianCursive_WithKerneringMatrix.sfd')
 
-# my_type.save('../sources/SpencerianCursive_WithKerneringMatrix.sfd')
+
+
+    
