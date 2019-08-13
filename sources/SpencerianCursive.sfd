@@ -189,7 +189,7 @@ ChainSub2: coverage "'calt' [+ACIA]" 1 1 1 1
 EndFPST
 ChainPos2: coverage "'kern' `applying 'curs' features`" 0 0 0 1
  1 0 0
-  Coverage: 777 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 hyphen period zero one two three four five six seven eight nine colon semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent _r _a P001 a.0 d.0 _g.0 q_ h.0 _m f.0 h.1 b_ _c _h e.0 _e k.0 _o p.0 r.0 s.0 _t x.0 z.0 f_ P004 null1 null2 b.0 a_ m.0 a_c a_i a_a P005 a_m c_e.. c_c.. b_m b__m null3 g_m i.0 Quotation_Mark2 g_e.. b_e.. b_c.. b_a f_a f_e.. f_m c_a g_p g_a g_t.. g_ g_o o_c.. b_b b_p P116.1 o_a o_b o_e.. o_i o_m o_p a_o b_o o_o f_o q_a q_p q_b q_e.. q_c.. q_m q_o P9011 P9012 c_o f_b g__m m__m g_b g_i i_c.. o_ g_c.. A_ A_a A_b A_c.. A_e.. A_i A_m A_p A_o M_ M_a M_b M_c.. M_e.. M_i M_m M_p M_o
+  Coverage: 778 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 hyphen period zero one two three four five six seven eight nine colon semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent _r _a P001 a.0 d.0 _g.0 q_ h.0 _m f.0 h.1 b_ _c _h e.0 _e k.0 _o p.0 r.0 s.0 _t x.0 z.0 f_ P004 null1 null2 b.0 a_ m.0 a_c a_bi a_a P005 a_m c_e.. c_c.. b_m b__m null3 g_m i.0 Quotation_Mark2 g_e.. b_e.. b_c.. b_a f_a f_e.. f_m c_a g_p g_a g_t.. g_ g_o o_c.. b_b b_p P116.1 o_a o_b o_e.. o_i o_m o_p a_o b_o o_o f_o q_a q_p q_b q_e.. q_c.. q_m q_o P9011 P9012 c_o f_b g__m m__m g_b g_i i_c.. o_ g_c.. A_ A_a A_b A_c.. A_e.. A_i A_m A_p A_o M_ M_a M_b M_c.. M_e.. M_i M_m M_p M_o
  2
   SeqLookup: 0 "'curs' *"
   SeqLookup: 0 "'curs' [a,d,g,o,q]"
@@ -2794,8 +2794,8 @@ SplineSet
  29 -4 45 44 117 136 c 5
  102 148 l 1
 EndSplineSet
-Substitution2: "* +- [b, f, h, k, l]" a_i
-Substitution2: "'aalt' [+AH4A-i] +- *-1" a_i
+Substitution2: "* +- [b, f, h, k, l]" a_bi
+Substitution2: "'aalt' [+AH4A-i] +- *-1" a_bi
 Substitution2: "* +- [o]" a_o
 Substitution2: "* +- [e]" a_c
 Substitution2: "* +- [c]" i_c..
@@ -2858,7 +2858,7 @@ Comment: "It is for final part of glyphs like 'i' before 'e'."
 Colour: ff030d
 EndChar
 
-StartChar: a_i
+StartChar: a_bi
 Encoding: 114 -1 84
 Width: 1313
 VWidth: 0
@@ -2880,7 +2880,7 @@ SplineSet
  47.7665019575 -16.9057176127 8.99923160894 28.3652087364 102 148 c 5
  117 136 l 5
 EndSplineSet
-Comment: "It is final part of glyphs like 'a' before glyph like 'i'."
+Comment: "It is final part of glyphs like 'a' before glyph like 'i' and glyhs like 'b'."
 Colour: ff1214
 EndChar
 
