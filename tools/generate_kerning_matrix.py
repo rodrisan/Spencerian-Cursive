@@ -26,7 +26,7 @@ changable_inital_forms = {'a': False,
                           'c': False,
                           'e': True,
                           'i': False,
-                          'm': True,
+                          'm': False,
                           'o': False,
                           'p': True}
 
@@ -88,7 +88,7 @@ for glyph in my_type:
     right_part = set()
 
     # Check whether pattern is "letter name + '_'" or "letter name + '_' _ letter name".
-    if (len(glyph) == 2 or len(glyph) == 3 or len(glyph) == 4) and glyph.find('_', 1) == 1 and glyph.find('__') == -1:
+    if (len(glyph) == 2 or len(glyph) == 3 or len(glyph) == 4 or  len(glyph) == 4) and (glyph.find('_', 1) == 1 and glyph.find('__') == -1) or glyph.find('..')==1:
 
         # common situation
         left_part = {(ccmp_lookups[x][-2], glyph) for x in final_forms[glyph[0]] }
@@ -101,22 +101,31 @@ for glyph in my_type:
         # pattern like 'a_c'
         if(len(glyph) == 3):
             if(changable_inital_forms[glyph[2]]):
-                right_part = {(glyph, 'null1'),('null1', ccmp_lookups[glyph[2]][1])}
+                right_part = {(glyph, 'null1')} | {('null1', ccmp_lookups[x][1]) for x in initial_forms[glyph[2]]}
             else:
-                right_part = {(glyph, ccmp_lookups[glyph[2]][0])}
+                right_part = {(glyph, ccmp_lookups[x][0]) for x in initial_forms[glyph[2]]}
 
         # pattern like 'a_bi'
         elif(len(glyph) == 4):
             if(changable_inital_forms[glyph[2]]):
-                right_part = {(glyph, 'null1'),('null1', ccmp_lookups[glyph[2]][1])}
+                right_part = {(glyph, 'null1')} | {('null1', ccmp_lookups[x][1]) for x in initial_forms[glyph[2]]}
+                print(right_part)
 
             else:
-                right_part = {(glyph, ccmp_lookups[glyph[2]][0])}
+                right_part = {(glyph, ccmp_lookups[x][0]) for x in initial_forms[glyph[2]]}
 
             if(changable_inital_forms[glyph[3]]):
-                right_part = {(glyph, 'null1'),('null1', ccmp_lookups[glyph[3]][1])} | right_part
+                right_part = {(glyph, 'null1')} | {('null1', ccmp_lookups[x][1]) for x in initial_forms[glyph[3]]} | right_part
             else:
-                right_part = {(glyph, ccmp_lookups[glyph[3]][0])} | right_part
+                right_part = {(glyph, ccmp_lookups[x][0]) for x in initial_forms[glyph[3]]} | right_part
+        
+        # patter like a_c..
+        elif(len(glyph) == 5):
+            if(changable_inital_forms[glyph[2]]):
+                right_part = {(glyph, 'null1')} | {('null1', ccmp_lookups[x][1]) for x in initial_forms[glyph[2]]}
+            else:
+                right_part = {(glyph, ccmp_lookups[x][0]) for x in initial_forms[glyph[2]]}
+
             
     pairs = pairs | left_part | right_part
 
@@ -154,14 +163,14 @@ for pair in pairs:
     distance = ((my_type[left_part].width -
                  left_part_anchor_x)+right_part_anchor_x)*-1
     kerning_matrix[row_index][cloumn_index] = distance
-
+    print(left_part+'+'+right_part+': '+str(distance))
 
 
 distances = []
 for x in kerning_matrix:
     for y in x:
         distances[len(distances):] = [y]
-my_type.addKerningClass("'kern' cursive feature",
+my_type.addKerningClass("'kern' Cursive Feature",
                        'test', row, cloumn, distances)
 
 my_type.save('../sources/SpencerianCursive_WithKerneringMatrix.sfd')
