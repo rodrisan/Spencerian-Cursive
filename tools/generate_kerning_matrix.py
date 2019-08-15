@@ -1,34 +1,7 @@
 import fontforge
 import numpy as np
+import constats as c
 
-final_forms = {'a': ['a', 'd', 'h', 'i', 'k', 'l', 'm', 'n', 'p', 'r', 't', 'u', 'x'],
-               'c': ['c', 'e'],
-               'b': ['b', 'v', 'w'],
-               'o': ['o'],
-               'g': ['g', 'j', 'Z', 'Y', 'J'],
-               'f': ['f', 's'],
-               'q': ['q'],
-               'A': ['A', 'H'],
-               'L': ['L', 'Q'],
-               'K': ['K', 'R', 'X'],
-               'M': ['M'],
-               'D': ['D']}
-initial_forms = {'a': ['a', 'd', 'g', 'q'],
-                 'b': ['b', 'f', 'h', 'k', 'l'],
-                 'c': ['c'],
-                 'e': ['e'],
-                 'i': ['i', 'j', 'u', 't', 'w'],
-                 'm': ['m', 'n', 'v', 'x', 'y', 'z'],
-                 'o': ['o'],
-                 'p': ['p', 'r', 's']}
-changable_inital_forms = {'a': False,
-                          'b': True,
-                          'c': False,
-                          'e': True,
-                          'i': False,
-                          'm': False,
-                          'o': False,
-                          'p': True}
 
 
 pairs = set()
@@ -70,8 +43,8 @@ for glyph in my_type:
     # if len(glyph) > 1 and glyph.find('.') or glyph.find('_'):
     #     if len(glyph) == 3 and glyph.find('_') == 1:
     #         pairs_2 = pairs_2 | {(glyph, ccmp_lookups[x][len(ccmp_lookups[glyph])-1])
-    #                              for x in initial_forms[glyph[2:3]]} | {(ccmp_lookups[glyph][len(ccmp_lookups[glyph])-1], glyph)
-    #                                                                     for x in final_forms[glyph[0:1]]}
+    #                              for x in c.initial_forms[glyph[2:3]]} | {(ccmp_lookups[glyph][len(ccmp_lookups[glyph])-1], glyph)
+    #                                                                     for x in c.final_forms[glyph[0:1]]}
 
         # elif glyph_name.find('_')== len(glyph_name)-1:
         # ...
@@ -91,7 +64,7 @@ for glyph in my_type:
     if (len(glyph) == 2 or len(glyph) == 3 or len(glyph) == 4 or  len(glyph) == 4) and (glyph.find('_', 1) == 1 and glyph.find('__') == -1) or glyph.find('..')==1:
 
         # common situation
-        left_part = {(ccmp_lookups[x][-2], glyph) for x in final_forms[glyph[0]] }
+        left_part = {(ccmp_lookups[x][-2], glyph) for x in c.final_forms[glyph[0]] }
 
         # pattern like 'a_'
         # if(len(glyph) == 2):
@@ -100,31 +73,31 @@ for glyph in my_type:
 
         # pattern like 'a_c'
         if(len(glyph) == 3):
-            if(changable_inital_forms[glyph[2]]):
-                right_part = {(glyph, 'null1')} | {('null1', ccmp_lookups[x][1]) for x in initial_forms[glyph[2]]}
+            if(c.c.changable_inital_forms[glyph[2]]):
+                right_part = {(glyph, 'null1')} | {('null1', ccmp_lookups[x][1]) for x in c.initial_forms[glyph[2]]}
             else:
-                right_part = {(glyph, ccmp_lookups[x][0]) for x in initial_forms[glyph[2]]}
+                right_part = {(glyph, ccmp_lookups[x][0]) for x in c.initial_forms[glyph[2]]}
 
         # pattern like 'a_bi'
         elif(len(glyph) == 4):
-            if(changable_inital_forms[glyph[2]]):
-                right_part = {(glyph, 'null1')} | {('null1', ccmp_lookups[x][1]) for x in initial_forms[glyph[2]]}
+            if(c.changable_inital_forms[glyph[2]]):
+                right_part = {(glyph, 'null1')} | {('null1', ccmp_lookups[x][1]) for x in c.initial_forms[glyph[2]]}
                 print(right_part)
 
             else:
-                right_part = {(glyph, ccmp_lookups[x][0]) for x in initial_forms[glyph[2]]}
+                right_part = {(glyph, ccmp_lookups[x][0]) for x in c.initial_forms[glyph[2]]}
 
-            if(changable_inital_forms[glyph[3]]):
-                right_part = {(glyph, 'null1')} | {('null1', ccmp_lookups[x][1]) for x in initial_forms[glyph[3]]} | right_part
+            if(c.changable_inital_forms[glyph[3]]):
+                right_part = {(glyph, 'null1')} | {('null1', ccmp_lookups[x][1]) for x in c.initial_forms[glyph[3]]} | right_part
             else:
-                right_part = {(glyph, ccmp_lookups[x][0]) for x in initial_forms[glyph[3]]} | right_part
+                right_part = {(glyph, ccmp_lookups[x][0]) for x in c.initial_forms[glyph[3]]} | right_part
         
         # patter like a_c..
         elif(len(glyph) == 5):
-            if(changable_inital_forms[glyph[2]]):
-                right_part = {(glyph, 'null1')} | {('null1', ccmp_lookups[x][1]) for x in initial_forms[glyph[2]]}
+            if(c.changable_inital_forms[glyph[2]]):
+                right_part = {(glyph, 'null1')} | {('null1', ccmp_lookups[x][1]) for x in c.initial_forms[glyph[2]]}
             else:
-                right_part = {(glyph, ccmp_lookups[x][0]) for x in initial_forms[glyph[2]]}
+                right_part = {(glyph, ccmp_lookups[x][0]) for x in c.initial_forms[glyph[2]]}
 
             
     pairs = pairs | left_part | right_part
