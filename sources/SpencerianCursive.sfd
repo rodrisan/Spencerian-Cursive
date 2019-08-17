@@ -190,7 +190,7 @@ ChainSub2: coverage "'calt' [+ACIA]" 1 1 1 1
 EndFPST
 ChainPos2: coverage "'kern' `applying 'curs' features`" 0 0 0 1
  1 0 0
-  Coverage: 778 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 hyphen period zero one two three four five six seven eight nine colon semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent _r _a P001 a.0 d.0 _g.0 q_ h.0 _m f.0 h.1 b_ _c _h e.0 _e k.0 _o p.0 r.0 s.0 _t x.0 z.0 f_ P004 null1 null2 b.0 a_ m.0 a_c a_bi a_a P005 a_m c_e.. c_c.. b_m b__m null3 g_m i.0 Quotation_Mark2 g_e.. b_e.. b_c.. b_a f_a f_e.. f_m c_a g_p g_a g_t.. g_ g_o o_c.. b_b b_p P116.1 o_a o_b o_e.. o_i o_m o_p a_o b_o o_o f_o q_a q_p q_b q_e.. q_c.. q_m q_o P9011 P9012 c_o f_b g__m m__m g_b g_i i_c.. o_ g_c.. A_ A_a A_b A_c.. A_e.. A_i A_m A_p A_o M_ M_a M_b M_c.. M_e.. M_i M_m M_p M_o
+  Coverage: 746 uni0000 glyph90 exclam quotedbl numbersign dollar percent ampersand quotesingle glyph98 hyphen period zero one two three four five six seven eight nine colon semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z underscore a b c d e f g h i j k l m n o p q r s t u v w x y z cent _r _a P001 a.0 d.0 _g.0 q_ h.0 _m f.0 h.1 b_ _c _h e.0 _e k.0 _o p.0 r.0 s.0 _t x.0 z.0 f_ P004 null1 null2 b.0 a_ m.0 a_c a_bi a_a P005 a_m c_e c_c b_m b__m null3 g_m i.0 Quotation_Mark2 g_e.. b_e b_c b_a f_a f_e f_m c_a g_p g_a g_t g_ g_o o_c b_b b_p P116.1 o_a o_b o_e o_i o_m o_p a_o b_o o_o f_o q_a q_p q_b q_e q_c q_m q_o P9011 P9012 c_o f_b g__m m__m g_b g_i i_c o_ g_c A_ A_a A_b A_c A_e A_i A_m A_p A_o M_ M_a M_b M_c M_e M_i M_m M_p M_o
  2
   SeqLookup: 0 "'curs' *"
   SeqLookup: 0 "'curs' [a,d,g,o,q]"
@@ -273,7 +273,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 84 14 6
+WinInfo: 70 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2128,8 +2128,8 @@ Substitution2: "* +- [a, d, g, q]" q_a
 Substitution2: "* +- [o]" q_o
 Substitution2: "* +- [p, r, s]" q_p
 Substitution2: "* +- [m, n, v, x, y, z] - 1" q_m
-Substitution2: "* +- [c]" q_c..
-Substitution2: "* +- [e]" q_e..
+Substitution2: "* +- [c]" q_c
+Substitution2: "* +- [e]" q_e
 Comment: "It is default final part of 'q'."
 Colour: ff1c3b
 EndChar
@@ -2280,8 +2280,8 @@ SplineSet
  314 632 169 619 71 776 c 1
 EndSplineSet
 Substitution2: "* +- [a, d, g, q]" b_a
-Substitution2: "* +- [c]" b_c..
-Substitution2: "* +- [e]" b_e..
+Substitution2: "* +- [c]" b_c
+Substitution2: "* +- [e]" b_e
 Substitution2: "* +- [p, r, s]" b_p
 Substitution2: "* +- [m, n, v, x, y, z] - 1" b_m
 Substitution2: "* +- [o]" b_o
@@ -2698,7 +2698,7 @@ Substitution2: "* +- [t]" f_b
 Substitution2: "* +- [i, j, u, w]" f_b
 Substitution2: "* +- [b, f, h, k, l]" f_b
 Substitution2: "* +- [a, d, g, q]" f_a
-Substitution2: "* +- [e]" f_e..
+Substitution2: "* +- [e]" f_e
 Substitution2: "* +- [m, n, v, x, y, z] - 1" f_m
 Substitution2: "* +- [o]" f_o
 Comment: "It is final part of 's' and 'f'."
@@ -2798,7 +2798,7 @@ Substitution2: "* +- [b, f, h, k, l]" a_bi
 Substitution2: "'aalt' [+AH4A-i] +- *-1" a_bi
 Substitution2: "* +- [o]" a_o
 Substitution2: "* +- [e]" a_c
-Substitution2: "* +- [c]" i_c..
+Substitution2: "* +- [c]" i_c
 Substitution2: "* +- [a, d, g, q]" a_a
 Substitution2: "* +- [m, n, v, x, y, z] - 1" a_m
 Comment: "It is for final part of characters like a, c and w."
@@ -3907,7 +3907,7 @@ Comment: "It is one of parts of 'i'."
 Colour: c2c2c2
 EndChar
 
-StartChar: b_e..
+StartChar: b_e
 Encoding: 127 -1 120
 Width: 942
 VWidth: 0
@@ -3931,7 +3931,7 @@ Comment: "It is for final part of b and v before e."
 Colour: ff1c2e
 EndChar
 
-StartChar: b_c..
+StartChar: b_c
 Encoding: 128 -1 121
 Width: 414
 VWidth: 0
@@ -4006,7 +4006,7 @@ Comment: "It is final part of s before glyph like a."
 Colour: ff3330
 EndChar
 
-StartChar: f_e..
+StartChar: f_e
 Encoding: 131 -1 124
 Width: 1427
 VWidth: 0
@@ -4186,7 +4186,7 @@ Comment: "It is final part of glyphs like 'j' before glyphs like 'a'."
 Colour: ff3324
 EndChar
 
-StartChar: g_t..
+StartChar: g_t
 Encoding: 136 -1 129
 Width: 2212
 VWidth: 0
@@ -4260,15 +4260,15 @@ SplineSet
  -702.513586916 -1576.59846272 -648.847081268 -1409.95635309 -454 -1165 c 4
  -40.6502812726 -645.34818385 788.113327354 55.5402151704 2192 802 c 5
 EndSplineSet
-Substitution2: "* +- [c]" j_c..
-Substitution2: "* +- [i, j, u, w]" j_i
-Substitution2: "* +- [b, f, h, k, l]" j_b
-Substitution2: "* +- [p, r, s]" g_p
-Substitution2: "* +- [a, d, g, q]" g_a
-Substitution2: "* +- [m, n, v, x, y, z] - 1" g_m
-Substitution2: "* +- [t]" j_b
-Substitution2: "* +- [e]" g_e..
 Substitution2: "* +- [o]" P9207
+Substitution2: "* +- [e]" g_e..
+Substitution2: "* +- [t]" j_b
+Substitution2: "* +- [m, n, v, x, y, z] - 1" g_m
+Substitution2: "* +- [a, d, g, q]" g_a
+Substitution2: "* +- [p, r, s]" g_p
+Substitution2: "* +- [b, f, h, k, l]" j_b
+Substitution2: "* +- [i, j, u, w]" j_i
+Substitution2: "* +- [c]" j_c..
 Comment: "It is default final part of glyphs like g. "
 Colour: ff3845
 EndChar
@@ -4314,7 +4314,7 @@ Comment: "It is final part of glyphs like j before o."
 Colour: ff292e
 EndChar
 
-StartChar: o_c..
+StartChar: o_c
 Encoding: 140 -1 132
 Width: 414
 VWidth: 0
@@ -4664,7 +4664,7 @@ Comment: "It is final part of o before glyphs like h."
 Colour: ff1442
 EndChar
 
-StartChar: o_e..
+StartChar: o_e
 Encoding: 146 -1 149
 Width: 942
 VWidth: 0
@@ -5037,7 +5037,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: c_e..
+StartChar: c_e
 Encoding: 118 -1 165
 Width: 2857
 VWidth: 0
@@ -5063,7 +5063,7 @@ Comment: "It is final part of 'c' and 'e' before 'e'."
 Colour: ff292e
 EndChar
 
-StartChar: c_c..
+StartChar: c_c
 Encoding: 119 -1 166
 Width: 1313
 VWidth: 0
@@ -5138,13 +5138,13 @@ SplineSet
  47.7665019575 -16.9057176127 8.99923160894 28.3652087364 102 148 c 5
  117 136 l 5
 EndSplineSet
-Substitution2: "* +- [p, r, s]" P9015
-Substitution2: "* +- [b, f, h, k, l]" P9015
-Substitution2: "* +- [c]" c_c..
-Substitution2: "* +- [m, n, v, x, y, z] - 1" a_m
-Substitution2: "* +- [o]" P9013
+Substitution2: "* +- [e]" c_e
 Substitution2: "* +- [a, d, g, q]" c_a
-Substitution2: "* +- [e]" c_e..
+Substitution2: "* +- [o]" P9013
+Substitution2: "* +- [m, n, v, x, y, z] - 1" a_m
+Substitution2: "* +- [c]" c_c
+Substitution2: "* +- [b, f, h, k, l]" P9015
+Substitution2: "* +- [p, r, s]" P9015
 Comment: "It is same as P9003."
 Colour: ff2424
 EndChar
@@ -5219,7 +5219,7 @@ Comment: "It is for final part of 's' and 'f' before glyphs like 'l'."
 Colour: ff1a21
 EndChar
 
-StartChar: q_e..
+StartChar: q_e
 Encoding: 157 -1 172
 Width: 2225
 VWidth: 0
@@ -5248,7 +5248,7 @@ Comment: "It is for final part of 'q' before 'e'."
 Colour: ff333d
 EndChar
 
-StartChar: q_c..
+StartChar: q_c
 Encoding: 158 -1 173
 Width: 2225
 VWidth: 0
@@ -5479,7 +5479,7 @@ Comment: "It is final part of glyphs like 'j' before glyphs like 'i'."
 Colour: ff4559
 EndChar
 
-StartChar: i_c..
+StartChar: i_c
 Encoding: 169 -1 180
 Width: 1313
 VWidth: 0
@@ -5515,15 +5515,15 @@ AnchorPoint: "Cursive 1" 624 781 entry 0
 LayerCount: 6
 Back
 Refer: 150 -1 S 1 0 0 1 0 0 2
-Substitution2: "* +- [t]" o_b
-Substitution2: "* +- [i, j, u, w]" o_i
-Substitution2: "* +- [p, r, s]" o_p
-Substitution2: "* +- [b, f, h, k, l]" o_b
-Substitution2: "* +- [m, n, v, x, y, z] - 1" o_m
-Substitution2: "* +- [c]" o_c..
-Substitution2: "* +- [e]" o_e..
-Substitution2: "* +- [a, d, g, q]" o_a
 Substitution2: "* +- [o]" o_o
+Substitution2: "* +- [a, d, g, q]" o_a
+Substitution2: "* +- [e]" o_e
+Substitution2: "* +- [c]" o_c
+Substitution2: "* +- [m, n, v, x, y, z] - 1" o_m
+Substitution2: "* +- [b, f, h, k, l]" o_b
+Substitution2: "* +- [p, r, s]" o_p
+Substitution2: "* +- [i, j, u, w]" o_i
+Substitution2: "* +- [t]" o_b
 Comment: "It is default final part of 'o', in fact it is empty."
 Colour: ff4c5c
 EndChar
@@ -5548,7 +5548,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: g_c..
+StartChar: g_c
 Encoding: 172 -1 183
 Width: 2238
 VWidth: 0
@@ -5631,15 +5631,15 @@ SplineSet
  1817 810 l 17
  1583 436 1131 478 1131 693 c 3
 EndSplineSet
-Substitution2: "* +- [a, d, g, q]" A_H.P01
-Substitution2: "* +- [b, f, h, k, l]" A_H.P02
-Substitution2: "* +- [c]" A_H.P03
-Substitution2: "* +- [e]" A_H.P04
-Substitution2: "* +- [i, j, u, w]" A_H.P05
-Substitution2: "* +- [m, n, v, x, y, z] - 1" A_H.P06
-Substitution2: "* +- [o]" A_H.P08
-Substitution2: "* +- [t]" A_H.P05
 Substitution2: "* +- [p, r, s]" A_H.P07
+Substitution2: "* +- [t]" A_H.P05
+Substitution2: "* +- [o]" A_H.P08
+Substitution2: "* +- [m, n, v, x, y, z] - 1" A_H.P06
+Substitution2: "* +- [i, j, u, w]" A_H.P05
+Substitution2: "* +- [e]" A_H.P04
+Substitution2: "* +- [c]" A_H.P03
+Substitution2: "* +- [b, f, h, k, l]" A_H.P02
+Substitution2: "* +- [a, d, g, q]" A_H.P01
 Comment: "It is default final part of 'A' and 'H'."
 Colour: 70ff29
 EndChar
@@ -5698,7 +5698,7 @@ Comment: "It is final part of 'A' and 'H' before glyphs like glyphs like 'l'."
 Colour: ff1424
 EndChar
 
-StartChar: A_c..
+StartChar: A_c
 Encoding: 207 -1 188
 Width: 2655
 VWidth: 0
@@ -5727,7 +5727,7 @@ Comment: "It is final part of 'A' and 'H' before 'c'."
 Colour: ff1a24
 EndChar
 
-StartChar: A_e..
+StartChar: A_e
 Encoding: 208 -1 189
 Width: 2655
 VWidth: 0
@@ -5928,15 +5928,15 @@ SplineSet
  646 124 l 7
 EndSplineSet
 Refer: 13 76 N 1 0 0 1 0 0 2
-Substitution2: "* +- [b, f, h, k, l]" L_Q.P02
-Substitution2: "* +- [t]" L_Q.P05
-Substitution2: "* +- [m, n, v, x, y, z] - 1" L_Q.P06
-Substitution2: "* +- [c]" L_Q.P03
-Substitution2: "* +- [e]" L_Q.P04
-Substitution2: "* +- [a, d, g, q]" L_Q.P01
-Substitution2: "* +- [o]" L_Q.P08
-Substitution2: "* +- [i, j, u, w]" L_Q.P05
 Substitution2: "* +- [p, r, s]" L_Q.P07
+Substitution2: "* +- [i, j, u, w]" L_Q.P05
+Substitution2: "* +- [o]" L_Q.P08
+Substitution2: "* +- [a, d, g, q]" L_Q.P01
+Substitution2: "* +- [e]" L_Q.P04
+Substitution2: "* +- [c]" L_Q.P03
+Substitution2: "* +- [m, n, v, x, y, z] - 1" L_Q.P06
+Substitution2: "* +- [t]" L_Q.P05
+Substitution2: "* +- [b, f, h, k, l]" L_Q.P02
 Comment: "It is default final part of 'L' and 'Q."
 Colour: ff384a
 EndChar
@@ -5997,7 +5997,7 @@ Comment: "It is final part of 'L' and 'Q' before 'l'."
 Colour: ff3030
 EndChar
 
-StartChar: L_c..
+StartChar: L_c
 Encoding: 225 -1 199
 Width: 4430
 VWidth: 0
@@ -6026,7 +6026,7 @@ Comment: "It is final part of 'L' and 'Q' before 'c'."
 Colour: ff3030
 EndChar
 
-StartChar: L_e..
+StartChar: L_e
 Encoding: 226 -1 200
 Width: 4430
 VWidth: 0
@@ -6189,15 +6189,15 @@ SplineSet
  1931 277 l 5
 EndSplineSet
 Refer: 10 82 N 1 0 0 1 0 0 2
-Substitution2: "* +- [a, d, g, q]" K_R_X.P01
-Substitution2: "* +- [b, f, h, k, l]" K_R_X.P02
-Substitution2: "* +- [c]" K_R_X.P03
-Substitution2: "* +- [e]" K_R_X.P04
-Substitution2: "* +- [m, n, v, x, y, z] - 1" K_R_X.P06
-Substitution2: "* +- [i, j, u, w]" K_R_X.P05
-Substitution2: "* +- [p, r, s]" K_R_X.P07
-Substitution2: "* +- [o]" K_R_X.P08
 Substitution2: "* +- [t]" K_R_X.P05
+Substitution2: "* +- [o]" K_R_X.P08
+Substitution2: "* +- [p, r, s]" K_R_X.P07
+Substitution2: "* +- [i, j, u, w]" K_R_X.P05
+Substitution2: "* +- [m, n, v, x, y, z] - 1" K_R_X.P06
+Substitution2: "* +- [e]" K_R_X.P04
+Substitution2: "* +- [c]" K_R_X.P03
+Substitution2: "* +- [b, f, h, k, l]" K_R_X.P02
+Substitution2: "* +- [a, d, g, q]" K_R_X.P01
 Comment: "It is default final part of 'K', 'R' and 'X'."
 Colour: ff3d30
 EndChar
@@ -6258,7 +6258,7 @@ Comment: "It is final part of 'K', 'R' and 'X' before  glyphs like 'l'."
 Colour: ff3d30
 EndChar
 
-StartChar: K_c..
+StartChar: K_c
 Encoding: 234 -1 208
 Width: 4430
 VWidth: 0
@@ -6286,7 +6286,7 @@ Comment: "It is final part of 'K', 'R' and 'X' before 'c'."
 Colour: ff594c
 EndChar
 
-StartChar: K_e..
+StartChar: K_e
 Encoding: 235 -1 209
 Width: 4430
 VWidth: 0
@@ -6561,15 +6561,15 @@ SplineSet
  2892 273 l 5
 EndSplineSet
 Refer: 3 77 N 1 0 0 1 0 0 2
-Substitution2: "* +- [a, d, g, q]" M.P01
-Substitution2: "* +- [b, f, h, k, l]" M.P02
-Substitution2: "* +- [c]" M.P03
-Substitution2: "* +- [e]" M.P04
-Substitution2: "* +- [i, j, u, w]" M.P05
-Substitution2: "* +- [m, n, v, x, y, z] - 1" M.P06
-Substitution2: "* +- [p, r, s]" M.P07
-Substitution2: "* +- [o]" M.P08
 Substitution2: "* +- [t]" M.P05
+Substitution2: "* +- [o]" M.P08
+Substitution2: "* +- [p, r, s]" M.P07
+Substitution2: "* +- [m, n, v, x, y, z] - 1" M.P06
+Substitution2: "* +- [i, j, u, w]" M.P05
+Substitution2: "* +- [e]" M.P04
+Substitution2: "* +- [c]" M.P03
+Substitution2: "* +- [b, f, h, k, l]" M.P02
+Substitution2: "* +- [a, d, g, q]" M.P01
 Comment: "It is default final part of 'M'."
 Colour: ff4057
 EndChar
@@ -6630,7 +6630,7 @@ Comment: "It is final part of 'M' before glyphs like 'h'."
 Colour: ff4057
 EndChar
 
-StartChar: M_c..
+StartChar: M_c
 Encoding: 245 -1 222
 Width: 4430
 VWidth: 0
@@ -6658,7 +6658,7 @@ Comment: "It is final part of 'M' before 'c'."
 Colour: ff4057
 EndChar
 
-StartChar: M_e..
+StartChar: M_e
 Encoding: 246 -1 223
 Width: 4430
 VWidth: 0
