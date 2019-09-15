@@ -93,6 +93,37 @@ def generate_pairs(possible_sttrings):
 
     return pairs
 
+def add_prediding_leading_pairs(l_l_g,a_l_l_g,substitutions):
+    if max((x[1] for x in substitutions)) == len(l_l_g)-1:
+        precidding_glyphs=list()
+        for glyph in l_l_g[-1]:
+            # l_l_g.append([v[-2] for k,v in lookup.SubTable[0].mapping.items() for lookup in lookupType2s if v[-1]==glyph])
+            
+            
+            for lookup in lookupType2s:
+                for k,v in lookup.SubTable[0].mapping.items():
+                    if v[-1]==glyph:
+                        precidding_glyphs.append(v[-2])
+        if len(precidding_glyphs)>0:               
+            a_l_l_g.append([precidding_glyphs])
+
+    if min((x[1] for x in substitutions)) == 0:
+        precidding_glyphs=list()
+        for glyph in l_l_g[-1]:
+            
+            
+            
+            for lookup in lookupType2s:
+                for k,v in lookup.SubTable[0].mapping.items():
+                    if v[0]==glyph:
+                        precidding_glyphs.append(v[1])
+        if len(precidding_glyphs)>0:
+            a_l_l_g[:0]=[precidding_glyphs]
+            
+                        
+    return a_l_l_g
+
+
 #---------------------------------------------------------------------------------------------------
 # Fontforge file(.sdf file) path
 sdf_file_path = '../sources/SpencerianCursive.sfd'
@@ -127,7 +158,7 @@ for lookup in gsub_lookups:
     elif lookup.LookupType == 6:
         lookupType6s.append(lookup)
 
-# Finding possible pairs between two glyphs for example between a and b, not between parts of a or b,
+# Finding possible pairs between two glyphs, for example between a and b, not between parts of a or b,
 # so I need to iterate over LookupType6
 for lookup in lookupType6s:
 
@@ -146,17 +177,17 @@ for lookup in lookupType6s:
         classes = [[]] * (max(sub_table.InputClassDef.classDefs.values())+1)
 
         # Generate Classes
-        for v, k in sub_table.InputClassDef.classDefs.items():
-            temp_list = classes[k][:]
-            temp_list.append(v)
-            classes[k] = temp_list
+        for k, v in sub_table.InputClassDef.classDefs.items():
+            temp_list = classes[v][:]
+            temp_list.append(k)
+            classes[v] = temp_list
 
         # Apply Classes
         for index, chain_sub_class in enumerate(sub_table.ChainSubClassSet):
             #
             if chain_sub_class != None:
                 l_l_g=list()
-
+                
                 l_l_g[len(l_l_g):]=[classes[x] for x in chain_sub_class.ChainSubClassRule[0].Backtrack]
                 l_l_g.append(classes[index])
                 l_l_g[len(l_l_g):]=[classes[x] for x in chain_sub_class.ChainSubClassRule[0].Input]
@@ -165,21 +196,12 @@ for lookup in lookupType6s:
                 substitutions=[(gsub_lookups[s_l_r.LookupListIndex].SubTable[0].mapping ,s_l_r.SequenceIndex) 
                 for s_l_r in chain_sub_class.ChainSubClassRule[0].SubstLookupRecord]
 
+                
+
                 a_l_l_g=apply_substitution(l_l_g,substitutions)
+                a_l_l_g=add_prediding_leading_pairs(l_l_g,a_l_l_g,substitutions)
                 possible_strings=generate_possible_string(a_l_l_g)
                 all_pairs=all_pairs| generate_pairs(possible_strings)
-
-
-
-
-
-                #
-                for subst_lookup_record in chain_sub_class.ChainSubClassRule[0].SubstLookupRecord:
-                    print('ok')
-                    # Index of current ChainSubClass in SubTable.ChainSubClassSet, currenct index is index of
-                    #   the class mines one that I need appy substituation of it
-                    ChainSubClassIndex = ""
-                    #
 
     elif sub_table.Format == 3:
         
@@ -188,19 +210,70 @@ for lookup in lookupType6s:
         l_l_g=list()
 
         l_l_g[len(l_l_g):]=[x.glyphs for x in sub_table.BacktrackCoverage]
+        l_l_g[len(l_l_g):]=[]
         l_l_g[len(l_l_g):]=[x.glyphs for x in sub_table.InputCoverage]
         l_l_g[len(l_l_g):]=[x.glyphs for x in sub_table.LookAheadCoverage]
 
         substitutions=[(gsub_lookups[s_l_r.LookupListIndex].SubTable[0].mapping ,s_l_r.SequenceIndex) 
         for s_l_r in sub_table.SubstLookupRecord]
 
+    
         a_l_l_g=apply_substitution(l_l_g,substitutions)
+        a_l_l_g=add_prediding_leading_pairs(l_l_g,a_l_l_g,substitutions)
         possible_strings=generate_possible_string(a_l_l_g)
         all_pairs=all_pairs| generate_pairs(possible_strings)
 
+# Finding possible pairs between parts of a glyph, for example parts that form 'a'
+for lookup in lookupType2s:
+    all_pairs=all_pairs| generate_pairs([v for k,v in lookup.SubTable[0].mapping.items()])
 
 
 print(all_pairs)
+
+row_set = {x[0] for x in all_pairs}
+cloumn_set = {x[1] for x in all_pairs}
+
+# Convertin above sets to list to in order to support for indexing
+row = [x for x in row_set]
+cloumn = [x for x in cloumn_set]
+
+
+kerning_matrix = np.zeros((len(row), len(cloumn)))
+
+
+for pair in all_pairs:
+    left_part = pair[0]
+    right_part = pair[1]
+
+    # index will start from 1 if exist a value
+    row_index = row.index(left_part)
+    cloumn_index = cloumn.index(right_part)
+
+    right_part_anchor_x = 0
+    left_part_anchor_x = 0
+
+    for anchor_class_name, anchor_type, anchor_x, anchor_y in fontforge_object[left_part].anchorPoints:
+        if anchor_type == 'exit':
+            left_part_anchor_x = anchor_x
+
+    for anchor_class_name, anchor_type, anchor_x, anchor_y in fontforge_object[right_part].anchorPoints:
+        if anchor_type == 'entry':
+            right_part_anchor_x = anchor_x
+
+    distance = ((fontforge_object[left_part].width -
+                 left_part_anchor_x)+right_part_anchor_x)*-1
+    kerning_matrix[row_index][cloumn_index] = distance
+    print(left_part+'+'+right_part+': '+str(distance))
+
+
+distances = []
+for x in kerning_matrix:
+    for y in x:
+        distances[len(distances):] = [y]
+fontforge_object.addKerningClass("'kern' Cursive Feature",
+                       'test', row, cloumn, distances)
+
+fontforge_object.save('../sources/SpencerianCursive_WithKerneringMatrix.sfd')
 
 
 # In order to know more about GSUB lookup types visit: https://docs.microsoft.com/en-us/typography/opentype/spec/gsub
