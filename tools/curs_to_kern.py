@@ -205,7 +205,6 @@ for lookup in lookupType6s:
 
     elif sub_table.Format == 3:
         
-        print('format3')
 
         l_l_g=list()
 
@@ -228,7 +227,6 @@ for lookup in lookupType2s:
     all_pairs=all_pairs| generate_pairs([v for k,v in lookup.SubTable[0].mapping.items()])
 
 
-print(all_pairs)
 
 row_set = {x[0] for x in all_pairs}
 cloumn_set = {x[1] for x in all_pairs}
@@ -263,7 +261,6 @@ for pair in all_pairs:
     distance = ((fontforge_object[left_part].width -
                  left_part_anchor_x)+right_part_anchor_x)*-1
     kerning_matrix[row_index][cloumn_index] = distance
-    print(left_part+'+'+right_part+': '+str(distance))
 
 
 distances = []
