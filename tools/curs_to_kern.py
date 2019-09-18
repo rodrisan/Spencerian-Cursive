@@ -101,7 +101,7 @@ def add_prediding_leading_pairs(l_l_g,a_l_l_g,substitutions):
             
             
             for lookup in lookupType2s:
-                for k,v in lookup.SubTable[0].mapping.items():
+                for v in lookup.SubTable[0].mapping.values():
                     if v[-1]==glyph:
                         precidding_glyphs.append(v[-2])
         if len(precidding_glyphs)>0:               
@@ -114,7 +114,7 @@ def add_prediding_leading_pairs(l_l_g,a_l_l_g,substitutions):
             
             
             for lookup in lookupType2s:
-                for k,v in lookup.SubTable[0].mapping.items():
+                for v in lookup.SubTable[0].mapping.values():
                     if v[0]==glyph:
                         precidding_glyphs.append(v[1])
         if len(precidding_glyphs)>0:
