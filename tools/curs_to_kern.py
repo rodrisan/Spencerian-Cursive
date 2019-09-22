@@ -93,7 +93,7 @@ def generate_pairs(possible_sttrings):
 
     return pairs
 
-def add_prediding_leading_pairs(l_l_g,a_l_l_g,substitutions):
+def adding_preceding_and_leading_pairs(l_l_g,a_l_l_g,substitutions):
     if max((x[1] for x in substitutions)) == len(l_l_g)-1:
         precidding_glyphs=list()
         for glyph in l_l_g[-1]:
@@ -102,27 +102,28 @@ def add_prediding_leading_pairs(l_l_g,a_l_l_g,substitutions):
             
             for lookup in lookupType2s:
                 for v in lookup.SubTable[0].mapping.values():
-                    if v[-1]==glyph:
-                        precidding_glyphs.append(v[-2])
+                    if v[0]==glyph:
+                        if len([x for x in precidding_glyphs if x==v[1]])==0:
+                            precidding_glyphs.append(v[1])
         if len(precidding_glyphs)>0:               
-            a_l_l_g.append([precidding_glyphs])
+            a_l_l_g.append(precidding_glyphs)
 
     if min((x[1] for x in substitutions)) == 0:
         precidding_glyphs=list()
-        for glyph in l_l_g[-1]:
+        for glyph in l_l_g[0]:
             
             
             
             for lookup in lookupType2s:
                 for v in lookup.SubTable[0].mapping.values():
-                    if v[0]==glyph:
-                        precidding_glyphs.append(v[1])
+                    if v[-1]==glyph:
+                        if len([x for x in precidding_glyphs if x==v[-2]])==0:
+                            precidding_glyphs.append(v[-2])
         if len(precidding_glyphs)>0:
             a_l_l_g[:0]=[precidding_glyphs]
             
                         
     return a_l_l_g
-
 
 #---------------------------------------------------------------------------------------------------
 # Fontforge file(.sdf file) path
@@ -199,7 +200,7 @@ for lookup in lookupType6s:
                 
 
                 a_l_l_g=apply_substitution(l_l_g,substitutions)
-                a_l_l_g=add_prediding_leading_pairs(l_l_g,a_l_l_g,substitutions)
+                a_l_l_g=adding_preceding_and_leading_pairs(l_l_g,a_l_l_g,substitutions)
                 possible_strings=generate_possible_string(a_l_l_g)
                 all_pairs=all_pairs| generate_pairs(possible_strings)
 
@@ -218,7 +219,7 @@ for lookup in lookupType6s:
 
     
         a_l_l_g=apply_substitution(l_l_g,substitutions)
-        a_l_l_g=add_prediding_leading_pairs(l_l_g,a_l_l_g,substitutions)
+        a_l_l_g=adding_preceding_and_leading_pairs(l_l_g,a_l_l_g,substitutions)
         possible_strings=generate_possible_string(a_l_l_g)
         all_pairs=all_pairs| generate_pairs(possible_strings)
 
