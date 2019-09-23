@@ -54,9 +54,17 @@ def generate_possible_string(l_l_g):
     #  possible_string_matrix = np.empty((matrix_height,matrix_width),dtype='<U10')
 
     # Initialize above matrix
+    # c_m_r is current multilypication result
+    c_m_r=1
     for index, glyphs in enumerate(l_l_g):
         # the glyphs is a list of glyphs
-        possible_string_matrix[index] = int(matrix_width/len(glyphs))*glyphs
+        c_m_r=c_m_r*len(glyphs)
+        # temporary list
+        t_l=np.array([int(matrix_width/c_m_r)*[x] for x in glyphs]).flatten().tolist()
+        if len(t_l)!=matrix_width:
+            possible_string_matrix[index] = int(matrix_width/len(t_l))*t_l
+        else:
+            possible_string_matrix[index]=t_l
 
     # List of possible strins
     possible_strings = list()
