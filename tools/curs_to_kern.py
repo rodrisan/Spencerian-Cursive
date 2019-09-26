@@ -59,12 +59,17 @@ def generate_possible_string(l_l_g):
     for index, glyphs in enumerate(l_l_g):
         # the glyphs is a list of glyphs
         c_m_r=c_m_r*len(glyphs)
-        # temporary list
-        t_l=np.array([int(matrix_width/c_m_r)*[x] for x in glyphs]).flatten().tolist()
-        if len(t_l)!=matrix_width:
-            possible_string_matrix[index] = int(matrix_width/len(t_l))*t_l
+        # Temporary lists, it is worth to mention that because of confiusion between '1' and 'l', I think
+        #   it is better to use 'one' as the follow:
+        t_l_one=np.array([int(matrix_width/c_m_r)*[x] for x in glyphs]).tolist()
+        t_l_2=[]
+        for x in t_l_one:
+            for y in x:
+                t_l_2.append(y)
+        if len(t_l_2)!=matrix_width:
+            possible_string_matrix[index] = int(matrix_width/len(t_l_2))*t_l_2
         else:
-            possible_string_matrix[index]=t_l
+            possible_string_matrix[index]=t_l_2
 
     # List of possible strins
     possible_strings = list()
