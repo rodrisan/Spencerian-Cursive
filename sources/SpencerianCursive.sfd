@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1567578969
+ModificationTime: 1569531866
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -272,7 +272,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 126 14 6
+WinInfo: 0 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3454,7 +3454,7 @@ SplineSet
  311 -228 l 1
  1242 971.75 l 1
 EndSplineSet
-Refer: 53 -1 N 0.86 0 0 0.86 100.493 266.066 2
+Refer: 53 -1 S 0.86 0 0 0.86 27.493 267.537 2
 EndChar
 
 StartChar: exclam
