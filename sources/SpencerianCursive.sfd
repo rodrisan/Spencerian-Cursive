@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1569574894
+ModificationTime: 1569578728
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -45,7 +45,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
-OS2Vendor: 'PfEd'
+OS2Vendor: 'AA  '
 Lookup: 2 0 0 "'ccmp' [s] +- *" { "'ccmp' [s] +- *"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 2 0 0 "'ccmp' [Lowercase]" { "'ccmp' [Lowercase]"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 2 0 0 "'ccmp' [Uppercase]" { "'ccmp' [Uppercase]"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -272,7 +272,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 14 14 6
+WinInfo: 0 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
