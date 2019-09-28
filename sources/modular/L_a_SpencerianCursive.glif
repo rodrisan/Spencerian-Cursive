@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<glyph name="L_a" format="2">
+  <advance width="4430"/>
+  <anchor x="2941" y="819" name="Cursive 1"/>
+  <anchor x="646" y="114" name="_Cursive 1"/>
+  <key>note</key>
+  <string>It is final part of 'L' and 'Q' before 'a'.</string>
+  <outline>
+    <contour>
+      <point x="646" y="124" type="line" smooth="yes"/>
+      <point x="935.007" y="124"/>
+      <point x="1691.99" y="-267.798"/>
+      <point x="2406" y="469" type="curve"/>
+      <point x="2419" y="455" type="line"/>
+      <point x="1694.65" y="-289.87"/>
+      <point x="933.141" y="105"/>
+      <point x="646" y="105" type="curve" smooth="yes"/>
+    </contour>
+    <component base="L"/>
+    <component base="_a" xOffset="2031"/>
+  </outline>
+</glyph>

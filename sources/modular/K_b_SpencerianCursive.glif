@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<glyph name="K_b" format="2">
+  <advance width="4430"/>
+  <anchor x="1941" y="276" name="_Cursive 1"/>
+  <anchor x="3326" y="812" name="Cursive 1"/>
+  <key>note</key>
+  <string>It is final part of 'K', 'R' and 'X' before  glyphs like 'l'.</string>
+  <outline>
+    <contour>
+      <point x="1931" y="277" type="line"/>
+      <point x="1836.12" y="-133.952"/>
+      <point x="2194.65" y="-184.681"/>
+      <point x="3332" y="804" type="curve"/>
+      <point x="3320" y="819" type="line"/>
+      <point x="2702.21" y="281.962"/>
+      <point x="2274" y="19"/>
+      <point x="2066" y="19" type="curve" smooth="yes"/>
+      <point x="1944" y="19"/>
+      <point x="1913.51" y="114.95"/>
+      <point x="1950" y="273" type="curve"/>
+    </contour>
+    <component base="R"/>
+    <component base="h.1" xOffset="2694"/>
+  </outline>
+</glyph>

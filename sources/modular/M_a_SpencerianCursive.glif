@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<glyph name="M_a" format="2">
+  <advance width="4430"/>
+  <anchor x="4455" y="819" name="Cursive 1"/>
+  <anchor x="2884" y="279" name="_Cursive 1"/>
+  <key>note</key>
+  <string>It is final part of 'M' before glyphs like 'a'.</string>
+  <outline>
+    <contour>
+      <point x="2892" y="273" type="line"/>
+      <point x="2834.09" y="136.567"/>
+      <point x="2828.77" y="53.5388"/>
+      <point x="2873" y="31" type="curve" smooth="yes"/>
+      <point x="2978.62" y="-22.817"/>
+      <point x="3334.06" y="126.512"/>
+      <point x="4134" y="646" type="curve"/>
+      <point x="4145" y="630" type="line"/>
+      <point x="2955.15" y="-142.695"/>
+      <point x="2698.8" y="-132.754"/>
+      <point x="2874" y="280" type="curve"/>
+    </contour>
+    <component base="M"/>
+    <component base="_a" xOffset="3545"/>
+  </outline>
+</glyph>
