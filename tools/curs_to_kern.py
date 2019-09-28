@@ -282,7 +282,7 @@ for x in kerning_matrix:
     for y in x:
         distances[len(distances):] = [y]
 fontforge_object.addKerningClass("'kern' Cursive Feature",
-                       'test', row, cloumn, distances)
+                       "'kern' Cursive Feature", row, cloumn, distances)
 
 # Remove the unnecessary lookup and its associate anchor points
 fontforge_object.removeLookup("'curs' [a,d,g,o,q]",1)
