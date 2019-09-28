@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1569578728
+ModificationTime: 1569689752
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -182,7 +182,7 @@ EndFPST
 ChainSub2: coverage "'calt' [+ACIA]" 0 0 0 1
  1 0 1
   Coverage: 8 quotedbl
-  FCoverage: 14 glyph90 period
+  FCoverage: 48 glyph90 exclam quotesingle glyph98 hyphen period
  1
   SeqLookup: 0 "[+ACIA]"
 EndFPST
@@ -272,7 +272,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 14 6
+WinInfo: 14 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
