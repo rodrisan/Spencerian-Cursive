@@ -284,7 +284,14 @@ for x in kerning_matrix:
 fontforge_object.addKerningClass("'kern' Cursive Feature",
                        'test', row, cloumn, distances)
 
-fontforge_object.save('../sources/SpencerianCursive_WithKerneringMatrix.sfd')
+# Remove the unnecessary lookup and its associate anchor points
+fontforge_object.removeLookup("'curs' [a,d,g,o,q]",1)
+fontforge_object.removeLookup("'curs' *",1)
+#   It is worth to mention that the following lookup doesn't has anchor points
+fontforge_object.removeLookup("'kern' `applying 'curs' features`")
+
+# Save fontforge object in the '.temp' folder
+fontforge_object.save('./.temp/temp.sfd')
 
 
 # In order to know more about GSUB lookup types visit: https://docs.microsoft.com/en-us/typography/opentype/spec/gsub
