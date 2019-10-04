@@ -4,6 +4,7 @@ import sys
 import importlib
 import numpy as np
 import copy
+import matplotlib.pyplot as plt
 sys.path.append('/usr/local/lib/python3.7/site-packages')
 # Import Fontforge
 # Becasue pylint give me error due to importing, I import it programmitically
@@ -145,9 +146,10 @@ sdf_file_path = '../sources/SpencerianCursive.sfd'
 # creating fontforge object
 fontforge_object = fontforge.open(sdf_file_path)
 
-# Check whether '.temp' exists or not
-if Path('.temp').exists() != True:
-    Path('.temp').mkdir()
+# Check whether '.temp' and '.temp/png_glyphs' exists or not, if not, creating
+if Path('.temp/png_glyhs').exists() != True:
+    Path('.temp/png_glyhs').mkdir()
+
 
 # Genereate a true type font
 fontforge_object.generate('./.temp/font.ttf')
@@ -160,6 +162,24 @@ gsub_lookups = type_face['GSUB'].table.LookupList.Lookup
 
 # Retrive LookupTypes, including LookupType 1, LookupType 2 and LookupType 6
 lookupType1s, lookupType2s, lookupType6s = [], [], []
+
+# Initial and final parts
+initials=dict()
+finals=dict()
+
+# Initial and final parts group, for example initial part of 'b' when attach to a preciding glyp is member of 'b'
+#   and initial part of 'h' when attach to a preciding glyph is member of 'b' ,
+initial_groups={
+    'a':['a','d','g','q'],
+    'b':['b','f','h','k','l'],
+    'c':['c'],
+    'e':['e'],
+    'i':['i','j','u','t','w'],
+    'm':['m','n','v','x','y','z'],
+    'o':['o'],
+    'p':['p','r','s']
+}
+# final_groups={If I need it will add it in the future}
 
 # Pairs
 all_pairs=set()
@@ -236,9 +256,24 @@ for lookup in lookupType6s:
         possible_strings=generate_possible_string(a_l_l_g)
         all_pairs=all_pairs| generate_pairs(possible_strings)
 
-# Finding possible pairs between parts of a glyph, for example parts that form 'a'
+
+
+# Finding possible pairs between parts of a glyph, for example parts that form 'a', also finding initial and final parts
 for lookup in lookupType2s:
     all_pairs=all_pairs| generate_pairs([v for k,v in lookup.SubTable[0].mapping.items()])
+
+some_lowercases_finals=[]
+
+for k,v in lookupType2s[1].SubTable[0].mapping.items():
+    some_lowercases_finals.append(v[-1])
+
+
+for k,v in lookupType2s[1].SubTable[0].mapping.items():
+    right_part=v[0]
+    right_base=k
+    if k in initial_groups['i']:
+        for left_part in some_lowercases_finals:
+                all_pairs.add((left_part,right_part))
 
 
 
@@ -277,6 +312,8 @@ for pair in all_pairs:
     kerning_matrix[row_index][cloumn_index] = distance
 
 
+
+
 distances = []
 for x in kerning_matrix:
     for y in x:
@@ -293,6 +330,112 @@ fontforge_object.removeLookup("'kern' `applying 'curs' features`")
 # Save fontforge object in the '.temp' folder
 fontforge_object.save('./.temp/temp.sfd')
 
+
+
+
+
+
+# It is worth to mention that here punctuations don't contain capitals that contain parts
+numbers_punctuations=[]
+capitals_initial,capitals_final=[],[]
+lowercases_initial,lowercases_final=[],[]
+
+
+numbers_punctuations=[fontforge_object[x].glyphname  for x in range(52)]
+numbers_punctuations.append('cent')
+    
+for k,v in lookupType2s[0].SubTable[0].mapping.items():
+    lowercases_initial.append(v[0])
+    lowercases_final.append(v[-1])
+
+for k,v in lookupType2s[1].SubTable[0].mapping.items():
+    lowercases_initial.append(v[0])
+    lowercases_final.append(v[-1])
+
+for k,v in lookupType2s[2].SubTable[0].mapping.items():
+    capitals_initial.append(v[0])
+    capitals_final.append(v[-1])
+
+    if k in numbers_punctuations:
+        numbers_punctuations.remove(k)
+
+
+initials=[]
+initials.extend(numbers_punctuations)
+initials.extend(capitals_initial)
+initials.extend(lowercases_initial)
+
+finals=[]
+finals.extend(numbers_punctuations)
+finals.extend(capitals_final)
+finals.extend(lowercases_final)
+
+
+
+uniqe_initials=[]
+for x in initials:
+    if (x in uniqe_initials)==False:
+        uniqe_initials.append(x)
+
+uniqe_finals=[]
+for x in finals:
+    if (x in uniqe_finals)==False:
+        uniqe_finals.append(x)
+
+# Exporting all 'PNG' images out of fontforge_object
+for glyph in fontforge_object:
+    fontforge_object[glyph].export('./.temp/png_glyhs/'+glyph+'.PNG',100,1)
+ 
+
+
+def claculate_kerning(left_glyph,right_glyph):
+    left_matrix=np.array([[int(x[0]) for x in y] for y in plt.imread('./.temp/png_glyhs/'+left_glyph+'.PNG')])
+    right_matrix=np.array([[int(x[0]) for x in y] for y in plt.imread('./.temp/png_glyhs/'+right_glyph+'.PNG')])
+
+    left_distances=np.array([100000]*len(left_matrix))
+    right_distances=np.array([100000]*len(right_matrix))
+    
+    for index in range(len(left_matrix)-1):
+
+        for k,v in enumerate(left_matrix[index][::-1]):
+            if v ==0:
+                left_distances[index]=k+1
+                break
+
+        for k,v in enumerate(right_matrix[index]):
+            if v ==0:
+                right_distances[index]=k+1
+                break
+    distance_constance=400
+    if left_glyph in capitals_final and right_glyph in capitals_final:
+        distance_constance=500
+
+    sum_result=left_distances+right_distances
+    kerning_result=0
+    min_result=min(sum_result)
+    if min_result<100000:
+        kerning_result=distance_constance-min_result*fontforge_object[left_glyph].width/len(left_matrix[0])
+
+    
+    return  kerning_result
+
+    
+
+k_m=np.zeros((len(uniqe_finals),len(uniqe_initials)))
+
+for final_k,final_v in enumerate(uniqe_finals) :
+    for initial_k,initial_v in enumerate(uniqe_initials):
+        if ((final_v,initial_v) in all_pairs) == False:
+            k_m[final_k][initial_k]=claculate_kerning(final_v,initial_v)
+
+        
+
+fontforge_object.addKerningClass("'kern' *",
+                       "'kern' *1", uniqe_finals, uniqe_initials,[x for x in k_m.flat])
+
+
+
+fontforge_object.save('../sources/temp.sfd')
 
 # In order to know more about GSUB lookup types visit: https://docs.microsoft.com/en-us/typography/opentype/spec/gsub
 # The Follow tree is a list of information base on above linked referernce that I need for above codes:
