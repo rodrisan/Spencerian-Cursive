@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1569697312
+ModificationTime: 1570227596
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -272,7 +272,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 154 14 6
+WinInfo: 70 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2000,8 +2000,8 @@ AnchorPoint: "Cursive 1" 110 143 exit 0
 AnchorPoint: "Cursive 1" 635 814 entry 0
 LayerCount: 6
 Back
-Refer: 140 -1 S 1 0 0 1 525 671 2
-Refer: 140 -1 N 1 0 0 1 0 0 2
+Refer: 140 -1 N 1 0 0 1 525 671 2
+Refer: 140 -1 S 1 0 0 1 0 0 2
 Refer: 139 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
@@ -3891,17 +3891,18 @@ EndChar
 
 StartChar: i.0
 Encoding: 124 -1 119
-Width: 33
+Width: 1470
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 1622 33<0.026062 32.9768>
 VStem: 0 33<1622.02 1654.97>
-AnchorPoint: "Cursive 1" -602 814 exit 0
-AnchorPoint: "Cursive 1" -602 814 entry 0
+AnchorPoint: "Cursive 1" 110 143 exit 0
+AnchorPoint: "Cursive 1" 110 143 entry 0
 LayerCount: 6
+Back
+Refer: 140 -1 S 1 0 0 1 0 0 2
 Fore
-Refer: 93 46 N 1 0 0 1 -579 1616 2
-Validated: 1
+Refer: 93 46 N 1 0 0 1 684 1616 2
 Comment: "It is one of parts of 'i'."
 Colour: c2c2c2
 EndChar
