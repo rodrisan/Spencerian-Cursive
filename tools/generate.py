@@ -448,8 +448,7 @@ def claculate_kerning(left_glyph,right_glyph):
         distance=60
     elif left_glyph == 'underscore' or left_glyph=='hyphen' or  right_glyph == 'underscore' or right_glyph=='hyphen':
         distance=70
-    else:
-        distance=100
+    
     
     # ----------------------------------------------------------------------------------
 
