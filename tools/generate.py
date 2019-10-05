@@ -411,11 +411,12 @@ for glyph in fontforge_object:
 
 
 def claculate_kerning(left_glyph,right_glyph):
+    matrix_height=101
     left_matrix=np.array([[int(x[0]) for x in y] for y in plt.imread('./.temp/png_glyhs/'+left_glyph+'.PNG')])
     right_matrix=np.array([[int(x[0]) for x in y] for y in plt.imread('./.temp/png_glyhs/'+right_glyph+'.PNG')])
 
-    left_distances=np.array([100000]*len(left_matrix))
-    right_distances=np.array([100000]*len(right_matrix))
+    left_distances=np.array([100000]*matrix_height)
+    right_distances=np.array([100000]*matrix_height)
     
     for index in range(len(left_matrix)-1):
 
@@ -440,17 +441,27 @@ def claculate_kerning(left_glyph,right_glyph):
     
     if left_glyph in capitals_final and right_glyph in capitals_final:
         distance=500
-    elif left_glyph == 'quotesingle' or left_glyph == 'quotedbl' or right_glyph == 'quotesingle' or right_glyph == 'quotedbl':
+    if left_glyph == 'quotesingle' or left_glyph == 'quotedbl' or right_glyph == 'quotesingle' or right_glyph == 'quotedbl':
         distance = 80
-    elif left_glyph == 'glyph90' or right_glyph == 'glyph90':
+    if left_glyph == 'glyph90' or right_glyph == 'glyph90':
         distance=900
-    elif left_glyph == 'period' or left_glyph=='glyph98' or left_glyph=='exclam' or right_glyph == 'period' or right_glyph=='glyph98' or right_glyph=='exclam':
+    if left_glyph == 'period' or left_glyph=='glyph98' or left_glyph=='exclam' or right_glyph == 'period' or right_glyph=='glyph98' or right_glyph=='exclam':
         distance=60
-    elif left_glyph == 'underscore' or left_glyph=='hyphen' or  right_glyph == 'underscore' or right_glyph=='hyphen':
+    if left_glyph == 'underscore' or left_glyph=='hyphen' or  right_glyph == 'underscore' or right_glyph=='hyphen':
         distance=70
     
     
     # ----------------------------------------------------------------------------------
+    # Section: Virtual Outline
+    # For some glyph I need to assum a vertical line for some glyphs for example for left side of 7
+    if right_glyph == 'seven':
+        right_distances= np.array([min(right_distances)]*matrix_height)
+    if right_glyph == 'six':
+        right_distances= np.array([min(left_distances)]*matrix_height)
+    
+
+    # ----------------------------------------------------------------------------------
+    
 
     
    
@@ -461,7 +472,8 @@ def claculate_kerning(left_glyph,right_glyph):
     if min_result<100000:
         # It is worth to mention that height of the png imgages is equal the the number I have specified
         #   in 'ontforge_object[glyph].export('./.temp/png_glyhs/'+glyph+'.PNG',100,1)' plus one
-        kerning_result=distance-min_result*max([fontforge_object[left_glyph].width/len(left_matrix[0]),fontforge_object[right_glyph].width/len(right_matrix[0])])
+        current_kerning=fontforge_object[left_glyph].width/(4096/101)
+        kerning_result=(current_kerning-distance)*-1
   
     
     return  kerning_result
