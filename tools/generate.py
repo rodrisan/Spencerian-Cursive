@@ -147,6 +147,8 @@ sdf_file_path = '../sources/SpencerianCursive.sfd'
 fontforge_object = fontforge.open(sdf_file_path)
 
 # Check whether '.temp' and '.temp/png_glyphs' exists or not, if not, creating
+if Path('.temp').exists() != True:
+    Path('.temp').mkdir()
 if Path('.temp/png_glyhs').exists() != True:
     Path('.temp/png_glyhs').mkdir()
 
