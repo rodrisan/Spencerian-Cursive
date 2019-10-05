@@ -331,12 +331,14 @@ fontforge_object.removeLookup("'kern' `applying 'curs' features`")
 # fontforge_object.save('./.temp/temp.sfd')
 
 # ----------------------------------------------------------------------------------------------
+# Section: Side Bearings
 # Changing the side bearing of glyphs
 #   glyph98 is comma
+
 for glyph in fontforge_object:
 
     side_bering = 0
-    
+
     if glyph == 'quotesingle' or glyph == 'quotedbl':
         side_bering = 80
     elif glyph == 'glyph90':
@@ -424,15 +426,31 @@ def claculate_kerning(left_glyph,right_glyph):
             if v ==0:
                 right_distances[index]=k+1
                 break
-    distance_constance=400
-    if left_glyph in capitals_final and right_glyph in capitals_final:
-        distance_constance=500
+    # ----------------------------------------------------------------------------------
+    # Section: Harmonizing Distances
+    # Harmonizing distance between two glyph, I mean minimum distance between the outline of two glyphs
+
+    # Destance between two glyphs
+    distance=400
+    # Glyphs without distance between each other, I can find this list from Section with name "Side Bearings"
+    g_w_d=['quotesingle','quotedbl','glyph90','period','glyph98','exclam','underscore','hyphen']
+    
+    
+
+    if left_part in g_w_d or right_part in g_w_d:
+        distance=0
+    elif left_glyph in capitals_final and right_glyph in capitals_final:
+        distance=500
+    # ----------------------------------------------------------------------------------
+
+    
+   
 
     sum_result=left_distances+right_distances
     kerning_result=0
     min_result=min(sum_result)
     if min_result<100000:
-        kerning_result=distance_constance-min_result*fontforge_object[left_glyph].width/len(left_matrix[0])
+        kerning_result=distance-min_result*fontforge_object[left_glyph].width/len(left_matrix[0])
 
     
     return  kerning_result
