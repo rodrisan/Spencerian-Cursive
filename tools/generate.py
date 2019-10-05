@@ -461,14 +461,8 @@ def claculate_kerning(left_glyph,right_glyph):
     if min_result<100000:
         # It is worth to mention that height of the png imgages is equal the the number I have specified
         #   in 'ontforge_object[glyph].export('./.temp/png_glyhs/'+glyph+'.PNG',100,1)' plus one
-        kerning_result=distance-min_result*(4096/101)
-        print('-----')
-        print(fontforge_object[left_glyph].width/len(left_matrix[0]))
-        print(fontforge_object[right_glyph].width/len(right_matrix[0]))
-        print(4096/101)
-        print(fontforge_object[left_glyph].right_side_bearing/min(left_distances))
-        print(fontforge_object[right_glyph].left_side_bearing/min(right_distances))
-        print('-----')
+        kerning_result=distance-min_result*max([fontforge_object[left_glyph].width/len(left_matrix[0]),fontforge_object[right_glyph].width/len(right_matrix[0])])
+  
     
     return  kerning_result
 
