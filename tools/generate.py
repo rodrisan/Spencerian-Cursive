@@ -330,30 +330,30 @@ fontforge_object.removeLookup("'kern' `applying 'curs' features`")
 # # Save fontforge object in the '.temp' folder
 # fontforge_object.save('./.temp/temp.sfd')
 
-# ----------------------------------------------------------------------------------------------
-# Section: Side Bearings
-# Changing the side bearing of glyphs
-#   glyph98 is comma
+# # ----------------------------------------------------------------------------------------------
+# # Section: Side Bearings
+# # Changing the side bearing of glyphs
+# #   glyph98 is comma
 
-for glyph in fontforge_object:
+# for glyph in fontforge_object:
 
-    side_bering = 0
+#     side_bering = 0
 
-    if glyph == 'quotesingle' or glyph == 'quotedbl':
-        side_bering = 80
-    elif glyph == 'glyph90':
-        side_bering=900
-    elif glyph == 'period' or glyph=='glyph98' or glyph=='exclam':
-        side_bering=60
-    elif glyph == 'underscore' or glyph=='hyphen':
-        side_bering=70
-    else:
-        side_bering=100
+#     if glyph == 'quotesingle' or glyph == 'quotedbl':
+#         side_bering = 80
+#     elif glyph == 'glyph90':
+#         side_bering=900
+#     elif glyph == 'period' or glyph=='glyph98' or glyph=='exclam':
+#         side_bering=60
+#     elif glyph == 'underscore' or glyph=='hyphen':
+#         side_bering=70
+#     else:
+#         side_bering=100
 
-    fontforge_object[glyph].left_side_bearing=side_bering
-    fontforge_object[glyph].right_side_bearing=side_bering
+#     fontforge_object[glyph].left_side_bearing=side_bering
+#     fontforge_object[glyph].right_side_bearing=side_bering
 
-# ----------------------------------------------------------------------------------------------
+# # ----------------------------------------------------------------------------------------------
 
 # It is worth to mention that here punctuations don't contain capitals that contain parts
 numbers_punctuations=[]
@@ -432,15 +432,23 @@ def claculate_kerning(left_glyph,right_glyph):
 
     # Destance between two glyphs
     distance=400
-    # Glyphs without distance between each other, I can find this list from Section with name "Side Bearings"
-    g_w_d=['quotesingle','quotedbl','glyph90','period','glyph98','exclam','underscore','hyphen']
-    
+
     
 
-    if left_part in g_w_d or right_part in g_w_d:
-        distance=0
-    elif left_glyph in capitals_final and right_glyph in capitals_final:
+    
+    if left_glyph in capitals_final and right_glyph in capitals_final:
         distance=500
+    elif left_glyph == 'quotesingle' or left_glyph == 'quotedbl' or right_glyph == 'quotesingle' or right_glyph == 'quotedbl':
+        distance = 80
+    elif left_glyph == 'glyph90' or right_glyph == 'glyph90':
+        distance=900
+    elif left_glyph == 'period' or left_glyph=='glyph98' or left_glyph=='exclam' or right_glyph == 'period' or right_glyph=='glyph98' or right_glyph=='exclam':
+        distance=60
+    elif left_glyph == 'underscore' or left_glyph=='hyphen' or  right_glyph == 'underscore' or right_glyph=='hyphen':
+        distance=70
+    else:
+        distance=100
+    
     # ----------------------------------------------------------------------------------
 
     
