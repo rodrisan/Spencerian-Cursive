@@ -330,6 +330,28 @@ fontforge_object.removeLookup("'kern' `applying 'curs' features`")
 # # Save fontforge object in the '.temp' folder
 # fontforge_object.save('./.temp/temp.sfd')
 
+# ----------------------------------------------------------------------------------------------
+# Changing the side bearing of glyphs
+#   glyph98 is comma
+for glyph in fontforge_object:
+
+    side_bering = 0
+    
+    if glyph == 'quotesingle' or glyph == 'quotedbl':
+        side_bering = 80
+    elif glyph == 'glyph90':
+        side_bering=900
+    elif glyph == 'period' or glyph=='glyph98' or glyph=='exclam':
+        side_bering=60
+    elif glyph == 'underscore' or glyph=='hyphen':
+        side_bering=70
+    else:
+        side_bering=100
+
+    fontforge_object[glyph].left_side_bearing=side_bering
+    fontforge_object[glyph].right_side_bearing=side_bering
+
+# ----------------------------------------------------------------------------------------------
 
 # It is worth to mention that here punctuations don't contain capitals that contain parts
 numbers_punctuations=[]
