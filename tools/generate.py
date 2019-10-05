@@ -327,12 +327,8 @@ fontforge_object.removeLookup("'curs' *",1)
 #   It is worth to mention that the following lookup doesn't has anchor points
 fontforge_object.removeLookup("'kern' `applying 'curs' features`")
 
-# Save fontforge object in the '.temp' folder
-fontforge_object.save('./.temp/temp.sfd')
-
-
-
-
+# # Save fontforge object in the '.temp' folder
+# fontforge_object.save('./.temp/temp.sfd')
 
 
 # It is worth to mention that here punctuations don't contain capitals that contain parts
