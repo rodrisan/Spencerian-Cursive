@@ -5,6 +5,7 @@ import importlib
 import numpy as np
 import copy
 import matplotlib.pyplot as plt
+import constants as c
 sys.path.append('/usr/local/lib/python3.7/site-packages')
 # Import Fontforge
 # Becasue pylint give me error due to importing, I import it programmitically
@@ -171,16 +172,7 @@ finals=dict()
 
 # Initial and final parts group, for example initial part of 'b' when attach to a preciding glyp is member of 'b'
 #   and initial part of 'h' when attach to a preciding glyph is member of 'b' ,
-initial_groups={
-    'a':['a','d','g','q'],
-    'b':['b','f','h','k','l'],
-    'c':['c'],
-    'e':['e'],
-    'i':['i','j','u','t','w'],
-    'm':['m','n','v','x','y','z'],
-    'o':['o'],
-    'p':['p','r','s']
-}
+
 # final_groups={If I need it will add it in the future}
 
 # Pairs
@@ -273,7 +265,7 @@ for k,v in lookupType2s[1].SubTable[0].mapping.items():
 for k,v in lookupType2s[1].SubTable[0].mapping.items():
     right_part=v[0]
     right_base=k
-    if k in initial_groups['i']:
+    if k in c.initial_groups['i']:
         for left_part in some_lowercases_finals:
                 all_pairs.add((left_part,right_part))
 
@@ -434,17 +426,18 @@ def claculate_kerning(left_glyph,right_glyph):
     # Harmonizing distance between two glyph, I mean minimum distance between the outline of two glyphs
 
     # Destance between two glyphs
-    distance=400
+    distance=150
+
+  
+
 
     
-
-    
-    if left_glyph in capitals_final and right_glyph in capitals_final:
-        distance=500
+    # if left_glyph in capitals and right_glyph in capitals:
+    #     distance=300
     if left_glyph == 'quotesingle' or left_glyph == 'quotedbl' or right_glyph == 'quotesingle' or right_glyph == 'quotedbl':
         distance = 80
-    if left_glyph == 'glyph90' or right_glyph == 'glyph90':
-        distance=900
+    # if left_glyph == 'glyph90' or right_glyph == 'glyph90':
+    #     distance=200
     if left_glyph == 'period' or left_glyph=='glyph98' or left_glyph=='exclam' or right_glyph == 'period' or right_glyph=='glyph98' or right_glyph=='exclam':
         distance=60
     if left_glyph == 'underscore' or left_glyph=='hyphen' or  right_glyph == 'underscore' or right_glyph=='hyphen':
@@ -472,7 +465,7 @@ def claculate_kerning(left_glyph,right_glyph):
     if min_result<100000:
         # It is worth to mention that height of the png imgages is equal the the number I have specified
         #   in 'ontforge_object[glyph].export('./.temp/png_glyhs/'+glyph+'.PNG',100,1)' plus one
-        current_kerning=fontforge_object[left_glyph].width/(4096/101)
+        current_kerning=min_result*(c.em_size/101)
         kerning_result=(current_kerning-distance)*-1
   
     
