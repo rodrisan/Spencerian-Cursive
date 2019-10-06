@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1543651486
-ModificationTime: 1570320457
+ModificationTime: 1570357435
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -272,7 +272,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 70 14 6
+WinInfo: 56 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2292,7 +2292,7 @@ StartChar: _c
 Encoding: 93 -1 65
 Width: 1172
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: 722 20G<838.65 839.078> 819 21G<365.917 433.453 930.3 959.3>
 AnchorPoint: "Cursive 1" 182 143 exit 0
 AnchorPoint: "Cursive 1" 975 811 entry 0
@@ -2306,9 +2306,9 @@ SplineSet
 691 711 m 0
  939 917.977539062 1131 802 976 666 c 0
  839 546 693 644 969 819 c 1
- 1052 783 l 1
+ 980 803 l 5
 NamedP: "147.5 degree"
- 917 697 822 658 836 640 c 0
+ 845 717 822 658 836 640 c 0
  850 622 911 635 962 679 c 0
  1098 797 927.684570312 883.694335938 704 696 c 0
  529.341796875 549.444335938 337.374023438 325.91015625 189 136 c 9
