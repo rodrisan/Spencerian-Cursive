@@ -1,2 +1,3 @@
 tools/.vscode/
 tools/.temp/
+tools/__pycache__/
