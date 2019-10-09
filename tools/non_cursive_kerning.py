@@ -1,6 +1,8 @@
 import matplotlib.pyplot as plt
 import constants as c
 import numpy as np
+import sqlite3
+import hashlib
 import json
 from pathlib import Path
 
@@ -71,74 +73,98 @@ class NCK:
             if (x in uniqe_finals)==False:
                 uniqe_finals.add(x)
 
+
+        def get_glyph_dic(glyph):
+
+            glyph_dic=dict()
+            glyph_dic['counters']={'counter'+str(k):v.spiros for k,v in enumerate(fontforge_object[glyph].layers['Fore'])}
+            glyph_dic['reference']=[{'glyph':get_glyph_dic(x[0]) , 'transformation':x[1]} for x in fontforge_object[glyph].references]
+
+            return glyph_dic
         # Outlines Distance Dictionary
         o_d_dic=dict()
 
         # Exporting all 'PNG' images out of fontforge_object and generating outline distances
-
-        if Path('o_d_dic.json').exists()!=True:
-            with open('o_d_dic.json',mode='x') as f:
-
+        sqlite_conncetion=sqlite3.connect('databases/distances.db')
+        sqlite_cursor=sqlite_conncetion.cursor()
+        sqlite_cursor.execute('CREATE TABLE IF NOT EXISTS distances (glyph text, left_distances text,right_distances text,digest text)')
                 
 
-                for glyph in uniqe_initials|uniqe_finals:
+        for glyph in uniqe_initials|uniqe_finals:
 
-                    if glyph[0:4]!='Guid' and (glyph in c.lowercase)!=True:
-                        # Each element of row has three element, but the first of is my need
-                        # I need to calculate distance from left and right of the outline of each glyph
-                        # If some part of image don't includes the glyph I need set distance as the follow
-                        image_path='./.temp/png_glyhs/'+glyph+'.PNG'
-                        fontforge_object[glyph].export(image_path,c.em_size-1,1)
-                        image_matraix=plt.imread(image_path)
+            if glyph[0:4]!='Guid' and (glyph in c.lowercase)!=True:
+                        
+                        
 
-                        left_distances=[100000]*c.em_size
-                        right_distances=[100000]*c.em_size
-
-                        # Each element of row has three element, but the first of is my need, indeed v[0]
-
-                        if glyph in uniqe_finals and glyph in uniqe_initials:
-
-                            for index,row in enumerate(image_matraix):
-                                for k,v in enumerate(row[::-1]):
-                                    if v[0] ==0:
-                                        left_distances[index]=k+1
-                                        break
-
-                                for k,v in enumerate(row):
-                                    if v[0] ==0:
-                                        right_distances[index]=k+1
-                                        break
-
-                        elif glyph in uniqe_finals:
-
-                            for index,row in enumerate(image_matraix):
-                                for k,v in enumerate(row[::-1]):
-                                    if v[0] ==0:
-                                        left_distances[index]=k+1
-                                        break
-                            
-                            right_distances=None
-
-                        elif glyph in uniqe_initials:
-                            for index,row in enumerate(image_matraix):
-
-                                for k,v in enumerate(row):
-                                    if v[0] ==0:
-                                        right_distances[index]=k+1
-                                        break
-
-                            left_distances=None
+                        digest=hashlib.sha384(bytes(json.dumps(get_glyph_dic(glyph)),encoding='UTF-8')).hexdigest()
+                        d=(digest,)
+                        sqlite_cursor.execute('SELECT * FROM distances WHERE digest=?',d)
+                        if sqlite_cursor.fetchone() == None:
 
 
-                        o_d_dic[glyph]=[left_distances,right_distances]
 
-                        json.dump(o_d_dic,f,sort_keys=True,indent=True)
+                        
+                            # Each element of row has three element, but the first of is my need
+                            # I need to calculate distance from left and right of the outline of each glyph
+                            # If some part of image don't includes the glyph I need set distance as the follow
+                            image_path='./.temp/png_glyhs/'+glyph+'.PNG'
+                            fontforge_object[glyph].export(image_path,c.em_size-1,1)
+                            image_matraix=plt.imread(image_path)
 
+                            left_distances=[100000]*c.em_size
+                            right_distances=[100000]*c.em_size
+
+                            # Each element of row has three element, but the first of is my need, indeed v[0]
+
+                            if glyph in uniqe_finals and glyph in uniqe_initials:
+
+                                for index,row in enumerate(image_matraix):
+                                    for k,v in enumerate(row[::-1]):
+                                        if v[0] ==0:
+                                            left_distances[index]=k+1
+                                            break
+
+                                    for k,v in enumerate(row):
+                                        if v[0] ==0:
+                                            right_distances[index]=k+1
+                                            break
+
+                            elif glyph in uniqe_finals:
+
+                                for index,row in enumerate(image_matraix):
+                                    for k,v in enumerate(row[::-1]):
+                                        if v[0] ==0:
+                                            left_distances[index]=k+1
+                                            break
+                                
+                                right_distances=None
+
+                            elif glyph in uniqe_initials:
+                                for index,row in enumerate(image_matraix):
+
+                                    for k,v in enumerate(row):
+                                        if v[0] ==0:
+                                            right_distances[index]=k+1
+                                            break
+
+                                left_distances=None
+
+
+                            o_d_dic[glyph]=[left_distances,right_distances]
+
+                        # json.dump(o_d_dic,f,sort_keys=True,indent=True)
+                        insert_array=[glyph,json.dumps(left_distances),json.dumps(right_distances),digest]
+                        sqlite_cursor.execute('INSERT INTO distances VALUES(?,?,?,?)',insert_array)
+                        sqlite_conncetion.commit()
                         print(glyph)
+
+        sqlite_conncetion.close()
         
 
 
 
+
+            
 
         def claculate_kerning(left_glyph,right_glyph):
             # matrix_height=c.em_size
