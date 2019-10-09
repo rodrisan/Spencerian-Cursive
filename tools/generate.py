@@ -28,8 +28,9 @@ lookups=l.Lookups('./.temp/font.ttf')
 cursive=cursive.Cursive(fontforge_object,lookups)
 nck=non_cursive_kerning.NCK(fontforge_object,lookups)
 
-fontforge_object=cursive.cursive_to_kerning()
-fontforge_object=nck.generate_nck()
+cursive_to_kerning_result=cursive.cursive_to_kerning()
+fontforge_object=cursive_to_kerning_result[0]
+fontforge_object=nck.generate_nck(cursive_to_kerning_result[1])
 
 
 

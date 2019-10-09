@@ -281,4 +281,4 @@ class Cursive:
         #   It is worth to mention that the following lookup doesn't has anchor points
         fontforge_object.removeLookup("'kern' `applying 'curs' features`")
 
-        return fontforge_object
+        return [fontforge_object,all_pairs]

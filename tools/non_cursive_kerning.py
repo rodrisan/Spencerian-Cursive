@@ -15,7 +15,7 @@ class NCK:
         self.fontforge_object=fontforge_object
         self.lookups=lookups
     
-    def generate_nck(self):
+    def generate_nck(self,all_pairs):
         # Check whether '.temp' and '.temp/png_glyphs' exists or not, if not, creating
         if Path('.temp/png_glyhs').exists() != True:
             Path('.temp/png_glyhs').mkdir()
@@ -215,7 +215,7 @@ class NCK:
 
         for final_k,final_v in enumerate(uniqe_finals) :
             for initial_k,initial_v in enumerate(uniqe_initials):
-                # if ((final_v,initial_v) in all_pairs) == False:
+                if ((final_v,initial_v) in all_pairs) == False:
                     k_m[final_k][initial_k]=claculate_kerning(final_v,initial_v)
 
                 
