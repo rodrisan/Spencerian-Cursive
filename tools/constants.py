@@ -10,6 +10,8 @@ em_size = 4096
 
 # My Custom Constants
 
+# Initial and final parts group, for example initial part of 'b' when attach to a preciding glyp is member of 'b'
+#   and initial part of 'h' when attach to a preciding glyph is member of 'b' ,
 initial_groups={
     'a':['a','d','g','q'],
     'b':['b','f','h','k','l'],
@@ -20,6 +22,8 @@ initial_groups={
     'o':['o'],
     'p':['p','r','s']
 }
+# final_groups={If I need it will add it in the future}
+
 
 capitals_ccmp={'A','H','J','K','L','M','N','Q','R','U','W','X','Y','Z'}
 capitals_non_ccmp=capitals.union(capitals_ccmp)
