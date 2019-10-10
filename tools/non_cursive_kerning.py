@@ -75,15 +75,14 @@ class NCK:
 
 
         def get_glyph_dic(glyph):
-
+            # Outlines Distance Dictionary
             glyph_dic=dict()
             glyph_dic['counters']={'counter'+str(k):v.spiros for k,v in enumerate(fontforge_object[glyph].layers['Fore'])}
             glyph_dic['reference']=[{'glyph':get_glyph_dic(x[0]) , 'transformation':x[1]} for x in fontforge_object[glyph].references]
 
             return glyph_dic
-        # Outlines Distance Dictionary
-        o_d_dic=dict()
-
+        
+        
         # Exporting all 'PNG' images out of fontforge_object and generating outline distances
         sqlite_conncetion=sqlite3.connect('databases/distances.db')
         sqlite_cursor=sqlite_conncetion.cursor()
@@ -101,8 +100,7 @@ class NCK:
 
             if glyph[0:4]!='Guid' and (glyph in c.lowercase)!=True:
                         
-                x.remove(glyph)
-
+                
                 digest=hashlib.sha384(bytes(json.dumps(get_glyph_dic(glyph)),encoding='UTF-8')).hexdigest()
                 glyph_name=(glyph,)
                 sqlite_cursor.execute('SELECT * FROM distances WHERE glyph=?',glyph_name)
@@ -157,9 +155,7 @@ class NCK:
                         left_distances=None
 
 
-                    o_d_dic[glyph]=[left_distances,right_distances]
-
-    
+                        
                     parameter_list=[glyph,json.dumps(left_distances),json.dumps(right_distances),fontforge_object[glyph].right_side_bearing,digest]
 
                     if execute_result == None:
@@ -178,7 +174,7 @@ class NCK:
             print('______________________________________')
 
 
-        sqlite_conncetion.close()
+        
         
         
 
@@ -188,73 +184,70 @@ class NCK:
             
 
         def claculate_kerning(left_glyph,right_glyph):
-            # matrix_height=c.em_size
-            # left_matrix=np.array([[int(x[0]) for x in y] for y in plt.imread('./.temp/png_glyhs/'+left_glyph+'.PNG')])
-            # right_matrix=np.array([[int(x[0]) for x in y] for y in plt.imread('./.temp/png_glyhs/'+right_glyph+'.PNG')])
-
-            # left_distances=np.array([100000]*matrix_height)
-            # right_distances=np.array([100000]*matrix_height)
+            matrix_height=c.em_size
             
-            # for index in range(len(left_matrix)-1):
+            left_glyph_name=(left_glyph,)
+            sqlite_cursor.execute('SELECT * FROM distances WHERE glyph=?',left_glyph_name)
+            execute_result=sqlite_cursor.fetchone()
+            left_distances=np.array(json.loads(execute_result[1]))
 
-            #     for k,v in enumerate(left_matrix[index][::-1]):
-            #         if v ==0:
-            #             left_distances[index]=k+1
-            #             break
+            right_glyph_name=(right_glyph,)
+            sqlite_cursor.execute('SELECT * FROM distances WHERE glyph=?',right_glyph_name)
+            execute_result=sqlite_cursor.fetchone()
+            right_distances=np.array(json.loads(execute_result[2]))
+            
 
-            #     for k,v in enumerate(right_matrix[index]):
-            #         if v ==0:
-            #             right_distances[index]=k+1
-            #             break
-            # # ----------------------------------------------------------------------------------
-            # # Section: Harmonizing Distances
-            # # Harmonizing distance between two glyph, I mean minimum distance between the outline of two glyphs
+            # ----------------------------------------------------------------------------------
+            # Section: Harmonizing Distances
+            # Harmonizing distance between two glyph, I mean minimum distance between the outline of two glyphs
 
-            # # Destance between two glyphs
-            # distance=150
+            # Destance between two glyphs
+            distance=150
 
         
 
 
             
-            # # if left_glyph in capitals and right_glyph in capitals:
-            # #     distance=300
-            # if left_glyph == 'quotesingle' or left_glyph == 'quotedbl' or right_glyph == 'quotesingle' or right_glyph == 'quotedbl':
-            #     distance = 80
-            # # if left_glyph == 'glyph90' or right_glyph == 'glyph90':
-            # #     distance=200
-            # if left_glyph == 'period' or left_glyph=='glyph98' or left_glyph=='exclam' or right_glyph == 'period' or right_glyph=='glyph98' or right_glyph=='exclam':
-            #     distance=60
-            # if left_glyph == 'underscore' or left_glyph=='hyphen' or  right_glyph == 'underscore' or right_glyph=='hyphen':
-            #     distance=70
+            # if left_glyph in capitals and right_glyph in capitals:
+            #     distance=300
+            if left_glyph == 'quotesingle' or left_glyph == 'quotedbl' or right_glyph == 'quotesingle' or right_glyph == 'quotedbl':
+                distance = 80
+            # if left_glyph == 'glyph90' or right_glyph == 'glyph90':
+            #     distance=200
+            if left_glyph == 'period' or left_glyph=='glyph98' or left_glyph=='exclam' or right_glyph == 'period' or right_glyph=='glyph98' or right_glyph=='exclam':
+                distance=60
+            if left_glyph == 'underscore' or left_glyph=='hyphen' or  right_glyph == 'underscore' or right_glyph=='hyphen':
+                distance=70
             
             
-            # # ----------------------------------------------------------------------------------
-            # # Section: Virtual Outline
-            # # For some glyph I need to assum a vertical line for some glyphs for example for left side of 7
-            # if right_glyph == 'seven':
-            #     right_distances= np.array([min(right_distances)]*matrix_height)
-            # if right_glyph == 'six':
-            #     right_distances= np.array([min(left_distances)]*matrix_height)
+            # ----------------------------------------------------------------------------------
+            # Section: Virtual Outline
+            # For some glyph I need to assum a vertical line for some glyphs for example for left side of 7
+            if right_glyph == 'seven':
+                right_distances= np.array([min(right_distances)]*matrix_height)
+            if right_glyph == 'six':
+                right_distances= np.array([min(left_distances)]*matrix_height)
             
 
-            # # ----------------------------------------------------------------------------------
+            # ----------------------------------------------------------------------------------
             
 
             
         
 
-            # sum_result=left_distances+right_distances
-            # kerning_result=0
-            # min_result=min(sum_result)
-            # if min_result<100000:
-            #     # It is worth to mention that height of the png imgages is equal the the number I have specified
-            #     #   in 'ontforge_object[glyph].export('./.temp/png_glyhs/'+glyph+'.PNG',100,1)' plus one
-            #     current_kerning=min_result*(c.em_size/101)
-            #     kerning_result=(current_kerning-distance)*-1
-        
+            sum_result=left_distances+right_distances
+            kerning_result=0
+            min_result=min(sum_result)
+            if min_result<100000:
+                # It is worth to mention that height of the png imgages is equal the the number I have specified
+                #   in 'ontforge_object[glyph].export('./.temp/png_glyhs/'+glyph+'.PNG',100,1)' plus one
+                current_kerning=min_result
+                kerning_result=(current_kerning-distance)*-1
+
+            # if left_glyph=='F' and right_glyph=='_h':
+            #     raise Exception
             
-            return  0
+            return  kerning_result
 
             
 
@@ -271,6 +264,8 @@ class NCK:
                             "'kern' *1", list(uniqe_finals), list(uniqe_initials),[x for x in k_m.flatten()])
 
         fontforge_object.save('../sources/temp.sfd')
+
+        sqlite_conncetion.close()
 
         return fontforge_object
 
