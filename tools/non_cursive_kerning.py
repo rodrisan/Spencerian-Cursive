@@ -5,7 +5,7 @@ import sqlite3
 import hashlib
 import json
 from pathlib import Path
-
+from time import gmtime, strftime
 
 class NCK:
     """
@@ -87,78 +87,99 @@ class NCK:
         # Exporting all 'PNG' images out of fontforge_object and generating outline distances
         sqlite_conncetion=sqlite3.connect('databases/distances.db')
         sqlite_cursor=sqlite_conncetion.cursor()
-        sqlite_cursor.execute('CREATE TABLE IF NOT EXISTS distances (glyph text, left_distances text,right_distances text,digest text)')
+        sqlite_cursor.execute('CREATE TABLE IF NOT EXISTS distances (glyph text, left_distances text,right_distances text,right_side_bearing text,digest text)')
                 
+        finals_and_initals=uniqe_initials|uniqe_finals
 
-        for glyph in uniqe_initials|uniqe_finals:
+        print('the numbers of glyphs that will be processed to finding their distances is: '+str(len(finals_and_initals)))
+        for counter,glyph in enumerate(finals_and_initals):
+
+            print('Curent Glyph: '+glyph)
+            print('curent Index (or Counter): '+ str(counter))
+            print('Start Time: '+strftime('%H:%M:%S',gmtime()))
+            
 
             if glyph[0:4]!='Guid' and (glyph in c.lowercase)!=True:
                         
+                x.remove(glyph)
+
+                digest=hashlib.sha384(bytes(json.dumps(get_glyph_dic(glyph)),encoding='UTF-8')).hexdigest()
+                glyph_name=(glyph,)
+                sqlite_cursor.execute('SELECT * FROM distances WHERE glyph=?',glyph_name)
+                execute_result=sqlite_cursor.fetchone()
+                
+
+                if execute_result == None or execute_result[-1]!=digest:
+            
+                    # Each element of row has three element, but the first of is my need
+                    # I need to calculate distance from left and right of the outline of each glyph
+                    # If some part of image don't includes the glyph I need set distance as the follow
+                    image_path='./.temp/png_glyhs/'+glyph+'.PNG'
+                    fontforge_object[glyph].export(image_path,c.em_size-1,1)
+                    image_matraix=plt.imread(image_path)
+
+                    left_distances=[100000]*c.em_size
+                    right_distances=[100000]*c.em_size
+
+                    # Each element of row has three element, but the first of is my need, indeed v[0]
+
+                    if glyph in uniqe_finals and glyph in uniqe_initials:
+
+                        for index,row in enumerate(image_matraix):
+                            for k,v in enumerate(row[::-1]):
+                                if v[0] ==0:
+                                    left_distances[index]=k+1
+                                    break
+
+                            for k,v in enumerate(row):
+                                if v[0] ==0:
+                                    right_distances[index]=k+1
+                                    break
+
+                    elif glyph in uniqe_finals:
+
+                        for index,row in enumerate(image_matraix):
+                            for k,v in enumerate(row[::-1]):
+                                if v[0] ==0:
+                                    left_distances[index]=k+1
+                                    break
                         
+                        right_distances=None
 
-                        digest=hashlib.sha384(bytes(json.dumps(get_glyph_dic(glyph)),encoding='UTF-8')).hexdigest()
-                        d=(digest,)
-                        sqlite_cursor.execute('SELECT * FROM distances WHERE digest=?',d)
-                        if sqlite_cursor.fetchone() == None:
+                    elif glyph in uniqe_initials:
+                        for index,row in enumerate(image_matraix):
+
+                            for k,v in enumerate(row):
+                                if v[0] ==0:
+                                    right_distances[index]=k+1
+                                    break
+
+                        left_distances=None
 
 
+                    o_d_dic[glyph]=[left_distances,right_distances]
 
+    
+                    parameter_list=[glyph,json.dumps(left_distances),json.dumps(right_distances),fontforge_object[glyph].right_side_bearing,digest]
+
+                    if execute_result == None:
                         
-                            # Each element of row has three element, but the first of is my need
-                            # I need to calculate distance from left and right of the outline of each glyph
-                            # If some part of image don't includes the glyph I need set distance as the follow
-                            image_path='./.temp/png_glyhs/'+glyph+'.PNG'
-                            fontforge_object[glyph].export(image_path,c.em_size-1,1)
-                            image_matraix=plt.imread(image_path)
+                        sqlite_cursor.execute('INSERT INTO distances VALUES(?,?,?,?,?)',parameter_list)
+                    else:
+                        parameter_list.append(glyph)
+                        sqlite_cursor.execute('UPDATE distances SET(glyph,left_distances,right_distances,right_side_bearing,digest)=(?,?,?,?,?) WHERE glyph=?',parameter_list)
+                    sqlite_conncetion.commit()
+            
+                else:
 
-                            left_distances=[100000]*c.em_size
-                            right_distances=[100000]*c.em_size
+                    print('In Database Already Exist The Distances and They Are Update')
+                        
+            print('End Time: '+strftime('%H:%M:%S',gmtime()))   
+            print('______________________________________')
 
-                            # Each element of row has three element, but the first of is my need, indeed v[0]
-
-                            if glyph in uniqe_finals and glyph in uniqe_initials:
-
-                                for index,row in enumerate(image_matraix):
-                                    for k,v in enumerate(row[::-1]):
-                                        if v[0] ==0:
-                                            left_distances[index]=k+1
-                                            break
-
-                                    for k,v in enumerate(row):
-                                        if v[0] ==0:
-                                            right_distances[index]=k+1
-                                            break
-
-                            elif glyph in uniqe_finals:
-
-                                for index,row in enumerate(image_matraix):
-                                    for k,v in enumerate(row[::-1]):
-                                        if v[0] ==0:
-                                            left_distances[index]=k+1
-                                            break
-                                
-                                right_distances=None
-
-                            elif glyph in uniqe_initials:
-                                for index,row in enumerate(image_matraix):
-
-                                    for k,v in enumerate(row):
-                                        if v[0] ==0:
-                                            right_distances[index]=k+1
-                                            break
-
-                                left_distances=None
-
-
-                            o_d_dic[glyph]=[left_distances,right_distances]
-
-                        # json.dump(o_d_dic,f,sort_keys=True,indent=True)
-                        insert_array=[glyph,json.dumps(left_distances),json.dumps(right_distances),digest]
-                        sqlite_cursor.execute('INSERT INTO distances VALUES(?,?,?,?)',insert_array)
-                        sqlite_conncetion.commit()
-                        print(glyph)
 
         sqlite_conncetion.close()
+        
         
 
 
@@ -247,7 +268,7 @@ class NCK:
                 
 
         fontforge_object.addKerningClass("'kern' *",
-                            "'kern' *1", uniqe_finals, uniqe_initials,[x for x in k_m.flatten()])
+                            "'kern' *1", list(uniqe_finals), list(uniqe_initials),[x for x in k_m.flatten()])
 
         fontforge_object.save('../sources/temp.sfd')
 
