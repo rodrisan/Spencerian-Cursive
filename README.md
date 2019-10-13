@@ -6,11 +6,4 @@ This type has been desigened base on
 
 *Note: this project is ongoing and it is not yet functional.*
 
-### Demo Image
 
-### Demo Web Page
-
-To visit web base example of this font you can visit [this page](https://alirezaalipour.github.io/Spencerian-Cursive/).
-### Support Me
-
-You can support through [this page](https://www.alirezaalipour.com/Donation).
