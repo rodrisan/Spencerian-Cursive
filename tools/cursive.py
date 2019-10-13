@@ -266,14 +266,19 @@ class Cursive:
 
 
 
+        # I can't set 'Everything Else' field, so I set one row of '0' for the first row of 'kerning_matrix' matrix
+        #   and one column of '0' for the first column of 'kerning_matrix' matrix, then I added 'uni0000' class for 
+        #   'cloumn' and 'row' lists, because I figure out this method can simulate 'Everything Else' field, for 
+        #   'Everything Else' field, I mean the field in the kerning by matrix editor windows in FontForge
 
-        distances = []
-        for x in kerning_matrix:
-            for y in x:
-                distances[len(distances):] = [y]
+        kerning_matrix=np.insert(kerning_matrix,0,0,axis=0)
+        kerning_matrix=np.insert(kerning_matrix,0,0,axis=1)
+
+        cloumn.insert(0,'uni0000')
+        row.insert(0,'uni0000')
 
         fontforge_object.addKerningClass("'kern' Cursive Feature",
-                       "'kern' Cursive Feature", row, cloumn, distances)
+                       "'kern' Cursive Feature", row, cloumn, kerning_matrix.flatten().tolist())
 
         # Remove the unnecessary lookup and its associate anchor points
         fontforge_object.removeLookup("'curs' [a,d,g,o,q]",1)

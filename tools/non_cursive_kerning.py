@@ -32,8 +32,9 @@ class NCK:
         lowercases_initial,lowercases_final=[],[]
 
 
-        numbers_punctuations=[fontforge_object[x].glyphname  for x in range(52)]
+        numbers_punctuations=[fontforge_object[x].glyphname  for x in range(1,52)]
         numbers_punctuations.append('cent')
+        numbers_punctuations.append('pound')
             
         for k,v in lookups.lookupType2s[0].SubTable[0].mapping.items():
             lowercases_initial.append(v[0])
@@ -174,15 +175,6 @@ class NCK:
             print('______________________________________')
 
 
-        
-        
-        
-
-
-
-
-            
-
         def claculate_kerning(left_glyph,right_glyph):
             matrix_height=c.em_size
             
@@ -202,7 +194,7 @@ class NCK:
             # Harmonizing distance between two glyph, I mean minimum distance between the outline of two glyphs
 
             # Destance between two glyphs
-            distance=150
+            distance=700
 
         
 
@@ -242,10 +234,7 @@ class NCK:
                 # It is worth to mention that height of the png imgages is equal the the number I have specified
                 #   in 'ontforge_object[glyph].export('./.temp/png_glyhs/'+glyph+'.PNG',100,1)' plus one
                 current_kerning=min_result
-                kerning_result=(current_kerning-distance)*-1
-
-            # if left_glyph=='F' and right_glyph=='_h':
-            #     raise Exception
+                kerning_result=(current_kerning)*-1+distance
             
             return  kerning_result
 
@@ -255,13 +244,25 @@ class NCK:
 
         for final_k,final_v in enumerate(uniqe_finals) :
             for initial_k,initial_v in enumerate(uniqe_initials):
+                
                 if ((final_v,initial_v) in all_pairs) == False:
                     k_m[final_k][initial_k]=claculate_kerning(final_v,initial_v)
 
-                
 
+        # I can't set 'Everything Else' field, so I set one row of '0' for the first row of 'k_m' matrix
+        #   and one column of '0' for the first column of 'K_M' matrix, then I added 'uni0000' class for 
+        #   'uniqe_finals_list' and 'uniqe_initials_list' lists, because I  figure out this method can simulate
+        #   'Everything Else', for 'Everything Else' field I mean the field in the kerning by matrix editor windows in FontForge
+
+        k_m=np.insert(k_m,0,0,axis=0)
+        k_m=np.insert(k_m,0,0,axis=1)
+        uniqe_finals_list=list(uniqe_finals)
+        uniqe_initials_list=list(uniqe_initials)
+        uniqe_finals_list.insert(0,'uni0000')
+        uniqe_initials_list.insert(0,'uni0000')
+         
         fontforge_object.addKerningClass("'kern' *",
-                            "'kern' *1", list(uniqe_finals), list(uniqe_initials),[x for x in k_m.flatten()])
+                            "'kern' *1",uniqe_finals_list, uniqe_initials_list,k_m.flatten().tolist())
 
         fontforge_object.save('../sources/temp.sfd')
 
